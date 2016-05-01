@@ -1,7 +1,8 @@
-The Turkish UD Treebank was derived from the IMST (ITU-METU-Sabanci)
-Treebank, which was in turn developed from the MST (METU-Sabanci) Treebank.
+The Turkish UD Treebank was derived from the IMST (ITU-METU-Sabanci Treebank),
+which was in turn developed from the MST (METU-Sabanci Treebank).
 
-Related works can be seen in:
+Please cite the following papers if you use the Turkish UD Treebank:
+
 Umut Sulubacak, Tuğba Pamay and Gülşen Eryiğit. IMST: A Revisited Turkish Dependency Treebank. In Proceedings of the 1st International Conference on Turkic Computational Linguistics (TurCLing 2016) at CICLing, Konya, Turkey, April 2016. Publication pending.
 
 Bilge Say, Deniz Zeyrek, Kemal Oflazer and Umut Özge. Development of a Corpus and a Treebank for Present-day Written Turkish. In Proceedings of the 11th International Conference of Turkish Linguistics, August, 2002.
