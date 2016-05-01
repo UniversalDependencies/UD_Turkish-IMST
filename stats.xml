@@ -7,16 +7,16 @@
   <size>
     <total><sentences>5635</sentences><tokens>62053</tokens><words>63720</words><fused>1632</fused></total>
   </size>
-  <lemmas unique="2246" /><!--  -->
-  <forms unique="4499" /><!--  -->
+  <lemmas unique="5963" /><!--  -->
+  <forms unique="18541" /><!--  -->
   <fusions unique="206" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="14">
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="59">
+  <feats unique="66">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="28">
+  <deps unique="29">
   </deps>
 </treebank>
