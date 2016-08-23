@@ -7,4 +7,5 @@ Data available since: UD v1.3
 License: CC BY-NC-SA
 Genre: nonfiction news
 Contributors: Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
+Contact:
 ===============================================================================
