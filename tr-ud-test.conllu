@@ -269,7 +269,7 @@
 16	uyum	uyum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nmod:poss	_	_
 17	yasaları	yasa	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	18	nmod	_	_
 18	ile	ile	CONJ	Conj	_	20	cc	_	_
-19	öne	ön	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	20	amod	_	_
+19	önü	ön	NOUN	Noun	Case=Acc|Number=Sing|Person=3	20	dobj	_	_
 20	açılan	aç	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	22	acl	_	_
 21	Erdoğan'ı	Erdoğan	PROPN	Prop	Case=Acc|Number=Sing|Person=3	20	nsubj	_	_
 22	etkilemeyecek	etkile	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Fut	0	root	_	_
@@ -4043,9 +4043,9 @@
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
 1	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
-2-3	?eredesin	_	_	_	_	_	_	_	_
-2	?	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
-3	eredesin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
+2-3	neredesin	_	_	_	_	_	_	_	_
+2	nerede	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
+3	sin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
 4	diye	diye	ADP	PCNom	_	2	case	_	_
 5	sordum	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Past	6	conj	_	_
 6	.	.	PUNCT	Punc	_	0	root	_	_
@@ -4342,9 +4342,9 @@
 6	mağazada	mağaza	NOUN	Noun	Case=Loc|Number=Sing|Person=3	8	nmod	_	_
 7	dokunarak	doku	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Tense=Pres|VerbForm=Trans|Voice=Pass	8	advcl	_	_
 8	yapılmış	yap	VERB	Verb	Aspect=Perf|Evidentiality=Nfh|Mood=Ind|Negative=Pos|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
-9-10	alıverişlerdir	_	_	_	_	_	_	_	_
-9	alıveriş	alıver	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Negative=Pos|Tense=Pres|VerbForm=Ger	0	root	_	_
-10	lerdir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Plur|Person=3|Tense=Pres	9	cop	_	_
+9-10	alışverişlerdir	_	_	_	_	_	_	_	_
+9	alışverişler	alışveriş	NOUN	Noun	Case=Nom|Number=Plur|Person=3	0	root	_	_
+10	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Plur|Person=3|Tense=Pres	9	cop	_	_
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 1	Bence	ben	PRON	Pers	Case=Equ|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
@@ -5672,9 +5672,9 @@
 8	Mebrure	Mebrure	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 9	.	.	PUNCT	Punc	_	7	punct	_	_
 
-1-2	?eydi	_	_	_	_	_	_	_	_
-1	?	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	eydi	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
+1-2	neydi	_	_	_	_	_	_	_	_
+1	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
+2	ydi	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
 3	ki	ki	CONJ	Conj	_	1	advmod:emph	_	_
 4	onlar	o	PRON	Demons	Case=Nom|Number=Plur|Person=3|PronType=Dem	1	nsubj	_	_
 5	?	?	PUNCT	Punc	_	1	punct	_	_
@@ -6223,9 +6223,9 @@
 2	Behzat	Behzat	PROPN	Prop	Case=Nom|Number=Sing|Person=3	16	nsubj	_	_
 3	'	'	PUNCT	Punc	_	16	punct	_	_
 4	,	,	PUNCT	Punc	_	16	punct	_	_
-5-6	yedideeki	_	_	_	_	_	_	_	_
+5-6	yedideki	_	_	_	_	_	_	_	_
 5	yedide	yedi	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	8	nmod:poss	_	_
-6	eki	ki	ADP	Rel	_	5	case	_	_
+6	ki	ki	ADP	Rel	_	5	case	_	_
 7	Diyarbakır	Diyarbakır	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	uçağını	uçak	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	dobj	_	_
 9	uyuyakaldığı	uyu	VERB	Verb	Aspect=DurPerf|Case=Nom|Mood=Ind|Negative=Pos|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	11	acl	_	_
@@ -6800,9 +6800,9 @@
 5	vermişler	ver	VERB	Verb	Aspect=Perf|Evidentiality=Nfh|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Past	0	root	_	_
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
-1-2	?edir	_	_	_	_	_	_	_	_
-1	?	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	edir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+1-2	nedir	_	_	_	_	_	_	_	_
+1	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
+2	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 3	bu	bu	DET	Det	_	4	det	_	_
 4	MCB	MCB	NOUN	Abr	Case=Nom|Number=Sing|Person=3	1	nsubj	_	_
 5	.	.	PUNCT	Punc	_	1	punct	_	_
@@ -7421,8 +7421,8 @@
 2	buzdolabına	buzdolabı	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	nmod	_	_
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
-1-2	?immiş	_	_	_	_	_	_	_	_
-1	?	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
+1-2	kimmiş	_	_	_	_	_	_	_	_
+1	kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	immiş	i	AUX	Zero	Aspect=Perf|Evidentiality=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
 3	bu	bu	DET	Det	_	4	det	_	_
 4	kadın	kadın	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	1	nsubj	_	_
@@ -7653,9 +7653,9 @@
 7	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 8	.	.	PUNCT	Punc	_	5	punct	_	_
 
-1-2	?ostakoviç'miş	_	_	_	_	_	_	_	_
-1	?	Şostakoviç	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	ostakoviç'miş	i	AUX	Zero	Aspect=Perf|Evidentiality=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
+1-2	Şostakoviç'miş	_	_	_	_	_	_	_	_
+1	Şostakoviç	Şostakoviç	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
+2	miş	i	AUX	Zero	Aspect=Perf|Evidentiality=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
 3	!	!	PUNCT	Punc	_	1	punct	_	_
 4	Tövbe	tövbe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	conj	_	_
 5	yarabbi	Yarabbi	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	conj	_	_
@@ -7844,9 +7844,9 @@
 6	grup	grup	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nsubj	_	_
 7	,	,	PUNCT	Punc	_	20	punct	_	_
 8	Atatürk	Atatürk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
-9-10	bulvarındaaki	_	_	_	_	_	_	_	_
+9-10	bulvarındaki	_	_	_	_	_	_	_	_
 9	bulvarında	bulvar	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
-10	aki	ki	ADP	Rel	_	9	case	_	_
+10	ki	ki	ADP	Rel	_	9	case	_	_
 11	trafiği	trafik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	dobj	_	_
 12	bir	bir	NUM	ANum	NumType=Card	13	det	_	_
 13	süre	süre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
@@ -8211,9 +8211,9 @@
 3	geçtik	geç	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Past	0	root	_	_
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
-1-2	?erdeydin	_	_	_	_	_	_	_	_
-1	?	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	0	root	_	_
-2	erdeydin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	1	cop	_	_
+1-2	nerdeydin	_	_	_	_	_	_	_	_
+1	nerede	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	0	root	_	_
+2	ydin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	1	cop	_	_
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 1	Asistanım	asistan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	12	nsubj	_	_
@@ -9510,7 +9510,7 @@
 8	özgür	özgür	ADJ	Adj	_	9	dobj	_	_
 9	olamayacak	ol	VERB	Verb	Aspect=Perf|Mood=Abil|Negative=Neg|Number=Sing|Person=3|Tense=Fut	11	nmod	_	_
 10	bir	bir	NUM	ANum	NumType=Card	11	det	_	_
-11-12	tutsakım	_	_	_	_	_	_	_	_
+11-12	tutsağım	_	_	_	_	_	_	_	_
 11	tutsak	tutsak	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	13	ccomp	_	_
 12	ım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	11	cop	_	_
 13	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_

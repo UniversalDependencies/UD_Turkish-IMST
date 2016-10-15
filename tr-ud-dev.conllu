@@ -929,9 +929,9 @@
 6	ile	ile	CONJ	Conj	_	7	cc	_	_
 7	düzenlenmesi	düzenle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Negative=Pos|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger|Voice=Pass	8	ccomp	_	_
 8	gereken	gerek	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
-9-10	?etinlerdir	_	_	_	_	_	_	_	_
-9	?	metin	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-10	etinlerdir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Plur|Person=3|Tense=Pres	9	cop	_	_
+9-10	metinlerdir	_	_	_	_	_	_	_	_
+9	metinler	metin	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
+10	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Plur|Person=3|Tense=Pres	9	cop	_	_
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 1	Dedemin	dede	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nmod:poss	_	_
@@ -1704,9 +1704,9 @@
 2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
-1-2	?imsiniz	_	_	_	_	_	_	_	_
-1	?	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	ccomp	_	_
-2	imsiniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	cop	_	_
+1-2	Kimsiniz	_	_	_	_	_	_	_	_
+1	Kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	ccomp	_	_
+2	siniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	cop	_	_
 3	?	?	PUNCT	Punc	_	4	punct	_	_
 4	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	bir	bir	NUM	ANum	NumType=Card	6	det	_	_
@@ -2078,9 +2078,9 @@
 4	Şelaleevleri'ne	Şelaleevleri	PROPN	Prop	Case=Dat|Number=Sing|Person=3	20	nmod	_	_
 5	kaçırdığını	kaçır	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Negative=Pos|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	6	dobj	_	_
 6	sandığı	san	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	12	acl	_	_
-7-8	yedideeki	_	_	_	_	_	_	_	_
+7-8	yedideki	_	_	_	_	_	_	_	_
 7	yedide	yedi	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	12	nummod	_	_
-8	eki	ki	ADP	Rel	_	7	case	_	_
+8	ki	ki	ADP	Rel	_	7	case	_	_
 9	İstanbul	İstanbul	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	name	_	_
 10	-	-	PUNCT	Punc	_	20	punct	_	_
 11	Diyarbakır	Diyarbakır	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
@@ -2768,9 +2768,9 @@
 20	.	.	PUNCT	Punc	_	19	punct	_	_
 
 1	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2-3	?usevisin	_	_	_	_	_	_	_	_
-2	?	Musevi	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
-3	usevisin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
+2-3	Musevisin	_	_	_	_	_	_	_	_
+2	Musevi	Musevi	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
+3	sin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
 4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	değil	değil	CONJ	Conj	_	0	root	_	_
 6	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
@@ -5030,9 +5030,9 @@
 15	kayboluyor	kaybol	VERB	Verb	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Register=Inf|Tense=Pres	0	root	_	_
 16	.	.	PUNCT	Punc	_	15	punct	_	_
 
-1-2	?erdeydin	_	_	_	_	_	_	_	_
-1	?	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	4	nmod	_	_
-2	erdeydin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	1	cop	_	_
+1-2	Nerdeydin	_	_	_	_	_	_	_	_
+1	Nerede	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	4	nmod	_	_
+2	ydin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	1	cop	_	_
 3	?	?	PUNCT	Punc	_	4	punct	_	_
 4	diye	de	VERB	Verb	Aspect=Perf|Mood=Opt|Negative=Pos|Number=Sing|Person=3|Tense=Pres	5	nmod	_	_
 5	bağırdı	bağır	VERB	Verb	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -9067,7 +9067,7 @@
 14	kişiliklere	kişilik	NOUN	Noun	Case=Dat|Number=Plur|Person=3	15	nmod	_	_
 15	saygı	saygı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 16	esasına	esas	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	amod	_	_
-17	özenle	özen	NOUN	Noun	Case=Ins|Number=Sing|Person=3	18	nmod	_	_
+17	özen	özen	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	dobj	_	_
 18	gösterilmesini	göster	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Negative=Pos|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger|Voice=Pass	23	conj	_	_
 19	eşitlik	eşitlik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	conj	_	_
 20	ve	ve	CONJ	Conj	_	21	cc	_	_
