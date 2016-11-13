@@ -7,10 +7,10 @@ Data available since: UD v1.3
 License: CC BY-NC-SA
 Genre: nonfiction news
 Contributors: Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
-Contact:
+Contact: memduhg@gmail.com
 ===============================================================================
 
 
 Changelog
 
-  * No changes since UD release 1.3.
+  * Fixed spelling mistakes in generated forms of multi-word tokens.
