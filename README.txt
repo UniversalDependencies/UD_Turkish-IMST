@@ -9,3 +9,8 @@ Genre: nonfiction news
 Contributors: Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
 Contact:
 ===============================================================================
+
+
+Changelog
+
+  * No changes since UD release 1.3.
