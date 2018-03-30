@@ -3311,11 +3311,11 @@
 
 # sent_id = mst-0375
 # text = -Çiziyor musun yani.
-1	-	-	PUNCT	Punc	_	2	conj	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	Çiziyor	çiz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
 3	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	aux:q	_	_
-4	yani	yani	CCONJ	Conj	_	1	conj	_	SpaceAfter=No
-5	.	.	PUNCT	Punc	_	4	punct	_	_
+4	yani	yani	ADV	Conj	_	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-0377
 # text = Aile de gitgide büyüdü.
@@ -19463,10 +19463,10 @@
 
 # sent_id = mst-2155
 # text = Tekrar ediyorum: Belki.
-1	Tekrar	tekrar	ADV	Adverb	_	2	conj	_	_
+1	Tekrar	tekrar	ADV	Adverb	_	2	advmod	_	_
 2	ediyorum	et	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	Punc	_	4	punct	_	_
-4	Belki	belki	ADV	Adverb	_	1	conj	_	SpaceAfter=No
+3	:	:	PUNCT	Punc	_	2	punct	_	_
+4	Belki	belki	ADV	Adverb	_	2	parataxis	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2156
@@ -23580,10 +23580,10 @@
 
 # sent_id = mst-2611
 # text = ' Cumhuriyet'ten sapmayız Verheugen.
-1	'	'	PUNCT	Punc	_	3	conj	_	_
+1	'	'	PUNCT	Punc	_	3	punct	_	_
 2	Cumhuriyet'ten	Cumhuriyet	PROPN	Prop	Case=Abl|Number=Sing|Person=3	3	obl	_	_
 3	sapmayız	sap	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Aor	0	root	_	_
-4	Verheugen	Verheugen	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+4	Verheugen	Verheugen	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	dep	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2612
@@ -41187,11 +41187,11 @@
 
 # sent_id = mst-4579
 # text = -Teyzenizin durumu nasıl sahi?
-1	-	-	PUNCT	Punc	_	4	conj	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 2	Teyzenizin	teyze	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	3	nmod:poss	_	_
-3	durumu	durum	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
-4	nasıl	nasıl	ADJ	Adj	_	0	root	_	_
-5	sahi	sahi	ADV	Adverb	_	1	conj	_	SpaceAfter=No
+3	durumu	durum	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+4	nasıl	nasıl	ADJ	Adj	_	5	advmod	_	_
+5	sahi	sahi	ADV	Adverb	_	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-4580
@@ -42974,16 +42974,16 @@
 
 # sent_id = mst-4809
 # text = Hey, Ömer, kalk oğlum, geç kalmışız.
-1	Hey	hey	INTJ	Interj	_	8	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	8	punct	_	_
-3	Ömer	Ömer	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	8	punct	_	_
+1	Hey	hey	INTJ	Interj	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	Punc	_	3	punct	_	_
+3	Ömer	Ömer	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	vocative	_	SpaceAfter=No
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	kalk	kalk	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
 6	oğlum	oğul	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	5	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	5	punct	_	_
-8	geç	geç	ADV	Adverb	_	3	conj	_	_
-9	kalmışız	kal	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	8	compound	_	SpaceAfter=No
-10	.	.	PUNCT	Punc	_	8	punct	_	_
+7	,	,	PUNCT	Punc	_	9	punct	_	_
+8	geç	geç	ADV	Adverb	_	9	advmod	_	_
+9	kalmışız	kal	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	5	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-4810
 # text = Nusret Senem: Şimdi raporların detayına girdiğimiz zaman kuşkularımızı çok yoğunlaştıran noktalar oldu.
