@@ -3,11 +3,12 @@ which was in turn developed from the MST (METU-Sabanci Treebank).
 
 Please cite the following papers if you use the Turkish UD Treebank:
 
-Umut Sulubacak, Tuğba Pamay and Gülşen Eryiğit. IMST: A Revisited Turkish Dependency Treebank. In Proceedings of the 1st International Conference on Turkic Computational Linguistics (TurCLing 2016) at CICLing, Konya, Turkey, April 2016. Publication pending.
+Umut Sulubacak, Gülşen Eryiğit. Implementing Universal Dependency, Morphology and Multiword Expression Annotation Standards for Turkish Language Processing. Turkish Journal of Electrical Engineering & Computer Sciences, DOI: 10.3906/elk-1706-81):1–23. Accepted for publication 9 January 2018.
 
-Bilge Say, Deniz Zeyrek, Kemal Oflazer and Umut Özge. Development of a Corpus and a Treebank for Present-day Written Turkish. In Proceedings of the 11th International Conference of Turkish Linguistics, August, 2002.
+Umut Sulubacak, Memduh Gökırmak, Francis Tyers, Çağrı Çöltekin, Joakim Nivre, and Gülşen Eryiğit. Universal Dependencies for Turkish. In Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics. Osaka, Japan, December 2016.
 
-Kamile İmer and Gürkan Doğan (eds). Current Research in Turkish Lingustics, pp.183-192, Eastern Mediterranean University Press, 2004.
+Kemal Oflazer, Bilge Say, Dilek Zeynep Hakkani-Tür, Gökhan Tür. Building a Turkish Treebank. In Building and Exploiting Syntactically-Annotated Corpora. Anne Abeille (ed.), Kluwer Academic Publishers, 2003.
+
 
 The Turksh UD Treebank is distributed under the license CreativeCommons BY-NC-SA 3.0
 http://creativecommons.org/licenses/by-nc-sa/3.0/
