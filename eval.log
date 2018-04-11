@@ -1,14 +1,10 @@
-Sun Feb 11 20:55:16 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Turkish
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Evaluating the following revision of UD_Turkish:
-commit 6acd35340ed1b767aca0cb5b6e6ad60ab2d93fa2
-Merge: 23d009c 331746e
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Turkish-IMST:
+commit 86395490ac51f29f3a088bfae08314902b26e174
+Merge: 1c8d0d2 7407aba
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 58097 of 58097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.1242280548257.
@@ -21,11 +17,18 @@ Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 36787 out of 58097 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 25 out of 37 found in the corpus.
+Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 10786 bugs.
+Udapi: found 9943 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 58097 words.
 Genres: found 2 out of 14 known.
+validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
+*** PASSED ***
+validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
+*** PASSED ***
+validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -33,9 +36,7 @@ Genres: found 2 out of 14 known.
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.540540540540541) = 0.0415800415800416
-(TOTAL score=0.431466051153479) * (availability=1) * (validity=1) = 0.431466051153479
+(weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
+(TOTAL score=0.434792454479882) * (availability=1) * (validity=1) = 0.434792454479882
 STARS = 2
-UD_Turkish	0.431466051153479	2
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Turkish-IMST	0.434792454479882	2
