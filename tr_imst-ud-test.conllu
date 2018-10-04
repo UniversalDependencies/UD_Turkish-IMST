@@ -3280,12 +3280,13 @@
 1	...	...	PUNCT	Punc	_	0	root	_	_
 
 # sent_id = mst-1410
-# text = Bana telefon ?derkenkiaceleciliği, sanırım, birşeylerden korktuğunu gösteriyor.
+# text = Bana telefon ederkenki aceleciliği, sanırım, birşeylerden korktuğunu gösteriyor.
+# Fixed 2.2/dev: original sentence ID: 0000613063/3
 1	Bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2	telefon	telefon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-3-4	?derkenki	_	_	_	_	_	_	_	SpaceAfter=No
-3	?	et	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	2	compound:lvc	_	_
-4	derkenki	ki	ADP	Rel	_	2	case	_	_
+3-4	ederkenki	_	_	_	_	_	_	_	_
+3	ederken	et	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	2	compound:lvc	_	_
+4	ki	ki	ADP	Rel	_	2	case	_	_
 5	aceleciliği	acelecilik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	11	punct	_	_
 7	sanırım	san	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Aor	11	nmod	_	SpaceAfter=No
@@ -3622,10 +3623,11 @@
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-1533
-# text = ?edirlezzet?
-1-2	?edir	_	_	_	_	_	_	_	SpaceAfter=No
-1	?	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	edir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+# text = Nedir lezzet?
+# Fixed 2.2/dev: original sentence ID: 001422111004/4
+1-2	Nedir	_	_	_	_	_	_	_	_
+1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
+2	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 3	lezzet	lezzet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	nsubj	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	1	punct	_	_
 
@@ -4653,7 +4655,8 @@
 21	.	.	PUNCT	Punc	_	20	punct	_	_
 
 # sent_id = mst-1984
-# text = Öpüşmedikleri ya da birbirlerini mıncıklamadıkları zamanlar denize girmeye niyetlenen, ama her seferinde, ?edendirbilinmez, vazgeçip geri dönen, bizlere bakıp asıl amacımızın yüzmek değil, denize işemek olduğunu anlayacaklarından çekiniyoruz.
+# text = Öpüşmedikleri ya da birbirlerini mıncıklamadıkları zamanlar denize girmeye niyetlenen, ama her seferinde, nedendir bilinmez, vazgeçip geri dönen, bizlere bakıp asıl amacımızın yüzmek değil, denize işemek olduğunu anlayacaklarından çekiniyoruz.
+# Fixed 2.2/dev: original sentence ID: 00032161413/4
 1	Öpüşmedikleri	öpüş	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	6	acl	_	_
 2	ya	ya	CCONJ	Conj	_	1	compound	_	_
 3	da	da	CCONJ	Conj	_	1	compound	_	_
@@ -4668,9 +4671,9 @@
 12	her	her	DET	Det	_	13	det	_	_
 13	seferinde	sefer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	15	punct	_	_
-15-16	?edendir	_	_	_	_	_	_	_	SpaceAfter=No
-15	?	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	13	conj	_	_
-16	edendir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
+15-16	nedendir	_	_	_	_	_	_	_	_
+15	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	13	conj	_	_
+16	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
 17	bilinmez	bil	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor|Voice=Pass	13	conj	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	17	punct	_	_
 19	vazgeçip	vazgeç	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	20	nmod	_	_
@@ -4957,11 +4960,12 @@
 10	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-2089
-# text = Siz ?imsiniz? diye sordum ürkerek.
+# text = Siz kimsiniz? diye sordum ürkerek.
+# Fixed 2.2/dev: original sentence ID: 00099161425/1
 1	Siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
-2-3	?imsiniz	_	_	_	_	_	_	_	SpaceAfter=No
-2	?	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	6	obl	_	_
-3	imsiniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	2	cop	_	_
+2-3	kimsiniz	_	_	_	_	_	_	_	SpaceAfter=No
+2	kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+3	siniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	2	cop	_	_
 4	?	?	PUNCT	Punc	_	6	punct	_	_
 5	diye	diye	ADP	PCNom	_	2	case	_	_
 6	sordum	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
@@ -7380,7 +7384,8 @@
 12	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-3147
-# text = Evenlerin, sadece geçmişini değil, geleceğini de arayan bu barışçı halkın kaderine tanıklık etmek üzere ?akutistan'dayım.
+# text = Evenlerin, sadece geçmişini değil, geleceğini de arayan bu barışçı halkın kaderine tanıklık etmek üzere Yakutistan'dayım.
+# Fixed 2.2/dev: original sentence ID:  00220160-2/1
 1	Evenlerin	Evenler	PROPN	Prop	Case=Gen|Number=Sing|Person=3	13	nmod:poss	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	12	punct	_	_
 3	sadece	sadece	ADV	Adverb	_	4	advmod	_	_
@@ -7397,9 +7402,9 @@
 14	tanıklık	tanıklık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nmod	_	_
 15	etmek	et	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	14	compound:lvc	_	_
 16	üzere	üzere	ADP	PCNom	_	14	case	_	_
-17-18	?akutistan'dayım	_	_	_	_	_	_	_	SpaceAfter=No
-17	?	Yakutistan	PROPN	Prop	Case=Loc|Number=Sing|Person=3	0	root	_	_
-18	akutistan'dayım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	17	cop	_	_
+17-18	Yakutistan'dayım	_	_	_	_	_	_	_	SpaceAfter=No
+17	Yakutistan'da	Yakutistan	PROPN	Prop	Case=Loc|Number=Sing|Person=3	0	root	_	_
+18	yım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	17	cop	_	_
 19	.	.	PUNCT	Punc	_	17	punct	_	_
 
 # sent_id = mst-3157
@@ -9558,10 +9563,11 @@
 5	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-4090
-# text = ?erdeydin.
-1-2	?erdeydin	_	_	_	_	_	_	_	SpaceAfter=No
-1	?	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	0	root	_	_
-2	erdeydin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	1	cop	_	_
+# text = Nerdeydin.
+# Fixed 2.2/dev: original sentence ID:  00032161383/1
+1-2	Nerdeydin	_	_	_	_	_	_	_	SpaceAfter=No
+1	Nerde	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	0	root	_	_
+2	ydin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	1	cop	_	_
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-4093
@@ -12579,11 +12585,12 @@
 24	.	.	PUNCT	Punc	_	22	punct	_	_
 
 # sent_id = mst-5389
-# text = Onlar ?ayoşmuş, aynı büyük amcam gibi, hiçbiri adam olmazmış onların.
+# text = Onlar hayoşmuş, aynı büyük amcam gibi, hiçbiri adam olmazmış onların.
+# Fixed 2.2/dev: original sentence ID:  00032161398/2
 1	Onlar	o	PRON	Pers	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
-2-3	?ayoşmuş	_	_	_	_	_	_	_	SpaceAfter=No
-2	?	hayoş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-3	ayoşmuş	i	AUX	Zero	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+2-3	hayoşmuş	_	_	_	_	_	_	_	SpaceAfter=No
+2	hayoş	hayoş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+3	muş	i	AUX	Zero	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
 4	,	,	PUNCT	Punc	_	12	punct	_	_
 5	aynı	aynı	ADJ	Adj	_	7	amod	_	_
 6	büyük	büyük	ADJ	Adj	_	7	amod	_	_

@@ -2320,11 +2320,12 @@
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1007
-# text = -?edenmişo?
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2-3	?edenmiş	_	_	_	_	_	_	_	SpaceAfter=No
-2	?	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	1	conj	_	_
-3	edenmiş	i	AUX	Zero	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+# text = - Nedenmiş o?
+# Fixed 2.2/dev: original sentence ID: 00048220573/1
+1	-	-	PUNCT	Punc	_	0	root	_	_
+2-3	Nedenmiş	_	_	_	_	_	_	_	_
+2	Neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	1	conj	_	_
+3	miş	i	AUX	Zero	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
 4	o	o	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	2	punct	_	_
 
@@ -3015,11 +3016,12 @@
 19	.	.	PUNCT	Punc	_	18	punct	_	_
 
 # sent_id = mst-1303
-# text = Özer'lerin ?ithatpaşa'dakibahçe içindeki evindeydik.
+# text = Özer'lerin Mithatpaşa'daki bahçe içindeki evindeydik.
+# Fixed 2.2/dev: original sentence ID: 00131260886/2
 1	Özer'lerin	Özer	PROPN	Prop	Case=Gen|Number=Plur|Person=3	7	nmod:poss	_	_
-2-3	?ithatpaşa'daki	_	_	_	_	_	_	_	SpaceAfter=No
-2	?	Mithatpaşa	PROPN	Prop	Case=Loc|Number=Sing|Person=3	7	nmod	_	_
-3	ithatpaşa'daki	ki	ADP	Rel	_	2	case	_	_
+2-3	Mithatpaşa'daki	_	_	_	_	_	_	_	_
+2	Mithatpaşa'da	Mithatpaşa	PROPN	Prop	Case=Loc|Number=Sing|Person=3	7	nmod	_	_
+3	ki	ki	ADP	Rel	_	2	case	_	_
 4	bahçe	bahçe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5-6	içindeki	_	_	_	_	_	_	_	_
 5	içinde	iç	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	amod	_	_
@@ -3635,11 +3637,12 @@
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-1555
-# text = Sen ?usevisin, değil mi Maryline.
+# text = Sen Musevisin, değil mi Maryline.
+# Fixed 2.2/dev: original sentence ID: 0000613059/1
 1	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2-3	?usevisin	_	_	_	_	_	_	_	SpaceAfter=No
-2	?	Musevi	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
-3	usevisin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
+2-3	Musevisin	_	_	_	_	_	_	_	SpaceAfter=No
+2	Musevi	Musevi	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
+3	sin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
 4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	değil	değil	CCONJ	Conj	_	0	root	_	_
 6	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
@@ -5317,10 +5320,11 @@
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-2245
-# text = ?imsiniz?
-1-2	?imsiniz	_	_	_	_	_	_	_	SpaceAfter=No
-1	?	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	imsiniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	cop	_	_
+# text = Kimsiniz?
+# Fixed 2.2/dev: original sentence ID: 00099161431/1
+1-2	Kimsiniz	_	_	_	_	_	_	_	SpaceAfter=No
+1	Kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
+2	siniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	cop	_	_
 3	?	?	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-2248
@@ -5828,10 +5832,11 @@
 17	.	.	PUNCT	Punc	_	15	punct	_	_
 
 # sent_id = mst-2490
-# text = ?imsekim?
-1-2	?imse	_	_	_	_	_	_	_	SpaceAfter=No
-1	?	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	3	advmod:emph	_	_
-2	imse	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+# text = Kimse kim?
+# Fixed 2.2/dev: original sentence ID: 001422111078/6
+1-2	Kimse	_	_	_	_	_	_	_	_
+1	Kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	3	advmod:emph	_	_
+2	se	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 3	kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	3	punct	_	_
 
@@ -7343,14 +7348,15 @@
 15	.	.	PUNCT	Punc	_	14	punct	_	_
 
 # sent_id = mst-3119
-# text = İMKB ikibiniki yılını yüzde ?irmibeş'likkayıpla kapatırken dolar bazlı yıllık kayıp ise yüzde otuzbeş oldu.
+# text = İMKB ikibiniki yılını yüzde yirmibeş'lik kayıpla kapatırken dolar bazlı yıllık kayıp ise yüzde otuzbeş oldu.
+# Fixed 2.2/dev: original sentence ID: 21040000-29/1
 1	İMKB	İmkb	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 2	ikibiniki	ikibiniki	NUM	ANum	NumType=Card	3	nummod	_	_
 3	yılını	yıl	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 4	yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	7	nummod	_	_
-5-6	?irmibeş'lik	_	_	_	_	_	_	_	SpaceAfter=No
-5	?	yirmibeş	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	4	flat	_	_
-6	irmibeş'lik	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	4	case	_	_
+5-6	yirmibeş'lik	_	_	_	_	_	_	_	_
+5	yirmibeş	yirmibeş	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	4	flat	_	_
+6	'lik	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	4	case	_	_
 7	kayıpla	kayıp	ADJ	NAdj	Case=Ins|Number=Sing|Person=3	8	amod	_	_
 8	kapatırken	kapa	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv|Voice=Cau	17	nmod	_	_
 9	dolar	dolar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
