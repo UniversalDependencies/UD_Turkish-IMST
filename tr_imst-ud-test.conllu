@@ -5083,10 +5083,11 @@
 
 # sent_id = mst-2144
 # text = On kilometrelik buz geçişinden önce son bir kez mola verilecekti burada.
+# Fix 2.2/dev: form with '_'
 1	On	on	NUM	ANum	NumType=Card	2	nummod	_	_
 2-3	kilometrelik	_	_	_	_	_	_	_	_
-2	_	kilometre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	kilometrelik	_	ADJ	Adj	_	5	amod	_	_
+2	kilometre	kilometre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+3	lik	lik	ADP	Ness	_	2	case	_	_
 4	buz	buz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	geçişinden	geçiş	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 6	önce	önce	ADP	PCAbl	_	5	case	_	_
@@ -10719,11 +10720,12 @@
 
 # sent_id = mst-4571
 # text = Sesi şiir okurkenki gibi titriyordu.
+# Fix 2.2/dev: form with '_'
 1	Sesi	ses	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 2	şiir	şiir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 3-5	okurkenki	_	_	_	_	_	_	_	_
-3	_	okur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	okurken	i	AUX	Zero	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Conv	7	nmod	_	_
+3	okur	okur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	ken	i	AUX	Zero	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Conv	7	nmod	_	_
 5	ki	ki	ADP	Rel	_	4	case	_	_
 6	gibi	gibi	ADP	PCNom	_	4	case	_	_
 7	titriyordu	titre	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No

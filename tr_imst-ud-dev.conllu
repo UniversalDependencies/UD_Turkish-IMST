@@ -2712,6 +2712,7 @@
 
 # sent_id = mst-1176
 # text = ' haberine göre hükümet iki ikramiyenin ödenmemesi konusunda karar verirse ikibinüç yılında sadece bu kalemden üçyüzon trilyon liralık tasarruf sağlamış olacak.
+# Fix 2.2/dev: form with '_'
 1	'	'	PUNCT	Punc	_	2	punct	_	_
 2	haberine	haber	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	obl	_	_
 3	göre	göre	ADP	PCDat	_	2	case	_	_
@@ -2730,8 +2731,8 @@
 16	üçyüzon	üçyüzon	NUM	ANum	NumType=Card	19	nummod	_	_
 17	trilyon	trilyon	NUM	ANum	NumType=Card	16	flat	_	_
 18-19	liralık	_	_	_	_	_	_	_	_
-18	_	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	flat	_	_
-19	liralık	_	ADJ	Adj	_	20	amod	_	_
+18	lira	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	flat	_	_
+19	lık	lik	ADP	Ness	_	18	case	_	_
 20	tasarruf	tasarruf	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	obj	_	_
 21	sağlamış	sağla	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	22	obj	_	_
 22	olacak	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
@@ -3176,8 +3177,8 @@
 11	dörtyüzseksensekiz	dörtyüzseksensekiz	NUM	ANum	NumType=Card	9	flat	_	_
 12	bin	bin	NUM	ANum	NumType=Card	9	flat	_	_
 13-14	liralık	_	_	_	_	_	_	_	_
-13	_	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	flat	_	_
-14	liralık	_	ADJ	Adj	_	15	amod	_	_
+13	lira	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	flat	_	_
+14	lık	lik	ADP	Ness	_	13	case	_	_
 15	zam	zam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obj	_	_
 16	anlamına	anlam	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 17	gelecek	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	16	compound	_	SpaceAfter=No
@@ -8663,6 +8664,7 @@
 
 # sent_id = mst-3667
 # text = Hükümet Ramazan Bayramı öncesinde yoksullara Sosyal Yardımlaşma ve Dayanışma Vakıfları tarafından dağıtılmak üzere onsekiz trilyonluk kaynak ayrıldığını duyurdu.
+# Fix 2.2/dev: form with '_'
 1	Hükümet	hükümet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 2	Ramazan	ramazan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 3	Bayramı	bayram	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	flat	_	_
@@ -8678,8 +8680,8 @@
 13	üzere	üzere	ADP	PCNom	_	12	case	_	_
 14	onsekiz	onsekiz	NUM	ANum	NumType=Card	16	nummod	_	_
 15-16	trilyonluk	_	_	_	_	_	_	_	_
-15	_	trilyon	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	14	flat	_	_
-16	trilyonluk	_	ADJ	Adj	_	17	amod	_	_
+15	trilyon	trilyon	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	14	flat	_	_
+16	luk	lik	ADP	Ness	_	15	case	_	_
 17	kaynak	kaynak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	obj	_	_
 18	ayrıldığını	ayrıl	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	19	obj	_	_
 19	duyurdu	duyur	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -11565,24 +11567,23 @@
 
 # sent_id = mst-4922
 # text = Hatırladığım kadarıyla gene ikimizin de meslektaşı olan Yüksel Hanım, komşu evin balkonundan bizi seyrediyordu.
-1	Hatırladığım	hatırla	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	3	nmod	_	_
-2-3	kadarıyla	_	_	_	_	_	_	_	_
-2	_	kadar	ADP	PCNom	_	1	case	_	_
-3	kadarıyla	_	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
-4	gene	gene	ADV	Adverb	_	16	advmod	_	_
-5	ikimizin	iki	NUM	NNum	Case=Gen|Number=Sing|Number[psor]=Plur|NumType=Card|Person=3|Person[psor]=1	7	nmod:poss	_	_
-6	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
-7	meslektaşı	meslektaş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
-8	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
-9	Yüksel	Yüksel	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
-10	Hanım	hanım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	16	punct	_	_
-12	komşu	komşu	ADJ	Adj	_	13	amod	_	_
-13	evin	ev	NOUN	Noun	Case=Gen|Number=Sing|Person=3	14	nmod:poss	_	_
-14	balkonundan	balkon	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
-15	bizi	biz	PRON	Pers	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
-16	seyrediyordu	seyret	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
-17	.	.	PUNCT	Punc	_	16	punct	_	_
+# Fix 2.2/dev: form with '_'
+1	Hatırladığım	hatırla	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	2	nmod:poss	_	_
+2	kadarıyla	kadar	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	_
+3	gene	gene	ADV	Adverb	_	16	advmod	_	_
+4	ikimizin	iki	NUM	NNum	Case=Gen|Number=Sing|Number[psor]=Plur|NumType=Card|Person=3|Person[psor]=1	7	nmod:poss	_	_
+5	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
+6	meslektaşı	meslektaş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+7	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
+8	Yüksel	Yüksel	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+9	Hanım	hanım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	Punc	_	16	punct	_	_
+11	komşu	komşu	ADJ	Adj	_	13	amod	_	_
+12	evin	ev	NOUN	Noun	Case=Gen|Number=Sing|Person=3	14	nmod:poss	_	_
+13	balkonundan	balkon	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
+14	bizi	biz	PRON	Pers	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+15	seyrediyordu	seyret	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	Punc	_	16	punct	_	_
 
 # sent_id = mst-4928
 # text = Aklımızdan çıktığı yok ki.
