@@ -6877,15 +6877,16 @@
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-2932
-# text = Yatırım indirimindeki yüzde ?9.8'likstopaj sıfırlansın, KDV oranları düşürülsün, enflasyon muhasebesine geçilsin, gider harcamaları kapsamı genişletilsin, vergi barışı düzenlemeleri yapılsın.
+# text = Yatırım indirimindeki yüzde 19.8'likstopaj sıfırlansın, KDV oranları düşürülsün, enflasyon muhasebesine geçilsin, gider harcamaları kapsamı genişletilsin, vergi barışı düzenlemeleri yapılsın.
+# Fixed 2.2/dev: original sentence ID: 22080000-69/1
 1	Yatırım	yatırım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2-3	indirimindeki	_	_	_	_	_	_	_	_
 2	indiriminde	indirim	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 3	ki	ki	ADP	Rel	_	2	case	_	_
 4	yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	5	case	_	_
-5-6	?9.8'lik	_	_	_	_	_	_	_	SpaceAfter=No
-5	?	19.Ağu	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	7	nummod	_	_
-6	9.8'lik	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+5-6	19.8'lik	_	_	_	_	_	_	_	SpaceAfter=No
+5	19.8	19	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	7	nummod	_	_
+6	'lik	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	4	flat	_	_
 7	stopaj	stopaj	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	sıfırlansın	sıfırla	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	12	punct	_	_
