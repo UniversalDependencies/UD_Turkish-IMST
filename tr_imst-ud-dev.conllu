@@ -2728,7 +2728,7 @@
 13	sadece	sadece	ADV	Adverb	_	21	advmod	_	_
 14	bu	bu	DET	Det	_	15	det	_	_
 15	kalemden	kalem	NOUN	Noun	Case=Abl|Number=Sing|Person=3	21	obl	_	_
-16	üçyüzon	üçyüzon	NUM	ANum	NumType=Card	19	nummod	_	_
+16	üçyüzon	üçyüzon	NUM	ANum	NumType=Card	20	nummod	_	_
 17	trilyon	trilyon	NUM	ANum	NumType=Card	16	flat	_	_
 18-19	liralık	_	_	_	_	_	_	_	_
 18	lira	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	flat	_	_
@@ -3172,7 +3172,7 @@
 6	artırılırsa	artır	VERB	Verb	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|Voice=Pass	16	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	bu	bu	DET	Det	_	16	nsubj	_	_
-9	otuzaltı	otuzaltı	NUM	ANum	NumType=Card	14	nummod	_	_
+9	otuzaltı	otuzaltı	NUM	ANum	NumType=Card	15	nummod	_	_
 10	milyon	milyon	NUM	ANum	NumType=Card	9	flat	_	_
 11	dörtyüzseksensekiz	dörtyüzseksensekiz	NUM	ANum	NumType=Card	9	flat	_	_
 12	bin	bin	NUM	ANum	NumType=Card	9	flat	_	_
@@ -8678,7 +8678,7 @@
 11	tarafından	taraf	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 12	dağıtılmak	dağıt	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	19	nmod	_	_
 13	üzere	üzere	ADP	PCNom	_	12	case	_	_
-14	onsekiz	onsekiz	NUM	ANum	NumType=Card	16	nummod	_	_
+14	onsekiz	onsekiz	NUM	ANum	NumType=Card	17	nummod	_	_
 15-16	trilyonluk	_	_	_	_	_	_	_	_
 15	trilyon	trilyon	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	14	flat	_	_
 16	luk	lik	ADP	Ness	_	15	case	_	_
@@ -11572,7 +11572,7 @@
 2	kadarıyla	kadar	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	_
 3	gene	gene	ADV	Adverb	_	16	advmod	_	_
 4	ikimizin	iki	NUM	NNum	Case=Gen|Number=Sing|Number[psor]=Plur|NumType=Card|Person=3|Person[psor]=1	7	nmod:poss	_	_
-5	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
+5	de	de	CCONJ	Conj	_	4	advmod:emph	_	_
 6	meslektaşı	meslektaş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 7	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
 8	Yüksel	Yüksel	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
@@ -11583,7 +11583,7 @@
 13	balkonundan	balkon	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
 14	bizi	biz	PRON	Pers	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
 15	seyrediyordu	seyret	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	Punc	_	16	punct	_	_
+16	.	.	PUNCT	Punc	_	15	punct	_	_
 
 # sent_id = mst-4928
 # text = Aklımızdan çıktığı yok ki.

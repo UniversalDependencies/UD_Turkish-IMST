@@ -26888,7 +26888,7 @@
 # sent_id = mst-2988
 # text = Yüzde 3'lük Gabay kaldırılsın.
 # Fix 2.2/dev: form with '_'
-1	Yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	3	nummod	_	_
+1	Yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	4	nummod	_	_
 2-3	3'lük	_	_	_	_	_	_	_	_
 2	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	1	flat	_	_
 3	'lük	lik	ADP	Ness	_	2	case	_	_
@@ -31263,7 +31263,7 @@
 19	yoksullara	yoksul	ADJ	NAdj	Case=Dat|Number=Plur|Person=3	20	amod	_	_
 20	ulaştırılmak	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=CauPass	26	nmod	_	_
 21	üzere	üzere	ADP	PCNom	_	20	case	_	_
-22	onsekiz	onsekiz	NUM	ANum	NumType=Card	24	nummod	_	_
+22	onsekiz	onsekiz	NUM	ANum	NumType=Card	25	nummod	_	_
 23-24	trilyonluk	_	_	_	_	_	_	_	_
 23	trilyon	trilyon	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	22	flat	_	_
 24	luk	lik	ADP	Ness	_	23	case	_	_
