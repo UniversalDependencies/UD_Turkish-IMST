@@ -620,19 +620,16 @@
 
 # sent_id = mst-0303
 # text = Lahana gibi göz doyurucu, mide doldurucu değildir.
+# Change 2.2/dev: merge -(y)IcI
 1	Lahana	lahana	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	gibi	gibi	ADP	PCNom	_	1	case	_	_
 3	göz	göz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-4-5	doyurucu	_	_	_	_	_	_	_	SpaceAfter=No
-4	doyur	doyur	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	3	compound	_	_
-5	ucu	ci	ADP	Agt	_	3	case	_	_
-6	,	,	PUNCT	Punc	_	8	punct	_	_
-7	mide	mide	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
-8-9	doldurucu	_	_	_	_	_	_	_	_
-8	doldur	dol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|Voice=Cau	10	obj	_	_
-9	ucu	ci	ADP	Agt	_	8	case	_	_
-10	değildir	değil	VERB	Neg	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	10	punct	_	_
+4	doyurucu	doy	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	Punc	_	7	punct	_	_
+6	mide	mide	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	_
+7	doldurucu	dol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	8	obj	_	_
+8	değildir	değil	VERB	Neg	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-0307
 # text = Ne kadar özlersem özleyeyim, yaşadığım ve işte şimdi bile büyük bir zevkle heyecan veren yaşadığım şu an, geçmişin acısı, donanımsız olduğumuz o günlere, bu yüzden çocuksu olan, bu yüzden çıplak olan, bu yüzden o anda hiç bilmesek de mutlu olduğumuz o günlere özlemimden doğuyor.
@@ -2267,27 +2264,26 @@
 
 # sent_id = mst-0984
 # text = Yorucu bir ilkbahar dönemi öncesinde güç toplamak, eğlenmek, biraz da kasabada bırakılan ailelerle zaman geçirmek amaç.
-1-2	Yorucu	_	_	_	_	_	_	_	_
-1	Yor	yor	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	5	nmod	_	_
-2	ucu	ci	ADP	Agt	_	1	case	_	_
-3	bir	bir	NUM	ANum	NumType=Card	4	det	_	_
-4	ilkbahar	ilkbahar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
-5	dönemi	dönem	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:poss	_	_
-6	öncesinde	önce	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
-7	güç	güç	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-8	toplamak	topla	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	compound	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	10	punct	_	_
-10	eğlenmek	eğle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	7	conj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	17	punct	_	_
-12	biraz	biraz	ADV	Adverb	_	17	advmod	_	_
-13	da	da	CCONJ	Conj	_	12	advmod:emph	_	_
-14	kasabada	kasaba	NOUN	Noun	Case=Loc|Number=Sing|Person=3	15	obl	_	_
-15	bırakılan	bırak	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	16	acl	_	_
-16	ailelerle	aile	NOUN	Noun	Case=Ins|Number=Plur|Person=3	17	nmod	_	_
-17	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	conj	_	_
-18	geçirmek	geçir	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	conj	_	_
-19	amaç	amaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nsubj	_	SpaceAfter=No
-20	.	.	PUNCT	Punc	_	7	punct	_	_
+# Change 2.2/dev: merge -(y)IcI
+1	Yorucu	yor	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	4	acl	_	_
+2	bir	bir	NUM	ANum	NumType=Card	3	det	_	_
+3	ilkbahar	ilkbahar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+4	dönemi	dönem	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
+5	öncesinde	önce	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+6	güç	güç	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
+7	toplamak	topla	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	compound	_	SpaceAfter=No
+8	,	,	PUNCT	Punc	_	9	punct	_	_
+9	eğlenmek	eğle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	Punc	_	16	punct	_	_
+11	biraz	biraz	ADV	Adverb	_	16	advmod	_	_
+12	da	da	CCONJ	Conj	_	11	advmod:emph	_	_
+13	kasabada	kasaba	NOUN	Noun	Case=Loc|Number=Sing|Person=3	14	obl	_	_
+14	bırakılan	bırak	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	15	acl	_	_
+15	ailelerle	aile	NOUN	Noun	Case=Ins|Number=Plur|Person=3	16	nmod	_	_
+16	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	conj	_	_
+17	geçirmek	geçir	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	conj	_	_
+18	amaç	amaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-0994
 # text = Çünkü, biz de İslam ile demokrasinin bir arada uyum içinde yaşayabileceğini savunuyoruz.
@@ -2509,6 +2505,7 @@
 
 # sent_id = mst-1077
 # text = Bu olgulardan hareketle bilimin bugün içinde bulunduğu konumu belirleyebilmek için, bilimin şu üç yönünün üstünde durmak gerekir: Bilim, kullandığı kavramlar nedeniyle ideolojinin, bulgularının üretimde yarattığı ilerleme nedeniyle üretici güçlerin bir parçası olup, toplumsal bir etkinlik olması dolayısıyla da sosyal bir kurumdur.
+# Change 2.2/dev: merge -(y)IcI
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	olgulardan	olgu	NOUN	Noun	Case=Abl|Number=Plur|Person=3	3	nmod	_	_
 3	hareketle	hareket	NOUN	Noun	Case=Ins|Number=Sing|Person=3	9	obl	_	_
@@ -2528,7 +2525,7 @@
 17	durmak	dur	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	16	compound	_	_
 18	gerekir	gerek	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
 19	:	:	PUNCT	Punc	_	47	punct	_	_
-20	Bilim	bilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	47	nsubj	_	SpaceAfter=No
+20	Bilim	bilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	46	nsubj	_	SpaceAfter=No
 21	,	,	PUNCT	Punc	_	18	punct	_	_
 22	kullandığı	kullan	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	23	acl	_	_
 23	kavramlar	kavram	NOUN	Noun	Case=Nom|Number=Plur|Person=3	24	nmod:poss	_	_
@@ -2539,27 +2536,25 @@
 28	üretimde	üretim	NOUN	Noun	Case=Loc|Number=Sing|Person=3	29	obl	_	_
 29	yarattığı	yarat	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	30	acl	_	_
 30	ilerleme	ilerle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	31	nmod:poss	_	_
-31	nedeniyle	neden	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	37	obl	_	_
-32-33	üretici	_	_	_	_	_	_	_	_
-32	üret	üre	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|Voice=Cau	34	nmod	_	_
-33	ici	ci	ADP	Agt	_	32	case	_	_
-34	güçlerin	güç	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	36	nmod:poss	_	_
-35	bir	bir	NUM	ANum	NumType=Card	36	nummod	_	_
-36	parçası	parça	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	37	obj	_	_
-37	olup	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	43	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	Punc	_	42	punct	_	_
-39	toplumsal	toplumsal	ADJ	Adj	_	41	amod	_	_
-40	bir	bir	NUM	ANum	NumType=Card	41	det	_	_
-41	etkinlik	etkinlik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	42	obj	_	_
-42	olması	ol	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	37	conj	_	_
-43	dolayısıyla	dolayısıyla	ADV	Adverb	_	47	advmod	_	_
-44	da	da	CCONJ	Conj	_	43	advmod:emph	_	_
-45	sosyal	sosyal	ADJ	Adj	_	47	amod	_	_
-46	bir	bir	NUM	ANum	NumType=Card	47	nummod	_	_
-47-48	kurumdur	_	_	_	_	_	_	_	SpaceAfter=No
-47	kurum	kurum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	conj	_	_
-48	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	47	cop	_	_
-49	.	.	PUNCT	Punc	_	47	punct	_	_
+31	nedeniyle	neden	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	36	obl	_	_
+32	üretici	üre	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	33	acl	_	_
+33	güçlerin	güç	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	35	nmod:poss	_	_
+34	bir	bir	NUM	ANum	NumType=Card	35	nummod	_	_
+35	parçası	parça	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	36	obj	_	_
+36	olup	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	42	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	Punc	_	41	punct	_	_
+38	toplumsal	toplumsal	ADJ	Adj	_	40	amod	_	_
+39	bir	bir	NUM	ANum	NumType=Card	40	det	_	_
+40	etkinlik	etkinlik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	41	obj	_	_
+41	olması	ol	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	36	conj	_	_
+42	dolayısıyla	dolayısıyla	ADV	Adverb	_	46	advmod	_	_
+43	da	da	CCONJ	Conj	_	42	advmod:emph	_	_
+44	sosyal	sosyal	ADJ	Adj	_	46	amod	_	_
+45	bir	bir	NUM	ANum	NumType=Card	46	nummod	_	_
+46-47	kurumdur	_	_	_	_	_	_	_	SpaceAfter=No
+46	kurum	kurum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	conj	_	_
+47	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	46	cop	_	_
+48	.	.	PUNCT	Punc	_	46	punct	_	_
 
 # sent_id = mst-1105
 # text = Halk arasında Alyans Mahallesi diye bilinen evler.
