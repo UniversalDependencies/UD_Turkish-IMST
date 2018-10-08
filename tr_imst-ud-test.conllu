@@ -7213,12 +7213,13 @@
 
 # sent_id = mst-3096
 # text = Ben üzerine gideceğim, dosyayı buyurun dedim.
+# Change 2.2/dev: fix buyurun NOUN -> VERB
 1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	üzerine	üzer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 3	gideceğim	git	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut	2	compound	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	7	punct	_	_
-5	dosyayı	dosya	NOUN	Noun	Case=Acc|Number=Sing|Person=3	7	obj	_	_
-6	buyurun	buyuru	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	7	obj	_	_
+5	dosyayı	dosya	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
+6	buyurun	buyuru	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	7	obj	_	_
 7	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	2	conj	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
