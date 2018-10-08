@@ -5637,12 +5637,12 @@
 20	bir	bir	NUM	ANum	NumType=Card	22	nummod	_	_
 21	entelektüel	entelektüel	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	22	amod	_	_
 22	performans	performans	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	conj	_	_
-23	onlarla	on	NUM	NNum	Case=Ins|Number=Plur|NumType=Card|Person=3	25	nummod	_	_
-24	tanışanları	tanış	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Part	26	ccomp	_	_
+23	onlarla	o	PRON	Demons	Case=Ins|Number=Plur|Person=3	24	obl	_	_
+24	tanışanları	tanış	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Part	25	ccomp	_	_
 25	şaşırtır	şaşır	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|Voice=Cau	0	root	_	_
-26	ve	ve	CCONJ	Conj	_	28	cc	_	_
-27	çarpar	çarp	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	26	conj	_	SpaceAfter=No
-28	.	.	PUNCT	Punc	_	28	punct	_	_
+26	ve	ve	CCONJ	Conj	_	27	cc	_	_
+27	çarpar	çarp	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	Punc	_	27	punct	_	_
 
 # sent_id = mst-0641
 # text = Viski bardağını aldı, dikip bitirdi.
@@ -9888,10 +9888,10 @@
 # sent_id = mst-1096
 # text = Katana içeri girdi.
 # Change 2.2/dev: fix wrong analysis of proper name Katana
-1	Katana	Katana	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+1	Katana	Katana	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	içeri	içeri	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
-3	girdi	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	compound	_	SpaceAfter=No
-4	.	.	PUNCT	Punc	_	3	punct	_	_
+3	girdi	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	compound	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-1098
 # text = Görgü tanıklarının ifadesine göre havada çarpışan uçaklar, İnkaya mevkiindeki ormanlık alanda ateş topu halinde düştü.
@@ -14796,7 +14796,7 @@
 9	Katana	Katana	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	conj	_	_
 10	Muharrem	Muharrem	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	conj	_	_
 11	gibileriyle	gibi	ADP	PCNom	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
-12	arkadaşlık	arkadaşlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	obl	_	_
+12	arkadaşlık	arkadaşlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	obl	_	_
 13	etmemden	et	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	12	compound:lvc	_	_
 14	kaynaklanıyor	kaynakla	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	14	punct	_	_
@@ -45151,7 +45151,7 @@
 18	yıl	yıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nmod	_	_
 19-20	önceki	_	_	_	_	_	_	_	_
 19	önce	önce	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	nmod	_	_
-20	ki	ki	ADP	Rel	_	20	case	_	_
+20	ki	ki	ADP	Rel	_	19	case	_	_
 21	bir	bir	NUM	ANum	NumType=Card	22	det	_	_
 22	uygarlığın	uygarlık	NOUN	Noun	Case=Gen|Number=Sing|Person=3	23	nmod	_	_
 23	torunları	torun	NOUN	Noun	Case=Acc|Number=Plur|Person=3	24	obl	_	_

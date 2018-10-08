@@ -874,10 +874,10 @@
 1	Yanaşanı	yanaş	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	2	ccomp	_	_
 2-3	haklarım	_	_	_	_	_	_	_	_
 2	haklar	hak	NOUN	Noun	Case=Nom|Number=Plur|Person=3	0	root	_	_
-3	ım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	cop	_	_
-4	anladınız	anla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past	3	conj	_	_
-5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	SpaceAfter=No
-6	?	?	PUNCT	Punc	_	3	punct	_	_
+3	ım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	cop	_	_
+4	anladınız	anla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past	2	conj	_	_
+5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
+6	?	?	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-0394
 # text = Gecekondu derken, günümüzde mafyatik ilişkilerle, rant ekonomisinin bir parçası olan uygulamalardan değil, bindokuzyüzatmış bindokuzyüzyetmişsekiz arası, her ailenin kendi evini kendisinin yapması şeklinde gerçekleşen (dokuz) uygulamalardan söz ediyorum.
@@ -10962,33 +10962,33 @@
 4	anlamasını	anla	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	obj	_	_
 5	bekleyebilirdim	bekle	VERB	Verb	Aspect=Imp|Mood=Pot|Number=Sing|Person=1|Polarity=Pos|Tense=AorPast	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	9	punct	_	_
-7	ondan	o	PRON	Pers	Case=Abl|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
-8	başka	başka	ADP	PCAbl	_	6	case	_	_
-9	kime	kim	PRON	Ques	Case=Dat|Number=Sing|Person=3	9	obl	_	_
-10	sığınabilirdim	sığın	VERB	Verb	Aspect=Imp|Mood=Pot|Number=Sing|Person=1|Polarity=Pos|Tense=AorPast	4	conj	_	SpaceAfter=No
-11	?	?	PUNCT	Punc	_	9	punct	_	_
-12	Sofraya	sofra	NOUN	Noun	Case=Dat|Number=Sing|Person=3	13	obl	_	_
-13	iyice	iyice	ADV	Adverb	_	13	advmod	_	_
-14	abandım	aban	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	4	conj	_	SpaceAfter=No
+7	ondan	o	PRON	Pers	Case=Abl|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+8	başka	başka	ADP	PCAbl	_	7	case	_	_
+9	kime	kim	PRON	Ques	Case=Dat|Number=Sing|Person=3	10	obl	_	_
+10	sığınabilirdim	sığın	VERB	Verb	Aspect=Imp|Mood=Pot|Number=Sing|Person=1|Polarity=Pos|Tense=AorPast	5	conj	_	SpaceAfter=No
+11	?	?	PUNCT	Punc	_	10	punct	_	_
+12	Sofraya	sofra	NOUN	Noun	Case=Dat|Number=Sing|Person=3	14	obl	_	_
+13	iyice	iyice	ADV	Adverb	_	14	advmod	_	_
+14	abandım	aban	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	5	conj	_	SpaceAfter=No
 15	;	;	PUNCT	Punc	_	32	punct	_	_
-16	susa	sus	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	16	nmod	_	_
+16	susa	sus	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	17	nmod	_	_
 17	dura	dur	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	31	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	19	punct	_	_
-19	güle	gül	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	19	nmod	_	_
-20	efkarlana	efkarlan	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	16	conj	_	SpaceAfter=No
-21	,	,	PUNCT	Punc	_	21	punct	_	_
-22	üzülüp	üz	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	16	conj	_	_
+19	güle	gül	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	20	nmod	_	_
+20	efkarlana	efkarlan	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	Punc	_	20	punct	_	_
+22	üzülüp	üz	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	17	conj	_	_
 23	sevine	sevin	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	21	compound:redup	_	SpaceAfter=No
-24	,	,	PUNCT	Punc	_	24	punct	_	_
-25	kalkıp	kalk	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	16	conj	_	_
-26	otura	otur	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	24	compound:redup	_	SpaceAfter=No
-27	,	,	PUNCT	Punc	_	27	punct	_	_
-28	bağıra	bağır	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	16	conj	_	_
-29	çağıra	çağır	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	27	compound:redup	_	_
-30	bir	bir	ADV	Adverb	_	16	advmod	_	_
-31	bir	bir	ADV	Adverb	_	29	advmod	_	_
-32	anlattım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	13	conj	_	SpaceAfter=No
-33	.	.	PUNCT	Punc	_	31	punct	_	_
+24	,	,	PUNCT	Punc	_	23	punct	_	_
+25	kalkıp	kalk	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	17	conj	_	_
+26	otura	otur	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	25	compound:redup	_	SpaceAfter=No
+27	,	,	PUNCT	Punc	_	26	punct	_	_
+28	bağıra	bağır	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	conj	_	_
+29	çağıra	çağır	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	28	compound:redup	_	_
+30	bir	bir	ADV	Adverb	_	32	advmod	_	_
+31	bir	bir	ADV	Adverb	_	30	advmod	_	_
+32	anlattım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	14	conj	_	SpaceAfter=No
+33	.	.	PUNCT	Punc	_	32	punct	_	_
 
 # sent_id = mst-4688
 # text = Doğrudur.
