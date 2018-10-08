@@ -39,7 +39,7 @@
 # sent_id = mst-0024
 # text = Oradaki tartışma hayli zengin.
 1-2	Oradaki	_	_	_	_	_	_	_	_
-1	Orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	_
+1	Orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	_
 2	ki	ki	ADP	Rel	_	1	case	_	_
 3	tartışma	tartış	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nsubj	_	_
 4	hayli	hayli	ADV	Adverb	_	5	advmod	_	_
@@ -1836,7 +1836,7 @@
 38	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	39	nmod:poss	_	_
 39	belleğime	bellek	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	40	obl	_	_
 40	girip	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	44	nmod	_	_
-41	oradan	ora	NOUN	Noun	Case=Abl|Number=Sing|Person=3	44	obl	_	_
+41	oradan	ora	PRON	Noun	Case=Abl|Number=Sing|Person=3	44	obl	_	_
 42	inanılmaz	inan	VERB	Verb	Aspect=Imp|Mood=Ind|Polarity=Neg|Tense=Aor|VerbForm=Part|Voice=Pass	43	acl	_	_
 43	sevişmeler	seviş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	44	obj	_	_
 44	çıkartıyorlardı	çıkar	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Polite=Infm|Tense=Past|Voice=Cau	17	conj	_	SpaceAfter=No
@@ -2805,7 +2805,7 @@
 # text = Dil, orada doğar, büyür, serpilir...
 1	Dil	dil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	4	punct	_	_
-3	orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
+3	orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 4	doğar	doğ	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	6	punct	_	_
 6	büyür	büyü	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	4	conj	_	SpaceAfter=No
@@ -3073,7 +3073,7 @@
 2	ömründe	ömür	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 3	bir	bir	NUM	ANum	NumType=Card	6	nummod	_	_
 4	kez	kez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	compound	_	_
-5	buraya	bura	NOUN	Noun	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+5	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 6	uğrar	uğra	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -3486,7 +3486,7 @@
 2	sa	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 3	biliyor	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	_
 4	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	_
-5	orayı	ora	NOUN	Noun	Case=Acc|Number=Sing|Person=3	3	conj	_	SpaceAfter=No
+5	orayı	ora	PRON	Noun	Case=Acc|Number=Sing|Person=3	3	conj	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	5	punct	_	_
 7	diye	diye	ADP	PCNom	_	9	case	_	_
 8	hayretle	hayret	NOUN	Noun	Case=Ins|Number=Sing|Person=3	9	obl	_	_
@@ -3500,7 +3500,7 @@
 3	anlatmak	anlat	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
 4	için	için	ADP	PCNom	_	3	case	_	_
 5	gelmiştin	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pqp	0	root	_	_
-6	buraya	bura	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
+6	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1511
@@ -3890,7 +3890,7 @@
 # text = Parktan çıkıp buraya doğru koşarken hepsi aklımdaydı.
 1	Parktan	park	NOUN	Noun	Case=Abl|Number=Sing|Person=3	2	obl	_	_
 2	çıkıp	çık	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	obj	_	_
-3	buraya	bura	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
+3	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 4	doğru	doğru	ADP	PCDat	_	3	case	_	_
 5	koşarken	koş	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	7	nmod	_	_
 6	hepsi	hepsi	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	7	obj	_	_
@@ -4552,7 +4552,7 @@
 # sent_id = mst-1964
 # text = Buradaki iki temel unsur, materyalizm ve teoridir.
 1-2	Buradaki	_	_	_	_	_	_	_	_
-1	Burada	bura	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
+1	Burada	bura	PRON	Noun	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
 2	ki	ki	ADP	Rel	_	1	case	_	_
 3	iki	iki	NUM	ANum	NumType=Card	5	nummod	_	_
 4	temel	temel	ADJ	Adj	_	5	amod	_	_
@@ -4801,7 +4801,7 @@
 4	ırmak	ırmak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	yollarını	yol	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
 6	seyreden	seyret	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
-7	buraya	bura	NOUN	Noun	Case=Dat|Number=Sing|Person=3	8	obl	_	_
+7	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	8	obl	_	_
 8	özgü	özgü	ADJ	Adj	_	10	amod	_	_
 9	yaban	yaban	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 10	koyunları	koyun	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
@@ -4953,7 +4953,7 @@
 1	Her	her	DET	Det	_	2	det	_	_
 2	gece	gece	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 3	gelirdi	gel	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=AorPast	0	root	_	_
-4	buraya	bura	NOUN	Noun	Case=Dat|Number=Sing|Person=3	3	obl	_	_
+4	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	3	obl	_	_
 5	Mebrure	Mebrure	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -5787,7 +5787,7 @@
 # text = Hastane bayırının oralara doğru yürüdüm.
 1	Hastane	hastane	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	bayırının	bayır	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
-3	oralara	ora	NOUN	Noun	Case=Dat|Number=Plur|Person=3	5	obl	_	_
+3	oralara	ora	PRON	Noun	Case=Dat|Number=Plur|Person=3	5	obl	_	_
 4	doğru	doğru	ADP	PCDat	_	5	case	_	_
 5	yürüdüm	yürü	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -6054,7 +6054,7 @@
 1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	gezer	gez	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	1	compound	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	5	punct	_	_
-4	oramı	ora	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	5	obj	_	_
+4	oramı	ora	PRON	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	5	obj	_	_
 5	ovalıyorum	ovala	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	_
 6	hala	hala	ADV	Adverb	_	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	5	punct	_	_
@@ -6160,7 +6160,7 @@
 3	koşa	koşa	ADJ	Adj	_	5	amod	_	_
 4	koşa	koşa	ADJ	Adj	_	3	compound:redup	_	_
 5	geldim	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	1	conj	_	_
-6	buraya	bura	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
+6	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-2623
@@ -6465,12 +6465,12 @@
 2	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	işi	iş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 4	var	var	ADJ	Adj	_	0	root	_	_
-5	orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	SpaceAfter=No
+5	orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2749
 # text = Orada durup, altıncı kattaki sevgilinin varlığımı fark etmesini, pencereyi açıp beni içeri çağırmasını bekleyecektim herhalde.
-1	Orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	2	obl	_	_
+1	Orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	2	obl	_	_
 2	durup	dur	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	altıncı	altıncı	ADJ	Adj	_	5	amod	_	_
@@ -6784,7 +6784,7 @@
 # text = Ayhan'ın yazdıkları burda bitiyor...
 1	Ayhan'ın	Ayhan	PROPN	Prop	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
 2	yazdıkları	yaz	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	nsubj	_	_
-3	burda	bura	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
+3	burda	bura	PRON	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 4	bitiyor	bit	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 5	...	...	PUNCT	Punc	_	4	punct	_	_
 
@@ -7162,7 +7162,7 @@
 
 # sent_id = mst-3042
 # text = Oraya saptık.
-1	Oraya	ora	NOUN	Noun	Case=Dat|Number=Sing|Person=3	2	obl	_	_
+1	Oraya	ora	PRON	Noun	Case=Dat|Number=Sing|Person=3	2	obl	_	_
 2	saptık	sap	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -7822,7 +7822,7 @@
 
 # sent_id = mst-3302
 # text = Orası Subay Evleri ya.
-1	Orası	ora	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nsubj	_	_
+1	Orası	ora	PRON	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nsubj	_	_
 2	Subay	Subay	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	Evleri	ev	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	flat	_	_
 4	ya	ya	INTJ	Interj	_	2	discourse	_	SpaceAfter=No
@@ -8969,7 +8969,7 @@
 7	kurtulamaz	kurtul	VERB	Verb	Aspect=Imp|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	çıkamaz	çık	VERB	Verb	Aspect=Imp|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	7	conj	_	_
-10	oradan	ora	NOUN	Noun	Case=Abl|Number=Sing|Person=3	9	obl	_	SpaceAfter=No
+10	oradan	ora	PRON	Noun	Case=Abl|Number=Sing|Person=3	9	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-3789
@@ -9652,7 +9652,7 @@
 # sent_id = mst-4091
 # text = Oradakilerin hepsi senin gibi.
 1-2	Oradakilerin	_	_	_	_	_	_	_	_
-1	Orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	nmod:poss	_	_
+1	Orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	3	nmod:poss	_	_
 2	kilerin	ki	ADP	Rel	Case=Gen|Number=Plur|Person=3	1	case	_	_
 3	hepsi	hepsi	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	4	nsubj	_	_
 4	senin	sen	PRON	Pers	Case=Gen|Number=Sing|Person=2|PronType=Prs	0	root	_	_
@@ -9709,7 +9709,7 @@
 7	korktuğunuz	kork	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
 8	için	için	ADP	PCNom	_	7	case	_	_
 9-10	buradasınız	_	_	_	_	_	_	_	SpaceAfter=No
-9	burada	bura	NOUN	Noun	Case=Loc|Number=Sing|Person=3	0	root	_	_
+9	burada	bura	PRON	Noun	Case=Loc|Number=Sing|Person=3	0	root	_	_
 10	sınız	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	9	cop	_	_
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
@@ -10233,7 +10233,7 @@
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	perişan	perişan	ADJ	Adj	_	6	amod	_	_
 6	oldum	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	3	conj	_	_
-7	orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	obl	_	SpaceAfter=No
+7	orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	6	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-4335
@@ -11943,8 +11943,8 @@
 11	ve	ve	CCONJ	Conj	_	16	cc	_	_
 12	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 13	çılgınca	çılgınca	ADV	Adverb	_	16	advmod	_	_
-14	oradan	ora	NOUN	Noun	Case=Abl|Number=Sing|Person=3	16	obl	_	_
-15	oraya	ora	NOUN	Noun	Case=Dat|Number=Sing|Person=3	14	compound	_	_
+14	oradan	ora	PRON	Noun	Case=Abl|Number=Sing|Person=3	16	obl	_	_
+15	oraya	ora	PRON	Noun	Case=Dat|Number=Sing|Person=3	14	compound	_	_
 16	koşturuyordum	koş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Past|Voice=Cau	10	conj	_	SpaceAfter=No
 17	.	.	PUNCT	Punc	_	16	punct	_	_
 
@@ -12272,7 +12272,7 @@
 3	gittim	git	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
 4	her	her	DET	Det	_	7	nsubj	_	_
 5	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	compound	_	_
-6	orada	ora	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	obl	_	_
+6	orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	7	obl	_	_
 7	oldu	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
