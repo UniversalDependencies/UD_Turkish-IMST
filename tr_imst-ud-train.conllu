@@ -1698,11 +1698,12 @@
 
 # sent_id = mst-0223
 # text = Şahin, TSMF Avrupa Birinci Bölge Direktörü BDDK ' ile yarın başlayacak görüşmelerin en önemli gündeminin memur ve işçilere yapılacak zam ile atıl istihdam olduğunu belirtti.
+# Change 2.2/dev: fix ordinal number
 1	Şahin	Şahin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	27	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	27	punct	_	_
 3	TSMF	TSMF	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	7	compound	_	_
 4	Avrupa	Avrupa	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-5	Birinci	birinci	ADJ	Adj	_	6	amod	_	_
+5	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	6	amod	_	_
 6	Bölge	bölge	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	compound	_	_
 7	Direktörü	direktör	NOUN	Noun	Case=Acc|Number=Sing|Person=3	10	nmod	_	_
 8	BDDK	Bddk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -2471,8 +2472,9 @@
 
 # sent_id = mst-0305
 # text = Tahvilin ikinci kuponu ve bu kupona ilişkin yapılacak olan referans bono ihalesi ise doksan gün vadeli olacak.
+# Change 2.2/dev: fix ordinal number
 1	Tahvilin	tahvil	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
-2	ikinci	ikinci	ADJ	Adj	_	3	amod	_	_
+2	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	amod	_	_
 3	kuponu	kupon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	nsubj	_	_
 4	ve	ve	CCONJ	Conj	_	12	cc	_	_
 5	bu	bu	DET	Det	_	6	det	_	_
@@ -3353,6 +3355,7 @@
 # sent_id = mst-0381
 # text = İnsanları ikiye ayırıyor annem (sayacağı iki kalem de olsa mutlaka parmaklarını avucuna kapatarak sayacak; birincisi yaşayanlar (bunlar başkalarını da yaşatıyor), ikincisi yaşayanları seyredenler (bunlar da başkalarının sırtına yük oluyorlar).
 # Change 2.2/dev: merge -(y)An
+# Change 2.2/dev: fix ordinal number
 1	İnsanları	insan	NOUN	Noun	Case=Acc|Number=Plur|Person=3	3	obj	_	_
 2	ikiye	iki	NUM	NNum	Case=Dat|Number=Sing|NumType=Card|Person=3	3	nummod	_	_
 3	ayırıyor	ayır	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
@@ -3369,7 +3372,7 @@
 14	kapatarak	kapa	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Cau	15	nmod	_	_
 15	sayacak	say	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	3	conj	_	SpaceAfter=No
 16	;	;	PUNCT	Punc	_	15	punct	_	_
-17	birincisi	birinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	18	amod	_	_
+17	birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	18	amod	_	_
 18	yaşayanlar	yaşa	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	28	nmod	_	_
 19	(	(	PUNCT	Punc	_	23	punct	_	SpaceAfter=No
 20	bunlar	bu	PRON	Demons	Case=Nom|Number=Plur|Person=3|PronType=Dem	23	nsubj	_	_
@@ -3378,7 +3381,7 @@
 23	yaşatıyor	yaşa	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Cau	18	parataxis	_	SpaceAfter=No
 24	)	)	PUNCT	Punc	_	23	punct	_	SpaceAfter=No
 25	,	,	PUNCT	Punc	_	23	punct	_	_
-26	ikincisi	ikinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	28	amod	_	_
+26	ikincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	28	amod	_	_
 27	yaşayanları	yaşa	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	28	ccomp	_	_
 28	seyredenler	seyret	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	3	nsubj	_	_
 29	(	(	PUNCT	Punc	_	28	punct	_	SpaceAfter=No
@@ -3457,7 +3460,8 @@
 
 # sent_id = mst-0391
 # text = Birincisi, eski Mısır, Çin, Hindistan ve Mezopotamya'da başlayarak eski Yunan'da zirvesine ulaşan ve matematik alanında gerçekleşen atılımdır.
-1	Birincisi	birinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	20	nsubj	_	SpaceAfter=No
+# Change 2.2/dev: fix ordinal number
+1	Birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	20	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	20	punct	_	_
 3	eski	eski	ADJ	Adj	_	11	amod	_	_
 4	Mısır	Mısır	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
@@ -6734,7 +6738,8 @@
 
 # sent_id = mst-0769
 # text = Birincisi pervane buzlanmasından bahsediyordu.
-1	Birincisi	birinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	4	nsubj	_	_
+# Change 2.2/dev: fix ordinal number
+1	Birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	4	nsubj	_	_
 2	pervane	pervane	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	buzlanmasından	buzlan	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	nmod	_	_
 4	bahsediyordu	bahset	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
@@ -8253,7 +8258,8 @@
 
 # sent_id = mst-0924
 # text = İkincisi, big bang bilim dünyasında yaygın olarak onanan değil yaygın olarak propagandası yapılan bir senaryodur.
-1	İkincisi	ikinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	10	amod	_	SpaceAfter=No
+# Change 2.2/dev: fix ordinal number
+1	İkincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	10	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	10	punct	_	_
 3	big	big	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 4	bang	bang	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	compound	_	_
@@ -9544,7 +9550,8 @@
 
 # sent_id = mst-1061
 # text = İkinci dubleden sonra kravat düzeneğine gerek kalmazdı artık.
-1	İkinci	ikinci	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	İkinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
 2	dubleden	duble	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	nmod	_	_
 3	sonra	sonra	ADP	PCAbl	_	2	case	_	_
 4	kravat	kravat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
@@ -11046,6 +11053,7 @@
 
 # sent_id = mst-1237
 # text = Hazine, ikibinüç yılı dış borçlanma programı çerçevesinde ikinci ihracını gerçekleştirerek, beşyüz milyon Finnur tutarında beş yıl vadeli ve yüzde on kupon faizli ' cinsi tahvil ihracı yaptı.
+# Change 2.2/dev: fix ordinal number
 1	Hazine	hazine	NOUN	Noun	Case=Nom|Number=Sing|Person=3	30	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	30	punct	_	_
 3	ikibinüç	ikibinüç	NUM	ANum	NumType=Card	4	nummod	_	_
@@ -11054,7 +11062,7 @@
 6	borçlanma	borçlan	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	compound	_	_
 7	programı	program	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:poss	_	_
 8	çerçevesinde	çerçeve	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
-9	ikinci	ikinci	ADJ	Adj	_	10	amod	_	_
+9	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	10	amod	_	_
 10	ihracını	ihraç	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	gerçekleştirerek	gerçekleş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Cau	30	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	11	punct	_	_
@@ -11805,11 +11813,12 @@
 
 # sent_id = mst-1326
 # text = Mazeret bildirip uçuşa gitmeyen ikinci pilotun yerine göreve çağrıldı, böylece o gece eşiyle yemeğe gitmek yerine ölüme kanat açtı.
+# Change 2.2/dev: fix ordinal number
 1	Mazeret	mazeret	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	obj	_	_
 2	bildirip	bil	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Cau	4	nmod	_	_
 3	uçuşa	uçuş	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	gitmeyen	git	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part	6	acl	_	_
-5	ikinci	ikinci	ADJ	Adj	_	6	amod	_	_
+5	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	6	amod	_	_
 6	pilotun	pilot	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 7	yerine	yer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 8	göreve	görev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	9	obl	_	_
@@ -12145,6 +12154,7 @@
 
 # sent_id = mst-1367
 # text = yüzyılda bilimin gelişimini genel hatlarıyla betimlemek istersek, şu iki görüngüyü temel almamız gerekir: Birincisi, bu yüzyıl Bilimsel Devrim'in son atılımlarının gerçekleştiği yüzyıl olmuştur.
+# Change 2.2/dev: fix ordinal number
 1	yüzyılda	yüzyıl	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	obl	_	_
 2	bilimin	bilim	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 3	gelişimini	gelişim	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
@@ -12160,7 +12170,7 @@
 13	almamız	al	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=1|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	14	nsubj	_	_
 14	gerekir	gerek	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
 15	:	:	PUNCT	Punc	_	16	punct	_	_
-16	Birincisi	birinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	14	conj	_	SpaceAfter=No
+16	Birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	14	conj	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	26	punct	_	_
 18	bu	bu	DET	Det	_	19	det	_	_
 19	yüzyıl	yüzyıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	26	nsubj	_	_
@@ -14195,11 +14205,12 @@
 
 # sent_id = mst-1589
 # text = Dosyamızın esas unsuru olan ikinci bölümde ise sona eren bin yılın en büyük bilim ve düşün devrimlerini yansıtmaya çalıştık.
+# Change 2.2/dev: fix ordinal number
 1	Dosyamızın	dosya	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	3	nmod:poss	_	_
 2	esas	esas	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	3	amod	_	_
 3	unsuru	unsur	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 4	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
-5	ikinci	ikinci	ADJ	Adj	_	6	amod	_	_
+5	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	6	amod	_	_
 6	bölümde	bölüm	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	nmod	_	_
 7	ise	ise	CCONJ	Conj	_	18	nmod	_	_
 8	sona	son	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	9	amod	_	_
@@ -21515,9 +21526,10 @@
 
 # sent_id = mst-2394
 # text = yazarları Termodinamiğin İkinci Yasası'nın tanımını ve yorumunu yanlış yapıyorlar! Yanlış! Entropinin sürekli arttığını savunan Boltzmann yorumu, dizgedeki entropi üretiminin ısı akısı ve bu akıya neden olan sıcaklık gradyentinden hesaplandığını söyler.
+# Change 2.2/dev: fix ordinal number
 1	yazarları	yazar	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 2	Termodinamiğin	termodinamik	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
-3	İkinci	ikinci	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	4	amod	_	_
+3	İkinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	4	amod	_	_
 4	Yasası'nın	yasa	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
 5	tanımını	tanım	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 6	ve	ve	CCONJ	Conj	_	7	cc	_	_
@@ -22060,10 +22072,11 @@
 
 # sent_id = mst-2463
 # text = Çağdaş bilim kavramının ikinci ayağı, bilgilerin soyutlama yoluyla sistemleştirilmesi diye tanımladığımız teoridir.
+# Change 2.2/dev: fix ordinal number
 1	Çağdaş	çağdaş	ADJ	Adj	_	2	amod	_	_
 2	bilim	bilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	kavramının	kavram	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
-4	ikinci	ikinci	ADJ	Adj	_	5	amod	_	_
+4	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	5	amod	_	_
 5	ayağı	ayak	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	13	punct	_	_
 7	bilgilerin	bilgi	NOUN	Noun	Case=Gen|Number=Plur|Person=3	10	nmod:poss	_	_
@@ -22117,7 +22130,8 @@
 
 # sent_id = mst-2469
 # text = İkinci büyük teorik atılım dönemi, işe yüzyıllar sonra Arşimed'in bıraktığı noktadan başlayarak devam eden Bilimsel Devrim dönemidir.
-1	İkinci	ikinci	ADJ	Adj	_	4	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	İkinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	4	amod	_	_
 2	büyük	büyük	ADJ	Adj	_	4	amod	_	_
 3	teorik	teorik	ADJ	Adj	_	4	amod	_	_
 4	atılım	atılım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
@@ -22314,8 +22328,9 @@
 
 # sent_id = mst-2492
 # text = Rapor'un üçüncü sayfasında ise Takriben saat on.
+# Change 2.2/dev: fix ordinal number
 1	Rapor'un	Rapor	PROPN	Prop	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
-2	üçüncü	üçüncü	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	nmod:poss	_	_
+2	üçüncü	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	nmod:poss	_	_
 3	sayfasında	sayfa	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
 4	ise	ise	CCONJ	Conj	_	7	nmod	_	_
 5	Takriben	takriben	ADV	Adverb	_	7	advmod	_	_
@@ -24550,7 +24565,8 @@
 
 # sent_id = mst-2720
 # text = Birinci günkü başlıkta farklı olarak şeyler yazıldı orada.
-1	Birinci	birinci	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
 2-3	günkü	_	_	_	_	_	_	_	_
 2	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 3	kü	ki	ADP	Rel	_	2	case	_	_
@@ -28407,9 +28423,10 @@
 
 # sent_id = mst-3163
 # text = Ayrıca bunlardan birincisi, daha çok yüzyılın ilk yarısında gerçekleşmiş, ikincisi ise, yüzyılın ikinci yarısında zirvesine ulaşmıştır.
+# Change 2.2/dev: fix ordinal number
 1	Ayrıca	ayrıca	ADV	Adverb	_	0	root	_	_
 2	bunlardan	bu	PRON	Demons	Case=Abl|Number=Plur|Person=3|PronType=Dem	3	nmod:poss	_	_
-3	birincisi	birinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	10	nsubj	_	SpaceAfter=No
+3	birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	10	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	10	punct	_	_
 5	daha	daha	ADV	Adverb	_	6	advmod	_	_
 6	çok	çok	ADV	Adverb	_	10	advmod	_	_
@@ -28418,11 +28435,11 @@
 9	yarısında	yarı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	amod	_	_
 10	gerçekleşmiş	gerçekleş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	19	punct	_	_
-12	ikincisi	ikinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	19	nsubj	_	_
+12	ikincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	19	nsubj	_	_
 13	ise	ise	CCONJ	Conj	_	12	cc	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	19	punct	_	_
 15	yüzyılın	yüzyıl	NOUN	Noun	Case=Gen|Number=Sing|Person=3	17	nmod:poss	_	_
-16	ikinci	ikinci	ADJ	Adj	_	17	amod	_	_
+16	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	17	amod	_	_
 17	yarısında	yarı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	amod	_	_
 18	zirvesine	zirve	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obj	_	_
 19	ulaşmıştır	ulaş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Past	10	conj	_	SpaceAfter=No
@@ -28603,6 +28620,7 @@
 
 # sent_id = mst-3186
 # text = Sigarama davrandım, saygılıyım, ikincisine.
+# Change 2.2/dev: fix ordinal number
 1	Sigarama	sigara	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	obl	_	_
 2	davrandım	davran	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
@@ -28611,7 +28629,7 @@
 5	lı	li	ADP	With	_	4	case	_	_
 6	yım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	_
 7	,	,	PUNCT	Punc	_	2	punct	_	_
-8	ikincisine	ikinci	NUM	NNum	Case=Dat|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	7	amod	_	SpaceAfter=No
+8	ikincisine	iki	NUM	NNum	Case=Dat|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3187
@@ -30578,6 +30596,7 @@
 
 # sent_id = mst-3408
 # text = ÇALIŞTIĞI şirketi suçlayan Ciguli şunları söyledi: " İkinci kaset için çağırdılar.
+# Change 2.2/dev: fix ordinal number
 1	ÇALIŞTIĞI	çalış	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
 2	şirketi	şirket	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 3	suçlayan	suçla	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
@@ -30586,7 +30605,7 @@
 6	söyledi	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 7	:	:	PUNCT	Punc	_	6	punct	_	_
 8	"	"	PUNCT	Punc	_	6	punct	_	_
-9	İkinci	ikinci	ADJ	Adj	_	10	amod	_	_
+9	İkinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	10	amod	_	_
 10	kaset	kaset	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obl	_	_
 11	için	için	ADP	PCNom	_	10	case	_	_
 12	çağırdılar	çağır	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	6	obj	_	SpaceAfter=No
@@ -30770,6 +30789,7 @@
 
 # sent_id = mst-3438
 # text = Futbol Federasyonu eski Başkanı Kemal Ulusu'nun oğlu Altuğ Ulusu, düşen uçağın ikinci pilotuydu.
+# Change 2.2/dev: fix ordinal number
 1	Futbol	futbol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 2	Federasyonu	federasyon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	compound	_	_
 3	eski	eski	ADJ	Adj	_	1	amod	_	_
@@ -30782,7 +30802,7 @@
 10	,	,	PUNCT	Punc	_	14	punct	_	_
 11	düşen	düş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
 12	uçağın	uçak	NOUN	Noun	Case=Gen|Number=Sing|Person=3	14	nmod:poss	_	_
-13	ikinci	ikinci	ADJ	Adj	_	14	amod	_	_
+13	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	14	amod	_	_
 14-15	pilotuydu	_	_	_	_	_	_	_	SpaceAfter=No
 14	pilotu	pilot	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 15	ydu	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	14	cop	_	_
@@ -32769,12 +32789,13 @@
 
 # sent_id = mst-3664
 # text = Kopenhag Zirvesi'ne kadar yetiştirilmeye çalışılan ikinci uyum paketinde son dakika değişikliği yapıldı.
+# Change 2.2/dev: fix ordinal number
 1	Kopenhag	Kopenhag	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	obl	_	_
 2	Zirvesi'ne	zirve	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	compound	_	_
 3	kadar	kadar	ADP	PCDat	_	1	case	_	_
 4	yetiştirilmeye	yetiş	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=CauPass	5	obj	_	_
 5	çalışılan	çalış	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	8	acl	_	_
-6	ikinci	ikinci	ADJ	Adj	_	8	amod	_	_
+6	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	8	amod	_	_
 7	uyum	uyum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	paketinde	paket	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 9	son	son	ADJ	Adj	_	10	amod	_	_
@@ -33052,10 +33073,11 @@
 
 # sent_id = mst-3687
 # text = ) Fen kolu birincisi.
+# Change 2.2/dev: fix ordinal number
 1	)	)	PUNCT	Punc	_	0	root	_	_
 2	Fen	fen	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 3	kolu	kol	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	compound	_	_
-4	birincisi	birinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	1	conj	_	SpaceAfter=No
+4	birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-3688
@@ -34855,6 +34877,7 @@
 
 # sent_id = mst-3874
 # text = Ağbim de çok iyi bir öğrenci, hep sınıf ikincisi.
+# Change 2.2/dev: fix ordinal number
 1	Ağbim	ağbi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	6	nsubj	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
 3	çok	çok	ADV	Adverb	_	5	advmod	_	_
@@ -34864,7 +34887,7 @@
 7	,	,	PUNCT	Punc	_	10	punct	_	_
 8	hep	hep	ADV	Adverb	_	10	advmod	_	_
 9	sınıf	sınıf	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
-10	ikincisi	ikinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	6	conj	_	SpaceAfter=No
+10	ikincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	6	conj	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = mst-3875
@@ -38323,7 +38346,8 @@
 
 # sent_id = mst-4277
 # text = İkincisi de teknik raporun, Kara Havacılık Okulu'ndan bir albayın ve uçak şirketinden iki yetkilinin düzenlediği rapordaki bilgilerin aslında sadece enkazla ilgili olduğunu, uçağın düşüş nedeniyle ilgili olmadığını söylüyor.
-1	İkincisi	ikinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	31	nsubj	_	_
+# Change 2.2/dev: fix ordinal number
+1	İkincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	31	nsubj	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
 3	teknik	teknik	ADJ	Adj	_	4	amod	_	_
 4	raporun	rapor	NOUN	Noun	Case=Gen|Number=Sing|Person=3	24	nmod:poss	_	SpaceAfter=No
@@ -39861,7 +39885,8 @@
 
 # sent_id = mst-4443
 # text = Birinci Erim Hükümetiydi bu.
-1	Birinci	birinci	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
 2	Erim	Erim	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3-4	Hükümetiydi	_	_	_	_	_	_	_	_
 3	Hükümeti	hükümet	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	compound	_	_
@@ -40430,8 +40455,9 @@
 
 # sent_id = mst-4509
 # text = Dünyanın üçüncü büyük otomobil üreticisi Toyota'nın küçük sınıftaki temsilcisi Yaris'in Avrupa'daki üretim sayısı ikiyuz bini buldu.
+# Change 2.2/dev: fix ordinal number
 1	Dünyanın	dünya	NOUN	Noun	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
-2	üçüncü	üçüncü	ADJ	Adj	_	3	amod	_	_
+2	üçüncü	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	amod	_	_
 3	büyük	büyük	ADJ	Adj	_	5	amod	_	_
 4	otomobil	otomobil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	üreticisi	üretici	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:poss	_	_
@@ -43070,6 +43096,7 @@
 
 # sent_id = mst-4825
 # text = Ailenin yakınlarından alınan bilgiye göre Altuğ Ulusu, aslında Diyarbakır'a gidecek olan uçağın ikinci pilotu değildi.
+# Change 2.2/dev: fix ordinal number
 1	Ailenin	aile	NOUN	Noun	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
 2	yakınlarından	yakın	ADJ	NAdj	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	amod	_	_
 3	alınan	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	4	acl	_	_
@@ -43083,7 +43110,7 @@
 11	gidecek	git	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	12	nmod	_	_
 12	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
 13	uçağın	uçak	NOUN	Noun	Case=Gen|Number=Sing|Person=3	15	nmod:poss	_	_
-14	ikinci	ikinci	ADJ	Adj	_	15	amod	_	_
+14	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	15	amod	_	_
 15	pilotu	pilot	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 16	değildi	değil	VERB	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	15	cop	_	SpaceAfter=No
 17	.	.	PUNCT	Punc	_	15	punct	_	_
@@ -44546,9 +44573,10 @@
 
 # sent_id = mst-4988
 # text = Neyse ki üçüncü kez sorduğunda iyi bir cevap hazırlamıştım: Esinciğim evde tek kız olmasının daha iyi olduğuna karar verdik.
+# Change 2.2/dev: fix ordinal number
 1	Neyse	neyse	ADV	Adverb	_	8	advmod	_	_
 2	ki	ki	CCONJ	Conj	_	1	compound	_	_
-3	üçüncü	üçüncü	ADJ	Adj	_	4	amod	_	_
+3	üçüncü	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	4	amod	_	_
 4	kez	kez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 5	sorduğunda	sor	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
 6	iyi	iyi	ADJ	Adj	_	8	amod	_	_
@@ -45833,7 +45861,8 @@
 
 # sent_id = mst-5147
 # text = Birinci, Ayhan'dı.
-1	Birinci	birinci	ADJ	Adj	_	3	amod	_	SpaceAfter=No
+# Change 2.2/dev: fix ordinal number
+1	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	3	punct	_	_
 3-4	Ayhan'dı	_	_	_	_	_	_	_	SpaceAfter=No
 3	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_

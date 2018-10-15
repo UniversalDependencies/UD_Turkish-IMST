@@ -638,6 +638,7 @@
 
 # sent_id = mst-0298
 # text = Türkiye'nin bir an önce karar vermesini beklediklerini vurgulayan Unakıtan, ABD'nin müdahale için meşruiyet aradığını ve ikinci BM kararına ihtiyaç duyduğunu ifade ederek, şöyle konuştu: " Ancak ülkemize yönelik bir tehdidi ortadan kaldırma ve doğrudan müdahale etmek için de kimseden izin Allahaşkına gerek yok.
+# Change 2.2/dev: fix ordinal number
 1	Türkiye'nin	Türkiye	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 2	bir	bir	NUM	ANum	NumType=Card	5	nummod	_	_
 3	an	an	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	compound	_	_
@@ -654,7 +655,7 @@
 14	meşruiyet	meşruiyet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	obj	_	_
 15	aradığını	ara	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	22	obj	_	_
 16	ve	ve	CCONJ	Conj	_	20	cc	_	_
-17	ikinci	ikinci	ADJ	Adj	_	19	amod	_	_
+17	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	19	amod	_	_
 18	BM	Bm	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 19	kararına	karar	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nmod	_	_
 20	ihtiyaç	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	conj	_	_
@@ -3506,7 +3507,8 @@
 
 # sent_id = mst-1491
 # text = İkincisine başladık, gitti getirdi sallana sallana.
-1	İkincisine	ikinci	NUM	NNum	Case=Dat|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	2	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	İkincisine	iki	NUM	NNum	Case=Dat|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	2	amod	_	_
 2	başladık	başla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	gitti	git	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	conj	_	_
@@ -3964,7 +3966,8 @@
 
 # sent_id = mst-1687
 # text = Üçüncü gonk sesinden sonra perde açıldı ve bale başladı.
-1	Üçüncü	üçüncü	ADJ	Adj	_	3	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	Üçüncü	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	amod	_	_
 2	gonk	gonk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	sesinden	ses	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 4	sonra	sonra	ADP	PCAbl	_	3	case	_	_
@@ -5096,7 +5099,8 @@
 
 # sent_id = mst-2148
 # text = İkincisi de, teknoloji artık geri dönülmez biçimde bilimsel bilgi temeline oturmuş, bu yüzyılda Bilimsel Devrim'in bulgularının etkin bir teknolojik hasadı gerçekleşmiştir.
-1	İkincisi	ikinci	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	0	root	_	_
+# Change 2.2/dev: fix ordinal number
+1	İkincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	0	root	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	12	punct	_	_
 4	teknoloji	teknoloji	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
@@ -5905,6 +5909,7 @@
 
 # sent_id = mst-2516
 # text = Türkiye, önceki akşam düşen " Konya " uçağının üzüntüsünü yaşarken, sabah saatlerinde gelen ikinci uçak kazası haberiyle şoke oldu.
+# Change 2.2/dev: fix ordinal number
 1	Türkiye	Türkiye	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	12	punct	_	_
 3-4	önceki	_	_	_	_	_	_	_	_
@@ -5922,7 +5927,7 @@
 14	sabah	sabah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obl	_	_
 15	saatlerinde	saat	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	flat	_	_
 16	gelen	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	20	acl	_	_
-17	ikinci	ikinci	ADJ	Adj	_	19	amod	_	_
+17	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	19	amod	_	_
 18	uçak	uçak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 19	kazası	kaza	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nmod:poss	_	_
 20	haberiyle	haber	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
@@ -10444,7 +10449,8 @@
 
 # sent_id = mst-4461
 # text = Birinci bölümde, Doğu Perinçek ve Samir Amin, yirmi. yüzyıl olgularından hareketle yirmibir. yüzyıldaki olası ideolojik, politik, iktisadi eğilimleri tartışıyorlar.
-1	Birinci	birinci	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
 2	bölümde	bölüm	NOUN	Noun	Case=Loc|Number=Sing|Person=3	24	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	24	punct	_	_
 4	Doğu	Doğu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	24	nsubj	_	_
@@ -10518,8 +10524,9 @@
 
 # sent_id = mst-4495
 # text = On yedinci yüzyıl araştırmacılarının saptadığı seksenaltı bin Even nüfusu, üç yüzyıl sonra kırksekiz bin kişiye düşmüştü.
+# Change 2.2/dev: fix ordinal number
 1	On	on	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	4	nmod:poss	_	_
-2	yedinci	yedinci	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	1	flat	_	_
+2	yedinci	yedi	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	1	flat	_	_
 3	yüzyıl	yüzyıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 4	araştırmacılarının	araştırmacı	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
 5	saptadığı	sapta	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
@@ -12037,10 +12044,11 @@
 
 # sent_id = mst-5153
 # text = Recep'in bu koyda beşinci yılıydı.
+# Change 2.2/dev: fix ordinal number
 1	Recep'in	Recep	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 2	bu	bu	DET	Det	_	3	det	_	_
 3	koyda	koy	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
-4	beşinci	beşinci	ADJ	Adj	_	5	amod	_	_
+4	beşinci	beş	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	5	amod	_	_
 5-6	yılıydı	_	_	_	_	_	_	_	SpaceAfter=No
 5	yılı	yıl	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 6	ydı	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_

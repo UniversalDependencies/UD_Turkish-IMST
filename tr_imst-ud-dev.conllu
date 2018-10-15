@@ -2237,12 +2237,13 @@
 
 # sent_id = mst-0973
 # text = Bir ay boyunca yani mayısın üçüncü haftasına kadar doğumlar devam edecek.
+# Change 2.2/dev: fix ordinal number
 1	Bir	bir	NUM	ANum	NumType=Card	2	det	_	_
 2	ay	ay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 3	boyunca	boyunca	ADP	PCNom	_	2	case	_	_
 4	yani	yani	CCONJ	Conj	_	2	cc	_	_
 5	mayısın	mayıs	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
-6	üçüncü	üçüncü	ADJ	Adj	_	7	amod	_	_
+6	üçüncü	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	7	amod	_	_
 7	haftasına	hafta	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 8	kadar	kadar	ADP	PCDat	_	7	case	_	_
 9	doğumlar	doğum	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
@@ -2389,11 +2390,12 @@
 
 # sent_id = mst-1035
 # text = Atila Sav da Edebiyat'ta birinci olabildi.
+# Change 2.2/dev: fix ordinal number
 1	Atila	Atila	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 2	Sav	Sav	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	da	da	CCONJ	Conj	_	1	advmod:emph	_	_
 4	Edebiyat'ta	Edebiyat	PROPN	Prop	Case=Loc|Number=Sing|Person=3	6	obl	_	_
-5	birinci	birinci	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	6	obj	_	_
+5	birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	6	obj	_	_
 6	olabildi	ol	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -4218,8 +4220,9 @@
 
 # sent_id = mst-1808
 # text = Üstelik ikinci gün arayıp kadavranın cinsiyetinin benim için fark edip etmeyeceğini sordular.
+# Change 2.2/dev: fix ordinal number
 1	Üstelik	üstelik	ADV	Adverb	_	3	advmod	_	_
-2	ikinci	ikinci	ADJ	Adj	_	1	compound	_	_
+2	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	1	compound	_	_
 3	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obl	_	_
 4	arayıp	ara	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	12	obj	_	_
 5	kadavranın	kadavra	NOUN	Noun	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
@@ -4749,12 +4752,13 @@
 
 # sent_id = mst-2020
 # text = Bugün, bu kente geleli beşinci gün, hiçbir yerde bulabilmiş değilim onu.
+# Change 2.2/dev: fix ordinal number
 1	Bugün	bugün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	bu	bu	DET	Det	_	4	det	_	_
 4	kente	kent	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 5	geleli	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	7	nmod	_	_
-6	beşinci	beşinci	ADJ	Adj	_	5	conj	_	_
+6	beşinci	beş	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	5	conj	_	_
 7	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	11	punct	_	_
 9	hiçbir	hiçbir	DET	Det	_	10	advmod:emph	_	_
@@ -6143,13 +6147,14 @@
 
 # sent_id = mst-2617
 # text = Ayhan Çilingiroğlu, Atila Sav'ın ortakokul birinci sınıftan arkadaşı.
+# Change 2.2/dev: fix ordinal number
 1	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 2	Çilingiroğlu	Çilingiroğlu	PROPN	Prop	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	9	punct	_	_
 4	Atila	Atila	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	compound	_	_
 5	Sav'ın	Sav	PROPN	Prop	Case=Gen|Number=Sing|Person=3	4	flat	_	_
 6	ortakokul	ortakokul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-7	birinci	birinci	ADJ	Adj	_	8	amod	_	_
+7	birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	8	amod	_	_
 8	sınıftan	sınıf	NOUN	Noun	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
 9	arkadaşı	arkadaş	NOUN	Noun	Case=Acc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	9	punct	_	_
@@ -6265,6 +6270,7 @@
 
 # sent_id = mst-2667
 # text = Bugün bakıyorum da, Osmanlı-Osmanlı Sonrası, Birinci Cumhuriyet-İkinci Cumhuriyetçi-Milliyetçi-Mukaddesatçı gibi kavramlar hala tartışılıyor.
+# Change 2.2/dev: fix ordinal number
 1	Bugün	bugün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	obl	_	_
 2	bakıyorum	bak	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
 3	da	da	CCONJ	Conj	_	2	advmod:emph	_	SpaceAfter=No
@@ -6274,10 +6280,10 @@
 7	Osmanlı	Osmanlı	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	Sonrası	sonra	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	conj	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	10	punct	_	_
-10	Birinci	birinci	ADJ	Adj	_	5	conj	_	_
+10	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	5	conj	_	_
 11	Cumhuriyet	cumhuriyet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	flat	_	SpaceAfter=No
 12	-	-	PUNCT	Punc	_	13	punct	_	SpaceAfter=No
-13	İkinci	ikinci	ADJ	Adj	_	5	conj	_	_
+13	İkinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	5	conj	_	_
 14	Cumhuriyetçi	cumhuriyetçi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	flat	_	SpaceAfter=No
 15	-	-	PUNCT	Punc	_	16	punct	_	SpaceAfter=No
 16	Milliyetçi	milliyetçi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
@@ -9731,7 +9737,8 @@
 
 # sent_id = mst-4133
 # text = Dokuzuncu sınıfta ayrılınır.
-1	Dokuzuncu	dokuzuncu	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: fix ordinal number
+1	Dokuzuncu	dokuz	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
 2	sınıfta	sınıf	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	nmod	_	_
 3	ayrılınır	ayrılınır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
@@ -10405,6 +10412,7 @@
 
 # sent_id = mst-4407
 # text = onbirbindokuzyüzdoksansekiz tarihli, Cumhuriyet gazetesini gerçek samimiyete davet ediyoruz başlıklı bildirisinden: Evrendeki yüksek enerji düzeyine sahip tüm düzenli yapıların zaman içinde düzensizliğe doğru gittiklerini belirleyen Termodinamiğin İkinci kanunu, evrendeki ve canlılardaki kompleks düzenli yapıların kendiliğinden oluşamayacağı gerçeği yaratılışı desteklemektedir.
+# Change 2.2/dev: fix ordinal number
 1	onbirbindokuzyüzdoksansekiz	onbirbindokuzyüzdoksansekiz	NUM	ANum	NumType=Card	2	nummod	_	_
 2-3	tarihli	_	_	_	_	_	_	_	SpaceAfter=No
 2	tarih	tarih	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nmod	_	_
@@ -10438,7 +10446,7 @@
 28	gittiklerini	git	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	29	obj	_	_
 29	belirleyen	belirle	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	32	acl	_	_
 30	Termodinamiğin	termodinamik	NOUN	Noun	Case=Gen|Number=Sing|Person=3	32	nmod:poss	_	_
-31	İkinci	ikinci	ADJ	Adj	_	32	amod	_	_
+31	İkinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	32	amod	_	_
 32	kanunu	kanun	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	46	nsubj	_	SpaceAfter=No
 33	,	,	PUNCT	Punc	_	46	punct	_	_
 34-35	evrendeki	_	_	_	_	_	_	_	_
