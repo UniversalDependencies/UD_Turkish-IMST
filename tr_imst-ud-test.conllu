@@ -4991,11 +4991,12 @@
 
 # sent_id = mst-2105
 # text = Pasaklıyım var mı diyeceğin.
+# Change 2.2/dev: fix incorrect -mI annotation
 1-2	Pasaklıyım	_	_	_	_	_	_	_	_
 1	Pasaklı	pasaklı	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	3	amod	_	_
 2	yım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	cop	_	_
 3	var	var	ADJ	Adj	_	5	obj	_	_
-4	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
+4	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
 5	diyeceğin	de	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=2|Polarity=Pos|Tense=Fut|VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 

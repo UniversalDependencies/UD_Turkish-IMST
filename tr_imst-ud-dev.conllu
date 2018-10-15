@@ -3665,9 +3665,10 @@
 
 # sent_id = mst-1572
 # text = Çok sık mı aşık olur Mahmut? diye sordum.
+# Change 2.2/dev: fix incorrect -mI annotation
 1	Çok	çok	ADV	Adverb	_	2	advmod	_	_
 2	sık	sık	ADV	Adverb	_	4	advmod	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	advmod:emph	_	_
+3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	aşık	aşık	ADJ	Adj	_	9	amod	_	_
 5	olur	ol	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	4	compound:lvc	_	_
 6	Mahmut	Mahmut	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
