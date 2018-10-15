@@ -5901,8 +5901,9 @@
 
 # sent_id = mst-2511
 # text = -Kaç numarada oturuyorsunuz.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	Kaç	kaç	ADJ	Adj	_	3	amod	_	_
+2	Kaç	kaç	NUM	Adj	NumType=Card	3	nummod	_	_
 3	numarada	numara	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 4	oturuyorsunuz	otur	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -7955,9 +7956,10 @@
 
 # sent_id = mst-3391
 # text = Her gün kaç çuval kağıt topluyor.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Her	her	DET	Det	_	6	obl	_	_
 2	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	fixed	_	_
-3	kaç	kaç	ADJ	Adj	_	4	amod	_	_
+3	kaç	kaç	NUM	Adj	NumType=Card	4	nummod	_	_
 4	çuval	çuval	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 5	kağıt	kağıt	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 6	topluyor	topla	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
@@ -10354,6 +10356,7 @@
 
 # sent_id = mst-4424
 # text = Düşünmezsin tabii, hangi baba oğul iktidar kavgasına girmemiştir, kaç baba oğul her an patlamaya hazır öfkelerini dizginleyip sevip okşayabilmiştir birbirini.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Düşünmezsin	düşün	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Aor	0	root	_	_
 2	tabii	tabii	ADJ	Adj	_	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	1	punct	_	_
@@ -10364,7 +10367,7 @@
 8	kavgasına	kavga	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 9	girmemiştir	gir	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Past	1	conj	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	21	punct	_	_
-11	kaç	kaç	ADJ	Adj	_	12	amod	_	_
+11	kaç	kaç	NUM	Adj	NumType=Card	12	nummod	_	_
 12	baba	baba	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nsubj	_	_
 13	oğul	oğul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	compound	_	_
 14	her	her	DET	Det	_	17	det	_	_

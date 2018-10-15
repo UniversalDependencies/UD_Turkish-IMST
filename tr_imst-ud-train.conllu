@@ -1581,7 +1581,8 @@
 
 # sent_id = mst-0206
 # text = Kaç gündür bu böyle.
-1	Kaç	kaç	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: mark 'kaç' as NUM
+1	Kaç	kaç	NUM	Adj	NumType=Card	2	nummod	_	_
 2-3	gündür	_	_	_	_	_	_	_	_
 2	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
@@ -2742,7 +2743,7 @@
 3	da	da	CCONJ	Conj	_	1	advmod:emph	_	_
 4	Kahve'nin	Kahve	PROPN	Prop	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
 5	günde	gün	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	nmod	_	_
-6	kaç	kaç	ADJ	Adj	_	7	det	_	_
+6	kaç	kaç	NUM	Adj	NumType=Card	7	nummod	_	_
 7	öğün	öğün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	yemek	yemek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	obj	_	_
 9	yiyeceğini	yiyecek	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	compound	_	SpaceAfter=No
@@ -3487,11 +3488,12 @@
 
 # sent_id = mst-0393
 # text = Ee kolay değil oğlum kaç aydır bakıyorlar alışır insan ne kadar olsa.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Ee	e	INTJ	Interj	_	2	discourse	_	_
 2	kolay	kolay	ADJ	Adj	_	0	root	_	_
 3	değil	değil	VERB	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	2	cop	_	_
 4	oğlum	oğul	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nmod	_	_
-5	kaç	kaç	ADJ	Adj	_	6	det	_	_
+5	kaç	kaç	NUM	Adj	NumType=Card	6	nummod	_	_
 6-7	aydır	_	_	_	_	_	_	_	_
 6	ay	ay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obl	_	_
 7	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
@@ -6403,9 +6405,10 @@
 
 # sent_id = mst-0732
 # text = Ezberlediği bir kaç cümleyi robot gibi tekrarlıyordu; Bayan lütfen bir flaster alın.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Ezberlediği	ezberle	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
 2	bir	bir	NUM	ANum	NumType=Card	4	det	_	_
-3	kaç	kaç	ADJ	Adj	_	2	compound	_	_
+3	kaç	kaç	NUM	Adj	NumType=Card	2	compound	_	_
 4	cümleyi	cümle	NOUN	Noun	Case=Acc|Number=Sing|Person=3	7	obj	_	_
 5	robot	robot	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 6	gibi	gibi	ADP	PCNom	_	5	case	_	_
@@ -9142,7 +9145,8 @@
 
 # sent_id = mst-1019
 # text = Kaç kez denemişti; iki türküden sonra balıkçılar, utangaç hallerinden sıyrılıp, tarihin değil, doğanın kendilerine verdiği niteliği yeğleyerek, masalarda oturan yabancı kadınlara göz süzmeye başlıyorlardı.
-1	Kaç	kaç	ADJ	Adj	_	2	det	_	_
+# Change 2.2/dev: mark 'kaç' as NUM
+1	Kaç	kaç	NUM	Adj	NumType=Card	2	nummod	_	_
 2	kez	kez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 3	denemişti	dene	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	0	root	_	SpaceAfter=No
 4	;	;	PUNCT	Punc	_	12	punct	_	_
@@ -23464,8 +23468,9 @@
 
 # sent_id = mst-2602
 # text = Melek kaç tane sattın? diye yaklaştı Memo.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Melek	Melek	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	kaç	kaç	ADJ	Adj	_	3	amod	_	_
+2	kaç	kaç	NUM	Adj	NumType=Card	3	nummod	_	_
 3	tane	tane	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 4	sattın	sat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	7	nmod	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	4	punct	_	_
@@ -32159,12 +32164,13 @@
 
 # sent_id = mst-3602
 # text = Kazadaki adamın sinirleri kaç kişiye bağlansa bunların hepsi, aynı Politzer gibi, kazayı başından sonuna kadar yaşayacaktır.
+# Change 2.2/dev: mark 'kaç' as NUM
 1-2	Kazadaki	_	_	_	_	_	_	_	_
 1	Kazada	kaza	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	nmod	_	_
 2	ki	ki	ADP	Rel	_	1	case	_	_
 3	adamın	adam	NOUN	Noun	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	sinirleri	sinir	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
-5	kaç	kaç	ADJ	Adj	_	6	det	_	_
+5	kaç	kaç	NUM	Adj	NumType=Card	6	nummod	_	_
 6	kişiye	kişi	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	obl	_	_
 7	bağlansa	bağla	VERB	Verb	Aspect=Perf|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	19	nmod	_	_
 8	bunların	bu	PRON	Demons	Case=Gen|Number=Plur|Person=3|PronType=Dem	9	nmod:poss	_	_
@@ -39933,6 +39939,7 @@
 
 # sent_id = mst-4449
 # text = İşi şakaya vurdum, iyi ya, dedim, Ceza'nın cezası da bitse keşke; kimbilir daha kaç tanker şarap içmem gerekecek.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	İşi	iş	NOUN	Noun	Case=Acc|Number=Sing|Person=3	0	root	_	_
 2	şakaya	şaka	NOUN	Noun	Case=Dat|Number=Sing|Person=3	1	compound	_	_
 3	vurdum	vur	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	1	compound	_	SpaceAfter=No
@@ -39950,7 +39957,7 @@
 15	;	;	PUNCT	Punc	_	13	punct	_	_
 16	kimbilir	kimbilir	ADJ	Adj	_	22	amod	_	_
 17	daha	daha	ADV	Adverb	_	18	advmod	_	_
-18	kaç	kaç	ADJ	Adj	_	19	amod	_	_
+18	kaç	kaç	NUM	Adj	NumType=Card	19	nummod	_	_
 19	tanker	tanker	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nmod	_	_
 20	şarap	şarap	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	obj	_	_
 21	içmem	iç	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Aor	22	nsubj	_	_
@@ -40280,8 +40287,9 @@
 
 # sent_id = mst-4485
 # text = -Kaçıncı kata çıkıyorsun.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	Kaçıncı	kaçıncı	ADJ	Adj	_	3	amod	_	_
+2	Kaçıncı	kaç	NUM	Adj	NumType=Ord	3	nummod	_	_
 3	kata	kat	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	çıkıyorsun	çık	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -49462,7 +49470,7 @@
 22	kapıdan	kapı	NOUN	Noun	Case=Abl|Number=Sing|Person=3	24	obl	_	_
 23	kafasını	kafa	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	nmod	_	_
 24	uzatıp	uza	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Cau	28	nmod	_	_
-25	Kaç	kaç	ADJ	Adj	_	28	amod	_	SpaceAfter=No
+25	Kaç	kaç	NUM	Adj	NumType=Card	28	ccomp	_	SpaceAfter=No
 26	?	?	PUNCT	Punc	_	28	punct	_	_
 27	diye	diye	ADP	PCNom	_	25	case	_	_
 28	soruyordu	sor	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
@@ -49725,7 +49733,7 @@
 # text = Hastaneye yatırmışlar kaç defa, biraz düzelir gibi oluyor, ay geçmeden başlıyor daha beter içmeye.
 1	Hastaneye	hastane	NOUN	Noun	Case=Dat|Number=Sing|Person=3	2	obl	_	_
 2	yatırmışlar	yatır	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
-3	kaç	kaç	ADJ	Adj	_	2	amod	_	_
+3	kaç	kaç	NUM	Adj	NumType=Card	2	nummod	_	_
 4	defa	defa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	2	punct	_	_
 6	biraz	biraz	ADV	Adverb	_	7	advmod	_	_

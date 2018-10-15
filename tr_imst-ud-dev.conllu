@@ -1601,12 +1601,13 @@
 
 # sent_id = mst-0717
 # text = O son a Hülya'yı oturtup kaç gece uykumdan fırlamıştım.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	O	o	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	det	_	_
 2	son	son	ADJ	Adj	_	5	amod	_	_
 3	a	a	INTJ	Interj	_	5	discourse	_	_
 4	Hülya'yı	Hülya	PROPN	Prop	Case=Acc|Number=Sing|Person=3	5	obj	_	_
 5	oturtup	otur	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Cau	9	nmod	_	_
-6	kaç	kaç	ADJ	Adj	_	7	amod	_	_
+6	kaç	kaç	NUM	Adj	NumType=Card	7	nummod	_	_
 7	gece	gece	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obl	_	_
 8	uykumdan	uyku	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	9	obl	_	_
 9	fırlamıştım	fırla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pqp	0	root	_	SpaceAfter=No
@@ -7115,9 +7116,10 @@
 
 # sent_id = mst-3018
 # text = Yemek boyunca kaç hayvanın doğum yapacağı hesaplanıyor.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Yemek	yemek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 2	boyunca	boyunca	ADP	PCNom	_	1	case	_	_
-3	kaç	kaç	ADJ	Adj	_	4	det	_	_
+3	kaç	kaç	NUM	Adj	NumType=Card	4	nummod	_	_
 4	hayvanın	hayvan	ADJ	NAdj	Case=Gen|Number=Sing|Person=3	6	nsubj	_	_
 5	doğum	doğum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	yapacağı	yap	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	7	obj	_	_
@@ -12239,9 +12241,10 @@
 
 # sent_id = mst-5256
 # text = Ama otobüsünün kaçta kalktığını sormayı unuttum.
+# Change 2.2/dev: mark 'kaç' as NUM
 1	Ama	ama	CCONJ	Conj	_	0	root	_	_
 2	otobüsünün	otobüs	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
-3	kaçta	kaç	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	4	amod	_	_
+3	kaçta	kaç	NUM	NAdj	Case=Loc|Number=Sing|NumType=Card|Person=3	4	obl	_	_
 4	kalktığını	kalk	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	obj	_	_
 5	sormayı	sor	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	obj	_	_
 6	unuttum	unut	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
