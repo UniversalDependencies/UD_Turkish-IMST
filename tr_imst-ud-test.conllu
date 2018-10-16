@@ -690,6 +690,7 @@
 
 # sent_id = mst-0312
 # text = Milli Savunma, Jandarma ve Sahil Güvenlik Komutanlığı bu dönemde her ay ikibiniki cari ödeneklerinin yüzde on'u, diğer kuruluşlar ise yüzde sekiz'i kadar harcama yapabilecek.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Milli	milli	ADJ	Adj	_	25	nsubj	_	_
 2	Savunma	savun	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
@@ -710,7 +711,7 @@
 18	,	,	PUNCT	Punc	_	22	punct	_	_
 19	diğer	diğer	ADJ	Adj	_	20	det	_	_
 20	kuruluşlar	kuruluş	NOUN	Noun	Case=Nom|Number=Plur|Person=3	21	nmod	_	_
-21	ise	ise	CCONJ	Conj	_	25	nmod	_	_
+21	ise	i	AUX	Conj	_	25	nmod	_	_
 22	yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	16	conj	_	_
 23	sekiz'i	sekiz	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Card|Person=3|Person[psor]=3	22	flat	_	_
 24	kadar	kadar	ADP	PCDat	_	16	case	_	_
@@ -2075,6 +2076,7 @@
 
 # sent_id = mst-0892
 # text = Tasarruf Mevduatı Sigorta Fonu, Pamukbank için yatırımcıların inceleme yapma süresini onüç Aralık ikibiniki, teklif verme süresini ise yirmi Aralık ikibiniki tarihine kadar uzattı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Tasarruf	tasarruf	NOUN	Noun	Case=Nom|Number=Sing|Person=3	25	nsubj	_	_
 2	Mevduatı	mevduat	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 3	Sigorta	sigorta	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	flat	_	_
@@ -2093,7 +2095,7 @@
 16	teklif	teklif	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	_
 17	verme	ver	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	16	compound	_	_
 18	süresini	süre	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	obj	_	_
-19	ise	ise	CCONJ	Conj	_	18	discourse	_	_
+19	ise	i	AUX	Conj	_	18	discourse	_	_
 20	yirmi	yirmi	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	12	conj	_	_
 21	Aralık	aralık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	flat	_	_
 22	ikibiniki	ikibiniki	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	20	flat	_	_
@@ -3373,9 +3375,10 @@
 
 # sent_id = mst-1438
 # text = Irak meselesi ise gündemdeki yerini korurken Türkiye ile ABD'nin anlayış farklılığı sürüyor.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Irak	Irak	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	meselesi	mesele	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
-3	ise	ise	CCONJ	Conj	_	2	discourse	_	_
+3	ise	i	AUX	Conj	_	2	discourse	_	_
 4-5	gündemdeki	_	_	_	_	_	_	_	_
 4	gündemde	gündem	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	nmod:poss	_	_
 5	ki	ki	ADP	Rel	_	4	case	_	_
@@ -5402,8 +5405,9 @@
 
 # sent_id = mst-2278
 # text = Leblebi ise figürandır.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Leblebi	leblebi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3-4	figürandır	_	_	_	_	_	_	_	SpaceAfter=No
 3	figüran	figüran	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 4	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
@@ -5984,11 +5988,12 @@
 
 # sent_id = mst-2544
 # text = Eşini kaybeden Aysun Ulusu ise acı haberi alınca astım krizi geçirdi.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Eşini	eş	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	obj	_	_
 2	kaybeden	kaybet	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	Aysun	Aysun	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 4	Ulusu	Ulusu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	flat	_	_
-5	ise	ise	CCONJ	Conj	_	3	discourse	_	_
+5	ise	i	AUX	Conj	_	3	discourse	_	_
 6	acı	acı	ADJ	Adj	_	7	amod	_	_
 7	haberi	haber	NOUN	Noun	Case=Acc|Number=Sing|Person=3	8	obj	_	_
 8	alınca	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	11	nmod	_	_
@@ -7545,6 +7550,7 @@
 
 # sent_id = mst-3218
 # text = ', bölgedeki bazı ülkelerde, iç faktörlerin, dış faktörlerden daha etkili olabileceğini vurguladıktan sonra, bölge ülkelerinin aksine, ' mali desteğinin sürdüğü ve NATO üyesi olan Türkiye'nin ise ekonomik programa sadık kalması halinde kredi notunun yükselebileceğini belirtiyor.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	'	'	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	0	root	_	_
 3-4	bölgedeki	_	_	_	_	_	_	_	_
@@ -7577,7 +7583,7 @@
 29	üyesi	üye	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	30	nsubj	_	_
 30	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	26	conj	_	_
 31	Türkiye'nin	Türkiye	PROPN	Prop	Case=Gen|Number=Sing|Person=3	36	nmod:poss	_	_
-32	ise	ise	CCONJ	Conj	_	31	discourse	_	_
+32	ise	i	AUX	Conj	_	31	discourse	_	_
 33	ekonomik	ekonomik	ADJ	Adj	_	34	amod	_	_
 34	programa	program	NOUN	Noun	Case=Dat|Number=Sing|Person=3	36	obl	_	_
 35	sadık	sadık	ADJ	Adj	_	36	amod	_	_
@@ -10260,10 +10266,11 @@
 # sent_id = mst-4385
 # text = Asıl yıkıcı darbe ise sömürgecilikle gelmişti.
 # Change 2.2/dev: merge -(y)IcI
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Asıl	asıl	ADJ	Adj	_	2	amod	_	_
 2	yıkıcı	yık	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	darbe	darbe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
-4	ise	ise	CCONJ	Conj	_	3	discourse	_	_
+4	ise	i	AUX	Conj	_	3	discourse	_	_
 5	sömürgecilikle	sömürgecilik	NOUN	Noun	Case=Ins|Number=Sing|Person=3	6	obl	_	_
 6	gelmişti	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
@@ -10352,8 +10359,9 @@
 
 # sent_id = mst-4420
 # text = Algılayan ise ruhtur.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Algılayan	algıla	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	3	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3-4	ruhtur	_	_	_	_	_	_	_	SpaceAfter=No
 3	ruh	ruh	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 4	tur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
@@ -12592,8 +12600,9 @@
 
 # sent_id = mst-5394
 # text = Yarın ise biri üçyüzyetmişbir gün vadeli iskontolu tahvil, diğeri de üç ayda bir değişken faizli tahvil olmak üzere, iki ihale birden yapılacak.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Yarın	yarın	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	obl	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3	biri	bir	NUM	NNum	Case=Acc|Number=Sing|NumType=Card|Person=3	21	nsubj	_	_
 4	üçyüzyetmişbir	üçyüzyetmişbir	NUM	ANum	NumType=Card	5	nummod	_	_
 5	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod	_	_

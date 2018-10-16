@@ -2474,6 +2474,7 @@
 # sent_id = mst-0305
 # text = Tahvilin ikinci kuponu ve bu kupona ilişkin yapılacak olan referans bono ihalesi ise doksan gün vadeli olacak.
 # Change 2.2/dev: fix ordinal number
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Tahvilin	tahvil	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 2	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	amod	_	_
 3	kuponu	kupon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	nsubj	_	_
@@ -2486,7 +2487,7 @@
 10	referans	referans	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 11	bono	bono	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
 12	ihalesi	ihale	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	conj	_	_
-13	ise	ise	CCONJ	Conj	_	12	discourse	_	_
+13	ise	i	AUX	Conj	_	12	discourse	_	_
 14	doksan	doksan	NUM	ANum	NumType=Card	15	nummod	_	_
 15	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod	_	_
 16-17	vadeli	_	_	_	_	_	_	_	_
@@ -3709,8 +3710,9 @@
 
 # sent_id = mst-0416
 # text = Ev ise, barınağı da içine alan, hayata ilişkin daha yoğun ve daha geniş kapsamlı, mekansal bir ifadedir.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	SpaceAfter=No
+2	ise	i	AUX	Conj	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	21	punct	_	_
 4	barınağı	barınak	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 5	da	da	CCONJ	Conj	_	4	advmod:emph	_	_
@@ -7610,6 +7612,7 @@
 
 # sent_id = mst-0865
 # text = Yine cevap vermesine fırsat bırakmadan, Bir erkek gibi değil yani, erkekler yalnızca sevişebilmek için yalan söyleyebilir, ama seviştikten sonra sevebilir, bundan sonra ise yalan söylemez.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Yine	yine	ADV	Adverb	_	5	advmod	_	_
 2	cevap	cevap	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 3	vermesine	ver	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	2	compound	_	_
@@ -7636,7 +7639,7 @@
 24	,	,	PUNCT	Punc	_	28	punct	_	_
 25	bundan	bu	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	28	obl	_	_
 26	sonra	sonra	ADP	PCAbl	_	25	case	_	_
-27	ise	ise	CCONJ	Conj	_	25	discourse	_	_
+27	ise	i	AUX	Conj	_	25	discourse	_	_
 28	yalan	yalan	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	conj	_	_
 29	söylemez	söyle	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	5	conj	_	SpaceAfter=No
 30	.	.	PUNCT	Punc	_	28	punct	_	_
@@ -9076,9 +9079,10 @@
 
 # sent_id = mst-1010
 # text = Kendi darbukası ise en pahalı, en iyi kalite darbukaydı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	2	nmod	_	_
 2	darbukası	darbuka	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
-3	ise	ise	CCONJ	Conj	_	2	discourse	_	_
+3	ise	i	AUX	Conj	_	2	discourse	_	_
 4	en	en	ADV	Adverb	_	5	advmod	_	_
 5	pahalı	pahalı	ADJ	Adj	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	10	punct	_	_
@@ -9134,11 +9138,12 @@
 
 # sent_id = mst-1017
 # text = Kuzey Halkları Enstitüsü'nün kurulması ise Evenlerin sorunlarının bilimsel platformlara taşınmasını sağladı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Kuzey	Kuzey	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 2	Halkları	halk	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 3	Enstitüsü'nün	enstitü	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 4	kurulması	kur	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	11	nsubj	_	_
-5	ise	ise	CCONJ	Conj	_	4	discourse	_	_
+5	ise	i	AUX	Conj	_	4	discourse	_	_
 6	Evenlerin	Evenler	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 7	sorunlarının	sorun	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	10	nmod:poss	_	_
 8	bilimsel	bilimsel	ADJ	Adj	_	9	amod	_	_
@@ -10222,13 +10227,14 @@
 
 # sent_id = mst-1135
 # text = Bu partiler arasındaki DYP'de ise gözle görülür bir hareketlilik var.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	partiler	parti	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	nmod:poss	_	_
 3-4	arasındaki	_	_	_	_	_	_	_	_
 3	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	amod	_	_
 4	ki	ki	ADP	Rel	_	3	case	_	_
 5	DYP'de	Dyp	NOUN	Abr	Abbr=Yes|Case=Loc|Number=Sing|Person=3	11	obl	_	_
-6	ise	ise	CCONJ	Conj	_	5	discourse	_	_
+6	ise	i	AUX	Conj	_	5	discourse	_	_
 7	gözle	göz	NOUN	Noun	Case=Ins|Number=Sing|Person=3	10	nmod	_	_
 8	görülür	gör	VERB	Verb	Aspect=Imp|Mood=Ind|Polarity=Pos|Tense=Aor|VerbForm=Part|Voice=Pass	7	compound	_	_
 9	bir	bir	NUM	ANum	NumType=Card	10	det	_	_
@@ -10279,6 +10285,7 @@
 
 # sent_id = mst-1141
 # text = Katı, otoriter ve ilgisiz bir doktorla evli olan kadın, acısını uyuşturucu haplarla dindiriyor, yaşamındaki sevgi boşluğunu ise hayatını oğluna adayarak gidermeye çalışıyordu.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Katı	katı	ADJ	Adj	_	7	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	15	punct	_	_
 3	otoriter	otoriter	ADJ	Adj	_	7	amod	_	_
@@ -10300,7 +10307,7 @@
 18	ki	ki	ADP	Rel	_	17	case	_	_
 19	sevgi	sevgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nmod:poss	_	_
 20	boşluğunu	boşluk	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	obj	_	_
-21	ise	ise	CCONJ	Conj	_	20	discourse	_	_
+21	ise	i	AUX	Conj	_	20	discourse	_	_
 22	hayatını	hayat	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obj	_	_
 23	oğluna	oğul	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obl	_	_
 24	adayarak	ada	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	25	nmod	_	_
@@ -10807,6 +10814,7 @@
 
 # sent_id = mst-1208
 # text = Programda konser veren bin bağlamacının 500'ü Türkiye'den, 500'ü ise Avrupa'dan geldi.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Programda	program	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	_
 2	konser	konser	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
 3	veren	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	12	obj	_	_
@@ -10816,7 +10824,7 @@
 7	Türkiye'den	Türkiye	PROPN	Prop	Case=Abl|Number=Sing|Person=3	12	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	11	punct	_	_
 9	500'ü	500	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Card|Person=3|Person[psor]=3	6	conj	_	_
-10	ise	ise	CCONJ	Conj	_	9	discourse	_	_
+10	ise	i	AUX	Conj	_	9	discourse	_	_
 11	Avrupa'dan	Avrupa	PROPN	Prop	Case=Abl|Number=Sing|Person=3	7	conj	_	_
 12	geldi	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	12	punct	_	_
@@ -12571,10 +12579,11 @@
 # sent_id = mst-1419
 # text = Niye mutsuz olduklarını ise söylemezlerdi, mutsuzluklarının nedenini siz keşfetmek zorundaydınız, bunu keşfedemezseniz biraz daha düşmanlaşırlardı; bu düşmanlık gerçek değildi, yalnızca mutsuzluklarının üstüne örtmeye çalıştıkları yakıcı bir örtüydü.
 # Change 2.2/dev: merge -(y)IcI
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Niye	niye	ADV	Adverb	_	3	advmod	_	_
 2	mutsuz	mutsuz	ADJ	Adj	_	3	amod	_	_
 3	olduklarını	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	obj	_	_
-4	ise	ise	CCONJ	Conj	_	3	discourse	_	_
+4	ise	i	AUX	Conj	_	3	discourse	_	_
 5	söylemezlerdi	söyle	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=AorPast	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	11	punct	_	_
 7	mutsuzluklarının	mutsuzluk	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	8	nmod:poss	_	_
@@ -13462,8 +13471,9 @@
 
 # sent_id = mst-1505
 # text = Evlerde ise tıpkı dünkü gibi eşyalar, kürkler çuvallara dolduruluyordu.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Evlerde	ev	NOUN	Noun	Case=Loc|Number=Plur|Person=3	11	obl	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3	tıpkı	tıpkı	ADV	Adverb	_	4	advmod	_	_
 4-5	dünkü	_	_	_	_	_	_	_	_
 4	dün	dün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -13902,8 +13912,9 @@
 
 # sent_id = mst-1551
 # text = Tibet ise içine kapanık, sessiz bir çocuk.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Tibet	Tibet	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3	içine	iç	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	amod	_	_
 4	kapanık	kapanık	ADJ	Adj	_	3	compound	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -14146,8 +14157,9 @@
 
 # sent_id = mst-1580
 # text = Ulaşmak ise imkansızdı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Ulaşmak	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3-4	imkansızdı	_	_	_	_	_	_	_	SpaceAfter=No
 3	imkansız	imkânsız	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
 4	dı	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
@@ -14218,13 +14230,14 @@
 # sent_id = mst-1589
 # text = Dosyamızın esas unsuru olan ikinci bölümde ise sona eren bin yılın en büyük bilim ve düşün devrimlerini yansıtmaya çalıştık.
 # Change 2.2/dev: fix ordinal number
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Dosyamızın	dosya	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	3	nmod:poss	_	_
 2	esas	esas	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	3	amod	_	_
 3	unsuru	unsur	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 4	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 5	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	6	amod	_	_
 6	bölümde	bölüm	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	nmod	_	_
-7	ise	ise	CCONJ	Conj	_	18	nmod	_	_
+7	ise	i	AUX	Conj	_	18	nmod	_	_
 8	sona	son	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	9	amod	_	_
 9	eren	er	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	_
 10	bin	bin	NUM	ANum	NumType=Card	11	nummod	_	_
@@ -18562,6 +18575,7 @@
 
 # sent_id = mst-2061
 # text = Konuya ilişkin ücretli işçi ile kapitalist arasındaki ilişki ne ise, kiracı ile evsahibi arasındaki ilişki de odur yargısını yıllar önce, Friedrich Engels şöyle eleştirmiş.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Konuya	konu	NOUN	Noun	Case=Dat|Number=Sing|Person=3	9	nmod	_	_
 2	ilişkin	ilişkin	ADP	PCDat	_	1	case	_	_
 3	ücretli	ücretli	ADJ	Adj	_	4	amod	_	_
@@ -18573,7 +18587,7 @@
 8	ki	ki	ADP	Rel	_	7	case	_	_
 9	ilişki	ilişki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	ne	ne	CCONJ	Conj	_	20	nmod	_	_
-11	ise	ise	ADP	Postp	Mood=Cnd|Number=Sing|Person=3	10	case	_	SpaceAfter=No
+11	ise	i	AUX	Postp	Mood=Cnd|Number=Sing|Person=3	10	case	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	29	punct	_	_
 13	kiracı	kiracı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 14	ile	ile	CCONJ	Conj	_	15	cc	_	_
@@ -19485,6 +19499,7 @@
 # sent_id = mst-2159
 # text = Chp'lilerin tarım ve sağlık sektörüne destek amacıyla verdiği önergeler ise " gider Başesgioğlu " olduğu gerekçesiyle kabul edilmedi.
 # Change 2.2/dev: merge li + lerin
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1-2	Chp'lilerin	_	_	_	_	_	_	_	_
 1	Chp	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
 2	'lilerin	li	ADP	With	Case=Gen|Number=Plur|Person=3	1	case	_	_
@@ -19496,7 +19511,7 @@
 8	amacıyla	amaç	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 9	verdiği	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	nmod	_	_
 10	önergeler	önerge	NOUN	Noun	Case=Nom|Number=Plur|Person=3	11	nmod	_	_
-11	ise	ise	CCONJ	Conj	_	18	nmod	_	_
+11	ise	i	AUX	Conj	_	18	nmod	_	_
 12	"	"	PUNCT	Punc	_	13	punct	_	_
 13	gider	gider	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obj	_	_
 14	Başesgioğlu	Başesgioğlu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	compound	_	_
@@ -19948,8 +19963,9 @@
 
 # sent_id = mst-2204
 # text = Ayhan ise grubu yurtseverce kurmuş.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3	grubu	grup	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	obj	_	_
 4	yurtseverce	yurtsever	ADJ	NAdj	Case=Equ|Number=Sing|Person=3	5	amod	_	_
 5	kurmuş	kur	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -21747,8 +21763,9 @@
 
 # sent_id = mst-2416
 # text = Peyniri ise dünya çapında ünlü.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Peyniri	peynir	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	cc	_	_
+2	ise	i	AUX	Conj	_	1	cc	_	_
 3	dünya	dünya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	çapında	çap	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 5	ünlü	ünlü	ADJ	Adj	_	0	root	_	SpaceAfter=No
@@ -22345,10 +22362,11 @@
 # sent_id = mst-2492
 # text = Rapor'un üçüncü sayfasında ise Takriben saat on.
 # Change 2.2/dev: fix ordinal number
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Rapor'un	Rapor	PROPN	Prop	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
 2	üçüncü	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	3	nmod:poss	_	_
 3	sayfasında	sayfa	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
-4	ise	ise	CCONJ	Conj	_	7	nmod	_	_
+4	ise	i	AUX	Conj	_	7	nmod	_	_
 5	Takriben	takriben	ADV	Adverb	_	7	advmod	_	_
 6	saat	saat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	_
 7	on	on	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -26038,10 +26056,11 @@
 
 # sent_id = mst-2889
 # text = Bir ineğin sütü ise sekiz koyunun sütüyle aynı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Bir	bir	NUM	ANum	NumType=Card	2	det	_	_
 2	ineğin	inek	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 3	sütü	süt	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
-4	ise	ise	CCONJ	Conj	_	8	nmod	_	_
+4	ise	i	AUX	Conj	_	8	nmod	_	_
 5	sekiz	sekiz	NUM	ANum	NumType=Card	6	nummod	_	_
 6	koyunun	koyun	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 7	sütüyle	süt	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
@@ -27907,8 +27926,9 @@
 
 # sent_id = mst-3116
 # text = Akşit ise Çin seyahatinden en kazançlı turizm sektörünün çıktığını kaydederek, şöyle konuştu:.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Akşit	Akşit	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3	Çin	Çin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	seyahatinden	seyahat	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 5	en	en	ADV	Adverb	_	6	advmod	_	_
@@ -28443,6 +28463,7 @@
 # sent_id = mst-3163
 # text = Ayrıca bunlardan birincisi, daha çok yüzyılın ilk yarısında gerçekleşmiş, ikincisi ise, yüzyılın ikinci yarısında zirvesine ulaşmıştır.
 # Change 2.2/dev: fix ordinal number
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Ayrıca	ayrıca	ADV	Adverb	_	0	root	_	_
 2	bunlardan	bu	PRON	Demons	Case=Abl|Number=Plur|Person=3|PronType=Dem	3	nmod:poss	_	_
 3	birincisi	bir	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	10	nsubj	_	SpaceAfter=No
@@ -28455,7 +28476,7 @@
 10	gerçekleşmiş	gerçekleş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	19	punct	_	_
 12	ikincisi	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Ord|Person=3|Person[psor]=3	19	nsubj	_	_
-13	ise	ise	CCONJ	Conj	_	12	cc	_	SpaceAfter=No
+13	ise	i	AUX	Conj	_	12	cc	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	19	punct	_	_
 15	yüzyılın	yüzyıl	NOUN	Noun	Case=Gen|Number=Sing|Person=3	17	nmod:poss	_	_
 16	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	17	amod	_	_
@@ -29375,6 +29396,7 @@
 
 # sent_id = mst-3265
 # text = Koha kentinde işçiler için, hiçbir süsü olmayan, içinde ise oturacakların tüm gereksinimlerinin düşünüldüğü evler yaptı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Koha	Koha	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	kentinde	kent	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
 3	işçiler	işçi	NOUN	Noun	Case=Nom|Number=Plur|Person=3	17	obl	_	_
@@ -29385,7 +29407,7 @@
 8	olmayan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part	16	acl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	8	punct	_	_
 10	içinde	iç	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	amod	_	_
-11	ise	ise	CCONJ	Conj	_	10	discourse	_	_
+11	ise	i	AUX	Conj	_	10	discourse	_	_
 12	oturacakların	otur	VERB	Verb	Aspect=Perf|Case=Gen|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	14	nmod:poss	_	_
 13	tüm	tüm	DET	Det	_	14	det	_	_
 14	gereksinimlerinin	gereksinim	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	15	nmod:poss	_	_
@@ -30004,11 +30026,12 @@
 
 # sent_id = mst-3330
 # text = Ve dil varlığın evi ise, ev de dilin doğumevidir.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Ve	ve	CCONJ	Conj	_	0	root	_	_
 2	dil	dil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 3	varlığın	varlık	NOUN	Noun	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
 4	evi	ev	NOUN	Noun	Case=Acc|Number=Sing|Person=3	1	conj	_	_
-5	ise	ise	ADP	Postp	Mood=Cnd|Number=Sing|Person=3	4	case	_	SpaceAfter=No
+5	ise	i	AUX	Postp	Mood=Cnd|Number=Sing|Person=3	4	case	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	10	punct	_	_
 7	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 8	de	de	CCONJ	Conj	_	7	advmod:emph	_	_
@@ -34336,9 +34359,10 @@
 
 # sent_id = mst-3813
 # text = Eski kulübeyi ise mutfak haline getirmişti.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Eski	eski	ADJ	Adj	_	2	amod	_	_
 2	kulübeyi	kulübe	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	obj	_	_
-3	ise	ise	CCONJ	Conj	_	2	discourse	_	_
+3	ise	i	AUX	Conj	_	2	discourse	_	_
 4	mutfak	mutfak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	haline	hal	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 6	getirmişti	getir	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	5	compound	_	SpaceAfter=No
@@ -34440,6 +34464,7 @@
 
 # sent_id = mst-3826
 # text = Bu oran aynı coğrafyada yaşayan Evenkler için yüzde sekiz, Yukagirler için ise yüzde dört.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	oran	oran	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 3	aynı	aynı	ADJ	Adj	_	4	amod	_	_
@@ -34452,7 +34477,7 @@
 10	,	,	PUNCT	Punc	_	14	punct	_	_
 11	Yukagirler	Yukagir	PROPN	Prop	Case=Nom|Number=Plur|Person=3	6	conj	_	_
 12	için	için	ADP	PCNom	_	11	case	_	_
-13	ise	ise	CCONJ	Conj	_	11	discourse	_	_
+13	ise	i	AUX	Conj	_	11	discourse	_	_
 14	yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	8	conj	_	_
 15	dört	dört	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	Punc	_	14	punct	_	_
@@ -34878,8 +34903,9 @@
 # sent_id = mst-3872
 # text = Günümüzde ise bu ilişki bütünüyle tersine dönmüş, bilim adeta tümüyle bir üretici güç haline indirgenmiştir.
 # Change 2.2/dev: merge -(y)IcI
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Günümüzde	gün	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	7	obl	_	_
-2	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+2	ise	i	AUX	Conj	_	1	discourse	_	_
 3	bu	bu	DET	Det	_	4	det	_	_
 4	ilişki	ilişki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 5	bütünüyle	bütün	ADJ	NAdj	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	amod	_	_
@@ -34995,11 +35021,12 @@
 
 # sent_id = mst-3880
 # text = Dosya elimize geçtikten sonra ise olay aydınlanmaya başladı bizim açımızdan.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Dosya	dosya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	elimize	el	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	8	obl	_	_
 3	geçtikten	geç	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	2	compound	_	_
 4	sonra	sonra	ADP	PCAbl	_	2	case	_	_
-5	ise	ise	CCONJ	Conj	_	2	discourse	_	_
+5	ise	i	AUX	Conj	_	2	discourse	_	_
 6	olay	olay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 7	aydınlanmaya	aydınlan	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	nmod	_	_
 8	başladı	başla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -38139,10 +38166,11 @@
 
 # sent_id = mst-4257
 # text = yirmibeş cesedin kimliğinin ise DNA incelemesiyle belirleneceği bildirildi.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	yirmibeş	yirmibeş	NUM	ANum	NumType=Card	2	nummod	_	_
 2	cesedin	ceset	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 3	kimliğinin	kimlik	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:poss	_	_
-4	ise	ise	CCONJ	Conj	_	3	discourse	_	_
+4	ise	i	AUX	Conj	_	3	discourse	_	_
 5	DNA	dna	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	incelemesiyle	incele	VERB	Verb	Aspect=Perf|Case=Ins|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	nmod	_	_
 7	belirleneceği	belirle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	8	nsubj	_	_
@@ -38686,6 +38714,7 @@
 
 # sent_id = mst-4311
 # text = En yüksek memur maaşı Başbakanlık müsteşarınınnki kabul edildiğinde ise yapılacak zam yüzsekiz milyon üçyüzseksendört bin beşyüz lira olacak.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	En	en	ADV	Adverb	_	2	advmod	_	_
 2	yüksek	yüksek	ADJ	Adj	_	4	amod	_	_
 3	memur	memur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
@@ -38696,7 +38725,7 @@
 7	nki	ki	ADP	Rel	Case=Nom|Number=Sing|Person=3	6	case	_	_
 8	kabul	kabul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	obl	_	_
 9	edildiğinde	et	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	8	compound:lvc	_	_
-10	ise	ise	CCONJ	Conj	_	8	discourse	_	_
+10	ise	i	AUX	Conj	_	8	discourse	_	_
 11	yapılacak	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	12	acl	_	_
 12	zam	zam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 13	yüzsekiz	yüzsekiz	NUM	ANum	NumType=Card	19	obj	_	_
@@ -38909,10 +38938,11 @@
 
 # sent_id = mst-4334
 # text = Ali Talip Özdemir ise kongrenin çok büyük olacağını vurguladı.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Ali	Ali	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 2	Talip	Talip	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	Özdemir	Özdemir	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
-4	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+4	ise	i	AUX	Conj	_	1	discourse	_	_
 5	kongrenin	kongre	NOUN	Noun	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 6	çok	çok	ADV	Adverb	_	7	advmod	_	_
 7	büyük	büyük	ADJ	Adj	_	8	amod	_	_
@@ -38958,13 +38988,14 @@
 
 # sent_id = mst-4339
 # text = Velhasıl, gevşek bir İhtilal Harekatı idi.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Velhasıl	velhasıl	ADV	Adverb	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	6	punct	_	_
 3	gevşek	gevşek	ADJ	Adj	_	6	amod	_	_
 4	bir	bir	NUM	ANum	NumType=Card	6	det	_	_
 5	İhtilal	ihtilal	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	Harekatı	harekat	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-7	idi	idi	ADP	Postp	Number=Sing|Person=3|Tense=Past	6	case	_	SpaceAfter=No
+7	idi	i	AUX	Postp	Number=Sing|Person=3|Tense=Past	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-4341
@@ -39054,10 +39085,11 @@
 
 # sent_id = mst-4351
 # text = İnceleme bittikten sonra ise ellerindeki belgelerle notları birleştirip olayı bir kez daha yaşamaya başladılar.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	İnceleme	incele	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	2	nsubj	_	_
 2	bittikten	bit	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
 3	sonra	sonra	ADP	PCAbl	_	2	case	_	_
-4	ise	ise	CCONJ	Conj	_	2	discourse	_	_
+4	ise	i	AUX	Conj	_	2	discourse	_	_
 5-6	ellerindeki	_	_	_	_	_	_	_	_
 5	ellerinde	el	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	7	nmod	_	_
 6	ki	ki	ADP	Rel	_	5	case	_	_
@@ -39319,13 +39351,14 @@
 
 # sent_id = mst-4380
 # text = Bemka genel ekonomi ile ilgili önerileri ise şunlar:.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Bemka	Bemka	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 2	genel	genel	ADJ	Adj	_	3	amod	_	_
 3	ekonomi	ekonomi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 4	ile	ile	ADP	PCNom	_	3	case	_	_
 5	ilgili	ilgili	ADJ	Adj	_	6	amod	_	_
 6	önerileri	öneri	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
-7	ise	ise	CCONJ	Conj	_	6	discourse	_	_
+7	ise	i	AUX	Conj	_	6	discourse	_	_
 8	şunlar	şu	PRON	Demons	Case=Nom|Number=Plur|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
 9	:	:	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	8	punct	_	_
@@ -39404,12 +39437,13 @@
 
 # sent_id = mst-4390
 # text = Lam deniz demek, ut ise Türkçedeki ci eki.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Lam	lam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 2	deniz	deniz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
 3	demek	de	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	10	punct	_	_
 5	ut	ut	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
-6	ise	ise	CCONJ	Conj	_	5	discourse	_	_
+6	ise	i	AUX	Conj	_	5	discourse	_	_
 7-8	Türkçedeki	_	_	_	_	_	_	_	_
 7	Türkçede	Türkçe	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	10	amod	_	_
 8	ki	ki	ADP	Rel	_	7	case	_	_
@@ -39919,12 +39953,13 @@
 
 # sent_id = mst-4444
 # text = SP Genel Başkanı Recai Kutan ise iktidara gelirlerse ilk yapacakları icraatın IMF ile yapılan anlaşmaları yırtıp atmak olacağını kaydetti.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	SP	SP	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	compound	_	_
 2	Genel	genel	ADJ	Adj	_	3	amod	_	_
 3	Başkanı	başkan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	compound	_	_
 4	Recai	Recai	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 5	Kutan	Kutan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	flat	_	_
-6	ise	ise	CCONJ	Conj	_	4	discourse	_	_
+6	ise	i	AUX	Conj	_	4	discourse	_	_
 7	iktidara	iktidar	NOUN	Noun	Case=Dat|Number=Sing|Person=3	8	obl	_	_
 8	gelirlerse	gel	VERB	Verb	Aspect=Imp|Mood=Cnd|Number=Plur|Person=3|Polarity=Pos|Tense=Aor	18	nmod	_	_
 9	ilk	ilk	ADJ	Adj	_	10	amod	_	_
@@ -42891,11 +42926,12 @@
 
 # sent_id = mst-4805
 # text = PKK Ateş Açtı başlığı ise içerde kullanılmış.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	PKK	Pkk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	Ateş	Ateş	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 3	Açtı	aç	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	compound	_	_
 4	başlığı	başlık	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
-5	ise	ise	CCONJ	Conj	_	4	discourse	_	_
+5	ise	i	AUX	Conj	_	4	discourse	_	_
 6	içerde	içeri	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	obl	_	_
 7	kullanılmış	kullan	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -45044,11 +45080,12 @@
 
 # sent_id = mst-5036
 # text = Duyguları öldürme eşiğinin tavanı ise ölüm.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Duyguları	duygu	NOUN	Noun	Case=Acc|Number=Plur|Person=3	2	obj	_	_
 2	öldürme	öl	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	3	nmod:poss	_	_
 3	eşiğinin	eşik	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 4	tavanı	tavan	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
-5	ise	ise	CCONJ	Conj	_	4	discourse	_	_
+5	ise	i	AUX	Conj	_	4	discourse	_	_
 6	ölüm	ölüm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -46127,6 +46164,7 @@
 
 # sent_id = mst-5184
 # text = Bakanlık, davaya müdahil olacak şehit ve yaralı diplomat ailelerine ise maddi ve manevi destek sağlayacak.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Bakanlık	bakanlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	17	punct	_	_
 3	davaya	dava	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
@@ -46139,7 +46177,7 @@
 9	lı	li	ADP	With	_	8	case	_	_
 10	diplomat	diplomat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
 11	ailelerine	aile	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	12	nmod	_	_
-12	ise	ise	CCONJ	Conj	_	17	nmod	_	_
+12	ise	i	AUX	Conj	_	17	nmod	_	_
 13	maddi	maddi	ADJ	Adj	_	16	amod	_	_
 14	ve	ve	CCONJ	Conj	_	15	cc	_	_
 15	manevi	manevi	ADJ	Adj	_	13	conj	_	_
@@ -47013,9 +47051,10 @@
 
 # sent_id = mst-5301
 # text = Çoban salatası ise ayrı bir cümbüş.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Çoban	çoban	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 2	salatası	salata	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	compound	_	_
-3	ise	ise	CCONJ	Conj	_	1	discourse	_	_
+3	ise	i	AUX	Conj	_	1	discourse	_	_
 4	ayrı	ayrı	ADJ	Adj	_	6	amod	_	_
 5	bir	bir	NUM	ANum	NumType=Card	6	det	_	_
 6	cümbüş	cümbüş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
@@ -47195,10 +47234,11 @@
 
 # sent_id = mst-5323
 # text = Kazanın üzerinden nerede ise bir yılı aşkın zaman geçmişti.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Kazanın	kaza	NOUN	Noun	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
 2	üzerinden	üzer	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 3	nerede	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	9	obl	_	_
-4	ise	ise	ADP	Postp	Mood=Cnd|Number=Sing|Person=3	3	case	_	_
+4	ise	i	AUX	Postp	Mood=Cnd|Number=Sing|Person=3	3	case	_	_
 5	bir	bir	NUM	ANum	NumType=Card	6	nummod	_	_
 6	yılı	yıl	NOUN	Noun	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
 7	aşkın	aşkın	ADP	PCAcc	_	6	case	_	_
@@ -49842,11 +49882,12 @@
 
 # sent_id = mst-5599
 # text = Tabii bir ayağım Ankara'da idi.
+# Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	Tabii	tabii	ADJ	Adj	_	4	amod	_	_
 2	bir	bir	NUM	ANum	NumType=Card	3	det	_	_
 3	ayağım	ayak	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	4	nsubj	_	_
 4	Ankara'da	Ankara	PROPN	Prop	Case=Loc|Number=Sing|Person=3	0	root	_	_
-5	idi	idi	ADP	Postp	Number=Sing|Person=3|Tense=Past	4	case	_	SpaceAfter=No
+5	idi	i	AUX	Postp	Number=Sing|Person=3|Tense=Past	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-5600
