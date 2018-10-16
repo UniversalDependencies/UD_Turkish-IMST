@@ -3553,6 +3553,7 @@
 
 # sent_id = mst-0401
 # text = Hiç anlamasalar da, hiç bilmeseler de, hiç ilgilenmeseler de, neden, kadınlar bütün erkeklerin iş hayatlarını pürdikkat dinlerler.
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Hiç	hiç	ADV	Adverb	_	2	advmod	_	_
 2	anlamasalar	anla	VERB	Verb	Aspect=Perf|Mood=Des|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	21	nmod	_	_
 3	da	da	CCONJ	Conj	_	2	advmod:emph	_	SpaceAfter=No
@@ -3565,7 +3566,7 @@
 10	ilgilenmeseler	ilgilen	VERB	Verb	Aspect=Perf|Mood=Des|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	2	conj	_	_
 11	de	de	CCONJ	Conj	_	10	advmod:emph	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	10	punct	_	_
-13	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	21	obl	_	SpaceAfter=No
+13	neden	neden	ADV	Ques	_	21	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	21	punct	_	_
 15	kadınlar	kadın	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
 16	bütün	bütün	ADJ	Adj	_	17	amod	_	_
@@ -19882,9 +19883,11 @@
 
 # sent_id = mst-2197
 # text = Neden sonra Katana ağaçtan süzülüp indi.
-1	Neden	neden	ADV	Adverb	_	2	advmod	_	_
-2	sonra	sonra	ADV	Adverb	_	6	advmod	_	_
-3	Katana	katana	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+# Change 2.2/dev: fix proper name Katana.
+# Change 2.2/dev: revise POS tag of 'neden'
+1	Neden	ne	PRON	Adverb	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+2	sonra	sonra	ADP	Adverb	_	1	case	_	_
+3	Katana	Katana	PROPN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 4	ağaçtan	ağaç	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	obl	_	_
 5	süzülüp	süzül	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nmod	_	_
 6	indi	in	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -20095,6 +20098,7 @@
 
 # sent_id = mst-2216
 # text = Perakendecilikte araştırmaları ve metodoljik çalışmalarıyla tanınan Underhill, dünyada " Why We Buy: The Science of Shopping " (Neden satın Alıyoruz: Alışveriş Bilimi) adlı kitabıyla tanındı.
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Perakendecilikte	perakendecilik	NOUN	Noun	Case=Loc|Number=Sing|Person=3	2	obl	_	_
 2	araştırmaları	araştır	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nmod	_	_
 3	ve	ve	CCONJ	Conj	_	5	cc	_	_
@@ -20115,7 +20119,7 @@
 18	Shopping	Shopping	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	compound	_	_
 19	"	"	PUNCT	Punc	_	11	punct	_	_
 20	(	(	PUNCT	Punc	_	26	punct	_	SpaceAfter=No
-21	Neden	neden	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	det	_	_
+21	Neden	neden	ADV	Noun	_	22	advmod	_	_
 22	satın	satın	ADV	Adverb	_	26	advmod	_	_
 23	Alıyoruz	al	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	22	compound	_	SpaceAfter=No
 24	:	:	PUNCT	Punc	_	31	punct	_	_
@@ -22708,12 +22712,13 @@
 
 # sent_id = mst-2536
 # text = Annenin veya babanın hemen evleneceğini neden aklına getiriyorsun?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Annenin	anne	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	5	obl	_	_
 2	veya	veya	CCONJ	Conj	_	3	cc	_	_
 3	babanın	baba	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	1	conj	_	_
 4	hemen	hemen	ADV	Adverb	_	5	advmod	_	_
 5	evleneceğini	evlen	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	7	obj	_	_
-6	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
+6	neden	ne	ADV	Ques	_	7	advmod	_	_
 7	aklına	akıl	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 8	getiriyorsun	getir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	7	compound	_	SpaceAfter=No
 9	?	?	PUNCT	Punc	_	7	punct	_	_
@@ -32842,10 +32847,11 @@
 
 # sent_id = mst-3668
 # text = Ama bu düşünceleri neden buraya aktardığım, elbette merak edilecektir...
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Ama	ama	CCONJ	Conj	_	0	root	_	_
 2	bu	bu	DET	Det	_	3	det	_	_
 3	düşünceleri	düşünce	NOUN	Noun	Case=Acc|Number=Plur|Person=3	6	obj	_	_
-4	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	5	nmod	_	_
+4	neden	neden	ADV	Ques	_	6	advmod	_	_
 5	buraya	bura	PRON	Noun	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 6	aktardığım	aktar	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	9	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -37878,6 +37884,7 @@
 
 # sent_id = mst-4237
 # text = Patlıcan burunlu var da, neden patlıcan kulaklı yok?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Patlıcan	patlıcan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2-3	burunlu	_	_	_	_	_	_	_	_
 2	burun	burun	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
@@ -37885,7 +37892,7 @@
 4	var	var	ADJ	Adj	_	5	amod	_	_
 5	da	da	CCONJ	Conj	_	7	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	10	punct	_	_
-7	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+7	neden	neden	ADV	Ques	_	10	advmod	_	_
 8	patlıcan	patlıcan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obl	_	_
 9	kulaklı	kulaklı	ADJ	Adj	_	10	nsubj	_	_
 10	yok	yok	ADJ	Adj	_	0	root	_	SpaceAfter=No
@@ -43414,13 +43421,14 @@
 
 # sent_id = mst-4852
 # text = Kardeşini eleştiriyor gibi geldi bana, neden sokulgan onca?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Kardeşini	kardeş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	obj	_	_
 2	eleştiriyor	eleştir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	4	obj	_	_
 3	gibi	gibi	ADP	PCNom	_	2	case	_	_
 4	geldi	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	4	punct	_	_
-7	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+7	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	8	advmod	_	_
 8	sokulgan	sokulgan	ADJ	Adj	_	4	conj	_	_
 9	onca	onca	ADV	Adverb	_	8	advmod:emph	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	8	punct	_	_

@@ -594,10 +594,11 @@
 
 # sent_id = mst-0286
 # text = İyi, ama neden? diye sordu sonunda.
+# Change 2.2/dev: revise POS tag of 'neden'
 1	İyi	iyi	ADJ	Adj	_	7	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	4	punct	_	_
 3	ama	ama	CCONJ	Conj	_	4	cc	_	_
-4	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+4	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	4	punct	_	_
 6	diye	diye	ADP	PCNom	_	1	case	_	_
 7	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -1525,6 +1526,7 @@
 
 # sent_id = mst-0656
 # text = Yöreye ve toplumlara göre (eskiden) evler neden farklılaşıyordu?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Yöreye	yöre	NOUN	Noun	Case=Dat|Number=Sing|Person=3	10	obl	_	_
 2	ve	ve	CCONJ	Conj	_	3	cc	_	_
 3	toplumlara	toplum	NOUN	Noun	Case=Dat|Number=Plur|Person=3	1	conj	_	_
@@ -1533,7 +1535,7 @@
 6	eskiden	eski	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	10	amod	_	SpaceAfter=No
 7	)	)	PUNCT	Punc	_	6	punct	_	_
 8	evler	ev	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
-9	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+9	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	10	advmod	_	_
 10	farklılaşıyordu	farklılaş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
 11	?	?	PUNCT	Punc	_	10	punct	_	_
 
@@ -4652,6 +4654,7 @@
 # sent_id = mst-1984
 # text = Öpüşmedikleri ya da birbirlerini mıncıklamadıkları zamanlar denize girmeye niyetlenen, ama her seferinde, nedendir bilinmez, vazgeçip geri dönen, bizlere bakıp asıl amacımızın yüzmek değil, denize işemek olduğunu anlayacaklarından çekiniyoruz.
 # Fixed 2.2/dev: original sentence ID: 00032161413/4
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Öpüşmedikleri	öpüş	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	6	acl	_	_
 2	ya	ya	CCONJ	Conj	_	1	compound	_	_
 3	da	da	CCONJ	Conj	_	1	compound	_	_
@@ -4667,7 +4670,7 @@
 13	seferinde	sefer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	15	punct	_	_
 15-16	nedendir	_	_	_	_	_	_	_	_
-15	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	13	conj	_	_
+15	neden	neden	ADV	Ques	_	13	conj	_	_
 16	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
 17	bilinmez	bil	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor|Voice=Pass	13	conj	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	17	punct	_	_
@@ -9335,10 +9338,11 @@
 
 # sent_id = mst-3979
 # text = Merkez sağ partiler neden bir araya gelemedi?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Merkez	merkez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	sağ	sağ	ADJ	Adj	_	3	amod	_	_
 3	partiler	parti	NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
-4	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	5	obl	_	_
+4	neden	neden	ADV	Ques	_	5	advmod	_	_
 5	bir	bir	NUM	ANum	NumType=Card	0	root	_	_
 6	araya	ara	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	5	compound	_	_
 7	gelemedi	gel	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Past	5	compound	_	SpaceAfter=No
@@ -11827,8 +11831,9 @@
 
 # sent_id = mst-5056
 # text = Polyanna neden aklına gelmiyor?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Polyanna	Polyanna	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-2	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	3	nmod	_	_
+2	neden	neden	ADV	Ques	_	3	advmod	_	_
 3	aklına	akıl	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 4	gelmiyor	gel	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	3	compound	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	3	punct	_	_

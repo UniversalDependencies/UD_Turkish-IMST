@@ -247,8 +247,9 @@
 
 # sent_id = mst-0118
 # text = Oğlunun neden eroinman olduğunu anlayamaması çok doğaldı.
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Oğlunun	oğul	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
-2	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	4	obl	_	_
+2	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	4	advmod	_	_
 3	eroinman	eroinman	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 4	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	obj	_	_
 5	anlayamaması	anla	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	7	nsubj	_	_
@@ -273,10 +274,11 @@
 
 # sent_id = mst-0134
 # text = (İzninizle, neden olmasın...
+# Change 2.2/dev: revise POS tag of 'neden'
 1	(	(	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	İzninizle	izin	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	5	punct	_	_
-4	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	5	obl	_	_
+4	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	5	advmod	_	_
 5	olmasın	ol	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	2	conj	_	SpaceAfter=No
 6	...	...	PUNCT	Punc	_	5	punct	_	_
 
@@ -9803,6 +9805,7 @@
 
 # sent_id = mst-4156
 # text = Kumsala darbukasını pek getirmezdi ama, nedense bugün canı kıyıda, denize karşı, patlata patlata darbuka çalmak istemişti.
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Kumsala	kumsal	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	4	amod	_	_
 2	darbukasını	darbuka	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 3	pek	pek	ADV	Adverb	_	4	advmod	_	_
@@ -9810,7 +9813,7 @@
 5	ama	ama	CCONJ	Conj	_	20	cc	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	20	punct	_	_
 7-8	nedense	_	_	_	_	_	_	_	_
-7	neden	neden	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	obl	_	_
+7	neden	neden	ADV	Noun	_	20	advcl	_	_
 8	se	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 9	bugün	bugün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	obl	_	_
 10	canı	can	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	_
@@ -10196,12 +10199,13 @@
 
 # sent_id = mst-4313
 # text = Benim bacaklarımı nasıl tutacağıma büyükler neden karışsın ki?
+# Change 2.2/dev: revise POS tag of 'neden'
 1	Benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
 2	bacaklarımı	bacak	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1	4	obj	_	_
 3	nasıl	nasıl	ADV	Adverb	_	4	advmod	_	_
 4	tutacağıma	tut	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Fut|VerbForm=Part	7	acl	_	_
 5	büyükler	büyük	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
-6	neden	ne	PRON	Ques	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+6	neden	ne	ADV	Ques	Case=Abl|Number=Sing|Person=3	7	advmod	_	_
 7	karışsın	karış	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 8	ki	ki	CCONJ	Conj	_	7	advmod:emph	_	SpaceAfter=No
 9	?	?	PUNCT	Punc	_	7	punct	_	_
