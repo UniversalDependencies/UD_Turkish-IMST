@@ -8461,7 +8461,8 @@
 # sent_id = mst-3626
 # text = Hangisinin yorgun olduğunu belirlemesi ve yolculuğun ağır yükünü çekenlerle arkada boş kızakları çekenler arasında dönüşümü yapması gerekiyordu.
 # Change 2.2/dev: merge -(y)An
-1	Hangisinin	hangi	PRON	Ques	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+# Change 2.2/dev: mark 'hangi' as DET
+1	Hangisinin	hangi	DET	Ques	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 2	yorgun	yorgun	ADJ	Adj	_	3	obj	_	_
 3	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	obj	_	_
 4	belirlemesi	belirle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	18	obj	_	_
@@ -10357,10 +10358,11 @@
 # sent_id = mst-4424
 # text = Düşünmezsin tabii, hangi baba oğul iktidar kavgasına girmemiştir, kaç baba oğul her an patlamaya hazır öfkelerini dizginleyip sevip okşayabilmiştir birbirini.
 # Change 2.2/dev: mark 'kaç' as NUM
+# Change 2.2/dev: mark 'hangi' as DET
 1	Düşünmezsin	düşün	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Aor	0	root	_	_
 2	tabii	tabii	ADJ	Adj	_	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	1	punct	_	_
-4	hangi	hangi	ADJ	Adj	_	5	amod	_	_
+4	hangi	hangi	DET	Adj	_	5	det	_	_
 5	baba	baba	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 6	oğul	oğul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	iktidar	iktidar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_

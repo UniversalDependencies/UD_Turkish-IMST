@@ -2738,6 +2738,7 @@
 
 # sent_id = mst-0320
 # text = Bir yandan da Kahve'nin günde kaç öğün yemek yiyeceğini, hangi vitaminleri alacağını, muhallebisinin şekersiz olması gerektiğini yoksa gözlerinin bozulacağını, aşılarının tarihini anlatıp duruyordu.
+# Change 2.2/dev: mark 'hangi' as DET
 1	Bir	bir	NUM	ANum	NumType=Card	27	nummod	_	_
 2	yandan	yan	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	1	compound	_	_
 3	da	da	CCONJ	Conj	_	1	advmod:emph	_	_
@@ -2748,7 +2749,7 @@
 8	yemek	yemek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	obj	_	_
 9	yiyeceğini	yiyecek	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	compound	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	13	punct	_	_
-11	hangi	hangi	ADJ	Adj	_	12	det	_	_
+11	hangi	hangi	DET	Adj	_	12	det	_	_
 12	vitaminleri	vitamin	NOUN	Noun	Case=Acc|Number=Plur|Person=3	13	obj	_	_
 13	alacağını	al	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	8	conj	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	19	punct	_	_
@@ -3824,8 +3825,9 @@
 
 # sent_id = mst-0431
 # text = Gecenin hangi saatinde eve dönsem de, yakındaki açık gece mağazasından yiyecek birşeyler alabilirdim.
+# Change 2.2/dev: mark 'hangi' as DET
 1	Gecenin	gece	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
-2	hangi	hangi	ADJ	Adj	_	3	amod	_	_
+2	hangi	hangi	DET	Adj	_	3	det	_	_
 3	saatinde	saat	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 4	eve	ev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 5	dönsem	dön	VERB	Verb	Aspect=Perf|Mood=Des|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	_
@@ -5505,6 +5507,7 @@
 
 # sent_id = mst-0627
 # text = Tüketici kredisinin yabancı para birimi cinsinden kullanılması durumunda, geri ödemeye ilişkin taksitlerin ve toplam kredi tutarının hesaplanmasında, hangi tarihteki kurun dikkate alınacağına ilişkin bilginin sözleşmede yer alması koşulu getiriliyor.
+# Change 2.2/dev: mark 'hangi' as DET
 1	Tüketici	tüketici	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 2	kredisinin	kredi	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	compound	_	_
 3	yabancı	yabancı	ADJ	Adj	_	5	amod	_	_
@@ -5524,7 +5527,7 @@
 17	tutarının	tutar	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	conj	_	_
 18	hesaplanmasında	hesapla	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	32	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Punc	_	18	punct	_	_
-20	hangi	hangi	ADJ	Adj	_	21	amod	_	_
+20	hangi	hangi	DET	Adj	_	21	det	_	_
 21-22	tarihteki	_	_	_	_	_	_	_	_
 21	tarihte	tarih	NOUN	Noun	Case=Loc|Number=Sing|Person=3	23	nmod	_	_
 22	ki	ki	ADP	Rel	_	21	case	_	_
@@ -9734,7 +9737,8 @@
 
 # sent_id = mst-1080
 # text = Hangisini sen kazandın ki? deyip dik dik bakmıştı yüzüme.
-1	Hangisini	hangi	PRON	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+# Change 2.2/dev: mark 'hangi' as DET
+1	Hangisini	hangi	DET	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 2	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	kazandın	kazan	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	_
 4	ki	ki	CCONJ	Conj	_	3	advmod:emph	_	SpaceAfter=No
@@ -11035,7 +11039,8 @@
 
 # sent_id = mst-1234
 # text = Hangi fasulye.
-1	Hangi	hangi	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: mark 'hangi' as DET
+1	Hangi	hangi	DET	Adj	_	2	det	_	_
 2	fasulye	fasulye	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -11480,7 +11485,8 @@
 
 # sent_id = mst-1282
 # text = Hangi aday kazanırsa kazansın birlikte mücadeleyi sürdüreceklerini ifade eden Çelebi, ANAP'ı ayağa kaldırmak için hep birlikte çaba harcayacaklarını söyledi.
-1	Hangi	hangi	ADJ	Adj	_	2	det	_	_
+# Change 2.2/dev: mark 'hangi' as DET
+1	Hangi	hangi	DET	Adj	_	2	det	_	_
 2	aday	aday	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
 3	kazanırsa	kazan	VERB	Verb	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	8	obj	_	_
 4	kazansın	kazan	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	3	compound	_	_
@@ -14081,7 +14087,8 @@
 
 # sent_id = mst-1573
 # text = Hangi özür, onların haklılığını değiştirebilir ki!..
-1	Hangi	hangi	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: mark 'hangi' as DET
+1	Hangi	hangi	DET	Adj	_	2	det	_	_
 2	özür	özür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	onların	on	NUM	NNum	Case=Nom|Number=Plur|Number[psor]=Sing|NumType=Card|Person=3|Person[psor]=2	5	nmod:poss	_	_
@@ -21807,10 +21814,11 @@
 
 # sent_id = mst-2427
 # text = -En çok hangisini seviyorsun.
+# Change 2.2/dev: mark 'hangi' as DET
 1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
 2	En	en	ADV	Adverb	_	3	advmod	_	_
 3	çok	çok	ADV	Adverb	_	5	advmod	_	_
-4	hangisini	hangi	PRON	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+4	hangisini	hangi	DET	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
 5	seviyorsun	sev	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -22423,7 +22431,8 @@
 
 # sent_id = mst-2502
 # text = Hangi okuldansınız.
-1	Hangi	hangi	ADJ	Adj	_	2	amod	_	_
+# Change 2.2/dev: mark 'hangi' as DET
+1	Hangi	hangi	DET	Adj	_	2	det	_	_
 2-3	okuldansınız	_	_	_	_	_	_	_	SpaceAfter=No
 2	okuldan	okul	NOUN	Noun	Case=Abl|Number=Sing|Person=3	0	root	_	_
 3	sınız	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	2	cop	_	_
@@ -37040,9 +37049,10 @@
 
 # sent_id = mst-4138
 # text = Meral acaba hangi odadaydılar?
+# Change 2.2/dev: mark 'hangi' as DET
 1	Meral	Meral	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	acaba	acaba	ADV	Adverb	_	1	conj	_	_
-3	hangi	hangi	ADJ	Adj	_	4	amod	_	_
+3	hangi	hangi	DET	Adj	_	4	det	_	_
 4-5	odadaydılar	_	_	_	_	_	_	_	SpaceAfter=No
 4	odada	oda	NOUN	Noun	Case=Loc|Number=Sing|Person=3	1	conj	_	_
 5	ydılar	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	4	cop	_	_
