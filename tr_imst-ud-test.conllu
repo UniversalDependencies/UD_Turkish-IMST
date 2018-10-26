@@ -2627,7 +2627,7 @@
 3	süre	süre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 4	sonra	sonra	ADP	PCAbl	_	3	case	_	_
 5	ellerinde	el	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	6	obl	_	_
-6	olacaktı	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast	0	root	_	SpaceAfter=No
+6	olacaktı	ol	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-1112
@@ -4701,7 +4701,7 @@
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	iş	iş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 3	böyle	böyle	ADV	Adverb	_	4	advmod	_	_
-4	olmayacaktı	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=FutPast	0	root	_	SpaceAfter=No
+4	olmayacaktı	ol	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut,Past	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	12	punct	_	_
 6	çünkü	çünkü	CCONJ	Conj	_	12	cc	_	_
 7	çok	çok	ADV	Adverb	_	8	advmod	_	_
@@ -5047,7 +5047,7 @@
 2	sise	sis	NOUN	Noun	Case=Dat|Number=Sing|Person=3	3	nmod:poss	_	_
 3	isine	is	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
-5	girecekmiş	gir	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast	0	root	_	SpaceAfter=No
+5	girecekmiş	gir	VERB	Verb	Aspect=Prosp|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-2130
@@ -5099,7 +5099,7 @@
 8	bir	bir	NUM	ANum	NumType=Card	10	nummod	_	_
 9	kez	kez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 10	mola	mola	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-11	verilecekti	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast|Voice=Pass	10	compound	_	_
+11	verilecekti	ver	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past|Voice=Pass	10	compound	_	_
 12	burada	bura	PRON	Noun	Case=Loc|Number=Sing|Person=3	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	10	punct	_	_
 
@@ -6935,7 +6935,7 @@
 5	yeni	yeni	ADJ	Adj	_	7	amod	_	_
 6	bir	bir	NUM	ANum	NumType=Card	7	det	_	_
 7	ilişki	ilişki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
-8	olacaktı	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast	0	root	_	SpaceAfter=No
+8	olacaktı	ol	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-2952
@@ -7384,7 +7384,7 @@
 8	çünkü	çünkü	CCONJ	Conj	_	11	cc	_	_
 9	onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 10	şehvetle	şehvet	NOUN	Noun	Case=Ins|Number=Sing|Person=3	11	obl	_	_
-11	öpmeyecektim	öp	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=FutPast	5	conj	_	SpaceAfter=No
+11	öpmeyecektim	öp	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut,Past	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-3147
@@ -12825,7 +12825,7 @@
 14	yavaş	yavaş	ADJ	Adj	_	13	compound:redup	_	_
 15	bizim	biz	PRON	Pers	Case=Gen|Number=Plur|Person=1|PronType=Prs	16	nmod	_	_
 16	dilimizi	dil	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	17	obj	_	_
-17	öğrenecekti	öğren	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast	5	conj	_	SpaceAfter=No
+17	öğrenecekti	öğren	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	5	conj	_	SpaceAfter=No
 18	.	.	PUNCT	Punc	_	17	punct	_	_
 
 # sent_id = mst-5487

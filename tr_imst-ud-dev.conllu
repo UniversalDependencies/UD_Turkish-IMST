@@ -108,7 +108,7 @@
 # sent_id = mst-0056
 # text = Ne anlatacaktın.
 1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	2	obj	_	_
-2	anlatacaktın	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=FutPast	0	root	_	SpaceAfter=No
+2	anlatacaktın	anlat	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut,Past	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-0059
@@ -1271,7 +1271,7 @@
 1	Babamla	baba	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	4	obl	_	_
 2	Kahve'yi	Kahve	PROPN	Prop	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 3	almaya	al	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	nmod	_	_
-4	gelecektik	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=FutPast	0	root	_	SpaceAfter=No
+4	gelecektik	gel	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut,Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-0557
@@ -3562,7 +3562,7 @@
 22	neredeyse	neredeyse	ADV	Adverb	_	24	advmod	_	_
 23	kasanın	kasa	NOUN	Noun	Case=Gen|Number=Sing|Person=3	24	nmod:poss	_	_
 24	içine	iç	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	amod	_	_
-25	sokacaktı	sok	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast	0	root	_	SpaceAfter=No
+25	sokacaktı	sok	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	Punc	_	25	punct	_	_
 
 # sent_id = mst-1525
@@ -4027,7 +4027,7 @@
 # sent_id = mst-1718
 # text = Galiba çalmayacaktım.
 1	Galiba	galiba	ADV	Adverb	_	2	advmod	_	_
-2	çalmayacaktım	çal	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=FutPast	0	root	_	SpaceAfter=No
+2	çalmayacaktım	çal	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut,Past	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-1721
@@ -4950,7 +4950,7 @@
 
 # sent_id = mst-2093
 # text = Feshedeceklermiş sözleşmesini.
-1	Feshedeceklermiş	feshet	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=FutPast	0	root	_	_
+1	Feshedeceklermiş	feshet	VERB	Verb	Aspect=Prosp|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut,Past	0	root	_	_
 2	sözleşmesini	sözleşme	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -6509,7 +6509,7 @@
 14	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
 15	içeri	içeri	NOUN	Noun	Case=Dat|Number=Sing|Person=3	16	obl	_	_
 16	çağırmasını	çağır	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	conj	_	_
-17	bekleyecektim	bekle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=FutPast	0	root	_	_
+17	bekleyecektim	bekle	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut,Past	0	root	_	_
 18	herhalde	herhalde	ADV	Adverb	_	17	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Punc	_	18	punct	_	_
 
@@ -8402,7 +8402,7 @@
 # sent_id = mst-3558
 # text = Parkı anlatmayacaktım.
 1	Parkı	park	NOUN	Noun	Case=Acc|Number=Sing|Person=3	2	obj	_	_
-2	anlatmayacaktım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=FutPast	0	root	_	SpaceAfter=No
+2	anlatmayacaktım	anlat	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut,Past	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3560
@@ -10307,7 +10307,7 @@
 5	mecalsizlikten	mecalsizlik	NOUN	Noun	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
 6	hayata	hayat	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	nmod	_	_
 7	veda	veda	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-8	edecektim	et	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=FutPast	7	compound:lvc	_	_
+8	edecektim	et	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut,Past	7	compound:lvc	_	_
 9	muhtemelen	muhtemelen	ADV	Adverb	_	7	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -10698,7 +10698,7 @@
 12	kabin	kabin	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
 13	amiri	amir	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:poss	_	_
 14	görevi	görev	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	_
-15	yapacaktı	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=FutPast	7	conj	_	SpaceAfter=No
+15	yapacaktı	yap	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	7	conj	_	SpaceAfter=No
 16	..	..	PUNCT	Punc	_	15	punct	_	_
 
 # sent_id = mst-4520
@@ -13145,7 +13145,7 @@
 2	geleni	gel	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	1	compound	_	_
 3	onlara	o	PRON	Pers	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
 4	hemen	hemen	ADV	Adverb	_	5	advmod	_	_
-5	söylemeyecektim	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=FutPast	0	root	_	SpaceAfter=No
+5	söylemeyecektim	söyle	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut,Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	8	punct	_	_
 7	kesin	kesin	ADJ	Adj	_	8	amod	_	_
 8-9	kararlıydım	_	_	_	_	_	_	_	SpaceAfter=No
