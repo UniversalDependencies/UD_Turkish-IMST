@@ -12794,7 +12794,7 @@
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
 5-7	haberliyim	_	_	_	_	_	_	_	SpaceAfter=No
 5	haberli	haberli	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-6	li	li		ADP	With	_	5	case	_	_
+6	li	li	ADP	With	_	5	case	_	_
 7	yim	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	cop	_	_
 8	...	...	PUNCT	Punc	_	5	conj	_	_
 
