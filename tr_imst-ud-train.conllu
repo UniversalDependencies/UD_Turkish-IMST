@@ -720,10 +720,11 @@
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-0094
-# text = üç) İMKB endekslerine paralel seyir göstermeyi hedefleyen A tipi endeks fonlar: Bu kategorideki fonlar yılı İmkb'deki kayba paralel kapattılar.
+# text = üç) İMKB endekslerine paralel seyir göstermeyi hedefleyen A tipi endeks fonlar: Bu kategorideki fonlar yılı İMKB'deki kayba paralel kapattılar.
+# Change 2.2/dev: fix 'lowercasing' of İMKB
 1	üç	üç	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	Punc	_	9	punct	_	_
-3	İMKB	İmkb	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+3	İMKB	İMKB	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	endekslerine	endeks	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	paralel	paralel	ADJ	Adj	_	6	amod	_	_
 6	seyir	seyir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
@@ -740,8 +741,8 @@
 16	ki	ki	ADP	Rel	_	15	case	_	_
 17	fonlar	fon	NOUN	Noun	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
 18	yılı	yıl	NOUN	Noun	Case=Acc|Number=Sing|Person=3	23	obj	_	_
-19-20	İmkb'deki	_	_	_	_	_	_	_	_
-19	İmkb'de	İmkb	PROPN	Prop	Case=Loc|Number=Sing|Person=3	21	obl	_	_
+19-20	İMKB'deki	_	_	_	_	_	_	_	_
+19	İMKB'de	İMKB	PROPN	Prop	Case=Loc|Number=Sing|Person=3	21	obl	_	_
 20	ki	ki	ADP	Rel	_	19	case	_	_
 21	kayba	kayıp	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	22	amod	_	_
 22	paralel	paralel	ADJ	Adj	_	23	amod	_	_
@@ -2130,7 +2131,7 @@
 12	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = mst-0276
-# text = Ecevit partisinin bakanlarıyla protokolün bir tarafında otururken, diğer tarafta Chp'liler yer aldı.
+# text = Ecevit partisinin bakanlarıyla protokolün bir tarafında otururken, diğer tarafta CHP'liler yer aldı.
 1	Ecevit	Ecevit	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	partisinin	parti	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
 3	bakanlarıyla	bakan	NOUN	Noun	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
@@ -2141,8 +2142,8 @@
 8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	diğer	diğer	ADJ	Adj	_	10	amod	_	_
 10	tarafta	taraf	NOUN	Noun	Case=Loc|Number=Sing|Person=3	14	nmod	_	_
-11-13	Chp'liler	_	_	_	_	_	_	_	_
-11	Chp	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	14	csubj	_	_
+11-13	CHP'liler	_	_	_	_	_	_	_	_
+11	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	14	csubj	_	_
 12	'li	li	ADP	With	_	11	case	_	_
 13	ler	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	cop	_	_
 14	yer	yer	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -5412,7 +5413,7 @@
 7	Eyüp	Eyüp	PROPN	Prop	Case=Nom|Number=Sing|Person=3	27	nmod	_	_
 8	Fatsa	Fatsa	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	flat	_	_
 9	ve	ve	CCONJ	Conj	_	26	cc	_	_
-10	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+10	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 11	Grup	grup	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
 12	Başkanvekili	başkanvekili	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
 13	Haluk	Haluk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nmod	_	_
@@ -5670,7 +5671,7 @@
 # text = Ağabeyim hep CHP'den yana.
 1	Ağabeyim	ağabey	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	nsubj	_	_
 2	hep	hep	ADV	Adverb	_	3	advmod	_	_
-3	CHP'den	Chp	NOUN	Abr	Abbr=Yes|Case=Abl|Number=Sing|Person=3	0	root	_	_
+3	CHP'den	CHP	PROPN	Abr	Abbr=Yes|Case=Abl|Number=Sing|Person=3	0	root	_	_
 4	yana	yana	ADP	PCAbl	_	3	case	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -7055,7 +7056,7 @@
 9	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-0805
-# text = Rumların, Kıbrıs Türklerine yönelik uygulayacağı tedbirler ve AB'nin KKTC'yi IMF'nin-Akp'lilerin ederek Türk tarafındaki bazı çevrelere yapacağı yardım, halkta bölünmeye yol açabilir.
+# text = Rumların, Kıbrıs Türklerine yönelik uygulayacağı tedbirler ve AB'nin KKTC'yi IMF'nin-AKP'lilerin ederek Türk tarafındaki bazı çevrelere yapacağı yardım, halkta bölünmeye yol açabilir.
 # Change 2.2/dev: merge li + lerin
 1	Rumların	Rum	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	6	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -7069,8 +7070,8 @@
 10	KKTC'yi	Kktc	NOUN	Abr	Abbr=Yes|Case=Acc|Number=Sing|Person=3	15	obj	_	_
 11	IMF'nin	Imf	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	9	conj	_	SpaceAfter=No
 12	-	-	PUNCT	Punc	_	14	punct	_	SpaceAfter=No
-13-14	Akp'lilerin	_	_	_	_	_	_	_	_
-13	Akp	Akp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	conj	_	_
+13-14	AKP'lilerin	_	_	_	_	_	_	_	_
+13	AKP	AKP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	conj	_	_
 14	'lilerin	li	ADP	With	Case=Gen|Number=Plur|Person=3	13	case	_	_
 15	ederek	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	21	nmod	_	_
 16	Türk	Türk	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	17	nmod:poss	_	_
@@ -9829,7 +9830,7 @@
 
 # sent_id = mst-1089
 # text = CHP desteğini sürdürdü, vetolu yasa yine Köşk'e gitti.
-1	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 2	desteğini	destek	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 3	sürdürdü	sür	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	3	punct	_	_
@@ -10233,7 +10234,7 @@
 3-4	arasındaki	_	_	_	_	_	_	_	_
 3	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	amod	_	_
 4	ki	ki	ADP	Rel	_	3	case	_	_
-5	DYP'de	Dyp	NOUN	Abr	Abbr=Yes|Case=Loc|Number=Sing|Person=3	11	obl	_	_
+5	DYP'de	DYP	PROPN	Abr	Abbr=Yes|Case=Loc|Number=Sing|Person=3	11	obl	_	_
 6	ise	i	AUX	Conj	_	5	discourse	_	_
 7	gözle	göz	NOUN	Noun	Case=Ins|Number=Sing|Person=3	10	nmod	_	_
 8	görülür	gör	VERB	Verb	Aspect=Imp|Mood=Ind|Polarity=Pos|Tense=Aor|VerbForm=Part|Voice=Pass	7	compound	_	_
@@ -10549,16 +10550,16 @@
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-1177
-# text = " Bu arada Şelaleevleri'ne kaçırdığını sandığı yedideeki İstanbul-Diyarbakır seferi, iki saat kırkbeş dakika gecikmeyle dokuzkırkbeş'te kalkmıştı.
+# text = " Bu arada Şelaleevleri'ne kaçırdığını sandığı yedideki İstanbul-Diyarbakır seferi, iki saat kırkbeş dakika gecikmeyle dokuzkırkbeş'te kalkmıştı.
 1	"	"	PUNCT	Punc	_	0	root	_	_
 2	Bu	bu	DET	Det	_	1	conj	_	_
 3	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	2	compound	_	_
 4	Şelaleevleri'ne	Şelaleevleri	PROPN	Prop	Case=Dat|Number=Sing|Person=3	20	obl	_	_
 5	kaçırdığını	kaçır	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	obj	_	_
 6	sandığı	san	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
-7-8	yedideeki	_	_	_	_	_	_	_	_
+7-8	yedideki	_	_	_	_	_	_	_	_
 7	yedide	yedi	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	12	nummod	_	_
-8	eki	ki	ADP	Rel	_	7	case	_	_
+8	ki	ki	ADP	Rel	_	7	case	_	_
 9	İstanbul	İstanbul	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	SpaceAfter=No
 10	-	-	PUNCT	Punc	_	20	punct	_	SpaceAfter=No
 11	Diyarbakır	Diyarbakır	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	compound	_	_
@@ -10977,12 +10978,12 @@
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-1227
-# text = O tekke, binikiyuz'lü yıllardan kalmadır.
+# text = O tekke, binikiyüz'lü yıllardan kalmadır.
 1	O	o	DET	Det	_	2	det	_	_
 2	tekke	tekke	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	7	punct	_	_
-4-5	binikiyuz'lü	_	_	_	_	_	_	_	_
-4	binikiyuz	binikiyuz	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	7	obl	_	_
+4-5	binikiyüz'lü	_	_	_	_	_	_	_	_
+4	binikiyüz	binikiyüz	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	7	obl	_	_
 5	'lü	li	ADP	With	_	4	case	_	_
 6	yıllardan	yıl	NOUN	Noun	Case=Abl|Number=Plur|Person=3	4	flat	_	_
 7-8	kalmadır	_	_	_	_	_	_	_	SpaceAfter=No
@@ -12085,8 +12086,8 @@
 9	hükümet	hükümet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
 10	formülü	formül	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	15	acl	_	_
-12	DYP	Dyp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
-13	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	12	conj	_	SpaceAfter=No
+12	DYP	DYP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+13	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	12	conj	_	SpaceAfter=No
 14	-	-	PUNCT	Punc	_	13	punct	_	SpaceAfter=No
 15	koalisyonunun	koalisyon	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod:poss	_	_
 16	gerçekleşmesi	gerçekleş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	17	nmod:poss	_	_
@@ -16555,7 +16556,7 @@
 # sent_id = mst-1851
 # text = Kokteyle CHP Genel Başkanı Deniz Baykal ile çok sayıda partili katıldı.
 1	Kokteyle	kokteyl	NOUN	Noun	Case=Dat|Number=Sing|Person=3	11	obl	_	_
-2	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+2	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 3	Genel	genel	ADJ	Adj	_	4	amod	_	_
 4	Başkanı	başkan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	Deniz	Deniz	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
@@ -19497,11 +19498,11 @@
 14	.	.	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = mst-2159
-# text = Chp'lilerin tarım ve sağlık sektörüne destek amacıyla verdiği önergeler ise " gider Başesgioğlu " olduğu gerekçesiyle kabul edilmedi.
+# text = CHP'lilerin tarım ve sağlık sektörüne destek amacıyla verdiği önergeler ise " gider Başesgioğlu " olduğu gerekçesiyle kabul edilmedi.
 # Change 2.2/dev: merge li + lerin
 # Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
-1-2	Chp'lilerin	_	_	_	_	_	_	_	_
-1	Chp	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+1-2	CHP'lilerin	_	_	_	_	_	_	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
 2	'lilerin	li	ADP	With	Case=Gen|Number=Plur|Person=3	1	case	_	_
 3	tarım	tarım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 4	ve	ve	CCONJ	Conj	_	5	cc	_	_
@@ -20013,7 +20014,7 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2209
-# text = Bunun üzerine askeri savcılıktan bir defa daha talepte bulunup Ankara Asliye Hukuk mahkemesindeeki davanın selahiyeti açısından raporları eksiksiz görmek istediklerini belirttiler.
+# text = Bunun üzerine askeri savcılıktan bir defa daha talepte bulunup Ankara Asliye Hukuk mahkemesindeki davanın selahiyeti açısından raporları eksiksiz görmek istediklerini belirttiler.
 1	Bunun	bu	PRON	Demons	Case=Gen|Number=Sing|Person=3|PronType=Dem	2	nmod:poss	_	_
 2	üzerine	üzer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 3	askeri	askeri	ADJ	Adj	_	4	amod	_	_
@@ -20026,7 +20027,7 @@
 10	Ankara	Ankara	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nmod	_	_
 11	Asliye	asliye	ADJ	Adj	_	10	flat	_	_
 12	Hukuk	hukuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	flat	_	_
-13-14	mahkemesindeeki	_	_	_	_	_	_	_	_
+13-14	mahkemesindeki	_	_	_	_	_	_	_	_
 13	mahkemesinde	mahkeme	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	flat	_	_
 14	eki	ki	ADP	Rel	_	10	case	_	_
 15	davanın	dava	NOUN	Noun	Case=Gen|Number=Sing|Person=3	16	nmod:poss	_	_
@@ -22622,8 +22623,8 @@
 6	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2522
-# text = Dışardaaki çadırda Şura ekmek hazırlıyor.
-1-2	Dışardaaki	_	_	_	_	_	_	_	_
+# text = Dışardaki çadırda Şura ekmek hazırlıyor.
+1-2	Dışardaki	_	_	_	_	_	_	_	_
 1	Dışarda	dışarı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	obl	_	_
 2	aki	ki	ADP	Rel	_	1	case	_	_
 3	çadırda	çadır	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	obl	_	_
@@ -24077,7 +24078,7 @@
 1	Geçen	geç	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	2	acl	_	_
 2	süre	süre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	zarfında	zarf	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
-4	İMKB'nin	İmkb	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
+4	İMKB'nin	İMKB	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
 5	kısa	kısa	ADJ	Adj	_	6	amod	_	_
 6	tarihinde	tarih	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 7	de	de	CCONJ	Conj	_	6	advmod:emph	_	_
@@ -25456,7 +25457,7 @@
 6	1.Şub	1.Şub	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	14	nsubj	_	_
 7	yıl	yıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	içinde	iç	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	amod	_	_
-9	İMKB	İmkb	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+9	İMKB	İMKB	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
 10	yuz	yuz	NUM	ANum	NumType=Card	11	nummod	_	_
 11	Endeksi'nin	endeks	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:poss	_	_
 12	yuzon	yuzon	NUM	ANum	NumType=Card	14	nummod	_	_
@@ -25854,7 +25855,7 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2863
-# text = Toplantıyı evinde yapacak olan kişi, Sakarya caddesindeeki iki büyük bakkaldan, ya da Bulvar üzerindeki Trakya Şarküterisi'nden peynir, salam, tarama, Rus salatası, dolma gibi şeyler alırdı.
+# text = Toplantıyı evinde yapacak olan kişi, Sakarya caddesindeki iki büyük bakkaldan, ya da Bulvar üzerindeki Trakya Şarküterisi'nden peynir, salam, tarama, Rus salatası, dolma gibi şeyler alırdı.
 1	Toplantıyı	toplantı	NOUN	Noun	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 2	evinde	ev	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 3	yapacak	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	5	acl	_	_
@@ -25862,7 +25863,7 @@
 5	kişi	kişi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	33	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	33	punct	_	_
 7	Sakarya	Sakarya	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
-8-9	caddesindeeki	_	_	_	_	_	_	_	_
+8-9	caddesindeki	_	_	_	_	_	_	_	_
 8	caddesinde	cadde	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	flat	_	_
 9	eki	ki	ADP	Rel	_	7	case	_	_
 10	iki	iki	NUM	ANum	NumType=Card	11	nummod	_	_
@@ -26165,7 +26166,7 @@
 
 # sent_id = mst-2903
 # text = CHP Genel Sekreter Yardımcısı Algan Hacaloğlu'nun hazırladığı pakette, " Kürt sorunu " ve " Güneydoğu sorunu " ifadeleri yerine " etnik duyarlılıklara demokratik çözüm " ve " kültürel çoğulculuk " kavramları tercih edildi.
-1	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 2	Genel	genel	ADJ	Adj	_	3	advmod:emph	_	_
 3	Sekreter	sekreter	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	Yardımcısı	yardımcı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
@@ -26317,7 +26318,7 @@
 
 # sent_id = mst-2924
 # text = DYP Genel Başkanlığı için Türkiye turuna çıkan Elazığ Milletvekili Mehmet Ağar, hakkında çıkarılan şaibe söylentilerinin arkasında başka hesaplar olduğunu savunarak, " Benim için şu anda hukuki problem yok.
-1	DYP	Dyp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+1	DYP	DYP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 2	Genel	genel	ADJ	Adj	_	3	nmod:poss	_	_
 3	Başkanlığı	başkanlık	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 4	için	için	ADP	PCNom	_	3	case	_	_
@@ -29048,7 +29049,7 @@
 
 # sent_id = mst-3230
 # text = CHP de sıcak bakıyor.
-1	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
 3	sıcak	sıcak	ADJ	Adj	_	4	amod	_	_
 4	bakıyor	bak	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
@@ -29283,11 +29284,11 @@
 
 # sent_id = mst-3257
 # text = DYP Trabzon İl AKP'li partililere seslenen Ağar, Tansu Çiller'i üstü kapalı şekilde eleştirmeyi sürdürdü.
-1	DYP	Dyp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	compound	_	_
+1	DYP	DYP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	compound	_	_
 2	Trabzon	Trabzon	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	compound	_	_
 3	İl	il	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	compound	_	_
 4-5	AKP'li	_	_	_	_	_	_	_	_
-4	AKP	Akp	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+4	AKP	AKP	PROPN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 5	'li	li	ADP	With	_	4	case	_	_
 6	partililere	partili	ADJ	NAdj	Case=Dat|Number=Plur|Person=3	7	amod	_	_
 7	seslenen	seslen	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
@@ -37326,7 +37327,7 @@
 7	sistem	sistem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	üzerinde	üzer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 9	adeta	adeta	ADV	Adverb	_	10	advmod	_	_
-10	AKP	Akp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	12	obl	_	_
+10	AKP	AKP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	12	obl	_	_
 11	gibi	gibi	ADP	PCNom	_	10	case	_	_
 12	oturan	otur	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	14	acl	_	_
 13	birkaç	birkaç	DET	Det	_	14	det	_	_
@@ -37350,7 +37351,7 @@
 
 # sent_id = mst-4169
 # text = AKP milletvekillerinin Erbakan'ın iddiasıyla ilgili görüşleri şöyle:.
-1	AKP	Akp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+1	AKP	AKP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	milletvekillerinin	milletvekili	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	6	nmod	_	_
 3	Erbakan'ın	Erbakan	PROPN	Prop	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	iddiasıyla	iddia	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
@@ -37781,10 +37782,10 @@
 13	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-4225
-# text = otuz'dan itibaren dışardaaki hava sıcaklığının artmasından dolayı karlar erimeye başlamıştır.
+# text = otuz'dan itibaren dışardaki hava sıcaklığının artmasından dolayı karlar erimeye başlamıştır.
 1	otuz'dan	otuz	NUM	NNum	Case=Abl|Number=Sing|NumType=Card|Person=3	7	nummod	_	_
 2	itibaren	itibaren	ADP	PCAbl	_	1	case	_	_
-3-4	dışardaaki	_	_	_	_	_	_	_	_
+3-4	dışardaki	_	_	_	_	_	_	_	_
 3	dışarda	dışarı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	nmod	_	_
 4	aki	ki	ADP	Rel	_	3	case	_	_
 5	hava	hava	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
@@ -38713,14 +38714,14 @@
 27	.	.	PUNCT	Punc	_	26	punct	_	_
 
 # sent_id = mst-4311
-# text = En yüksek memur maaşı Başbakanlık müsteşarınınnki kabul edildiğinde ise yapılacak zam yüzsekiz milyon üçyüzseksendört bin beşyüz lira olacak.
+# text = En yüksek memur maaşı Başbakanlık müsteşarınınki kabul edildiğinde ise yapılacak zam yüzsekiz milyon üçyüzseksendört bin beşyüz lira olacak.
 # Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
 1	En	en	ADV	Adverb	_	2	advmod	_	_
 2	yüksek	yüksek	ADJ	Adj	_	4	amod	_	_
 3	memur	memur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	maaşı	maaş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 5	Başbakanlık	başbakanlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
-6-7	müsteşarınınnki	_	_	_	_	_	_	_	_
+6-7	müsteşarınınki	_	_	_	_	_	_	_	_
 6	müsteşarının	müsteşar	ADJ	NAdj	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 7	nki	ki	ADP	Rel	Case=Nom|Number=Sing|Person=3	6	case	_	_
 8	kabul	kabul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	obl	_	_
@@ -38914,7 +38915,7 @@
 
 # sent_id = mst-4333
 # text = CHP Genel Başkanı Deniz Baykal da, Kıbrıs yaklaşımı nedeniyle " derin devletin son temsilcisi " diye tanımlanarak protesto edildi.
-1	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	compound	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	compound	_	_
 2	Genel	genel	ADJ	Adj	_	3	amod	_	_
 3	Başkanı	başkan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	compound	_	_
 4	Deniz	Deniz	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
@@ -40711,7 +40712,7 @@
 
 # sent_id = mst-4530
 # text = CHP milletvekilleri dün akşam Devlet Konukevi'nde düzenlenen kokteylle tanıştı.
-1	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	milletvekilleri	milletvekili	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	9	nsubj	_	_
 3	dün	dün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	akşam	akşam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obl	_	_
@@ -40792,7 +40793,7 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-4538
-# text = Çağdaş Sanatlar Merkezi önünde toplanan grup, Atatürk bulvarındaaki trafiği bir süre durdurarak, elçilik önüne kadar sloganlarla yürüdü.
+# text = Çağdaş Sanatlar Merkezi önünde toplanan grup, Atatürk bulvarındaki trafiği bir süre durdurarak, elçilik önüne kadar sloganlarla yürüdü.
 1	Çağdaş	çağdaş	ADJ	Adj	_	4	amod	_	_
 2	Sanatlar	sanat	NOUN	Noun	Case=Nom|Number=Plur|Person=3	1	flat	_	_
 3	Merkezi	merkez	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
@@ -40801,7 +40802,7 @@
 6	grup	grup	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	14	punct	_	_
 8	Atatürk	Atatürk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
-9-10	bulvarındaaki	_	_	_	_	_	_	_	_
+9-10	bulvarındaki	_	_	_	_	_	_	_	_
 9	bulvarında	bulvar	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	flat	_	_
 10	aki	ki	ADP	Rel	_	8	case	_	_
 11	trafiği	trafik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
@@ -42990,35 +42991,33 @@
 14	.	.	PUNCT	Punc	_	13	punct	_	_
 
 # sent_id = mst-4812
-# text = Hitler'in Almanya için kimi iyi şeyler yaptığına, Karl marks'ın dört ayak üstünde çocukları sırtında gezdiren, büyümeyen bir çocuk olarak kaldığına hayretle muttali oluyorsunuz.
+# text = Hitler'in Almanya için kimi iyi şeyler yaptığına, Karl Marks'ın dört ayak üstünde çocukları sırtında gezdiren, büyümeyen bir çocuk olarak kaldığına hayretle muttali oluyorsunuz.
 1	Hitler'in	Hitler	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 2	Almanya	Almanya	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 3	için	için	ADP	PCNom	_	2	case	_	_
 4	kimi	kimi	DET	Det	_	6	det	_	_
 5	iyi	iyi	ADJ	Adj	_	6	amod	_	_
 6	şeyler	şey	NOUN	Noun	Case=Nom|Number=Plur|Person=3	7	obj	_	_
-7	yaptığına	yap	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	26	acl	_	SpaceAfter=No
+7	yaptığına	yap	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	25	acl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	23	punct	_	_
-9	Karl	Karl	PROPN	Prop	Case=Nom|Number=Sing|Person=3	23	nmod:poss	_	_
-10-11	marks'ın	_	_	_	_	_	_	_	_
-10	mark	mark	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	flat	_	_
-11	s'ın	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	9	cop	_	_
-12	dört	dört	NUM	ANum	NumType=Card	13	nummod	_	_
-13	ayak	ayak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
-14	üstünde	üst	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	amod	_	_
-15	çocukları	çocuk	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	17	obj	_	_
-16	sırtında	sırt	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
-17	gezdiren	gez	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	21	acl	_	SpaceAfter=No
-18	,	,	PUNCT	Punc	_	19	punct	_	_
-19	büyümeyen	büyü	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part	17	conj	_	_
-20	bir	bir	NUM	ANum	NumType=Card	21	det	_	_
-21	çocuk	çocuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	obl	_	_
-22	olarak	olarak	ADP	PCNom	_	21	case	_	_
-23	kaldığına	kal	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
-24	hayretle	hayret	NOUN	Noun	Case=Ins|Number=Sing|Person=3	26	obl	_	_
-25	muttali	muttali	ADJ	Adj	_	26	obj	_	_
-26	oluyorsunuz	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
-27	.	.	PUNCT	Punc	_	26	punct	_	_
+9	Karl	Karl	PROPN	Prop	Case=Nom|Number=Sing|Person=3	22	nmod:poss	_	_
+10	Marks'ın	Marks	PROPN	Noun	Case=Gen|Number=Sing|Person=3	9	flat	_	_
+11	dört	dört	NUM	ANum	NumType=Card	12	nummod	_	_
+12	ayak	ayak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
+13	üstünde	üst	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	amod	_	_
+14	çocukları	çocuk	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obj	_	_
+15	sırtında	sırt	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
+16	gezdiren	gez	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	20	acl	_	SpaceAfter=No
+17	,	,	PUNCT	Punc	_	18	punct	_	_
+18	büyümeyen	büyü	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part	16	conj	_	_
+19	bir	bir	NUM	ANum	NumType=Card	20	det	_	_
+20	çocuk	çocuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	obl	_	_
+21	olarak	olarak	ADP	PCNom	_	20	case	_	_
+22	kaldığına	kal	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+23	hayretle	hayret	NOUN	Noun	Case=Ins|Number=Sing|Person=3	25	obl	_	_
+24	muttali	muttali	ADJ	Adj	_	25	obj	_	_
+25	oluyorsunuz	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	Punc	_	25	punct	_	_
 
 # sent_id = mst-4816
 # text = Irak'ta savaş tehdidi yanısıra, Amerika'nın baskısına rağmen AB için Türkiye'ye müzakere tarihi verilmeyeceği yönündeki sinyaller piyasada moral bozdu.
@@ -45039,7 +45038,7 @@
 2	hisse	hisse	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	oranları	oran	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 4	arttıkça	art	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	10	nmod	_	_
-5	İMKB	İmkb	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+5	İMKB	İMKB	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 6	ve	ve	CCONJ	Conj	_	7	cc	_	_
 7	fon	fon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	conj	_	_
 8	getirisi	getiri	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
@@ -46819,7 +46818,7 @@
 7	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-5272
-# text = Sanayi ve Ticaret Bakanı Ali Coşkun Tüketici yasasındaaki değişikliğin iki hafta içinde TBMM'ye sunulacağını bildirdi.
+# text = Sanayi ve Ticaret Bakanı Ali Coşkun Tüketici yasasındaki değişikliğin iki hafta içinde TBMM'ye sunulacağını bildirdi.
 1	Sanayi	sanayi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nsubj	_	_
 2	ve	ve	CCONJ	Conj	_	1	compound	_	_
 3	Ticaret	ticaret	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	compound	_	_
@@ -46827,7 +46826,7 @@
 5	Ali	Ali	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 6	Coşkun	Coşkun	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	compound	_	_
 7	Tüketici	tüketici	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-8-9	yasasındaaki	_	_	_	_	_	_	_	_
+8-9	yasasındaki	_	_	_	_	_	_	_	_
 8	yasasında	yasa	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	compound	_	_
 9	aki	ki	ADP	Rel	_	7	case	_	_
 10	değişikliğin	değişiklik	NOUN	Noun	Case=Gen|Number=Sing|Person=3	15	nmod:poss	_	_
@@ -47692,7 +47691,7 @@
 24	,	,	PUNCT	Punc	_	35	punct	_	_
 25	aynı	aynı	ADJ	Adj	_	35	amod	_	_
 26	zamanda	zaman	NOUN	Noun	Case=Loc|Number=Sing|Person=3	25	compound	_	_
-27	AKP'nin	Akp	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	29	nmod:poss	_	_
+27	AKP'nin	AKP	PROPN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	29	nmod:poss	_	_
 28	istihdamın	istihdam	NOUN	Noun	Case=Gen|Number=Sing|Person=3	27	conj	_	_
 29	önünde	ön	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	30	amod	_	_
 30	yükselen	yüksel	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	31	acl	_	_
@@ -48328,7 +48327,7 @@
 
 # sent_id = mst-5423
 # text = CHP de sıcak.
-1	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+1	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
 3	sıcak	sıcak	ADJ	Adj	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
@@ -49426,7 +49425,7 @@
 1	Heyette	heyet	NOUN	Noun	Case=Loc|Number=Sing|Person=3	2	nmod	_	_
 2	yer	yer	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 3	alan	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	2	compound	_	_
-4	CHP	Chp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+4	CHP	CHP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 5	İzmir	İzmir	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	Milletvekili	milletvekili	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 7	Erdal	Erdal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	24	nsubj	_	_

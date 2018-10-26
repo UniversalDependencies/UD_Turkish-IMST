@@ -544,7 +544,7 @@
 8	kimi	kimi	DET	Det	_	9	det	_	_
 9	tepelerde	tepe	NOUN	Noun	Case=Loc|Number=Plur|Person=3	1	conj	_	_
 10	oturup	otur	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	14	nmod	_	_
-11	DYP'ye	Dyp	NOUN	Abr	Abbr=Yes|Case=Dat|Number=Sing|Person=3	14	obl	_	_
+11	DYP'ye	DYP	PROPN	Abr	Abbr=Yes|Case=Dat|Number=Sing|Person=3	14	obl	_	_
 12	icazetle	icazet	NOUN	Noun	Case=Ins|Number=Sing|Person=3	14	obl	_	_
 13	başkan	başkan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	obj	_	_
 14	olma	ol	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	15	nmod:poss	_	_
@@ -714,10 +714,11 @@
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-0327
-# text = İMKB'nin orta ve uzun vadeli getiri potansiyelinden yararlanmak isteyen yatırımcılar için iki alternatif var: Risk alabilen yatırımcılar için A tipi endeks ve hisse fonlar veya İmkb'deki potansiyelden yararlanırken fazla risk almak istemiyorum diyenler için ise A tipi karma ve değişken fonlar.
+# text = İMKB'nin orta ve uzun vadeli getiri potansiyelinden yararlanmak isteyen yatırımcılar için iki alternatif var: Risk alabilen yatırımcılar için A tipi endeks ve hisse fonlar veya İMKB'deki potansiyelden yararlanırken fazla risk almak istemiyorum diyenler için ise A tipi karma ve değişken fonlar.
 # Change 2.2/dev: merge -(y)An
 # Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
-1	İMKB'nin	İmkb	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
+# Change 2.2/dev: fix 'lowercasing' of İMKB
+1	İMKB'nin	İMKB	PROPN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 2	orta	orta	ADJ	Adj	_	5	amod	_	_
 3	ve	ve	CCONJ	Conj	_	4	cc	_	_
 4	uzun	uzun	ADJ	Adj	_	2	conj	_	_
@@ -745,8 +746,8 @@
 25	hisse	hisse	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	conj	_	_
 26	fonlar	fon	NOUN	Noun	Case=Nom|Number=Plur|Person=3	23	compound	_	_
 27	veya	veya	CCONJ	Conj	_	44	cc	_	_
-28-29	İmkb'deki	_	_	_	_	_	_	_	_
-28	İmkb'de	İmkb	PROPN	Prop	Case=Loc|Number=Sing|Person=3	30	nmod	_	_
+28-29	İMKB'deki	_	_	_	_	_	_	_	_
+28	İMKB'de	İMKB	PROPN	Prop	Case=Loc|Number=Sing|Person=3	30	nmod	_	_
 29	ki	ki	ADP	Rel	_	28	case	_	_
 30	potansiyelden	potansiyel	NOUN	Noun	Case=Abl|Number=Sing|Person=3	31	obl	_	_
 31	yararlanırken	yararlan	VERB	Verb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	33	nmod	_	_
@@ -2784,10 +2785,11 @@
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-1204
-# text = Ben bir tutsakım, dedi.
+# text = Ben bir tutsağım, dedi.
+# Change 2.2/dev: fix 'tutsa*k*ım' - original is 'tutsağım'
 1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	bir	bir	NUM	ANum	NumType=Card	3	det	_	_
-3-4	tutsakım	_	_	_	_	_	_	_	SpaceAfter=No
+3-4	tutsağım	_	_	_	_	_	_	_	SpaceAfter=No
 3	tutsak	tutsak	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	ccomp	_	_
 4	ım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	cop	_	_
 5	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -8404,12 +8406,13 @@
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3560
-# text = Rallici Behzat ', yedideeki Diyarbakır uçağını uyuyakaldığı için kaçırdı ve akşam düşen uçağa bindi.
+# text = Rallici Behzat ', yedideki Diyarbakır uçağını uyuyakaldığı için kaçırdı ve akşam düşen uçağa bindi.
+# Change 2.2/dev: fix typo (not in the original, introduced later)
 1	Rallici	rallici	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	Behzat	Behzat	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 3	'	'	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	11	punct	_	_
-5-6	yedideeki	_	_	_	_	_	_	_	_
+5-6	yedideki	_	_	_	_	_	_	_	_
 5	yedide	yedi	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	8	nmod:poss	_	_
 6	eki	ki	ADP	Rel	_	5	case	_	_
 7	Diyarbakır	Diyarbakır	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
@@ -10508,16 +10511,18 @@
 
 # sent_id = mst-4437
 # text = -Evet, ben de üstün zekalıyım.
+# Change 2.2/dev: split -lI
 1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
 2	Evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	7	punct	_	_
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 5	de	de	CCONJ	Conj	_	4	advmod:emph	_	_
 6	üstün	üstün	ADJ	Adj	_	7	amod	_	_
-7-8	zekalıyım	_	_	_	_	_	_	_	SpaceAfter=No
+7-9	zekalıyım	_	_	_	_	_	_	_	SpaceAfter=No
 7	zekalı	zekâlı	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-8	yım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	cop	_	_
-9	.	.	PUNCT	Punc	_	7	punct	_	_
+8	lı	li	ADP	With	_	7	case	_	_
+9	yım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	cop	_	_
+10	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-4441
 # text = Böylece hem yalan söylememiş olduk, hem de Harbiyelinin işini kolaylaştırdık.
@@ -10807,10 +10812,11 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-4567
-# text = Yeni İhale kanunundaaki " yerlilik " tanımı, Türkiye'de yıllardır faaliyet gösteren, yerleşik yabancı sermayeli şirketlerin faaliyetini sınırlandırdı.
+# text = Yeni İhale kanunundaki " yerlilik " tanımı, Türkiye'de yıllardır faaliyet gösteren, yerleşik yabancı sermayeli şirketlerin faaliyetini sınırlandırdı.
+# Change 2.2/dev: fix typo (not in the original, introduced later)
 1	Yeni	yeni	ADJ	Adj	_	2	amod	_	_
 2	İhale	ihale	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-3-4	kanunundaaki	_	_	_	_	_	_	_	_
+3-4	kanunundaki	_	_	_	_	_	_	_	_
 3	kanununda	kanun	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	compound	_	_
 4	aki	ki	ADP	Rel	_	2	case	_	_
 5	"	"	PUNCT	Punc	_	6	punct	_	_
@@ -12786,10 +12792,11 @@
 2	nakil	nakil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	girişimlerinden	girişim	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	5	obl	_	_
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
-5-6	haberliyim	_	_	_	_	_	_	_	SpaceAfter=No
+5-7	haberliyim	_	_	_	_	_	_	_	SpaceAfter=No
 5	haberli	haberli	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-6	yim	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	cop	_	_
-7	...	...	PUNCT	Punc	_	5	conj	_	_
+6	li	li		ADP	With	_	5	case	_	_
+7	yim	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	cop	_	_
+8	...	...	PUNCT	Punc	_	5	conj	_	_
 
 # sent_id = mst-5464
 # text = Kendisini gönülden kutluyorum.
@@ -12864,7 +12871,8 @@
 14	.	.	PUNCT	Punc	_	13	punct	_	_
 
 # sent_id = mst-5499
-# text = Gördüğünüz gibi, hiçbir zaman kurtulamayacak, özgür olamayacak bir tutsakım ben.
+# text = Gördüğünüz gibi, hiçbir zaman kurtulamayacak, özgür olamayacak bir tutsağım ben.
+# Change 2.2/dev: fix 'tutsa*k*ım' - original is 'tutsağım'
 1	Gördüğünüz	gör	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 2	gibi	gibi	ADP	PCNom	_	1	case	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	13	punct	_	_
@@ -12875,7 +12883,7 @@
 8	özgür	özgür	ADJ	Adj	_	9	obj	_	_
 9	olamayacak	ol	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Fut	6	conj	_	_
 10	bir	bir	NUM	ANum	NumType=Card	11	det	_	_
-11-12	tutsakım	_	_	_	_	_	_	_	_
+11-12	tutsağım	_	_	_	_	_	_	_	_
 11	tutsak	tutsak	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	13	ccomp	_	_
 12	ım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	11	cop	_	_
 13	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	SpaceAfter=No

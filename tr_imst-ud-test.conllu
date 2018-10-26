@@ -2993,7 +2993,7 @@
 # text = Toplantıda DYP'li kadınlar, Çiller'in kendileriyle görüşmemesi üzerine, " En çok biz çalışıyoruz.
 1	Toplantıda	toplantı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	9	nmod	_	_
 2-3	DYP'li	_	_	_	_	_	_	_	_
-2	DYP	Dyp	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	compound	_	_
+2	DYP	DYP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	compound	_	_
 3	'li	li	ADP	With	_	2	case	_	_
 4	kadınlar	kadın	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	9	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	9	punct	_	_
@@ -7240,7 +7240,7 @@
 
 # sent_id = mst-3101
 # text = İMKB'nin uzun vadeli ortalaması yuzon sent seviyesinden geçiyor.
-1	İMKB'nin	İmkb	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
+1	İMKB'nin	İMKB	PROPN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
 2	uzun	uzun	ADJ	Adj	_	3	amod	_	_
 3-4	vadeli	_	_	_	_	_	_	_	_
 3	vade	vade	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
@@ -11507,9 +11507,9 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-4911
-# text = İtü'lüdür ama dediğini bilen biridir Ayhan.
-1-3	İtü'lüdür	_	_	_	_	_	_	_	_
-1	İtü	İtü	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
+# text = İTÜ'lüdür ama dediğini bilen biridir Ayhan.
+1-3	İTÜ'lüdür	_	_	_	_	_	_	_	_
+1	İTÜ	İTÜ	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	'lü	li	ADP	With	_	1	case	_	_
 3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 4	ama	ama	CCONJ	Conj	_	7	cc	_	_
@@ -12356,7 +12356,7 @@
 # sent_id = mst-5308
 # text = Aslında İMKB ve A tipi fon performansları arasındaki ilişki tamamen fon türleriyle ilintili.
 1	Aslında	aslında	ADV	Adverb	_	14	advmod	_	_
-2	İMKB	İmkb	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
+2	İMKB	İMKB	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 3	ve	ve	CCONJ	Conj	_	6	cc	_	_
 4	A	a	INTJ	Interj	_	14	discourse	_	_
 5	tipi	tip	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	compound	_	_
