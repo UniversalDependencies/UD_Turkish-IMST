@@ -2790,7 +2790,7 @@
 19	.	.	PUNCT	Punc	_	18	punct	_	_
 
 # sent_id = mst-1188
-# text = Kadınların ve erkeklerin alışveriş şekillerinde ne gibi farklılık var?.
+# text = Kadınların ve erkeklerin alışveriş şekillerinde ne gibi farklılık var?
 1	Kadınların	kadın	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	4	amod	_	_
 2	ve	ve	CCONJ	Conj	_	3	cc	_	_
 3	erkeklerin	erkek	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	1	conj	_	_
@@ -2801,7 +2801,6 @@
 8	farklılık	farklılık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
 9	var	var	ADJ	Adj	_	0	root	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-1195
 # text = Milletle alay eden reklamlardan iyidir...
@@ -3297,7 +3296,7 @@
 12	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-1417
-# text = Nesrin: Yani bir sorununu başkasıyla konuşmak değil, buna günah çıkarma adı vermek mi rahatlatacak?.
+# text = Nesrin: Yani bir sorununu başkasıyla konuşmak değil, buna günah çıkarma adı vermek mi rahatlatacak?
 1	Nesrin	Nesrin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Punc	_	8	punct	_	_
 3	Yani	yani	CCONJ	Conj	_	8	cc	_	_
@@ -3315,7 +3314,6 @@
 15	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux:q	_	_
 16	rahatlatacak	rahatla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|Voice=Cau	8	conj	_	SpaceAfter=No
 17	?	?	PUNCT	Punc	_	16	punct	_	SpaceAfter=No
-18	.	.	PUNCT	Punc	_	16	punct	_	_
 
 # sent_id = mst-1420
 # text = Niçin? Niçin bir giren bir daha çıkamaz oradan? diye sordum.
@@ -6496,7 +6494,7 @@
 12	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-2753
-# text = Yarın o araba benim!. dedi, biri Memo'ya bakarak.
+# text = Yarın o araba benim!... dedi, biri Memo'ya bakarak.
 1	Yarın	yarın	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 2	o	o	DET	Det	_	3	det	_	_
 3	araba	araba	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obj	_	_
@@ -6504,7 +6502,7 @@
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	ccomp	_	_
 5	im	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	_
 6	!	!	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
-7	.	.	PUNCT	Punc	_	8	punct	_	_
+7	...	...	PUNCT	Punc	_	8	punct	_	_
 8	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	8	punct	_	_
 10	biri	bir	NUM	NNum	Case=Acc|Number=Sing|NumType=Card|Person=3	8	nsubj	_	_
@@ -11479,7 +11477,7 @@
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-4901
-# text = Ben mi senin üstüne köpeği saldırttım?.
+# text = Ben mi senin üstüne köpeği saldırttım?
 1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	senin	sen	PRON	Pers	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
@@ -11487,7 +11485,6 @@
 5	köpeği	köpek	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 6	saldırttım	sal	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	6	punct	_	SpaceAfter=No
-8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-4905
 # text = Domates, ikisine de uyar.
@@ -12765,7 +12762,7 @@
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-5455
-# text = Kadınlar satın alırken daha mı detaylı inceleme yaparlar?.
+# text = Kadınlar satın alırken daha mı detaylı inceleme yaparlar?
 1	Kadınlar	kadın	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 2	satın	satın	ADV	Adverb	_	8	advmod	_	_
 3	alırken	al	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	2	compound	_	_
@@ -12777,7 +12774,6 @@
 8	inceleme	incele	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	_
 9	yaparlar	yap	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	8	compound:lvc	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-5463
 # text = TKP Genel Sekreteri Kemal Okuyan, partisinin televizyon stüdyolarına, iç mekanlara hapsedilemeyeceğini belirterek, " Bize miting hakkı vermeseler de yine alanlara çıkarız.
@@ -12924,7 +12920,7 @@
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-5532
-# text = Memo bozuldu, Ağzını topla, ben hırsız mıyım?.
+# text = Memo bozuldu, Ağzını topla, ben hırsız mıyım?
 1	Memo	Memo	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	bozuldu	boz	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
@@ -12935,7 +12931,6 @@
 8	hırsız	hırsız	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 9	mıyım	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	aux:q	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-5539
 # text = Sen karıştırma, dedi Ramiz.

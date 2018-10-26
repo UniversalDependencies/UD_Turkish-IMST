@@ -4783,7 +4783,7 @@
 14	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-2023
-# text = Ama sen ille de olmaz dersen kim sana bunu dayatabilir?.
+# text = Ama sen ille de olmaz dersen kim sana bunu dayatabilir?
 1	Ama	ama	CCONJ	Conj	_	0	root	_	_
 2	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 3	ille	ille	ADV	Adverb	_	6	advmod	_	_
@@ -4795,7 +4795,6 @@
 9	bunu	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	10	obj	_	_
 10	dayatabilir	daya	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau	6	conj	_	SpaceAfter=No
 11	?	?	PUNCT	Punc	_	10	punct	_	SpaceAfter=No
-12	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = mst-2028
 # text = Memo keyifle bağırdı: Ben iş diye buna derim iste!...
@@ -9630,7 +9629,7 @@
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-4065
-# text = Bu işin sonu nereye varır bilinmiyor, ancak tutkunları, SUV'ları kullanmakta fena halde ısrarlı!.
+# text = Bu işin sonu nereye varır bilinmiyor, ancak tutkunları, SUV'ları kullanmakta fena halde ısrarlı!
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	işin	iş	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 3	sonu	son	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
@@ -9647,7 +9646,6 @@
 14	halde	hal	NOUN	Noun	Case=Loc|Number=Sing|Person=3	15	obl	_	_
 15	ısrarlı	ısrarlı	ADJ	Adj	_	6	conj	_	SpaceAfter=No
 16	!	!	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
-17	.	.	PUNCT	Punc	_	15	punct	_	_
 
 # sent_id = mst-4075
 # text = Bilerek.
@@ -11306,7 +11304,7 @@
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-4815
-# text = Melek sana bir döner ısmarlayayım mı?.
+# text = Melek sana bir döner ısmarlayayım mı?
 1	Melek	Melek	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
 3	bir	bir	NUM	ANum	NumType=Card	4	det	_	_
@@ -11314,7 +11312,6 @@
 5	ısmarlayayım	ısmarla	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	1	conj	_	_
 6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
-8	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-4818
 # text = Bana şunu söyledi: Ben, dedi, askeri bir hakimim, fakat bu tahkikatın doğru yapıldığına ben de inanmadım.

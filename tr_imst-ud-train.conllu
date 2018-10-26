@@ -290,10 +290,9 @@
 15	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = mst-0042
-# text = Niye?.
+# text = Niye?
 1	Niye	niye	ADV	Adverb	_	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
-3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-0043
 # text = Tombul dizleri, masanın altından Mahmut'un dizlerine yapışmıştı.
@@ -3609,11 +3608,10 @@
 4	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-0406
-# text = Kim o?.
+# text = Kim o?
 1	Kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	o	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	?	?	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
-4	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-0407
 # text = Tibet'in tek hayranı ben değilim.
@@ -7990,13 +7988,12 @@
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-0897
-# text = Kim tamir edecekti beni?.
+# text = Kim tamir edecekti beni?
 1	Kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	tamir	tamir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	edecekti	et	VERB	Verb	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut,Past	2	compound:lvc	_	_
 4	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-0898
 # text = Kumru sabah akşam sarılıyormuş telefona.
@@ -12431,13 +12428,12 @@
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-1402
-# text = Sana olacağını nereden çıkarıyorsun?.
+# text = Sana olacağını nereden çıkarıyorsun?
 1	Sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
 2	olacağını	olacak	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 3	nereden	nere	PRON	Ques	Case=Abl|Number=Sing|Person=3	4	obl	_	_
 4	çıkarıyorsun	çıkar	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-1404
 # text = EN SON ANNESİNİ ARADI.
@@ -13824,7 +13820,7 @@
 20	.	.	PUNCT	Punc	_	18	punct	_	_
 
 # sent_id = mst-1540
-# text = Ben: Azıcık pencereyi açayım mı?.
+# text = Ben: Azıcık pencereyi açayım mı?
 1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	Punc	_	5	punct	_	_
 3	Azıcık	azıcık	ADV	Adverb	_	5	advmod	_	_
@@ -13832,7 +13828,6 @@
 5	açayım	aç	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	_
 6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
-8	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1542
 # text = ATO Başkanı Sinan Aygün, altı bankanın temerrüt faizini düşüreceğini, diğer bankalarla da görüşmelerin halen devam ettiğini söyledi.
@@ -14293,14 +14288,14 @@
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-1597
-# text = Koşarak ona yaklaştı heyecanla Abi!.
+# text = Koşarak ona yaklaştı heyecanla Abi!...
 1	Koşarak	koş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	3	nmod	_	_
 2	ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	yaklaştı	yaklaş	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	heyecanla	heyecan	NOUN	Noun	Case=Ins|Number=Sing|Person=3	3	obl	_	_
 5	Abi	abi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	conj	_	SpaceAfter=No
 6	!	!	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	Punc	_	5	punct	_	_
+7	...	...	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1599
 # text = Ama diye devam etti, Köpek kahverengiymiş, bazı yerleri beyaza daha yakınmış, Kahve onun için daha uygun bir isim.
@@ -16374,7 +16369,7 @@
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-1829
-# text = Orhan ümitle ona baktı, Sen bir şeyler düşünüyorsun?.
+# text = Orhan ümitle ona baktı, Sen bir şeyler düşünüyorsun?
 1	Orhan	Orhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 2	ümitle	ümit	NOUN	Noun	Case=Ins|Number=Sing|Person=3	4	obl	_	_
 3	ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
@@ -16385,7 +16380,6 @@
 8	şeyler	şey	NOUN	Noun	Case=Nom|Number=Plur|Person=3	9	obj	_	_
 9	düşünüyorsun	düşün	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	4	conj	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-1832
 # text = Eğer ilk anda şarlamazsanız, size ciddi ciddi şunu öneriyorum: Aramızdan birini tesbit edelim.
@@ -20260,13 +20254,12 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2232
-# text = Onları sekiz maddede tanıyalım!.
+# text = Onları sekiz maddede tanıyalım!
 1	Onları	o	PRON	Pers	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
 2	sekiz	sekiz	NUM	ANum	NumType=Card	3	nummod	_	_
 3	maddede	madde	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 4	tanıyalım	tanı	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2234
 # text = Uyandım ve sabah rolü bana verdiklerine dair telefon alacağımı bilerek tekrar uyudum.
@@ -23805,7 +23798,7 @@
 10	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-2636
-# text = Niye susmuştunuz ben dönüp baktığımda!?.
+# text = Niye susmuştunuz ben dönüp baktığımda!?
 1	Niye	niye	ADV	Adverb	_	2	advmod	_	_
 2	susmuştunuz	sus	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pqp	0	root	_	_
 3	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
@@ -23813,7 +23806,6 @@
 5	baktığımda	bak	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
 6	!	!	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
-8	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-2637
 # text = Gördün mü el konulduk bile.
@@ -25339,13 +25331,12 @@
 2	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-2800
-# text = Memurlar ne kadar alacak?.
+# text = Memurlar ne kadar alacak?
 1	Memurlar	memur	NOUN	Noun	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
 2	ne	ne	ADJ	Adj	_	4	amod	_	_
 3	kadar	kadar	ADP	PCDat	_	2	case	_	_
 4	alacak	al	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2801
 # text = Dikkatimi çeken herkesin bizim gibi özenli giyimiydi.
@@ -28517,12 +28508,11 @@
 14	.	.	PUNCT	Punc	_	13	punct	_	_
 
 # sent_id = mst-3168
-# text = Gözünü kapa Melek!.
+# text = Gözünü kapa Melek!
 1	Gözünü	göz	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	obj	_	_
 2	kapa	kapa	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
 3	Melek	Melek	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	obj	_	SpaceAfter=No
 4	!	!	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
-5	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3169
 # text = Saatine baktı.
@@ -29387,13 +29377,12 @@
 49	.	.	PUNCT	Punc	_	48	punct	_	_
 
 # sent_id = mst-3264
-# text = Yahu nasıl yaptırırız zorla?.
+# text = Yahu nasıl yaptırırız zorla?
 1	Yahu	yahu	INTJ	Interj	_	3	discourse	_	_
 2	nasıl	nasıl	ADV	Adverb	_	3	advmod	_	_
 3	yaptırırız	yap	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|Voice=Cau	0	root	_	_
 4	zorla	zor	ADJ	NAdj	Case=Ins|Number=Sing|Person=3	3	amod	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-3265
 # text = Koha kentinde işçiler için, hiçbir süsü olmayan, içinde ise oturacakların tüm gereksinimlerinin düşünüldüğü evler yaptı.
@@ -34111,7 +34100,7 @@
 7	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-3786
-# text = Bana bak, geliyorum yanına ha, kalk haydi!.
+# text = Bana bak, geliyorum yanına ha, kalk haydi!
 1	Bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 2	bak	bak	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
@@ -34122,7 +34111,6 @@
 8	kalk	kalk	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	2	conj	_	_
 9	haydi	haydi	INTJ	Interj	_	6	discourse	_	SpaceAfter=No
 10	!	!	PUNCT	Punc	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-3787
 # text = Öyle...
@@ -35510,12 +35498,11 @@
 19	.	.	PUNCT	Punc	_	18	punct	_	_
 
 # sent_id = mst-3935
-# text = Müşteri neyi sever?.
+# text = Müşteri neyi sever?
 1	Müşteri	müşteri	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 2	neyi	ne	PRON	Ques	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 3	sever	sev	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
-5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-3937
 # text = Algılanan dış dünyadaki herşey tanrı tarafından yaratılmıştır.
@@ -35931,7 +35918,7 @@
 14	.	.	PUNCT	Punc	_	13	punct	_	_
 
 # sent_id = mst-3991
-# text = Alışveriş bilimi neyi inceler?.
+# text = Alışveriş bilimi neyi inceler?
 1	Alışveriş	alışveriş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	bilimi	bilim	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 3	neyi	ne	PRON	Ques	Case=Acc|Number=Sing|Person=3	4	obj	_	_
@@ -35939,7 +35926,6 @@
 4	ince	ince	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	ler	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	cop	_	_
 6	?	?	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
-7	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-3993
 # text = Ama şimdi duramıyorum.
@@ -37303,12 +37289,11 @@
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-4164
-# text = Kadınlar ne ister?.
+# text = Kadınlar ne ister?
 1	Kadınlar	kadın	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 2	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	3	obj	_	_
 3	ister	iste	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
-5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-4165
 # text = Çocukları yok.
@@ -40647,7 +40632,7 @@
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-4522
-# text = Alışverişlerde çocukların etkisi nedir?.
+# text = Alışverişlerde çocukların etkisi nedir?
 # Fixed 2.2/dev: original sentence ID: 20210000-3/1
 1	Alışverişlerde	alışveriş	NOUN	Noun	Case=Loc|Number=Plur|Person=3	4	nmod	_	_
 2	çocukların	çocuk	NOUN	Noun	Case=Gen|Number=Plur|Person=3	3	nmod:poss	_	_
@@ -40656,7 +40641,6 @@
 4	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 6	?	?	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
-7	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-4523
 # text = Önceki gün saat onaltıotuz'da beni aradı.
@@ -42795,7 +42779,7 @@
 19	.	.	PUNCT	Punc	_	18	punct	_	_
 
 # sent_id = mst-4796
-# text = Melek her gün yüz bin lira kazansam, kış gelene kadar bir kondu alabilir miyiz?.
+# text = Melek her gün yüz bin lira kazansam, kış gelene kadar bir kondu alabilir miyiz?
 # Change 2.2/dev: merge -(y)An
 1	Melek	Melek	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	vocative	_	_
 2	her	her	DET	Det	_	7	det	_	_
@@ -42813,7 +42797,6 @@
 14	alabilir	al	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 15	miyiz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres	14	aux:q	_	SpaceAfter=No
 16	?	?	PUNCT	Punc	_	14	punct	_	SpaceAfter=No
-17	.	.	PUNCT	Punc	_	14	punct	_	_
 
 # sent_id = mst-4797
 # text = Ben Erbakan'ın yanında onun yanlışlarına ortak olsaydım kırk defa bakan olurdum, elli defa genel başkan olurdum.
@@ -47023,11 +47006,10 @@
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-5299
-# text = Ne malum?.
+# text = Ne malum?
 1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	malum	malum	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	1	compound	_	SpaceAfter=No
 3	?	?	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
-4	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-5300
 # text = Artık rehberimden utandığım için bağırıp kervanı durdurmasını istemiyor, hızlı planjonlarla, kızağa yeniden tırmanıyordum.
