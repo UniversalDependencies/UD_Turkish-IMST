@@ -28,12 +28,12 @@
 # sent_id = mst-0006
 # text = Karşısında, pantolonu dizlerine dek ıslak, önlük torbası ham eriklerle dolu İbrahim dikiliyordu.
 1	Karşısında	karşı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	amod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	14	punct	_	_
+2	,	,	PUNCT	Punc	_	6	punct	_	_
 3	pantolonu	pantolon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 4	dizlerine	diz	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 5	dek	dek	ADP	PCDat	_	4	case	_	_
 6	ıslak	ıslak	ADJ	Adj	_	13	amod	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	14	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	önlük	önlük	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
 9	torbası	torba	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obl	_	_
 10	ham	ham	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
