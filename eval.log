@@ -3,15 +3,15 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit 84636acc3287bc93b94b5ea7fb7c8e87aef13d1d
-Merge: 54c8b3b 5226ef9
+commit d98b8a01edfe0fb5d246dd69fe0a563cfcf582a2
+Merge: 814561f a6c9553
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 57859 of 57859 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.11601803260301.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
@@ -19,7 +19,7 @@ Features: 36722 out of 57859 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 10039 bugs.
+Udapi: found 10038 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 57859 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
@@ -33,10 +33,10 @@ Validity: 1
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.587456974431129) = 0.150629993443879
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.4005178903906) * (availability=1) * (validity=1) = 0.4005178903906
+(TOTAL score=0.434364044236753) * (availability=1) * (validity=1) = 0.434364044236753
 STARS = 2
-UD_Turkish-IMST	0.4005178903906	2
+UD_Turkish-IMST	0.434364044236753	2
