@@ -6,6 +6,43 @@
 4	vardı	var	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
+# sent_id = mst-0003
+# text = Sanal parçacıklarsa bunların hiçbirini yapamazlar.
+1	Sanal	sanal	ADJ	Adj	_	2	amod	_	_
+2-3	parçacıklarsa	_	_	_	_	_	_	_	_
+2	parçacıklar	parçacık	NOUN	Noun	Case=Nom|Number=Plur|Person=3	6	csubj	_	_
+3	sa	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+4	bunların	bu	PRON	Demons	Case=Gen|Number=Plur|Person=3|PronType=Dem	5	nmod:poss	_	_
+5	hiçbirini	hiçbiri	PRON	Quant	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind	6	obj	_	_
+6	yapamazlar	yap	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	_
+
+# sent_id = mst-0004
+# text = Ona her şeyimi verdim.
+1	Ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+2	her	her	DET	Det	_	4	obj	_	_
+3	şeyimi	şey	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	compound	_	_
+4	verdim	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Punc	_	4	punct	_	_
+
+# sent_id = mst-0006
+# text = Karşısında, pantolonu dizlerine dek ıslak, önlük torbası ham eriklerle dolu İbrahim dikiliyordu.
+1	Karşısında	karşı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	amod	_	SpaceAfter=No
+2	,	,	PUNCT	Punc	_	6	punct	_	_
+3	pantolonu	pantolon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
+4	dizlerine	diz	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+5	dek	dek	ADP	PCDat	_	4	case	_	_
+6	ıslak	ıslak	ADJ	Adj	_	13	amod	_	SpaceAfter=No
+7	,	,	PUNCT	Punc	_	6	punct	_	_
+8	önlük	önlük	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+9	torbası	torba	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obl	_	_
+10	ham	ham	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+11	eriklerle	erik	NOUN	Noun	Case=Ins|Number=Plur|Person=3	12	obl	_	_
+12	dolu	dolu	ADJ	Adj	_	13	amod	_	_
+13	İbrahim	İbrahim	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
+14	dikiliyordu	dikil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	Punc	_	14	punct	_	_
+
 # sent_id = mst-0007
 # text = İnşaatta çalışacak vasıfsız işçilerin alımında sözleşme gereği güzergah boyundaki köylerine öncelik verilecek.
 1	İnşaatta	inşaat	NOUN	Noun	Case=Loc|Number=Sing|Person=3	2	obl	_	_
@@ -23,6 +60,86 @@
 12	öncelik	öncelik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 13	verilecek	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|Voice=Pass	12	compound	_	SpaceAfter=No
 14	.	.	PUNCT	Punc	_	12	punct	_	_
+
+# sent_id = mst-0009
+# text = Nereden biliyorsunuz.
+1	Nereden	nere	PRON	Ques	Case=Abl|Number=Sing|Person=3	2	obl	_	_
+2	biliyorsunuz	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	Punc	_	2	punct	_	_
+
+# sent_id = mst-0010
+# text = Aradığımı Buldum Sandım.
+1	Aradığımı	ara	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	2	obj	_	_
+2	Buldum	bul	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	3	obj	_	_
+3	Sandım	san	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	3	punct	_	_
+
+# sent_id = mst-0011
+# text = Kahveleri bende içelim.
+1	Kahveleri	kahve	NOUN	Noun	Case=Acc|Number=Plur|Person=3	3	obj	_	_
+2	bende	ben	PRON	Pers	Case=Loc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	içelim	iç	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	3	punct	_	_
+
+# sent_id = mst-0012
+# text = Ne diyeceğimi bilemedim.
+1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	2	obj	_	_
+2	diyeceğimi	de	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Fut|VerbForm=Part	3	obj	_	_
+3	bilemedim	bil	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	3	punct	_	_
+
+# sent_id = mst-0013
+# text = Kanamıyordu...
+1	Kanamıyordu	kana	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
+2	...	...	PUNCT	Punc	_	1	conj	_	_
+
+# sent_id = mst-0014
+# text = Süpürgen nerede.
+1	Süpürgen	süpürge	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	2	nsubj	_	_
+2	nerede	nere	PRON	Ques	Case=Loc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	Punc	_	2	punct	_	_
+
+# sent_id = mst-0015
+# text = Bir taksi bulduk.
+1	Bir	bir	NUM	ANum	NumType=Card	2	det	_	_
+2	taksi	taksi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
+3	bulduk	bul	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	3	punct	_	_
+
+# sent_id = mst-0016
+# text = Mebrure birden heyecanlanmıştı.
+1	Mebrure	Mebrure	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+2	birden	birden	ADV	Adverb	_	3	advmod	_	_
+3	heyecanlanmıştı	heyecanlan	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	3	punct	_	_
+
+# sent_id = mst-0017
+# text = " Buradaki üst düzey görüşmelerimizde turizm için ellerinden geleni yapacaklarını söylediler.
+# Change 2.2/dev: merge -(y)An
+1	"	"	PUNCT	Punc	_	12	punct	_	_
+2-3	Buradaki	_	_	_	_	_	_	_	_
+2	Burada	bura	PRON	Noun	Case=Loc|Number=Sing|Person=3	6	nmod	_	_
+3	ki	ki	ADP	Rel	_	2	case	_	_
+4	üst	üst	ADJ	Adj	_	5	amod	_	_
+5	düzey	düzey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	görüşmelerimizde	görüşme	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	12	obl	_	_
+7	turizm	turizm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+8	için	için	ADP	PCNom	_	7	case	_	_
+9	ellerinden	el	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	12	case	_	_
+10	geleni	gel	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Part	9	compound	_	_
+11	yapacaklarını	yap	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	12	obj	_	_
+12	söylediler	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Punc	_	12	punct	_	_
+
+# sent_id = mst-0018
+# text = Gel bak, sana evi göstereyim.
+1	Gel	gel	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
+2	bak	bak	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	Punc	_	6	punct	_	_
+4	sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	6	obl	_	_
+5	evi	ev	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
+6	göstereyim	göster	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-0019
 # text = Herkes istediği gibi sevişiyor, her şey serbest.
