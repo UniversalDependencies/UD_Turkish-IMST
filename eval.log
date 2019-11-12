@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit d98b8a01edfe0fb5d246dd69fe0a563cfcf582a2
-Merge: 814561f a6c9553
+commit db906a81ed1f681127220b9750d68d748fe4fb62
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:46:16 2019 +0200
 Size: counted 57859 of 57859 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.11601803260301.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 10038 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 57859 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
-*** PASSED ***
+[Line 94 Sent mst-0013 Node 2]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 104 Sent mst-0015 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 129 Sent mst-0017 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:ellerinden:case --> 10:geleni:compound)
+[Line 147 Sent mst-0019 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 190 Sent mst-0035 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 208 Sent mst-0035 Node 28]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [30, 32, 33]
+[Line 213 Sent mst-0035 Node 33]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28]
+[Line 273 Sent mst-0078 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 286 Sent mst-0078 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+...suppressing further errors regarding Syntax
+Syntax errors: 429
+*** FAILED *** with 429 errors
+Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
-*** PASSED ***
+[Line 9 Sent mst-0005 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 55 Sent mst-0020 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 82 Sent mst-0023 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 209 Sent mst-0057 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 250 Sent mst-0075 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 319 Sent mst-0103 Node 15]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [16]
+[Line 441 Sent mst-0167 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 460 Sent mst-0180 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
+[Line 460 Sent mst-0180 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+...suppressing further errors regarding Syntax
+Syntax errors: 392
+*** FAILED *** with 392 errors
+Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 26 Sent mst-0031 Node 22]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 28 Sent mst-0031 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject: [1, 15, 23]
+[Line 54 Sent mst-0037 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 122 Sent mst-0044 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 201 Sent mst-0053 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 212 Sent mst-0053 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 290 Sent mst-0063 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 297 Sent mst-0063 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 347 Sent mst-0069 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+...suppressing further errors regarding Syntax
+Syntax errors: 1443
+*** FAILED *** with 1443 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.434364044236753) * (availability=1) * (validity=1) = 0.434364044236753
-STARS = 2
-UD_Turkish-IMST	0.434364044236753	2
+(TOTAL score=0.434364044236753) * (availability=1) * (validity=0.01) = 0.00434364044236753
+STARS = 0
+UD_Turkish-IMST	0.00434364044236753	0
