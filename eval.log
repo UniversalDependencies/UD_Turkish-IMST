@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit 3de4f10ad22e2db2d09dc7ed4b8b4f8d937f9893
+commit 7891dd4356d3ace9dcc15aeecf97131c7ed73e17
+Merge: c88113f 1a8c86a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:48:22 2019 +0100
 Size: counted 57859 of 57859 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.11601803260301.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -44,8 +44,8 @@ validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
 [Line 3851 Sent mst-1595 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 ...suppressing further errors regarding Morpho
 Morpho errors: 29
-Syntax errors: 429
-*** FAILED *** with 458 errors
+Syntax errors: 425
+*** FAILED *** with 454 errors
 Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
 [Line 9 Sent mst-0005 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
@@ -54,8 +54,8 @@ validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
 [Line 209 Sent mst-0057 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 250 Sent mst-0075 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 319 Sent mst-0103 Node 15]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [16]
+[Line 320 Sent mst-0103 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15]
 [Line 441 Sent mst-0167 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 460 Sent mst-0180 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
 [Line 460 Sent mst-0180 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
 ...suppressing further errors regarding Syntax
 [Line 2209 Sent mst-0906 Node 6]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
@@ -69,8 +69,8 @@ validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
 [Line 5918 Sent mst-2475 Node 8]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 ...suppressing further errors regarding Morpho
 Morpho errors: 25
-Syntax errors: 392
-*** FAILED *** with 417 errors
+Syntax errors: 388
+*** FAILED *** with 413 errors
 Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
 [Line 26 Sent mst-0031 Node 22]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
@@ -94,8 +94,8 @@ validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
 [Line 8342 Sent mst-0957 Node 2]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 ...suppressing further errors regarding Morpho
 Morpho errors: 91
-Syntax errors: 1443
-*** FAILED *** with 1534 errors
+Syntax errors: 1424
+*** FAILED *** with 1515 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
