@@ -12922,7 +12922,7 @@
 9-10	düşünürken	_	_	_	_	_	_	_	_
 9	düşünür	düşünür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 10	ken	i	AUX	Zero	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Conv	9	cop	_	_
-11	uyuyakalmıştı	uyu	VERB	Verb	Aspect=DurPerf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	3	conj	_	SpaceAfter=No
+11	uyuyakalmıştı	uyu	VERB	Verb	Aspect=Dur|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	3	conj	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-5496

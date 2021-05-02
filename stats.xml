@@ -33,7 +33,7 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="68">
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN">133</feat><!-- CHP, AB, ABD, ABD'nin, AB'ye, DYP, IMF, KKTC'de, MCB, THY -->
-    <feat name="Aspect" value="DurPerf" upos="VERB">3</feat><!-- uyuyakaldığı, uyuyakaldığını, uyuyakalmıştı -->
+    <feat name="Aspect" value="Dur" upos="VERB">3</feat><!-- uyuyakaldığı, uyuyakaldığını, uyuyakalmıştı -->
     <feat name="Aspect" value="Hab" upos="AUX,VERB">1178</feat><!-- olur, olmaz, olabilir, eder, ister, gerekir, gelir, sanırım, yeter, alır -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">9446</feat><!-- dedi, olan, dir, dedim, mi, değil, mı, olduğunu, dır, oldu -->
     <feat name="Aspect" value="Prog" upos="VERB">1360</feat><!-- diyor, oluyor, bilmiyorum, geliyor, biliyorum, biliyor, istiyorum, gidiyoruz, yapıyor, ediyor -->

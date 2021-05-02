@@ -3219,7 +3219,7 @@
 2	gideceğini	git	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	10	obj	_	_
 3	ancak	ancak	CCONJ	Conj	_	5	cc	_	_
 4	sabah	sabah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
-5	uyuyakaldığını	uyu	VERB	Verb	Aspect=DurPerf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+5	uyuyakaldığını	uyu	VERB	Verb	Aspect=Dur|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
 6	ve	ve	CCONJ	Conj	_	9	cc	_	_
 7	sabah	sabah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	uçağına	uçak	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
@@ -8533,7 +8533,7 @@
 6	eki	ki	ADP	Rel	_	5	case	_	_
 7	Diyarbakır	Diyarbakır	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	uçağını	uçak	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
-9	uyuyakaldığı	uyu	VERB	Verb	Aspect=DurPerf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+9	uyuyakaldığı	uyu	VERB	Verb	Aspect=Dur|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
 10	için	için	ADP	PCNom	_	9	case	_	_
 11	kaçırdı	kaçır	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 12	ve	ve	CCONJ	Conj	_	16	cc	_	_
