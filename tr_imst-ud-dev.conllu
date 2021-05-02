@@ -3072,7 +3072,7 @@
 11	ve	ve	CCONJ	Conj	_	13	cc	_	_
 12	birçok	birçok	DET	Det	_	13	advmod:emph	_	_
 13	Arap	Arap	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	conj	_	_
-14	ülkesinden	ülke	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	nmod	_	_
+14	ülkesinden	ülke	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
 15	sermaye	sermaye	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 16	çıkışının	çıkış	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obj	_	_
 17	yaşanacağı	yaşa	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	8	conj	_	_
