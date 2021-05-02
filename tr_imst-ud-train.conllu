@@ -13338,7 +13338,7 @@
 6	Evde	ev	NOUN	Noun	Case=Loc|Number=Sing|Person=3	10	obl	_	_
 7	yemek	yemek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 8	götürecek	götür	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	9	acl	_	_
-9	kimse	kimse	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	det	_	_
+9	kimse	kimse	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 10-11	yoktu	_	_	_	_	_	_	_	SpaceAfter=No
 10	yok	yok	ADV	Adverb	_	13	advmod	_	_
 11	tu	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	cop	_	_
@@ -17095,7 +17095,7 @@
 
 # sent_id = mst-1946
 # text = Öteki kadını nereden duydunuz.
-1	Öteki	öteki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	det	_	_
+1	Öteki	öteki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	kadını	kadın	ADJ	NAdj	Case=Acc|Number=Sing|Person=3	4	obj	_	_
 3	nereden	nere	PRON	Ques	Case=Abl|Number=Sing|Person=3	4	obl	_	_
 4	duydunuz	duy	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -24110,7 +24110,7 @@
 
 # sent_id = mst-2688
 # text = Elde kalan o güzelim göbeği de özenle soyun.
-1	Elde	el	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	det	_	_
+1	Elde	el	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
 2	kalan	kal	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	1	compound	_	_
 3	o	o	DET	Det	_	4	det	_	_
 4	güzelim	güzelim	ADJ	Adj	_	5	amod	_	_
@@ -24239,7 +24239,7 @@
 # sent_id = mst-2702
 # text = Bölgedeki bazı ülkelerde iç karışıklıklara da neden olabilir.
 1-2	Bölgedeki	_	_	_	_	_	_	_	_
-1	Bölgede	bölge	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	det	_	_
+1	Bölgede	bölge	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	nmod	_	_
 2	ki	ki	ADP	Rel	_	1	case	_	_
 3	bazı	bazı	DET	Det	_	4	det	_	_
 4	ülkelerde	ülke	NOUN	Noun	Case=Loc|Number=Plur|Person=3	8	nmod	_	_
@@ -27487,7 +27487,7 @@
 # sent_id = mst-3093
 # text = İngilizlerin sebze zevki tartışmalı tabi.
 1	İngilizlerin	İngiliz	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	3	amod	_	_
-2	sebze	sebze	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	det	_	_
+2	sebze	sebze	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	zevki	zevk	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 4-5	tartışmalı	_	_	_	_	_	_	_	_
 4	tartışma	tartış	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	_
@@ -40057,7 +40057,7 @@
 # text = Hele benim hiç yok.
 1	Hele	hele	ADV	Adverb	_	2	advmod	_	_
 2	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-3	hiç	hiç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	det	_	_
+3	hiç	hiç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	yok	yok	ADJ	Adj	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 

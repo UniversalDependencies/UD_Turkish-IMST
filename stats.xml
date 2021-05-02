@@ -120,12 +120,12 @@
     <dep name="cop">807</dep>
     <dep name="csubj">20</dep>
     <dep name="dep">1</dep>
-    <dep name="det">1936</dep>
+    <dep name="det">1922</dep>
     <dep name="discourse">154</dep>
     <dep name="fixed">40</dep>
     <dep name="flat">908</dep>
     <dep name="mark">76</dep>
-    <dep name="nmod">3750</dep>
+    <dep name="nmod">3764</dep>
     <dep name="nmod:poss">3531</dep>
     <dep name="nsubj">3737</dep>
     <dep name="nummod">632</dep>

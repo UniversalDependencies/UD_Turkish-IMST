@@ -1121,7 +1121,7 @@
 # sent_id = mst-0445
 # text = Öteki masalardakiler ise balıklarını daha yeni yiyorlardı.
 # Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
-1	Öteki	öteki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	det	_	_
+1	Öteki	öteki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2-3	masalardakiler	_	_	_	_	_	_	_	_
 2	masalarda	masa	NOUN	Noun	Case=Loc|Number=Plur|Person=3	8	nsubj	_	_
 3	kiler	ki	ADP	Rel	Case=Nom|Number=Plur|Person=3	2	case	_	_
@@ -2542,7 +2542,7 @@
 4	galiba	galiba	ADV	Adverb	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	16	punct	_	_
 6	bir	bir	DET	ANum	Definite=Ind|PronType=Art	7	det	_	_
-7	şeyi	şey	NOUN	Noun	Case=Acc|Number=Sing|Person=3	13	det	_	_
+7	şeyi	şey	NOUN	Noun	Case=Acc|Number=Sing|Person=3	13	nmod	_	_
 8	en	en	ADV	Adverb	_	9	advmod	_	_
 9	çok	çok	ADJ	Adj	_	13	amod	_	_
 10	otuz	otuz	NUM	ANum	NumType=Card	12	nummod	_	_
@@ -2843,7 +2843,7 @@
 9	karar	karar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	obl	_	_
 10	verirse	ver	VERB	Verb	Aspect=Hab|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	9	compound	_	_
 11	ikibinüç	ikibinüç	NUM	ANum	NumType=Card	12	nummod	_	_
-12	yılında	yıl	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	det	_	_
+12	yılında	yıl	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	nmod	_	_
 13	sadece	sadece	ADV	Adverb	_	21	advmod	_	_
 14	bu	bu	DET	Det	_	15	det	_	_
 15	kalemden	kalem	NOUN	Noun	Case=Abl|Number=Sing|Person=3	21	obl	_	_
@@ -3645,7 +3645,7 @@
 # sent_id = mst-1513
 # text = Ağız tadı için gerekli bu memişler.
 1	Ağız	ağız	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	compound	_	_
-2	tadı	tat	NOUN	Noun	Case=Acc|Number=Sing|Person=3	4	det	_	_
+2	tadı	tat	NOUN	Noun	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
 3	için	için	ADP	PCNom	_	4	case	_	_
 4	gerekli	gerekli	ADJ	Adj	_	0	root	_	_
 5	bu	bu	DET	Det	_	6	det	_	_
@@ -5569,7 +5569,7 @@
 1	Bir	bir	DET	ANum	Definite=Ind|PronType=Art	2	det	_	_
 2	eve	ev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 3	bir	bir	DET	ANum	Definite=Ind|PronType=Art	4	det	_	_
-4	prenses	prenses	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	det	_	_
+4	prenses	prenses	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	yeter	yet	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	7	obj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 7	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -6731,7 +6731,7 @@
 
 # sent_id = mst-2803
 # text = Öğle vakti yavuklusu gelmiş.
-1	Öğle	öğle	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	det	_	_
+1	Öğle	öğle	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	vakti	vakit	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
 3	yavuklusu	yavuklu	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 4	gelmiş	gel	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -7071,7 +7071,7 @@
 # text = Boğa rüyasındaki prense dönüşmüş.
 1	Boğa	boğa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 2-3	rüyasındaki	_	_	_	_	_	_	_	_
-2	rüyasında	rüya	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	det	_	_
+2	rüyasında	rüya	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
 3	ki	ki	ADP	Rel	_	2	case	_	_
 4	prense	prens	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 5	dönüşmüş	dönüş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -7136,7 +7136,7 @@
 # sent_id = mst-2979
 # text = Çevrede kimsecikler yoktu.
 1	Çevrede	çevre	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	_
-2	kimsecikler	kimsecik	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	det	_	_
+2	kimsecikler	kimsecik	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	nmod	_	_
 3-4	yoktu	_	_	_	_	_	_	_	SpaceAfter=No
 3	yok	yok	ADV	Adverb	_	0	root	_	_
 4	tu	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
