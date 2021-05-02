@@ -12,6 +12,8 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 
 # Changelog
 
+* UD 2.8
+  * The word "bir", if used as a determiner, gets corresponding UPOS and features.
 * UD 2.4
   * Moved around a few sentences so that both dev and test have over 10K words again.
 * UD 2.2
