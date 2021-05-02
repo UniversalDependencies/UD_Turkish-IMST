@@ -111,12 +111,12 @@
     <dep name="appos">51</dep>
     <dep name="aux:q">211</dep>
     <dep name="case">1989</dep>
-    <dep name="cc">866</dep>
+    <dep name="cc">865</dep>
     <dep name="ccomp">56</dep>
     <dep name="compound">2210</dep>
     <dep name="compound:lvc">511</dep>
     <dep name="compound:redup">199</dep>
-    <dep name="conj">3580</dep>
+    <dep name="conj">3546</dep>
     <dep name="cop">810</dep>
     <dep name="csubj">20</dep>
     <dep name="dep">1</dep>
@@ -132,7 +132,7 @@
     <dep name="obj">4298</dep>
     <dep name="obl">4435</dep>
     <dep name="parataxis">11</dep>
-    <dep name="punct">10343</dep>
+    <dep name="punct">10378</dep>
     <dep name="root">5635</dep>
     <dep name="vocative">2</dep>
   </deps>

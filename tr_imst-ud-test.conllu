@@ -15,7 +15,7 @@
 # text = Ercan Tezer, iç pazarda bu yıl seksen bin otomobil ve toplam yuzotuz bin araç satılmasının beklendiğini kaydederek, " onalti yıl geriden gidiyoruz " dedi.
 1	Ercan	Ercan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	26	nsubj	_	_
 2	Tezer	Tezer	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	26	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	iç	iç	ADJ	Adj	_	16	amod	_	_
 5	pazarda	pazar	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	compound	_	_
 6	bu	bu	DET	Det	_	7	det	_	_
@@ -47,7 +47,7 @@
 2	görüştüğümden	görüş	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
 3	edindiğim	edin	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
 4	izlenim	izlenim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	13	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	gazeteciye	gazeteci	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	obl	_	_
 7	verilen	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	8	acl	_	_
 8	bilgilerle	bilgi	NOUN	Noun	Case=Ins|Number=Plur|Person=3	9	obl	_	_
@@ -190,9 +190,9 @@
 7	neden	neden	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
 8	olduğu	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	compound:lvc	_	_
 9	açılışta	açılış	NOUN	Noun	Case=Loc|Number=Sing|Person=3	16	obl	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	16	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	Aksüt	Aksüt	PROPN	Prop	Case=Nom|Number=Sing|Person=3	16	nsubj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	16	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	tören	tören	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obl	_	_
 14	boyunca	boyunca	ADP	PCNom	_	13	case	_	_
 15	eşini	eş	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obj	_	_
@@ -243,9 +243,9 @@
 # text = Rokfor'un efsanesi: Vaktiyle, genç bir çoban varmış.
 1	Rokfor'un	Rokfor	PROPN	Prop	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
 2	efsanesi	efsane	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	Punc	_	2	punct	_	_
+3	:	:	PUNCT	Punc	_	9	punct	_	_
 4	Vaktiyle	vakit	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	9	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	genç	genç	ADJ	Adj	_	8	amod	_	_
 7	bir	bir	DET	ANum	Definite=Ind|PronType=Art	8	det	_	_
 8	çoban	çoban	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
@@ -277,7 +277,7 @@
 # text = Ardından üniversitede, benimle ilgilenen kızlarla dolaşmaya başladım.
 1	Ardından	art	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 2	üniversitede	üniversite	NOUN	Noun	Case=Loc|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	8	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	benimle	ben	PRON	Pers	Case=Ins|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 5	ilgilenen	ilgilen	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 6	kızlarla	kız	ADJ	NAdj	Case=Ins|Number=Plur|Person=3	7	amod	_	_
@@ -316,7 +316,7 @@
 12	menajeri	menajer	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
 13	Berna	Berna	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 14	Müjde	Müjde	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	flat	_	SpaceAfter=No
-15	,	,	PUNCT	Punc	_	11	punct	_	_
+15	,	,	PUNCT	Punc	_	13	punct	_	_
 16	"	"	PUNCT	Punc	_	13	punct	_	_
 17	Karnında	karın	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
 18-19	şiddetli	_	_	_	_	_	_	_	_
@@ -457,8 +457,8 @@
 # sent_id = mst-0180
 # text = Türker, " Ek finansman borç alma anlamına gelir ve bunun karşılığında faiz ödenmesi gerekir.
 1	Türker	Türker	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	15	punct	_	_
-3	"	"	PUNCT	Punc	_	1	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
+3	"	"	PUNCT	Punc	_	15	punct	_	_
 4	Ek	ek	ADJ	Adj	_	5	amod	_	_
 5	finansman	finansman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 6	borç	borç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
@@ -539,7 +539,7 @@
 # sent_id = mst-0217
 # text = Oğlum, Ne işe yaradığını, sordu.
 1	Oğlum	oğul	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	7	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	işe	iş	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 5	yaradığını	yara	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	obj	_	SpaceAfter=No
@@ -584,7 +584,7 @@
 # sent_id = mst-0234
 # text = Arada, işe gidip bütün gazeteleri okuyup ajans haberlerini tarayarak, cinayetleri çıkarıyordum.
 1	Arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	4	amod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	4	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	işe	iş	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	gidip	git	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	10	nmod	_	_
 5	bütün	bütün	ADJ	Adj	_	6	amod	_	_
@@ -642,7 +642,7 @@
 9	verdikleri	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
 10	öğle	öğle	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	nsubj	_	_
 11	yemeği	yemek	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	compound	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	22	punct	_	_
+12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	Başbakan	başbakan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
 14	Gül'ün	Gül	PROPN	Prop	Case=Gen|Number=Sing|Person=3	13	compound	_	_
 15	eşi	eş	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	amod	_	_
@@ -693,7 +693,7 @@
 # sent_id = mst-0290
 # text = Bilim, her şeyden önce herhangi bir keyfi iradeden bağımsız nesnel yasaların varlığının kabulünü gerektirir.
 1	Bilim	bilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	15	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	her	her	DET	Det	_	5	det	_	_
 4	şeyden	şey	NOUN	Noun	Case=Abl|Number=Sing|Person=3	3	compound	_	_
 5	önce	önce	ADV	Adverb	_	15	advmod	_	_
@@ -714,7 +714,7 @@
 1	Ulusal	ulusal	ADJ	Adj	_	9	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	3	punct	_	_
 3	arsıulusal	arsıulusal	ADJ	Adj	_	1	conj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	8	punct	_	_
+4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	ama	ama	CCONJ	Conj	_	8	cc	_	_
 6	her	her	DET	Det	_	9	det	_	_
 7	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	compound	_	_
@@ -734,7 +734,7 @@
 7	beklediklerini	bekle	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	obj	_	_
 8	vurgulayan	vurgula	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
 9	Unakıtan	Unakıtan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	26	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	26	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	ABD'nin	Abd	NOUN	Abr	Abbr=Yes|Case=Gen|Number=Sing|Person=3	15	nmod:poss	_	_
 12	müdahale	müdahale	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	obl	_	_
 13	için	için	ADP	PCNom	_	12	case	_	_
@@ -748,11 +748,11 @@
 21	duyduğunu	duy	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	20	compound	_	_
 22	ifade	ifade	NOUN	Noun	Case=Nom|Number=Sing|Person=3	26	obl	_	_
 23	ederek	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	22	compound:lvc	_	SpaceAfter=No
-24	,	,	PUNCT	Punc	_	26	punct	_	_
+24	,	,	PUNCT	Punc	_	22	punct	_	_
 25	şöyle	şöyle	ADV	Adverb	_	26	advmod	_	_
 26	konuştu	konuş	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-27	:	:	PUNCT	Punc	_	46	punct	_	_
-28	"	"	PUNCT	Punc	_	46	punct	_	_
+27	:	:	PUNCT	Punc	_	26	punct	_	_
+28	"	"	PUNCT	Punc	_	29	punct	_	_
 29	Ancak	ancak	CCONJ	Conj	_	26	conj	_	_
 30	ülkemize	ülke	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	33	nmod	_	_
 31	yönelik	yönelik	ADP	PCDat	_	30	case	_	_
@@ -793,7 +793,7 @@
 15	ödeneklerinin	ödenek	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	16	nmod	_	_
 16	yüzde	yüz	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	25	nummod	_	_
 17	on'u	on	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Card|Person=3|Person[psor]=3	16	flat	_	SpaceAfter=No
-18	,	,	PUNCT	Punc	_	22	punct	_	_
+18	,	,	PUNCT	Punc	_	16	punct	_	_
 19	diğer	diğer	ADJ	Adj	_	20	det	_	_
 20	kuruluşlar	kuruluş	NOUN	Noun	Case=Nom|Number=Plur|Person=3	21	nmod	_	_
 21	ise	i	AUX	Conj	_	25	nmod	_	_
@@ -839,8 +839,8 @@
 8	doğrulayan	doğrula	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	6	conj	_	_
 9	Esra	Esra	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 10	Eron	Eron	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	8	punct	_	_
-12	"	"	PUNCT	Punc	_	9	punct	_	_
+11	,	,	PUNCT	Punc	_	9	punct	_	_
+12	"	"	PUNCT	Punc	_	16	punct	_	_
 13	Daha	daha	ADV	Adverb	_	15	advmod	_	_
 14	çok	çok	ADP	PCAbl	_	13	case	_	_
 15	telefonla	telefon	NOUN	Noun	Case=Ins|Number=Sing|Person=3	16	obl	_	_
@@ -877,11 +877,11 @@
 
 # sent_id = mst-0343
 # text = -Buyur canım, dedi Şükran Hanım yeni sevecenliğiyle.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 2	Buyur	buyur	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	5	obj	_	_
 3	canım	can	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	conj	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	3	punct	_	_
-5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
+5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6	Şükran	Şükran	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 7	Hanım	Hanım	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	flat	_	_
 8	yeni	yeni	ADJ	Adj	_	9	amod	_	_
@@ -919,7 +919,7 @@
 10	düşük	düşük	ADJ	Adj	_	6	conj	_	_
 11	olması	ol	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	12	nmod	_	_
 12	değil	değil	CCONJ	Conj	_	17	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	17	punct	_	_
+13	,	,	PUNCT	Punc	_	12	punct	_	_
 14	içinde	iç	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	amod	_	_
 15	ısı	ısı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 16	akısının	akı	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nmod	_	_
@@ -999,7 +999,7 @@
 2	boca	boca	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	ederler	et	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	2	compound	_	_
 4	kahveyi	kahve	NOUN	Noun	Case=Acc|Number=Sing|Person=3	2	obj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	2	punct	_	_
+5	,	,	PUNCT	Punc	_	9	punct	_	_
 6	bir	bir	DET	ANum	Definite=Ind|PronType=Art	7	det	_	_
 7	karış	karış	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 8	telve	telve	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
@@ -1008,7 +1008,7 @@
 11	ya	ya	CCONJ	Conj	_	13	cc	_	_
 12	cimrilikleri	cimrilik	NOUN	Noun	Case=Acc|Number=Plur|Person=3	13	obl	_	_
 13	tutar	tut	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	2	conj	_	SpaceAfter=No
-14	,	,	PUNCT	Punc	_	13	punct	_	_
+14	,	,	PUNCT	Punc	_	15	punct	_	_
 15	buyrun	buyur	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	2	conj	_	_
 16	bulaşık	bulaşık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nmod	_	_
 17	suyuna	su	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	SpaceAfter=No
@@ -1045,7 +1045,7 @@
 1	İçim	iç	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	10	obj	_	_
 2	geçmiş	geç	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	compound	_	_
 3	yahu	yahu	INTJ	Interj	_	10	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	10	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	iyi	iyi	ADJ	Adj	_	10	advmod:emph	_	_
 6	ki	ki	CCONJ	Conj	_	5	advmod:emph	_	_
 7	çarpılmadım	çarp	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|Voice=Pass	1	conj	_	_
@@ -1074,9 +1074,9 @@
 
 # sent_id = mst-0418
 # text = -Neden bıraktın beni.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
 2	Neden	neden	ADV	Adverb	_	3	advmod	_	_
-3	bıraktın	bırak	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	1	conj	_	_
+3	bıraktın	bırak	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	_
 4	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -1129,7 +1129,7 @@
 # sent_id = mst-0440
 # text = Tokum, yine de gitmez bu meret böyle.
 1	Tokum	Tokum	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	3	punct	_	_
 3	yine	yine	ADV	Adverb	_	1	conj	_	_
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
 5	gitmez	git	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	1	conj	_	_
@@ -1141,7 +1141,7 @@
 # sent_id = mst-0444
 # text = Unakıtan, KKTC'de yapılan Denktaş karşıtı gösterilerin de Kıbrıs Türklerinin Batı'daki imajını bozduğunu belirtti.
 1	Unakıtan	Unakıtan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	15	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	KKTC'de	Kktc	NOUN	Abr	Abbr=Yes|Case=Loc|Number=Sing|Person=3	4	obl	_	_
 4	yapılan	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl	_	_
 5	Denktaş	Denktaş	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
@@ -1161,7 +1161,7 @@
 # sent_id = mst-0452
 # text = İyiliği, hem daha çok olayı açıklamasında hem de daha ayrıntılı gözlemlerle tutarlı olmasında yatar.
 1	İyiliği	iyilik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	16	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	hem	hem	CCONJ	Conj	_	7	cc	_	_
 4	daha	daha	ADV	Adverb	_	5	advmod	_	_
 5	çok	çok	ADJ	Adj	_	6	det	_	_
@@ -1183,7 +1183,7 @@
 # text = Kim o? dedi sert bir erkek sesi.
 1	Kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	o	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
-3	?	?	PUNCT	Punc	_	4	punct	_	_
+3	?	?	PUNCT	Punc	_	2	punct	_	_
 4	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	sert	sert	ADJ	Adj	_	8	amod	_	_
 6	bir	bir	DET	ANum	Definite=Ind|PronType=Art	8	det	_	_
@@ -1224,7 +1224,7 @@
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	nelerden	ne	PRON	Ques	Case=Abl|Number=Plur|Person=3	7	obl	_	_
 7	vazgeçildi	vazgeç	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	1	conj	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	10	punct	_	_
+8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	neler	ne	PRON	Ques	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
 10-11	iyiydi	_	_	_	_	_	_	_	_
 10	iyi	iyi	ADV	Adverb	_	1	advmod	_	_
@@ -1248,7 +1248,7 @@
 # text = O sözcüğü, bugüne kadar içine sıkıştırıldığı ideolojik boyutunun dışında algılayarak diyorum ki, toplumlar da, bireyler de, yarına ait planlarıyla, tasarımlarıyla, hayalleriyle sıçrayarak geçecekler, dünden yarına...
 1	O	o	DET	Det	_	2	det	_	_
 2	sözcüğü	sözcük	NOUN	Noun	Case=Acc|Number=Sing|Person=3	11	obj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	11	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	bugüne	bugün	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	obl	_	_
 5	kadar	kadar	ADP	PCDat	_	4	case	_	_
 6	içine	iç	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	amod	_	_
@@ -1262,10 +1262,10 @@
 14	,	,	PUNCT	Punc	_	12	punct	_	_
 15	toplumlar	toplum	NOUN	Noun	Case=Nom|Number=Plur|Person=3	29	nsubj	_	_
 16	da	da	CCONJ	Conj	_	15	advmod:emph	_	SpaceAfter=No
-17	,	,	PUNCT	Punc	_	29	punct	_	_
+17	,	,	PUNCT	Punc	_	18	punct	_	_
 18	bireyler	birey	NOUN	Noun	Case=Nom|Number=Plur|Person=3	15	conj	_	_
 19	de	de	CCONJ	Conj	_	18	advmod:emph	_	SpaceAfter=No
-20	,	,	PUNCT	Punc	_	29	punct	_	_
+20	,	,	PUNCT	Punc	_	15	punct	_	_
 21	yarına	yarın	NOUN	Noun	Case=Dat|Number=Sing|Person=3	23	nmod	_	_
 22	ait	ait	ADP	PCDat	_	21	case	_	_
 23	planlarıyla	plan	NOUN	Noun	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	28	obl	_	SpaceAfter=No
@@ -1275,7 +1275,7 @@
 27	hayalleriyle	hayal	NOUN	Noun	Case=Ins|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	23	conj	_	_
 28	sıçrayarak	sıçra	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	29	nmod	_	_
 29	geçecekler	geç	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	0	root	_	SpaceAfter=No
-30	,	,	PUNCT	Punc	_	29	punct	_	_
+30	,	,	PUNCT	Punc	_	31	punct	_	_
 31	dünden	dün	NOUN	Noun	Case=Abl|Number=Sing|Person=3	29	obl	_	_
 32	yarına	yarın	NOUN	Noun	Case=Dat|Number=Sing|Person=3	31	compound	_	SpaceAfter=No
 33	...	...	PUNCT	Punc	_	29	punct	_	_
@@ -1294,7 +1294,7 @@
 10	derdimi	dert	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	11	obj	_	_
 11	anlatamayacağım	anlat	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	8	conj	_	_
 12	demişim	de	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	3	conj	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	12	punct	_	_
+13	,	,	PUNCT	Punc	_	14	punct	_	_
 14	vesaire	vesaire	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	conj	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	14	punct	_	_
 
@@ -1383,9 +1383,9 @@
 1	Hayri	Hayri	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	Baytaş'tan	Baytaş	PROPN	Prop	Case=Abl|Number=Sing|Person=3	1	flat	_	_
 3	alıntı	alıntı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-4	:	:	PUNCT	Punc	_	8	punct	_	_
+4	:	:	PUNCT	Punc	_	5	punct	_	_
 5	Soğan	soğan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	3	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	Kürt	kürt	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8-9	baklavası'dır	_	_	_	_	_	_	_	SpaceAfter=No
 8	baklavası	baklava	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	conj	_	_
@@ -1486,7 +1486,7 @@
 1	Yeni	yeni	ADJ	Adj	_	2	amod	_	_
 2	fonlar	fon	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	obj	_	_
 3	oluşturan	oluş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	10	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	10	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	prens	prens	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 6	denilen	denil	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
 7	çakalları	çakal	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
@@ -1498,7 +1498,7 @@
 # sent_id = mst-0603
 # text = ', bundan yüzlerce firmanın olumsuz etkileneceğini belirtti.
 1	'	'	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	1	conj	_	_
+2	,	,	PUNCT	Punc	_	8	punct	_	_
 3	bundan	bu	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	7	obl	_	_
 4	yüzlerce	yüzlerce	NUM	ANum	NumType=Card	5	nummod	_	_
 5	firmanın	firma	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
@@ -1542,22 +1542,22 @@
 7	Bakanı	bakan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	compound	_	_
 8	Binali	Binali	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 9	Yıldırım	Yıldırım	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	flat	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	11	punct	_	_
+10	,	,	PUNCT	Punc	_	8	punct	_	_
 11	yaptığı	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	12	obj	_	_
 12	açıklamada	açıkla	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	_
-13	"	"	PUNCT	Punc	_	11	punct	_	_
+13	"	"	PUNCT	Punc	_	18	punct	_	_
 14-15	Önemli	_	_	_	_	_	_	_	_
 14	Önem	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obl	_	_
 15	li	li	ADP	With	_	14	case	_	_
 16	bir	bir	NUM	ANum	NumType=Card	18	nsubj	_	_
 17	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	compound	_	_
 18	yok	yok	ADJ	Adj	_	11	obj	_	SpaceAfter=No
-19	.	.	PUNCT	Punc	_	11	punct	_	_
+19	.	.	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = mst-0633
 # text = Ayhan, Ankara Atatürk Lisesi'ni bitirdi.
 1	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	6	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Ankara	Ankara	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 4	Atatürk	Atatürk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 5	Lisesi'ni	lise	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	flat	_	_
@@ -1632,12 +1632,12 @@
 3	kayığın	kayık	NOUN	Noun	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	altından	alt	ADJ	NAdj	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	amod	_	_
 5	pantolonunu	pantolon	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	14	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	üstüne	üst	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	amod	_	_
 8	gömleğini	gömlek	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	sardığı	sar	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
 10	darbukasını	darbuka	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	14	punct	_	_
+11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	lastik	lastik	ADJ	Adj	_	13	amod	_	_
 13	terliklerini	terlik	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obl	_	_
 14	çıkarmıştı	çıkar	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	1	conj	_	SpaceAfter=No
@@ -1656,19 +1656,19 @@
 1	Dolayısıyla	dolayısıyla	ADV	Adverb	_	12	punct	_	_
 2	yeni	yeni	ADJ	Adj	_	3	amod	_	_
 3	dokümanlara	doküman	NOUN	Noun	Case=Dat|Number=Plur|Person=3	4	obl	_	_
-4	ulaşmak	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	15	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	4	punct	_	_
+4	ulaşmak	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	Punc	_	10	punct	_	_
 6	olayın	olay	NOUN	Noun	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 7	gerçek	gerçek	ADJ	Adj	_	8	amod	_	_
 8	yönlerini	yön	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	belgelemek	belgele	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	nmod:poss	_	_
-10	ihtiyacı	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod	_	_
-11	çok	çok	ADV	Adverb	_	15	advmod:emph	_	_
+10	ihtiyacı	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	nmod	_	_
+11	çok	çok	ADV	Adverb	_	1	advmod:emph	_	_
 12-14	önemliydi	_	_	_	_	_	_	_	SpaceAfter=No
 12	önem	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 13	li	li	ADP	With	_	12	case	_	_
 14	ydi	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	_
-15	.	.	PUNCT	Punc	_	1	conj	_	_
+15	.	.	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = mst-0687
 # text = Koro? Tabi leblebi.
@@ -1698,7 +1698,7 @@
 1	Arka	arka	ADJ	Adj	_	2	amod	_	_
 2	tarafın	taraf	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 3	sessizliğini	sessizlik	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	37	obj	_	SpaceAfter=No
-4	;	;	PUNCT	Punc	_	37	punct	_	_
+4	;	;	PUNCT	Punc	_	3	punct	_	_
 5	sık	sık	ADJ	Adj	_	7	amod	_	_
 6	sık	sık	ADV	Adverb	_	5	advmod	_	_
 7	çalan	çal	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
@@ -1752,7 +1752,7 @@
 # sent_id = mst-0723
 # text = Olmaz, köylü ağzı.
 1	Olmaz	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	1	punct	_	_
+2	,	,	PUNCT	Punc	_	4	punct	_	_
 3	köylü	köylü	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	4	amod	_	_
 4	ağzı	ağız	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -1779,16 +1779,16 @@
 9	Dışişleri	dışişleri	NOUN	Noun	Case=Nom|Number=Plur|Person=3	1	conj	_	_
 10	Bakanı	bakan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	compound	_	_
 11	Yaşar	Yaşar	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	compound	_	_
-12	'	'	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
+12	'	'	PUNCT	Punc	_	13	punct	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	15	punct	_	_
-14	'	'	PUNCT	Punc	_	15	punct	_	_
+14	'	'	PUNCT	Punc	_	13	punct	_	_
 15	Genel	genel	ADJ	Adj	_	1	conj	_	_
 16	Başkanı	başkan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	compound	_	_
 17	Tayyip	Tayyip	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	flat	_	_
 18	Erdoğan'ın	Erdoğan	PROPN	Prop	Case=Gen|Number=Sing|Person=3	15	compound	_	SpaceAfter=No
 19	,	,	PUNCT	Punc	_	15	punct	_	_
 20	Avrupa'da	Avrupa	PROPN	Prop	Case=Loc|Number=Sing|Person=3	38	obl	_	SpaceAfter=No
-21	,	,	PUNCT	Punc	_	38	punct	_	_
+21	,	,	PUNCT	Punc	_	20	punct	_	_
 22	"	"	PUNCT	Punc	_	35	punct	_	_
 23	Türkiye'de	Türkiye	PROPN	Prop	Case=Loc|Number=Sing|Person=3	32	nmod	_	_
 24	ordunun	ordu	NOUN	Noun	Case=Gen|Number=Sing|Person=3	26	nmod:poss	_	_
@@ -1830,9 +1830,9 @@
 
 # sent_id = mst-0761
 # text = -Yedi numarada.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
 2	Yedi	yedi	NUM	ANum	NumType=Card	3	nummod	_	_
-3	numarada	numara	NOUN	Noun	Case=Loc|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+3	numarada	numara	NOUN	Noun	Case=Loc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-0764
@@ -1841,7 +1841,7 @@
 2	hayatta	hayat	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	nmod	_	_
 3	kalma	kal	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	nmod:poss	_	_
 4	becerisi	beceri	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	13	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	bu	bu	DET	Det	_	7	det	_	_
 7	farkındalığı	farkındalık	NOUN	Noun	Case=Acc|Number=Sing|Person=3	11	obj	_	_
 8	bilinçli	bilinçli	ADJ	Adj	_	10	obj	_	_
@@ -1881,7 +1881,7 @@
 # sent_id = mst-0785
 # text = Osmanlı, İstanbul'a getirmiş.
 1	Osmanlı	Osmanlı	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	4	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	İstanbul'a	İstanbul	PROPN	Prop	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	getirmiş	getir	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -1897,8 +1897,8 @@
 # sent_id = mst-0790
 # text = Saçlarının rengi kız kardeşiminkiler gibiydi.
 1	Saçlarının	saç	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=2	2	nmod:poss	_	_
-2	rengi	renk	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
-3	kız	kız	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	obj	_	_
+2	rengi	renk	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
+3	kız	kız	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 4-5	kardeşiminkiler	_	_	_	_	_	_	_	_
 4	kardeşimin	kardeş	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	compound	_	_
 5	kiler	ki	ADP	Rel	Case=Nom|Number=Plur|Person=3	3	case	_	_
@@ -1922,7 +1922,7 @@
 11-12	vardı	_	_	_	_	_	_	_	SpaceAfter=No
 11	var	var	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 12	dı	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	cop	_	_
-13	:	:	PUNCT	Punc	_	11	punct	_	_
+13	:	:	PUNCT	Punc	_	14	punct	_	_
 14	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
 15	...	...	PUNCT	Punc	_	14	punct	_	_
 
@@ -1936,7 +1936,7 @@
 6	gösterecek	göster	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	5	compound	_	_
 7	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	10	obj	_	_
 8	var	var	ADJ	Adj	_	7	compound	_	SpaceAfter=No
-9	?	?	PUNCT	Punc	_	10	punct	_	_
+9	?	?	PUNCT	Punc	_	7	punct	_	_
 10	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
@@ -1957,7 +1957,7 @@
 # text = Geminin güvertesinden, ufuk çizgisine bakın.
 1	Geminin	gemi	NOUN	Noun	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
 2	güvertesinden	güverte	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	6	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	ufuk	ufuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	çizgisine	çizgi	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 6	bakın	bak	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -2016,7 +2016,7 @@
 3	Mehmet	Mehmet	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 4	Ali	Ali	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 5	Şahin	Şahin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	compound	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	16	punct	_	_
+6	,	,	PUNCT	Punc	_	1	punct	_	_
 7	ikibinüç	ikibinüç	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	8	nummod	_	_
 8	yılı	yıl	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
 9	memur	memur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	compound	_	_
@@ -2042,7 +2042,7 @@
 1	Böylece	böylece	ADV	Adverb	_	0	root	_	_
 2	bu	bu	DET	Det	_	3	det	_	_
 3	filozof	filozof	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	11	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	felsefe	felsefe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	tarihine	tarih	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
 7	de	de	CCONJ	Conj	_	6	advmod:emph	_	_
@@ -2050,7 +2050,7 @@
 9	parabol	parabol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 10	gibi	gibi	ADP	PCNom	_	9	case	_	_
 11	giriyor	gir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	11	punct	_	_
+12	,	,	PUNCT	Punc	_	15	punct	_	_
 13	yeniden	yeniden	ADV	Adverb	_	15	advmod	_	_
 14	onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 15	terk	terk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
@@ -2065,7 +2065,7 @@
 3	değil	değil	VERB	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
 4	ki	ki	CCONJ	Conj	_	3	advmod:emph	_	_
 5	yanlarına	yan	ADJ	NAdj	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	1	amod	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	1	punct	_	_
+6	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-0862
 # text = Zorlamalı ve dört yamalı bohçalarla kırk bir buçuğu mahzun ve ülkeyi krizlere mahkum ediyorlar.
@@ -2116,14 +2116,14 @@
 # sent_id = mst-0877
 # text = Hakikaten, dedi masadakilerin en yaşlısı, içişi de benziyor.
 1	Hakikaten	hakikaten	ADV	Adverb	_	3	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	3	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4-5	masadakilerin	_	_	_	_	_	_	_	_
 4	masada	masa	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	nmod:poss	_	_
 5	kilerin	ki	ADP	Rel	Case=Gen|Number=Plur|Person=3	4	case	_	_
 6	en	en	ADV	Adverb	_	7	advmod	_	_
 7	yaşlısı	yaşlı	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	11	punct	_	_
+8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	içişi	içiş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 10	de	de	CCONJ	Conj	_	9	advmod:emph	_	_
 11	benziyor	benze	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	3	conj	_	SpaceAfter=No
@@ -2141,7 +2141,7 @@
 8	de	de	CCONJ	Conj	_	7	advmod:emph	_	_
 9	kayıtsız	kayıtsız	ADJ	Adj	_	16	amod	_	_
 10	şartsız	şartsız	ADJ	Adj	_	9	compound:redup	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	16	punct	_	_
+11	,	,	PUNCT	Punc	_	9	punct	_	_
 12	sanki	sanki	ADV	Adverb	_	0	root	_	_
 13	bir	bir	DET	ANum	Definite=Ind|PronType=Art	15	det	_	_
 14	meydan	meydan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
@@ -2166,7 +2166,7 @@
 2	Mevduatı	mevduat	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 3	Sigorta	sigorta	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 4	Fonu	fon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	25	punct	_	_
+5	,	,	PUNCT	Punc	_	1	punct	_	_
 6	Pamukbank	Pamukbank	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
 7	için	için	ADP	PCNom	_	6	case	_	_
 8	yatırımcıların	yatırımcı	NOUN	Noun	Case=Gen|Number=Plur|Person=3	11	nmod:poss	_	_
@@ -2176,7 +2176,7 @@
 12	onüç	onüç	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	23	nmod:poss	_	_
 13	Aralık	aralık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	flat	_	_
 14	ikibiniki	ikibiniki	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	12	flat	_	SpaceAfter=No
-15	,	,	PUNCT	Punc	_	20	punct	_	_
+15	,	,	PUNCT	Punc	_	12	punct	_	_
 16	teklif	teklif	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	_
 17	verme	ver	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	16	compound	_	_
 18	süresini	süre	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	obj	_	_
@@ -2207,7 +2207,7 @@
 4	bizi	biz	PRON	Pers	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
 5	özlüyor	özle	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	_
 6	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
-7	?	?	PUNCT	Punc	_	1	conj	_	_
+7	?	?	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-0910
 # text = İkimiz de oğulduk.
@@ -2245,10 +2245,10 @@
 10	yaşamak	yaşa	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	11	obj	_	_
 11	zorunda	zor	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	nsubj	_	_
 12	kalmaları	kal	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	11	compound	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	22	punct	_	_
+13	,	,	PUNCT	Punc	_	11	punct	_	_
 14	Mançu	Mançu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nmod	_	_
 15	Tunguz	tunguz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	compound	_	SpaceAfter=No
-16	-	-	PUNCT	Punc	_	21	punct	_	SpaceAfter=No
+16	-	-	PUNCT	Punc	_	17	punct	_	SpaceAfter=No
 17	dil	dil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	compound	_	_
 18	grubuna	grup	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	compound	_	_
 19	bağlı	bağlı	ADJ	Adj	_	20	amod	_	_
@@ -2271,7 +2271,7 @@
 1	Ama	ama	CCONJ	Conj	_	0	root	_	_
 2	hastalık	hastalık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 3	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	7	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	şıp	şıp	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 6	diye	diye	ADP	PCNom	_	5	case	_	_
 7	kesilmemiş	kes	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=Pass	1	conj	_	SpaceAfter=No
@@ -2281,7 +2281,7 @@
 # text = Polis de, herhangi bir bilgi isterse, bunları söyleyebilirim onlara.
 1	Polis	polis	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	7	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	herhangi	herhangi	ADJ	Adj	_	6	det	_	_
 5	bir	bir	DET	ANum	Definite=Ind|PronType=Art	6	det	_	_
 6	bilgi	bilgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	_
@@ -2325,7 +2325,7 @@
 # text = Buna göre, yurtdışından sağlanacak hibeler ve verilecek borçlar ilgili temaslarla anlaşmaları yapmaya, sağlanan finansmanı kullandırmaya Hazine'nin bağlı olduğu bakan yetkili.
 1	Buna	bu	PRON	Demons	Case=Dat|Number=Sing|Person=3|PronType=Dem	22	obl	_	_
 2	göre	göre	ADP	PCDat	_	1	case	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	22	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	yurtdışından	yurtdışı	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 5	sağlanacak	sağla	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	6	acl	_	_
 6	hibeler	hibe	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	obl	_	_
@@ -2350,7 +2350,7 @@
 # sent_id = mst-0965
 # text = Bu arada ufaklığı ve eşyalarını temiz tutmak, evde uslu durmasını sağlamak, veterinere götürmek gibi görevler de bana aitti.
 1	Bu	bu	DET	Det	_	2	det	_	_
-2	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	22	amod	_	_
+2	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	20	amod	_	_
 3	ufaklığı	ufaklık	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 4	ve	ve	CCONJ	Conj	_	5	cc	_	_
 5	eşyalarını	eşya	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	conj	_	_
@@ -2365,9 +2365,9 @@
 14	veterinere	veteriner	NOUN	Noun	Case=Dat|Number=Sing|Person=3	15	obl	_	_
 15	götürmek	götür	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	conj	_	_
 16	gibi	gibi	ADP	PCNom	_	6	case	_	_
-17	görevler	görev	NOUN	Noun	Case=Nom|Number=Plur|Person=3	22	obj	_	_
+17	görevler	görev	NOUN	Noun	Case=Nom|Number=Plur|Person=3	20	obj	_	_
 18	de	de	CCONJ	Conj	_	17	advmod:emph	_	_
-19	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	22	obl	_	_
+19	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	20	obl	_	_
 20-21	aitti	_	_	_	_	_	_	_	SpaceAfter=No
 20	ait	ait	ADP	PCDat	_	0	root	_	_
 21	ti	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	20	cop	_	_
@@ -2410,7 +2410,7 @@
 11	geldiğini	gel	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	compound	_	_
 12	söyleyen	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
 13	Demiray	Demiray	PROPN	Prop	Case=Nom|Number=Sing|Person=3	26	nsubj	_	SpaceAfter=No
-14	,	,	PUNCT	Punc	_	26	punct	_	_
+14	,	,	PUNCT	Punc	_	13	punct	_	_
 15	İş	iş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nmod:poss	_	_
 16	Bankası'nın	banka	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	compound	_	_
 17	bu	bu	DET	Det	_	18	det	_	_
@@ -2442,7 +2442,7 @@
 5	Volvo	Volvo	PROPN	Prop	Case=Nom|Number=Sing|Person=3	26	nsubj	_	_
 6	Otomobil	otomobil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	Türkiye	Türkiye	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	flat	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	26	punct	_	_
+8	,	,	PUNCT	Punc	_	5	punct	_	_
 9	ikibinuc	ikibinuc	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	10	nmod:poss	_	_
 10	yılından	yıl	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	obl	_	_
 11	itibaren	itibaren	ADP	PCAbl	_	10	case	_	_
@@ -2501,7 +2501,7 @@
 # sent_id = mst-1032
 # text = Melek, sen bana yardım eder misin?
 1	Melek	Melek	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 4	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 5	yardım	yardım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -2511,10 +2511,10 @@
 
 # sent_id = mst-1036
 # text = -Yazdıklarını bana gösterir misin.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
 2	Yazdıklarını	yaz	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	obj	_	_
 3	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
-4	gösterir	göster	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	1	conj	_	_
+4	gösterir	göster	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 5	misin	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	4	aux:q	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -2526,7 +2526,7 @@
 3	ses	ses	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 4	siz	siz	ADP	Without	_	3	case	_	_
 5	Bartın	Bartın	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	7	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -2548,7 +2548,7 @@
 14	Başkanı	başkan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	compound	_	_
 15	Ağabaloğlu	Ağabaloğlu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	flat	_	_
 16	da	da	CCONJ	Conj	_	10	advmod:emph	_	SpaceAfter=No
-17	,	,	PUNCT	Punc	_	19	punct	_	_
+17	,	,	PUNCT	Punc	_	10	punct	_	_
 18	şunları	şu	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	19	obj	_	_
 19	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 20	:	:	PUNCT	Punc	_	19	punct	_	SpaceAfter=No
@@ -2699,7 +2699,7 @@
 9	li	li	ADP	With	_	6	case	_	_
 10	yarışma	yarışma	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
 11	programı	program	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nsubj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	15	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	ününü	ün	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	_
 14	yurtdışına	yurtdışı	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	_
 15	taşıdı	taşı	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -2789,7 +2789,7 @@
 # text = Bu süreç, insanların barınak olarak kullandıkları mağaraların duvarlarına resim yapmalarıyla başlamıştır denebilir.
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	süreç	süreç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	12	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	insanların	insan	NOUN	Noun	Case=Gen|Number=Plur|Person=3	7	nmod:poss	_	_
 5	barınak	barınak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 6	olarak	olarak	ADP	PCNom	_	5	case	_	_
@@ -2806,7 +2806,7 @@
 # text = İbo Abim, Bu iş olmayacak, dedi.
 1	İbo	İbo	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 2	Abim	abi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	1	compound	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	8	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	Bu	bu	DET	Det	_	5	det	_	_
 5	iş	iş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 6	olmayacak	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut	8	obj	_	SpaceAfter=No
@@ -2857,7 +2857,7 @@
 1	Milli	milli	ADJ	Adj	_	18	nsubj	_	_
 2	Eğitim	eğitim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	compound	_	_
 3	Bakanı	bakan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	compound	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	18	punct	_	_
+4	,	,	PUNCT	Punc	_	1	punct	_	_
 5	YÖK	Yök	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	Başkanı'nı	başkan	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 7	uyararak	uyar	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	18	nmod	_	SpaceAfter=No
@@ -2920,7 +2920,7 @@
 # Change 2.2/dev: merge -CA
 1	Mali	mali	ADJ	Adj	_	2	amod	_	_
 2	Barış	barış	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	9	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	yalnızca	yalnızca	ADV	Adverb	_	9	advmod	_	_
 5	vergi	vergi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	borçlarını	borç	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
@@ -2947,16 +2947,16 @@
 
 # sent_id = mst-1222
 # text = -Hayır, bir çizgi-roman kahramanının hayatını yazıyorum.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
+2	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	10	punct	_	_
 4	bir	bir	DET	ANum	Definite=Ind|PronType=Art	8	det	_	_
 5	çizgi	çizgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	SpaceAfter=No
-6	-	-	PUNCT	Punc	_	10	punct	_	SpaceAfter=No
+6	-	-	PUNCT	Punc	_	7	punct	_	SpaceAfter=No
 7	roman	roman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 8	kahramanının	kahraman	ADJ	NAdj	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
 9	hayatını	hayat	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
-10	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+10	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	2	conj	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = mst-1225
@@ -3012,12 +3012,12 @@
 4	alan	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	3	compound	_	_
 5	bir	bir	DET	ANum	Definite=Ind|PronType=Art	6	det	_	_
 6	yazım	yazım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	21	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	Bodrum	Bodrum	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
 9	Bodrum	Bodrum	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 10	Dedikleri	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	compound	_	_
 11	başlığıyla	başlık	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	21	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	Mimarlar	mimar	NOUN	Noun	Case=Nom|Number=Plur|Person=3	20	nmod:poss	_	_
 14	Odası	oda	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	compound	_	_
 15	İzmir	İzmir	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	compound	_	_
@@ -3080,13 +3080,13 @@
 2	DYP	DYP	PROPN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	compound	_	_
 3	'li	li	ADP	With	_	2	case	_	_
 4	kadınlar	kadın	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	9	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	9	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	Çiller'in	Çiller	PROPN	Prop	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 7	kendileriyle	kendi	PRON	Reflex	Case=Ins|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Reflex=Yes	8	cc	_	_
 8	görüşmemesi	görüş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	9	nmod	_	_
 9	üzerine	üzer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	15	punct	_	_
-11	"	"	PUNCT	Punc	_	10	punct	_	_
+11	"	"	PUNCT	Punc	_	15	punct	_	_
 12	En	en	ADV	Adverb	_	13	advmod:emph	_	_
 13	çok	çok	ADJ	Adj	_	15	advmod:emph	_	_
 14	biz	biz	PRON	Pers	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
@@ -3115,7 +3115,7 @@
 
 # sent_id = mst-1291
 # text = " Ben Burhan Dede'nin soyundan, torunlarından biriyim.
-1	"	"	PUNCT	Punc	_	0	root	_	_
+1	"	"	PUNCT	Punc	_	8	punct	_	_
 2	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 3	Burhan	Burhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 4	Dede'nin	Dede	PROPN	Prop	Case=Gen|Number=Sing|Person=3	3	compound	_	_
@@ -3123,7 +3123,7 @@
 6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	torunlarından	torun	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	5	conj	_	_
 8-9	biriyim	_	_	_	_	_	_	_	SpaceAfter=No
-8	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind	1	conj	_	_
+8	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind	0	root	_	_
 9	yim	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	cop	_	_
 10	.	.	PUNCT	Punc	_	8	punct	_	_
 
@@ -3186,7 +3186,7 @@
 # sent_id = mst-1323
 # text = Evet, diye mırıldandı.
 1	Evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obl	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	4	punct	_	_
+2	,	,	PUNCT	Punc	_	3	punct	_	_
 3	diye	diye	ADP	PCNom	_	1	case	_	_
 4	mırıldandı	mırıldan	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -3222,7 +3222,7 @@
 11	ve	ve	CCONJ	Conj	_	12	cc	_	_
 12	işletmeniz	işle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=2|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	9	conj	_	_
 13	halinde	hal	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	obl	_	SpaceAfter=No
-14	,	,	PUNCT	Punc	_	18	punct	_	_
+14	,	,	PUNCT	Punc	_	13	punct	_	_
 15	başarılı	başarılı	ADJ	Adj	_	17	amod	_	_
 16	bir	bir	NUM	ANum	NumType=Card	17	nummod	_	_
 17	mağaza	mağaza	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	obj	_	_
@@ -3269,7 +3269,7 @@
 # sent_id = mst-1363
 # text = Mantık, nesnel gerçekliğin insan zihnine sürekli yansıyan en genel ve temel kurallarının sistemleştirilmesinden ibarettir.
 1	Mantık	mantık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	15	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	nesnel	nesnel	ADJ	Adj	_	4	amod	_	_
 4	gerçekliğin	gerçeklik	NOUN	Noun	Case=Gen|Number=Sing|Person=3	13	nmod:poss	_	_
 5	insan	insan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
@@ -3290,9 +3290,9 @@
 # sent_id = mst-1374
 # text = Cevat, Evet, bakalım, diye atıldı.
 1	Cevat	Cevat	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	8	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	8	punct	_	_
+4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	bakalım	bak	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	diye	diye	ADP	PCNom	_	3	case	_	_
@@ -3317,7 +3317,7 @@
 # sent_id = mst-1385
 # text = Dikkat: değiştirmeli demedi.
 1	Dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod	_	SpaceAfter=No
-2	:	:	PUNCT	Punc	_	4	punct	_	_
+2	:	:	PUNCT	Punc	_	1	punct	_	_
 3	değiştirmeli	değiş	VERB	Verb	Aspect=Perf|Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau	4	obj	_	_
 4	demedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -3330,7 +3330,7 @@
 4	önce	önce	ADV	Adverb	_	5	advmod	_	_
 5	görmediğim	gör	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Neg|Tense=Past|VerbForm=Part	9	acl	_	_
 6	bir	bir	NUM	ANum	NumType=Card	9	nummod	_	SpaceAfter=No
-7	-	-	PUNCT	Punc	_	11	punct	_	SpaceAfter=No
+7	-	-	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
 8	iki	iki	NUM	ANum	NumType=Card	6	flat	_	_
 9	kadın	kadın	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 10	gözüme	göz	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	11	obl	_	_
@@ -3372,7 +3372,7 @@
 3	ederken	et	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	2	compound:lvc	_	_
 4	ki	ki	ADP	Rel	_	2	case	_	_
 5	aceleciliği	acelecilik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	11	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	sanırım	san	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	11	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	birşeylerden	birşey	NOUN	Noun	Case=Abl|Number=Plur|Person=3	10	obl	_	_
@@ -3403,7 +3403,7 @@
 # sent_id = mst-1420
 # text = Niçin? Niçin bir giren bir daha çıkamaz oradan? diye sordum.
 1	Niçin	niçin	ADV	Adverb	_	8	advmod	_	SpaceAfter=No
-2	?	?	PUNCT	Punc	_	3	punct	_	_
+2	?	?	PUNCT	Punc	_	1	punct	_	_
 3	Niçin	niçin	ADV	Adverb	_	1	advmod	_	_
 4	bir	bir	ADV	Adverb	_	5	advmod	_	_
 5	giren	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	nsubj	_	_
@@ -3435,14 +3435,14 @@
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	Ramiz	Ramiz	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	3	punct	_	_
+5	,	,	PUNCT	Punc	_	8	punct	_	_
 6	önce	önce	ADV	Adverb	_	8	advmod	_	_
 7	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	girerim	gir	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	3	conj	_	_
 9	sınıfa	sınıf	NOUN	Noun	Case=Dat|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	8	punct	_	_
 11	öğretmenim	öğretmen	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	13	obj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	13	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	derim	de	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	3	conj	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	19	punct	_	_
 15	öğlende	öğlen	NOUN	Noun	Case=Loc|Number=Sing|Person=3	19	obl	_	_
@@ -3518,7 +3518,7 @@
 3	kalma	kal	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
 4	bir	bir	DET	ANum	Definite=Ind|PronType=Art	5	det	_	_
 5	durum	durum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	7	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -3624,7 +3624,7 @@
 8	,	,	PUNCT	Punc	_	10	punct	_	_
 9	kızarmış	kızar	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
 10	ekmek	ekmek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	15	punct	_	_
+11	,	,	PUNCT	Punc	_	4	punct	_	_
 12	bir	bir	DET	ANum	Definite=Ind|PronType=Art	13	det	_	_
 13	de	de	CCONJ	Conj	_	16	mark	_	_
 14	ılık	ılık	ADJ	Adj	_	15	amod	_	_
@@ -3662,7 +3662,7 @@
 # sent_id = mst-1518
 # text = Yorum: Haberi geçen Doğan Haber Ajansı (DHA) Konya muhabiri Mehmet Büyükarı, haberin doğru olduğunda ısrarlı.
 1	Yorum	yorum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	Punc	_	19	punct	_	_
+2	:	:	PUNCT	Punc	_	13	punct	_	_
 3	Haberi	haber	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
 4	geçen	geç	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	3	compound	_	_
 5	Doğan	Doğan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	compound	_	_
@@ -3675,7 +3675,7 @@
 12	muhabiri	muhabir	NOUN	Noun	Case=Acc|Number=Sing|Person=3	13	nmod	_	_
 13	Mehmet	Mehmet	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 14	Büyükarı	Büyükarı	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	flat	_	SpaceAfter=No
-15	,	,	PUNCT	Punc	_	1	punct	_	_
+15	,	,	PUNCT	Punc	_	13	punct	_	_
 16	haberin	haber	NOUN	Noun	Case=Gen|Number=Sing|Person=3	18	nmod:poss	_	_
 17	doğru	doğru	ADJ	Adj	_	18	amod	_	_
 18	olduğunda	ol	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
@@ -3701,7 +3701,7 @@
 5	çıkmıyor	çık	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	4	compound	_	_
 6	bu	bu	DET	Det	_	7	det	_	_
 7	ihtimal	ihtimal	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	4	punct	_	_
+8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	doğru	doğru	ADJ	Adj	_	4	conj	_	_
 10	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	9	punct	_	_
@@ -3773,7 +3773,7 @@
 3	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	compound	_	_
 4	bu	bu	DET	Det	_	5	det	_	_
 5	makine	makine	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	7	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -3877,7 +3877,7 @@
 # sent_id = mst-1610
 # text = Aygün, sundukları dosyayı inceleyip faiz oranlarını görünce hayrete düşen Şener'in, bu konuyu gelecek hafta Bakanlar Kurulu gündemine getireceğini söylediğini kaydetti.
 1	Aygün	Aygün	PROPN	Prop	Case=Nom|Number=Sing|Person=3	22	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	22	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	sundukları	sun	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
 4	dosyayı	dosya	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	obj	_	_
 5	inceleyip	incele	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	8	nmod	_	_
@@ -3887,7 +3887,7 @@
 9	hayrete	hayret	NOUN	Noun	Case=Dat|Number=Sing|Person=3	11	nmod	_	_
 10	düşen	düş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	9	compound	_	_
 11	Şener'in	Şener	PROPN	Prop	Case=Gen|Number=Sing|Person=3	21	nsubj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	21	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	bu	bu	DET	Det	_	14	det	_	_
 14	konuyu	konu	NOUN	Noun	Case=Acc|Number=Sing|Person=3	20	obj	_	_
 15	gelecek	gelecek	ADJ	Adj	_	16	amod	_	_
@@ -3938,7 +3938,7 @@
 2	günler	gün	NOUN	Noun	Case=Nom|Number=Plur|Person=3	17	obl	_	_
 3	oluyordu	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	4	nmod	_	_
 4	ki	ki	CCONJ	Conj	_	17	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	17	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	bazen	bazen	ADV	Adverb	_	8	advmod	_	_
 7	sabah	sabah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	başka	başka	ADJ	Adj	_	16	amod	_	SpaceAfter=No
@@ -4025,7 +4025,7 @@
 1	Onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	ulaştırmam	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	5	obj	_	_
 3	gerek	gerek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	5	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -4095,7 +4095,7 @@
 # sent_id = mst-1707
 # text = Herkes, ağız birliği etmişçesine büyük adam olduğunu söylüyordu.
 1	Herkes	herkes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	9	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	ağız	ağız	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obl	_	_
 4	birliği	birlik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	compound	_	_
 5	etmişçesine	et	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Conv	3	compound	_	_
@@ -4171,7 +4171,7 @@
 # sent_id = mst-1744
 # text = Biz, peynirlerimize böyle hikayeler yazamamışız.
 1	Biz	biz	PRON	Pers	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	6	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	peynirlerimize	peynir	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	6	obl	_	_
 4	böyle	böyle	ADJ	Adj	_	5	amod	_	_
 5	hikayeler	hikaye	NOUN	Noun	Case=Nom|Number=Plur|Person=3	6	obj	_	_
@@ -4196,7 +4196,7 @@
 4	uzun	uzun	ADJ	Adj	_	5	amod	_	_
 5	alıntıdan	alıntı	NOUN	Noun	Case=Abl|Number=Sing|Person=3	12	obl	_	_
 6	sonra	sonra	ADP	PCAbl	_	5	case	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	12	punct	_	_
+7	,	,	PUNCT	Punc	_	8	punct	_	_
 8	eve	ev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	nmod	_	_
 9	ilişkin	ilişkin	ADP	PCDat	_	8	case	_	_
 10	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	nmod:poss	_	_
@@ -4253,7 +4253,7 @@
 # sent_id = mst-1774
 # text = Orada, aynı yerde durur ve onu bekler.
 1	Orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	aynı	aynı	ADJ	Adj	_	4	amod	_	_
 4	yerde	yer	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 5	durur	dur	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	8	nmod	_	_
@@ -4326,7 +4326,7 @@
 9	isteyenlere	iste	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	25	advcl	_	_
 10	ana	ana	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	18	obj	_	_
 11	dillerini	dil	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	10	compound	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	18	punct	_	_
+12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
 14-15	denetimindeki	_	_	_	_	_	_	_	_
 14	denetiminde	denetim	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nmod	_	_
@@ -4381,7 +4381,7 @@
 2	coğrafyada	coğrafya	NOUN	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	_
 3	yetişen	yetiş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	4	acl	_	_
 4	ot	ot	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	11	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	bu	bu	DET	Det	_	7	det	_	_
 7	coğrafyaya	coğrafya	NOUN	Noun	Case=Dat|Number=Sing|Person=3	8	obl	_	_
 8	özgü	özgü	ADJ	Adj	_	9	amod	_	_
@@ -4509,7 +4509,7 @@
 # text = Bilimsel Devrim, başlangıçta ideolojik bir devrimdir.
 1	Bilimsel	bilimsel	ADJ	Adj	_	2	amod	_	_
 2	Devrim	devrim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	7	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	başlangıçta	başlangıç	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 5	ideolojik	ideolojik	ADJ	Adj	_	7	amod	_	_
 6	bir	bir	DET	ANum	Definite=Ind|PronType=Art	7	det	_	_
@@ -4554,7 +4554,7 @@
 # sent_id = mst-1904
 # text = Darbukayı, yan yana getirdiği lastik terliklerin üzerine usulca uzattı.
 1	Darbukayı	darbuka	NOUN	Noun	Case=Acc|Number=Sing|Person=3	10	obj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	10	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	yan	yan	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
 4	yana	yan	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	3	compound:redup	_	_
 5	getirdiği	getir	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
@@ -4629,16 +4629,16 @@
 # text = Meta ekonomisi, ürünlerin, bir kullanım değeri olmanın yanı sıra, bir değişim değerine dönüşmelerini gerektirir.
 1	Meta	meta	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	ekonomisi	ekonomi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	17	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	ürünlerin	ürün	NOUN	Noun	Case=Gen|Number=Plur|Person=3	9	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	9	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	bir	bir	DET	ANum	Definite=Ind|PronType=Art	8	det	_	_
 7	kullanım	kullanım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	değeri	değer	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	olmanın	ol	VERB	Verb	Aspect=Perf|Case=Gen|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	17	obj	_	_
 10	yanı	yan	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	cc	_	_
 11	sıra	sıra	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	compound	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	16	punct	_	_
+12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	bir	bir	DET	ANum	Definite=Ind|PronType=Art	14	det	_	_
 14	değişim	değişim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
 15	değerine	değer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
@@ -4793,7 +4793,7 @@
 10	dek	dek	ADP	PCDat	_	9	case	_	_
 11	suya	su	NOUN	Noun	Case=Dat|Number=Sing|Person=3	12	obl	_	_
 12	giriyorduk	gir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Polite=Infm|Tense=Past	4	conj	_	_
-13	ve	ve	CCONJ	Conj	_	38	cc	_	_
+13	ve	ve	CCONJ	Conj	_	37	cc	_	_
 14	kayalara	kaya	NOUN	Noun	Case=Dat|Number=Plur|Person=3	15	obl	_	_
 15	serpiştirilmiş	serpiş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=CauPass	20	acl	_	_
 16	gibi	gibi	ADP	PCNom	_	15	case	_	_
@@ -4806,11 +4806,11 @@
 23	yaz	yaz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	appos	_	_
 24	aşkları	aşk	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	23	compound	_	_
 25	bunlar	bu	PRON	Demons	Case=Nom|Number=Plur|Person=3|PronType=Dem	23	nsubj	_	SpaceAfter=No
-26	,	,	PUNCT	Punc	_	36	punct	_	_
+26	,	,	PUNCT	Punc	_	29	punct	_	_
 27	o	o	DET	Det	_	28	det	_	_
 28	kadarını	kadar	ADP	PCDat	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	obj	_	_
 29	çakıyoruz	çak	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	23	conj	_	SpaceAfter=No
-30	)	)	PUNCT	Punc	_	23	punct	_	SpaceAfter=No
+30	)	)	PUNCT	Punc	_	29	punct	_	SpaceAfter=No
 31	,	,	PUNCT	Punc	_	29	punct	_	_
 32	bu	bu	DET	Det	_	33	det	_	_
 33	durumdan	durum	NOUN	Noun	Case=Abl|Number=Sing|Person=3	34	obl	_	_
@@ -4838,7 +4838,7 @@
 # text = Eğer yazarları, bilimsel kuramların kanıtlanmasından çok yanlışlanabilirliğinden sözedilmesi gereğini onarlarsa, bildirilerinde sözünü ettikleri bazı noktaları bu ölçüt çerçevesinde eleştirmek istiyorum.
 1	Eğer	eğer	CCONJ	Conj	_	12	nmod	_	_
 2	yazarları	yazar	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	12	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	bilimsel	bilimsel	ADJ	Adj	_	5	amod	_	_
 5	kuramların	kuram	NOUN	Noun	Case=Gen|Number=Plur|Person=3	6	nmod:poss	_	_
 6	kanıtlanmasından	kanıtla	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	10	obj	_	_
@@ -4929,7 +4929,7 @@
 # sent_id = mst-2045
 # text = Geeç, dedi gözlerini kapayıp başıyla sınıfın arka sıralarını göstererek.
 1	Geeç	geç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	3	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	gözlerini	göz	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
 5	kapayıp	kapa	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	3	conj	_	_
@@ -4961,7 +4961,7 @@
 # text = Öyle ya, böyle bir soruyu o güne kadar kimse sormamıştı ona.
 1	Öyle	öyle	ADV	Adverb	_	0	root	_	_
 2	ya	ya	CCONJ	Conj	_	1	advmod:emph	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	1	punct	_	_
+3	,	,	PUNCT	Punc	_	11	punct	_	_
 4	böyle	böyle	ADV	Adverb	_	6	advmod	_	_
 5	bir	bir	DET	ANum	Definite=Ind|PronType=Art	6	det	_	_
 6	soruyu	soru	NOUN	Noun	Case=Acc|Number=Sing|Person=3	11	obj	_	_
@@ -4989,7 +4989,7 @@
 2	kişi	kişi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	ydi	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
 4	bunlar	bu	PRON	Demons	Case=Nom|Number=Plur|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-5	:	:	PUNCT	Punc	_	2	punct	_	_
+5	:	:	PUNCT	Punc	_	6	punct	_	_
 6	Sav	sav	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	appos	_	_
 7	ve	ve	CCONJ	Conj	_	8	cc	_	_
 8	Karaosmanoğlu	Karaosmanoğlu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	conj	_	_
@@ -5049,7 +5049,7 @@
 2-3	kimsiniz	_	_	_	_	_	_	_	SpaceAfter=No
 2	kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 3	siniz	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	2	cop	_	_
-4	?	?	PUNCT	Punc	_	6	punct	_	_
+4	?	?	PUNCT	Punc	_	2	punct	_	_
 5	diye	diye	ADP	PCNom	_	2	case	_	_
 6	sordum	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
 7	ürkerek	ürk	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nmod	_	SpaceAfter=No
@@ -5066,7 +5066,7 @@
 # sent_id = mst-2098
 # text = Kimbilir... dedi adam.
 1	Kimbilir	kimbilir	ADJ	Adj	_	3	obj	_	SpaceAfter=No
-2	...	...	PUNCT	Punc	_	3	punct	_	_
+2	...	...	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	adam	adam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
@@ -5076,7 +5076,7 @@
 1	Kolay	kolay	ADJ	Adj	_	3	amod	_	_
 2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	6	obj	_	SpaceAfter=No
-4	?	?	PUNCT	Punc	_	6	punct	_	_
+4	?	?	PUNCT	Punc	_	3	punct	_	_
 5	diye	diye	ADP	PCNom	_	3	case	_	_
 6	sordum	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
@@ -5109,7 +5109,7 @@
 2	darbukasını	darbuka	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
 3	aldı	al	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	yerden	yer	NOUN	Noun	Case=Abl|Number=Sing|Person=3	3	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	3	punct	_	_
+5	,	,	PUNCT	Punc	_	9	punct	_	_
 6	lastik	lastik	ADJ	Adj	_	7	amod	_	_
 7	terliklerini	terlik	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 8	ayağına	ayak	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
@@ -5232,7 +5232,7 @@
 3	eriyen	eri	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	kar	kar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	suları	su	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	12	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	mağaralara	mağara	NOUN	Noun	Case=Dat|Number=Plur|Person=3	8	obl	_	_
 8	girerek	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	12	nmod	_	_
 9	ayıların	ayı	NOUN	Noun	Case=Gen|Number=Plur|Person=3	11	nmod:poss	_	_
@@ -5240,14 +5240,14 @@
 11	uyanmasına	uyan	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	12	nmod	_	_
 12	neden	neden	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 13	oluyor	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	12	compound:lvc	_	SpaceAfter=No
-14	,	,	PUNCT	Punc	_	23	punct	_	_
+14	,	,	PUNCT	Punc	_	20	punct	_	_
 15	sinirli	sinirli	ADJ	Adj	_	20	amod	_	SpaceAfter=No
 16	,	,	PUNCT	Punc	_	17	punct	_	_
 17	uykusuz	uykusuz	ADV	Adverb	_	15	advmod	_	_
 18	ve	ve	CCONJ	Conj	_	19	cc	_	_
 19	aç	aç	ADJ	Adj	_	15	conj	_	_
 20	ayılar	ayı	NOUN	Noun	Case=Nom|Number=Plur|Person=3	25	nsubj	_	SpaceAfter=No
-21	,	,	PUNCT	Punc	_	25	punct	_	_
+21	,	,	PUNCT	Punc	_	20	punct	_	_
 22	daha	daha	ADV	Adverb	_	23	advmod	_	_
 23	hırçın	hırçın	ADJ	Adj	_	12	conj	_	_
 24	ve	ve	CCONJ	Conj	_	25	cc	_	_
@@ -5259,7 +5259,7 @@
 # sent_id = mst-2176
 # text = Yahu, yine ben mi onlara bir şey yapıyor oluyorum! diye haykırdım, fısıltı sınırlarını zorlayarak.
 1	Yahu	yahu	INTJ	Interj	_	13	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	13	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	yine	yine	ADV	Adverb	_	10	advmod	_	_
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 5	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
@@ -5271,7 +5271,7 @@
 11	!	!	PUNCT	Punc	_	10	punct	_	_
 12	diye	diye	ADP	PCNom	_	10	case	_	_
 13	haykırdım	haykır	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-14	,	,	PUNCT	Punc	_	13	punct	_	_
+14	,	,	PUNCT	Punc	_	17	punct	_	_
 15	fısıltı	fısıltı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 16	sınırlarını	sınır	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	17	obj	_	_
 17	zorlayarak	zorla	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	13	nmod	_	SpaceAfter=No
@@ -5282,7 +5282,7 @@
 1	Ancak	ancak	CCONJ	Conj	_	0	root	_	_
 2	bu	bu	DET	Det	_	3	det	_	_
 3	durum	durum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	16	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	yeni	yeni	ADJ	Adj	_	8	amod	_	_
 6	ve	ve	CCONJ	Conj	_	7	cc	_	_
 7	uzun	uzun	ADJ	Adj	_	5	conj	_	_
@@ -5334,7 +5334,7 @@
 1	Bir	bir	DET	ANum	Definite=Ind|PronType=Art	3	det	_	_
 2	bilimsel	bilimsel	ADJ	Adj	_	3	amod	_	_
 3	kuram	kuram	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	20	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	gözlemcilere	gözlemci	NOUN	Noun	Case=Dat|Number=Plur|Person=3	20	obl	_	_
 6	ve	ve	CCONJ	Conj	_	7	cc	_	_
 7	deneycilere	deneyci	NOUN	Noun	Case=Dat|Number=Plur|Person=3	5	conj	_	SpaceAfter=No
@@ -5361,8 +5361,8 @@
 4	alan	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	3	compound	_	_
 5	Kemal	Kemal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 6	Ulusu	Ulusu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	flat	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	14	punct	_	_
-8	"	"	PUNCT	Punc	_	5	punct	_	_
+7	,	,	PUNCT	Punc	_	5	punct	_	_
+8	"	"	PUNCT	Punc	_	14	punct	_	_
 9	Allah'tan	Allah	PROPN	Prop	Case=Abl|Number=Sing|Person=3	14	obl	_	_
 10	pilotlar	pilot	NOUN	Noun	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
 11	camdan	cam	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	12	amod	_	_
@@ -5428,12 +5428,12 @@
 2	ya	ya	CCONJ	Conj	_	1	compound	_	_
 3	da	da	CCONJ	Conj	_	1	compound	_	_
 4	böyle	böyle	ADV	Adverb	_	1	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	4	punct	_	_
+5	,	,	PUNCT	Punc	_	15	punct	_	_
 6	duvardan	duvar	NOUN	Noun	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
 7	söz	söz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 8	etmeksizin	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv	7	compound:lvc	_	_
 9	mekandan	mekan	NOUN	Noun	Case=Abl|Number=Sing|Person=3	15	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	14	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	mekandan	mekan	NOUN	Noun	Case=Abl|Number=Sing|Person=3	12	nmod	_	_
 12	söz	söz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod	_	_
 13	etmeksizin	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv	12	compound:lvc	_	_
@@ -5570,7 +5570,7 @@
 # text = Necmettin Erbakan, vatandaşlardan oylarını SP'ye vermelerini isteyerek, " Türkiye'nin işi, bu çoluk çocuğa bırakılamaz " dedi.
 1	Necmettin	Necmettin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 2	Erbakan	Erbakan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	19	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	vatandaşlardan	vatandaş	NOUN	Noun	Case=Abl|Number=Plur|Person=3	8	obl	_	_
 5	oylarını	oy	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 6	SP'ye	SP	NOUN	Abr	Abbr=Yes|Case=Dat|Number=Sing|Person=3	5	nmod	_	_
@@ -5580,7 +5580,7 @@
 10	"	"	PUNCT	Punc	_	17	punct	_	_
 11	Türkiye'nin	Türkiye	PROPN	Prop	Case=Gen|Number=Sing|Person=3	12	nmod:poss	_	_
 12	işi	iş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nsubj	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	17	punct	_	_
+13	,	,	PUNCT	Punc	_	12	punct	_	_
 14	bu	bu	DET	Det	_	15	det	_	_
 15	çoluk	çoluk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obl	_	_
 16	çocuğa	çocuk	NOUN	Noun	Case=Dat|Number=Sing|Person=3	15	compound:redup	_	_
@@ -5653,7 +5653,7 @@
 2	maddede	madde	NOUN	Noun	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 3	kırkaltı	kırkaltı	NUM	ANum	NumType=Card	4	nummod	_	_
 4	ret	ret	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	8	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	dörtyüzotuzdört	dörtyüzotuzdört	NUM	ANum	NumType=Card	7	nummod	_	_
 7	kabul	kabul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 8	çıktı	çık	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -5701,7 +5701,7 @@
 8	dile	dil	NOUN	Noun	Case=Dat|Number=Sing|Person=3	10	nmod	_	_
 9	getiren	getir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	compound	_	_
 10	Hamamcıoğlu	Hamamcıoğlu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	16	nsubj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	16	punct	_	_
+11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	bunu	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	15	obj	_	_
 13	Türk	Türk	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	14	amod	_	_
 14	yetkililerle	yetkili	ADJ	NAdj	Case=Ins|Number=Plur|Person=3	15	amod	_	_
@@ -5843,7 +5843,7 @@
 # text = Defalarca tırmanılan, sonra kayarak inilen tepeler bir anda yerlerini geniş bir düzlüğe bıraktı.
 1	Defalarca	defalarca	ADV	Adverb	_	2	advmod	_	_
 2	tırmanılan	tırman	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	6	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	sonra	sonra	ADV	Adverb	_	14	advmod	_	_
 5	kayarak	kay	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nmod	_	_
 6	inilen	in	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	2	conj	_	_
@@ -5881,7 +5881,7 @@
 3	eroini	eroin	NOUN	Noun	Case=Acc|Number=Sing|Person=3	4	obj	_	_
 4	bırakan	bırak	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 5	kişi	kişi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	15	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	kısa	kısa	ADJ	Adj	_	8	amod	_	_
 8	zamanda	zaman	NOUN	Noun	Case=Loc|Number=Sing|Person=3	15	obl	_	_
 9	alkole	alkol	NOUN	Noun	Case=Dat|Number=Sing|Person=3	14	nmod	_	SpaceAfter=No
@@ -5896,11 +5896,11 @@
 # sent_id = mst-2470
 # text = Kemal, Mecazi anlamda evet, diye cevap verdi.
 1	Kemal	Kemal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	8	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Mecazi	mecazi	ADJ	Adj	_	4	amod	_	_
 4	anlamda	anlam	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
 5	evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	8	punct	_	_
+6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	diye	diye	ADP	PCNom	_	5	case	_	_
 8	cevap	cevap	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 9	verdi	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	8	compound	_	SpaceAfter=No
@@ -5973,7 +5973,7 @@
 3	ki	ki	CCONJ	Conj	_	2	advmod:emph	_	_
 4	son	son	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
 5	yıllarda	yıl	NOUN	Noun	Case=Loc|Number=Plur|Person=3	13	obl	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	13	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	eroin	eroin	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	satıcıları	satıcı	ADJ	NAdj	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	_
 9	gençlerin	genç	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	10	nmod:poss	_	_
@@ -5992,17 +5992,17 @@
 # sent_id = mst-2511
 # text = -Kaç numarada oturuyorsunuz.
 # Change 2.2/dev: mark 'kaç' as NUM
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
 2	Kaç	kaç	NUM	Adj	NumType=Card	3	nummod	_	_
 3	numarada	numara	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
-4	oturuyorsunuz	otur	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+4	oturuyorsunuz	otur	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-2516
 # text = Türkiye, önceki akşam düşen " Konya " uçağının üzüntüsünü yaşarken, sabah saatlerinde gelen ikinci uçak kazası haberiyle şoke oldu.
 # Change 2.2/dev: fix ordinal number
 1	Türkiye	Türkiye	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	12	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3-4	önceki	_	_	_	_	_	_	_	_
 3	önce	önce	ADP	PCAbl	_	5	case	_	_
 4	ki	ki	ADP	Rel	_	3	case	_	_
@@ -6024,15 +6024,15 @@
 20	haberiyle	haber	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
 21	şoke	şoke	ADJ	Adj	_	12	conj	_	_
 22	oldu	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	12	conj	_	SpaceAfter=No
-23	.	.	PUNCT	Punc	_	21	punct	_	_
+23	.	.	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = mst-2531
 # text = Gene durdu, sıkılmıştı.
 1	Gene	gene	ADV	Adverb	_	2	advmod	_	_
 2	durdu	dur	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	2	conj	_	_
+3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	sıkılmıştı	sıkıl	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	2	conj	_	SpaceAfter=No
-5	.	.	PUNCT	Punc	_	2	conj	_	_
+5	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-2534
 # text = Bir yol bulmak için düşündüler, düşündüler, düşündüler...
@@ -6093,7 +6093,7 @@
 4	sakin	sakin	ADJ	Adj	_	6	amod	_	_
 5	bir	bir	DET	ANum	Definite=Ind|PronType=Art	6	det	_	_
 6	gününde	gün	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	11	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	onunla	o	PRON	Pers	Case=Ins|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
 9	arkadaş	arkadaş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 10	gibi	gibi	ADP	PCNom	_	9	case	_	_
@@ -6105,11 +6105,11 @@
 # sent_id = mst-2554
 # text = Nesrin, Aşkolsun, dedi, Suna Can duysa nasıl darılır sana.
 1	Nesrin	Nesrin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Aşkolsun	aşkolsun	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	11	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	5	punct	_	_
+6	,	,	PUNCT	Punc	_	11	punct	_	_
 7	Suna	Suna	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 8	Can	Can	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	flat	_	_
 9	duysa	duy	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	11	nmod	_	_
@@ -6158,7 +6158,7 @@
 13	;	;	PUNCT	Punc	_	20	punct	_	_
 14	balıkçıların	balıkçı	NOUN	Noun	Case=Gen|Number=Plur|Person=3	20	nmod:poss	_	_
 15	da	da	CCONJ	Conj	_	14	advmod:emph	_	SpaceAfter=No
-16	,	,	PUNCT	Punc	_	20	punct	_	_
+16	,	,	PUNCT	Punc	_	14	punct	_	_
 17	bıraksa	bırak	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	20	nmod	_	_
 18	sabaha	sabah	NOUN	Noun	Case=Dat|Number=Sing|Person=3	20	obl	_	_
 19	kadar	kadar	ADP	PCDat	_	18	case	_	_
@@ -6176,7 +6176,7 @@
 7	bu	bu	DET	Det	_	8	det	_	_
 8	odadan	oda	NOUN	Noun	Case=Abl|Number=Sing|Person=3	14	obl	_	_
 9	evlere	ev	NOUN	Noun	Case=Dat|Number=Plur|Person=3	14	obl	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	13	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	evlerden	ev	NOUN	Noun	Case=Abl|Number=Plur|Person=3	8	conj	_	_
 12	bu	bu	DET	Det	_	13	det	_	_
 13	odaya	oda	NOUN	Noun	Case=Dat|Number=Sing|Person=3	9	conj	_	_
@@ -6197,9 +6197,9 @@
 # text = Tarihini hatırlamıyorum, ağabeyim, Firuz bu Babayasa yı görünce: Yahu! Gizli cemiyet kurmuşlar diye bir muhbir sizi gammazlar, başınız derde girebilir demişti.
 1	Tarihini	tarih	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	obj	_	_
 2	hatırlamıyorum	hatırla	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	26	punct	_	_
+3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	ağabeyim	ağabey	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	26	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	26	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	Firuz	Firuz	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 7	bu	bu	DET	Det	_	8	det	_	_
 8	Babayasa	Babayasa	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
@@ -6230,7 +6230,7 @@
 2	sevgililer	sevgili	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	0	root	_	_
 3	di	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
 4	bunlar	bu	PRON	Demons	Case=Nom|Number=Plur|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	2	punct	_	_
+5	,	,	PUNCT	Punc	_	6	punct	_	_
 6	anlarsınız	anla	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	2	conj	_	_
 7	ya	ya	CCONJ	Conj	_	6	advmod:emph	_	SpaceAfter=No
 8	...	...	PUNCT	Punc	_	6	punct	_	_
@@ -6250,7 +6250,7 @@
 1	Yoksulluğa	yoksulluk	NOUN	Noun	Case=Dat|Number=Sing|Person=3	3	obl	_	_
 2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	dayanamadılar	dayan	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Plur|Person=3|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	16	punct	_	_
+4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	Kafkasya'nın	Kafkasya	PROPN	Prop	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
 6	özlemine	özlem	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 7	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
@@ -6290,10 +6290,10 @@
 2	ya	ya	CCONJ	Conj	_	1	advmod:emph	_	_
 3	Lordlar	Lordlar	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 4	Kamarası	kamara	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	flat	_	_
-5	(	(	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
+5	(	(	PUNCT	Punc	_	6	punct	_	SpaceAfter=No
 6	Upper	Upper	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 7	House	House	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	flat	_	SpaceAfter=No
-8	)	)	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
+8	)	)	PUNCT	Punc	_	6	punct	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-2625
@@ -6342,7 +6342,7 @@
 7	hemen	hemen	ADV	Adverb	_	8	advmod	_	_
 8	ekledim	ekle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
 9	ardından	ardından	ADV	Adverb	_	8	advmod	_	SpaceAfter=No
-10	:	:	PUNCT	Punc	_	8	punct	_	_
+10	:	:	PUNCT	Punc	_	29	punct	_	_
 11	Zaten	zaten	ADV	Adverb	_	22	advmod	_	_
 12	hiçbir	hiçbir	DET	Det	_	13	det	_	_
 13	kadın	kadın	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	22	nsubj	_	_
@@ -6392,7 +6392,7 @@
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
 5	olsa	ol	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	6	nmod	_	_
 6	sınırlandırılması	sınırlan	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=CauPass	18	punct	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	6	conj	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	hükümdar	hükümdar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 9	da	da	CCONJ	Conj	_	8	advmod:emph	_	_
 10	dahil	dahil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
@@ -6429,7 +6429,7 @@
 7	iki	iki	NUM	ANum	NumType=Card	8	nummod	_	_
 8	çocuk	çocuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	advmod:emph	_	_
 9	daha	daha	ADV	Adverb	_	15	advmod	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	15	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	gözlerini	göz	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	15	obj	_	_
 12	tabaklardan	tabak	NOUN	Noun	Case=Abl|Number=Plur|Person=3	15	obl	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	14	punct	_	_
@@ -6466,7 +6466,7 @@
 2	arkasında	arka	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	amod	_	_
 3	yım	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	cop	_	_
 4	hep	hep	ADV	Adverb	_	6	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	6	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6-7	peşindeyim	_	_	_	_	_	_	_	_
 6	peşinde	peş	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 7	yim	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	cop	_	_
@@ -6483,7 +6483,7 @@
 6	insanlarının	insan	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
 7	bir	bir	DET	ANum	Definite=Ind|PronType=Art	8	det	_	_
 8	bölümü	bölüm	NOUN	Noun	Case=Acc|Number=Sing|Person=3	25	nsubj	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	25	punct	_	_
+9	,	,	PUNCT	Punc	_	8	punct	_	_
 10	bölge	bölge	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obj	_	_
 11	turizme	turizm	NOUN	Noun	Case=Dat|Number=Sing|Person=3	12	obl	_	_
 12	açılınca	aç	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	27	nmod	_	SpaceAfter=No
@@ -6491,10 +6491,10 @@
 14	dedelerinden	dede	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	15	obl	_	_
 15	kalma	kal	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	16	nmod	_	_
 16	evlerini	ev	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	25	obj	_	SpaceAfter=No
-17	,	,	PUNCT	Punc	_	25	punct	_	_
+17	,	,	PUNCT	Punc	_	16	punct	_	_
 18	mandalina	mandalina	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 19	bahçelerini	bahçe	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	25	obj	_	SpaceAfter=No
-20	,	,	PUNCT	Punc	_	25	punct	_	_
+20	,	,	PUNCT	Punc	_	19	punct	_	_
 21	büyük	büyük	ADJ	Adj	_	22	amod	_	_
 22	kentlerden	kent	NOUN	Noun	Case=Abl|Number=Plur|Person=3	23	obl	_	_
 23	gelen	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	24	acl	_	_
@@ -6507,9 +6507,9 @@
 30	bir	bir	DET	ANum	Definite=Ind|PronType=Art	31	det	_	_
 31	bölümü	bölüm	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	43	nsubj	_	_
 32	de	de	CCONJ	Conj	_	31	advmod:emph	_	SpaceAfter=No
-33	,	,	PUNCT	Punc	_	43	punct	_	_
+33	,	,	PUNCT	Punc	_	31	punct	_	_
 34	evlerini	ev	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	40	obj	_	SpaceAfter=No
-35	,	,	PUNCT	Punc	_	40	punct	_	_
+35	,	,	PUNCT	Punc	_	34	punct	_	_
 36	pansiyon	pansiyon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	39	nmod:poss	_	SpaceAfter=No
 37	,	,	PUNCT	Punc	_	38	punct	_	_
 38	motel	motel	NOUN	Noun	Case=Nom|Number=Sing|Person=3	36	conj	_	_
@@ -6567,7 +6567,7 @@
 # text = Görüşmede ATO'nun, Vergi Yasası ile görüşleri de beş başlıkta sunuldu.
 1	Görüşmede	görüşme	NOUN	Noun	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 2	ATO'nun	Ato	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	11	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Vergi	vergi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 5	Yasası	yasa	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	compound	_	_
 6	ile	ile	ADP	PCNom	_	4	case	_	_
@@ -6586,10 +6586,10 @@
 4-5	benim	_	_	_	_	_	_	_	SpaceAfter=No
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	ccomp	_	_
 5	im	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	_
-6	!	!	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
-7	...	...	PUNCT	Punc	_	8	punct	_	_
+6	!	!	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
+7	...	...	PUNCT	Punc	_	4	punct	_	_
 8	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	8	punct	_	_
+9	,	,	PUNCT	Punc	_	10	punct	_	_
 10	biri	bir	NUM	NNum	Case=Acc|Number=Sing|NumType=Card|Person=3	8	nsubj	_	_
 11	Memo'ya	Memo	PROPN	Prop	Case=Dat|Number=Sing|Person=3	12	obl	_	_
 12	bakarak	bak	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	8	nmod	_	SpaceAfter=No
@@ -6672,7 +6672,7 @@
 # sent_id = mst-2786
 # text = Aygün, Başbakan Yardımcısı Abdüllatif Şener'le görüşmesinden sonra yaptığı açıklamada bu bankaların, Vakıfbank, Şekerbank, Yapı Kredi, Akbank, Garanti ve Halk Bankası olduğunu kaydetti.
 1	Aygün	Aygün	PROPN	Prop	Case=Nom|Number=Sing|Person=3	28	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	28	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Başbakan	başbakan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 4	Yardımcısı	yardımcı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	compound	_	_
 5	Abdüllatif	Abdüllatif	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -6683,7 +6683,7 @@
 10	açıklamada	açıkla	VERB	Verb	Aspect=Perf|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	28	nmod	_	_
 11	bu	bu	DET	Det	_	12	det	_	_
 12	bankaların	banka	NOUN	Noun	Case=Gen|Number=Plur|Person=3	27	nmod:poss	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	27	punct	_	_
+13	,	,	PUNCT	Punc	_	12	punct	_	_
 14	Vakıfbank	Vakıfbank	PROPN	Prop	Case=Nom|Number=Sing|Person=3	27	nsubj	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	16	punct	_	_
 16	Şekerbank	Şekerbank	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	conj	_	SpaceAfter=No
@@ -6761,7 +6761,7 @@
 10	artan	art	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
 11	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
 12	kadınlarının	kadın	ADJ	NAdj	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	23	nmod:poss	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	23	punct	_	_
+13	,	,	PUNCT	Punc	_	12	punct	_	_
 14	iki	iki	NUM	ANum	NumType=Card	18	nummod	_	_
 15	çift	çift	ADJ	Adj	_	14	compound	_	_
 16	laf	laf	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	compound	_	_
@@ -6810,10 +6810,10 @@
 9	li	li	ADP	With	_	8	case	_	_
 10	güzel	güzel	ADJ	Adj	_	11	amod	_	_
 11	lokantalara	lokanta	NOUN	Noun	Case=Dat|Number=Plur|Person=3	19	obl	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	19	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	daha	daha	ADV	Adverb	_	14	advmod	_	_
 14	çok	çok	ADV	Adverb	_	19	advmod	_	SpaceAfter=No
-15	,	,	PUNCT	Punc	_	19	punct	_	_
+15	,	,	PUNCT	Punc	_	14	punct	_	_
 16	bu	bu	DET	Det	_	18	det	_	_
 17	gezdiğim	gez	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
 18	kızlarla	kız	ADJ	NAdj	Case=Ins|Number=Plur|Person=3	19	amod	_	_
@@ -7073,30 +7073,30 @@
 # sent_id = mst-2973
 # text = Sonra, ne oldu? Babanız, bir hastanede, tüm sevdikleri yanındayken, doktorların ve hemşirelerin arasında, hiç acı çekmeden, mutluluk içinde öldü; korktuğunuz başınıza gelmedi, ama sanki bin kez gelmiş gibi size acı çektirdi.
 1	Sonra	sonra	ADV	Adverb	_	4	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	4	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	oldu	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-5	?	?	PUNCT	Punc	_	27	punct	_	_
+5	?	?	PUNCT	Punc	_	4	punct	_	_
 6	Babanız	baba	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	27	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	27	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	bir	bir	DET	ANum	Definite=Ind|PronType=Art	9	det	_	_
 9	hastanede	hastane	NOUN	Noun	Case=Loc|Number=Sing|Person=3	27	obl	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	27	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	tüm	tüm	DET	Det	_	12	det	_	_
-12	sevdikleri	sev	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	15	nsubj	_	_
+12	sevdikleri	sev	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	27	nsubj	_	_
 13-14	yanındayken	_	_	_	_	_	_	_	SpaceAfter=No
 13	yanında	yan	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	27	amod	_	_
 14	yken	i	AUX	Zero	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Conv	13	cop	_	_
-15	,	,	PUNCT	Punc	_	27	punct	_	_
+15	,	,	PUNCT	Punc	_	13	punct	_	_
 16	doktorların	doktor	NOUN	Noun	Case=Gen|Number=Plur|Person=3	19	nmod:poss	_	_
 17	ve	ve	CCONJ	Conj	_	16	cc	_	_
 18	hemşirelerin	hemşire	NOUN	Noun	Case=Gen|Number=Plur|Person=3	19	nmod:poss	_	_
 19	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	amod	_	SpaceAfter=No
-20	,	,	PUNCT	Punc	_	27	punct	_	_
+20	,	,	PUNCT	Punc	_	19	punct	_	_
 21	hiç	hiç	ADV	Adverb	_	22	advmod	_	_
 22	acı	acı	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	27	amod	_	_
 23	çekmeden	çek	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv	22	compound	_	SpaceAfter=No
-24	,	,	PUNCT	Punc	_	27	punct	_	_
+24	,	,	PUNCT	Punc	_	22	punct	_	_
 25	mutluluk	mutluluk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	26	nmod:poss	_	_
 26	içinde	iç	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	amod	_	_
 27	öldü	öl	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	4	conj	_	SpaceAfter=No
@@ -7125,7 +7125,7 @@
 5	dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 6	çeken	çek	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	5	compound	_	_
 7	Demiray	Demiray	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	15	punct	_	_
+8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	komisyon	komisyon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
 10	bankacılığının	bankacılık	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
 11	biraz	biraz	ADV	Adverb	_	12	advmod	_	_
@@ -7156,12 +7156,12 @@
 9	kesin	kesin	ADJ	Adj	_	10	amod	_	_
 10	üstünlüğe	üstünlük	NOUN	Noun	Case=Dat|Number=Sing|Person=3	38	obl	_	_
 11	karşın	karşın	ADP	PCDat	_	10	case	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	38	punct	_	_
+12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	bugün	bugün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	38	obl	_	_
 14	gelişmiş	geliş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
 15	kapitalist	kapitalist	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod	_	_
 16	ülkelerde	ülke	NOUN	Noun	Case=Loc|Number=Plur|Person=3	38	obl	_	SpaceAfter=No
-17	,	,	PUNCT	Punc	_	38	punct	_	_
+17	,	,	PUNCT	Punc	_	16	punct	_	_
 18	bilim	bilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	38	nsubj	_	_
 19	ve	ve	CCONJ	Conj	_	20	cc	_	_
 20	din	din	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	conj	_	SpaceAfter=No
@@ -7177,7 +7177,7 @@
 30	alanına	alan	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	31	obl	_	_
 31	yerleştirilmiş	yerleş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=CauPass	32	acl	_	_
 32	şekilde	şekil	NOUN	Noun	Case=Loc|Number=Sing|Person=3	38	obl	_	SpaceAfter=No
-33	,	,	PUNCT	Punc	_	38	punct	_	_
+33	,	,	PUNCT	Punc	_	32	punct	_	_
 34	birbirlerine	birbiri	PRON	Quant	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	35	obl	_	_
 35	dokunmaksızın	dokun	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv	38	nmod	_	_
 36	barış	barış	NOUN	Noun	Case=Nom|Number=Sing|Person=3	37	nmod:poss	_	_
@@ -7263,7 +7263,7 @@
 3	bir	bir	DET	ANum	Definite=Ind|PronType=Art	4	det	_	_
 4	çöl	çöl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 5	gibi	gibi	ADP	PCNom	_	4	case	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	7	punct	_	_
+6	,	,	PUNCT	Punc	_	4	punct	_	_
 7	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -7388,10 +7388,10 @@
 # text = Ben de, ben de, ben de bu umudu taşıyorum.
 1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	11	punct	_	_
+3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 5	de	de	CCONJ	Conj	_	4	advmod:emph	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	11	punct	_	_
+6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 8	de	de	CCONJ	Conj	_	7	advmod:emph	_	_
 9	bu	bu	DET	Det	_	10	det	_	_
@@ -7412,7 +7412,7 @@
 1	Yarının	yarın	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 2	yaşam	yaşam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	tarzını	tarz	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	8	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	yarına	yarın	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	nmod	_	_
 6	ait	ait	ADP	PCDat	_	5	case	_	_
 7	kurallar	kural	NOUN	Noun	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
@@ -7478,7 +7478,7 @@
 3	sadece	sadece	ADV	Adverb	_	4	advmod	_	_
 4	geçmişini	geçmiş	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 5	değil	değil	CCONJ	Conj	_	7	cc	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	9	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	geleceğini	gelecek	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	conj	_	_
 8	de	de	CCONJ	Conj	_	7	advmod:emph	_	_
 9	arayan	ara	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	12	acl	_	_
@@ -7541,7 +7541,7 @@
 5	,	,	PUNCT	Punc	_	11	punct	_	_
 6	o	o	DET	Det	_	7	det	_	_
 7	kaçınılan	kaçın	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	10	punct	_	_
+8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	o	o	DET	Det	_	11	det	_	_
 10	korkulan	kork	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	7	conj	_	_
 11	duygularla	duygu	NOUN	Noun	Case=Ins|Number=Plur|Person=3	4	conj	_	_
@@ -7578,7 +7578,7 @@
 # text = Çektim ellerimi...
 1	Çektim	çek	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
 2	ellerimi	el	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1	1	obj	_	SpaceAfter=No
-3	...	...	PUNCT	Punc	_	1	conj	_	_
+3	...	...	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-3198
 # text = Derin derin soluklandım, gidip oturdum karşısındaki uzakça koltuğa.
@@ -7613,10 +7613,10 @@
 
 # sent_id = mst-3210
 # text = -Bu kağıtlar ne, ders mi.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
 2	Bu	bu	DET	Det	_	3	det	_	_
 3	kağıtlar	kağıt	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
-4	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+4	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	6	punct	_	_
 6	ders	ders	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	_
 7	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
@@ -7634,17 +7634,17 @@
 # sent_id = mst-3218
 # text = ', bölgedeki bazı ülkelerde, iç faktörlerin, dış faktörlerden daha etkili olabileceğini vurguladıktan sonra, bölge ülkelerinin aksine, ' mali desteğinin sürdüğü ve NATO üyesi olan Türkiye'nin ise ekonomik programa sadık kalması halinde kredi notunun yükselebileceğini belirtiyor.
 # Change 2.2/dev: mark i- (ise/imiş/idi/iken) as AUX
-1	'	'	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	0	root	_	_
+1	'	'	PUNCT	Punc	_	16	punct	_	SpaceAfter=No
+2	,	,	PUNCT	Punc	_	16	punct	_	_
 3-4	bölgedeki	_	_	_	_	_	_	_	_
 3	bölgede	bölge	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	nmod	_	_
 4	ki	ki	ADP	Rel	_	3	case	_	_
 5	bazı	bazı	DET	Det	_	6	det	_	_
 6	ülkelerde	ülke	NOUN	Noun	Case=Loc|Number=Plur|Person=3	15	obl	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	15	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	iç	iç	ADJ	Adj	_	9	amod	_	_
 9	faktörlerin	faktör	NOUN	Noun	Case=Gen|Number=Plur|Person=3	15	nmod:poss	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	15	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	dış	dış	ADJ	Adj	_	12	amod	_	_
 12	faktörlerden	faktör	NOUN	Noun	Case=Abl|Number=Plur|Person=3	15	obl	_	_
 13	daha	daha	ADV	Adverb	_	14	advmod	_	_
@@ -7656,8 +7656,8 @@
 19	bölge	bölge	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nmod:poss	_	_
 20	ülkelerinin	ülke	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	21	nmod	_	_
 21	aksine	aksine	ADV	Adverb	_	36	advmod	_	SpaceAfter=No
-22	,	,	PUNCT	Punc	_	36	punct	_	_
-23	'	'	PUNCT	Punc	_	2	punct	_	_
+22	,	,	PUNCT	Punc	_	21	punct	_	_
+23	'	'	PUNCT	Punc	_	21	punct	_	_
 24	mali	mali	ADJ	Adj	_	25	amod	_	_
 25	desteğinin	destek	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	nmod:poss	_	_
 26	sürdüğü	sür	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	31	acl	_	_
@@ -7675,7 +7675,7 @@
 38	kredi	kredi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	39	nmod:poss	_	_
 39	notunun	not	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	40	nmod:poss	_	_
 40	yükselebileceğini	yüksel	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	41	obj	_	_
-41	belirtiyor	belir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Cau	2	conj	_	SpaceAfter=No
+41	belirtiyor	belir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
 42	.	.	PUNCT	Punc	_	41	punct	_	_
 
 # sent_id = mst-3239
@@ -7713,7 +7713,7 @@
 9	vardı	var	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	4	conj	_	_
 10	tıpkı	tıpkı	ADV	Adverb	_	11	advmod:emph	_	_
 11	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	nmod:poss	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	16	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	annemle	anne	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	16	obl	_	_
 14	babama	baba	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	13	conj	_	_
 15	ihtiyacım	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	16	obj	_	_
@@ -7770,7 +7770,7 @@
 4	başlamış	başla	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	5	obj	_	_
 5	olmalıydı	ol	VERB	Verb	Aspect=Perf|Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6	Seben'de	Seben	PROPN	Prop	Case=Loc|Number=Sing|Person=3	4	obl	_	SpaceAfter=No
-7	.	.	PUNCT	Punc	_	4	punct	_	_
+7	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-3275
 # text = Adeta sorulabilecek bütün büyük soruların sorulup tüketildiği, bilimin mevcut düzleminin ulaşılabilecek en yüksek düzlem olduğu, dolayısıyla da teorinin son bulduğu bir dönemde yaşıyoruz.
@@ -7806,7 +7806,7 @@
 1	Bu	bu	DET	Det	_	12	det	_	_
 2	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	1	compound	_	_
 3	erkekler	erkek	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	12	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	12	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	o	o	DET	Det	_	6	det	_	_
 6	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	ihtiyaçları	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	9	nmod	_	_
@@ -7866,7 +7866,7 @@
 # text = Gitti mutfağa, herhalde çay koymaya...
 1	Gitti	git	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 2	mutfağa	mutfak	NOUN	Noun	Case=Dat|Number=Sing|Person=3	1	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	1	punct	_	_
+3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	herhalde	herhalde	ADV	Adverb	_	6	advmod	_	_
 5	çay	çay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 6	koymaya	koy	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	1	nmod	_	SpaceAfter=No
@@ -7882,11 +7882,11 @@
 
 # sent_id = mst-3317
 # text = -Siz de mi yazıyorsunuz.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 2	Siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
 3	de	de	CCONJ	Conj	_	2	advmod:emph	_	_
 4	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
-5	yazıyorsunuz	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+5	yazıyorsunuz	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-3320
@@ -7913,7 +7913,7 @@
 1	Hasta	hasta	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 2	olacaksın	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut	1	compound:lvc	_	_
 3	başımıza	baş	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	1	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	6	punct	_	_
+4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	diye	diye	ADP	PCNom	_	1	case	_	_
 6	söylendi	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
 7	Recep	Recep	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nsubj	_	SpaceAfter=No
@@ -7922,9 +7922,9 @@
 # sent_id = mst-3332
 # text = Hiiç, dedi, oturuyorum.
 1	Hiiç	hiç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	3	punct	_	_
+4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	oturuyorum	otur	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -7961,7 +7961,7 @@
 # text = Şükran Hanım, o gece defterinin başına geçmedi.
 1	Şükran	Şükran	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 2	Hanım	Hanım	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	compound	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	7	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	o	o	DET	Det	_	5	det	_	_
 5	gece	gece	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 6	defterinin	defter	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:poss	_	_
@@ -8004,8 +8004,8 @@
 
 # sent_id = mst-3370
 # text = -Biliyorum.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	Biliyorum	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
+2	Biliyorum	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3373
@@ -8037,7 +8037,7 @@
 # text = Genç erkek, Muammer'in getirdiği suyu yudum yudum içti.
 1	Genç	genç	ADJ	Adj	_	2	amod	_	_
 2	erkek	erkek	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	9	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Muammer'in	Muammer	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	nsubj	_	_
 5	getirdiği	getir	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
 6	suyu	su	NOUN	Noun	Case=Acc|Number=Sing|Person=3	9	obj	_	_
@@ -8102,7 +8102,7 @@
 4	karış	karış	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	suya	su	NOUN	Noun	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 6	oturmuş	otur	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	6	punct	_	_
+7	,	,	PUNCT	Punc	_	10	punct	_	_
 8	söylediğini	söyle	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	obj	_	_
 9	yapmaya	yap	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	nmod	_	_
 10	başlamıştı	başla	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	6	conj	_	SpaceAfter=No
@@ -8155,7 +8155,7 @@
 8	açan	aç	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	7	compound	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	19	punct	_	_
 10	Cumhurbaşkanı'nca	cumhurbaşkanı	NOUN	Noun	Case=Equ|Number=Sing|Person=3	19	obl	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	19	punct	_	_
+11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	"	"	PUNCT	Punc	_	13	punct	_	_
 13	kişisel	kişisel	ADJ	Adj	_	15	amod	_	_
 14	"	"	PUNCT	Punc	_	13	punct	_	_
@@ -8167,7 +8167,7 @@
 20	Anayasa	anayasa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nmod:poss	_	_
 21	değişikliği	değişiklik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	nmod:poss	_	_
 22	paketi	paket	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	nsubj	_	SpaceAfter=No
-23	,	,	PUNCT	Punc	_	27	punct	_	_
+23	,	,	PUNCT	Punc	_	22	punct	_	_
 24	"	"	PUNCT	Punc	_	25	punct	_	_
 25	aynen	aynen	ADV	Adverb	_	27	advmod	_	_
 26	"	"	PUNCT	Punc	_	25	punct	_	_
@@ -8229,7 +8229,7 @@
 # sent_id = mst-3474
 # text = Tahincioğlu, Süryaniler'in kökeni Güneydoğu ve Anadolu'da yaşayan bir grup olarak her zaman Türk unsuru olduklarını söylediklerini belirtti.
 1	Tahincioğlu	Tahincioğlu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	18	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	18	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Süryaniler'in	süryani	NOUN	Noun	Case=Gen|Number=Plur|Person=3	16	nmod:poss	_	_
 4	kökeni	köken	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 5	Güneydoğu	güneydoğu	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	amod	_	_
@@ -8296,7 +8296,7 @@
 # text = Anlatacaklarım var, dedi.
 1	Anlatacaklarım	anlat	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Fut|VerbForm=Part	2	nsubj	_	_
 2	var	var	ADJ	Adj	_	4	obj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	4	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -8322,7 +8322,7 @@
 # text = Hepsi mutlu, mesut yaşamış.
 1	Hepsi	hepsi	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	5	nsubj	_	_
 2	mutlu	mutlu	ADJ	Adj	_	5	amod	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	5	punct	_	_
+3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	mesut	mesut	ADJ	Adj	_	2	compound:redup	_	_
 5	yaşamış	yaşa	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -8350,7 +8350,7 @@
 19	içgüdüsel	içgüdüsel	ADJ	Adj	_	21	amod	_	_
 20	bir	bir	DET	ANum	Definite=Ind|PronType=Art	21	det	_	_
 21	tepkiyle	tepki	NOUN	Noun	Case=Ins|Number=Sing|Person=3	25	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	Punc	_	25	punct	_	_
+22	,	,	PUNCT	Punc	_	21	punct	_	_
 23	hiç	hiç	ADV	Adverb	_	24	advmod	_	_
 24	düşünmeden	düşün	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv	25	nmod	_	_
 25	karşılık	karşılık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -8360,7 +8360,7 @@
 # sent_id = mst-3541
 # text = Kapat, ben aç deyince açacaksın.
 1	Kapat	kapa	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	1	punct	_	_
+2	,	,	PUNCT	Punc	_	6	punct	_	_
 3	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	aç	aç	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	5	obj	_	_
 5	deyince	dey	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nmod	_	_
@@ -8426,7 +8426,7 @@
 8	öğesi	öğe	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
 10	kuram	kuram	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nsubj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	17	punct	_	_
+11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	doğuran	doğur	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	14	acl	_	_
 14	eskisinin	eski	ADJ	NAdj	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
@@ -8441,7 +8441,7 @@
 2	bütün	bütün	ADJ	Adj	_	3	amod	_	_
 3	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obl	_	_
 4	çalışıp	çalış	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	10	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	10	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	yorgunluktan	yorgunluk	NOUN	Noun	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
 7	adım	adım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 8	atacak	at	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part	7	compound	_	_
@@ -8468,7 +8468,7 @@
 # sent_id = mst-3594
 # text = Türker, bazılarının Irak'a askeri harekattan yana olduğunu belirtti ve " Bunu istedikleri gibi yapabilmenin ve belli bir kazanç sağlamanın yolu Ecevit ve ekibinin olmadığı bir parlamentodur " diye konuştu.
 1	Türker	Türker	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	9	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	bazılarının	bazı	PRON	Quant	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	8	nmod:poss	_	_
 4	Irak'a	Irak	PROPN	Prop	Case=Dat|Number=Sing|Person=3	6	nmod	_	_
 5	askeri	askeri	ADJ	Adj	_	6	amod	_	_
@@ -8518,7 +8518,7 @@
 13	bildirilen	bil	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=CauPass	14	acl	_	_
 14	Cring	Cring	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
 15	ölümü	ölüm	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	SpaceAfter=No
-16	,	,	PUNCT	Punc	_	20	punct	_	_
+16	,	,	PUNCT	Punc	_	15	punct	_	_
 17	Siirt	Siirt	PROPN	Prop	Case=Nom|Number=Sing|Person=3	20	obj	_	_
 18	Emniyet	emniyet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	flat	_	_
 19	Müdürlüğü'nü	müdürlük	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	flat	_	_
@@ -8557,7 +8557,7 @@
 1	Hangisinin	hangi	DET	Ques	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 2	yorgun	yorgun	ADJ	Adj	_	3	obj	_	_
 3	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	obj	_	_
-4	belirlemesi	belirle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	18	obj	_	_
+4	belirlemesi	belirle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	17	obj	_	_
 5	ve	ve	CCONJ	Conj	_	16	cc	_	_
 6	yolculuğun	yolculuk	NOUN	Noun	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 7	ağır	ağır	ADJ	Adj	_	8	amod	_	_
@@ -8601,7 +8601,7 @@
 # text = At at.
 1	At	at	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
 2	at	at	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	1	compound:redup	_	SpaceAfter=No
-3	.	.	PUNCT	Punc	_	1	conj	_	_
+3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-3650
 # text = Bütün vücudunu kızarıncaya kadar ovalamıştın.
@@ -8616,7 +8616,7 @@
 # sent_id = mst-3653
 # text = Arada, elini düğün fotoğrafının durduğu sol göğsünün üstüne koyar.
 1	Arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	10	amod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	10	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	elini	el	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 4	düğün	düğün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	fotoğrafının	fotoğraf	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
@@ -8639,7 +8639,7 @@
 8	getirdiğini	getir	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	compound	_	_
 9	belirten	belir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	10	acl	_	_
 10	Demiray	Demiray	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	19	punct	_	_
+11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	DİBS'lere	DİBS	NOUN	Abr	Abbr=Yes|Case=Dat|Number=Plur|Person=3	14	nmod	_	_
 13	çeşitli	çeşitli	ADJ	Adj	_	14	amod	_	_
 14	yayınlarında	yayın	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	19	obl	_	_
@@ -8679,7 +8679,7 @@
 # sent_id = mst-3678
 # text = O, insanın içine işleyen sesiyle bir şarkı söylerdi (arada mevlüt okurdu; arada Kur'an), benim diyen şarkıcıya taş çıkartırdı.
 1	O	o	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	8	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	insanın	insan	NOUN	Noun	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	içine	iç	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	amod	_	_
 5	işleyen	işle	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
@@ -8691,7 +8691,7 @@
 11	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	13	amod	_	_
 12	mevlüt	mevlüt	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	obj	_	_
 13	okurdu	oku	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	8	conj	_	SpaceAfter=No
-14	;	;	PUNCT	Punc	_	23	punct	_	_
+14	;	;	PUNCT	Punc	_	15	punct	_	_
 15	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	11	compound	_	_
 16	Kur'an	Kur'an	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	obj	_	SpaceAfter=No
 17	)	)	PUNCT	Punc	_	13	punct	_	SpaceAfter=No
@@ -8709,11 +8709,11 @@
 # text = İtalyanlar Gorgonzola, Danimarkalılar Mavi Peynir, İngilizler Stilton adıyla benzeri peynirleri yapıyorlar.
 1	İtalyanlar	İtalyan	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
 2	Gorgonzola	Gorgonzola	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	5	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Danimarkalılar	Danimarkalı	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	1	conj	_	_
 5	Mavi	mavi	ADJ	Adj	_	2	conj	_	_
 6	Peynir	peynir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	compound	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	9	punct	_	_
+7	,	,	PUNCT	Punc	_	5	punct	_	_
 8	İngilizler	İngiliz	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	1	conj	_	_
 9	Stilton	Stilton	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 10	adıyla	ad	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod	_	_
@@ -8727,11 +8727,11 @@
 1	Şimdi	şimdi	ADV	Adverb	_	5	advmod	_	_
 2	erik	erik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	zamanı	zaman	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	0	root	_	_
-5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	4	conj	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
+5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6	Ramiz	Ramiz	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	4	conj	_	_
-8	nah	nah	INTJ	Interj	_	7	discourse	_	_
+7	,	,	PUNCT	Punc	_	5	punct	_	_
+8	nah	nah	INTJ	Interj	_	5	discourse	_	_
 9	böyle	böyle	ADJ	Adj	_	10	amod	_	_
 10	olmuşlardır	ol	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Past	5	obj	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	10	punct	_	_
@@ -8739,7 +8739,7 @@
 # sent_id = mst-3694
 # text = Raporda, belli bir tarih itibariyle mevcut ticari mal stokları ve muhtelif servet unsurlarından düşük oranlı bir vergi alınması, ancak, bu amaçla yapılacak düzenlemelerde aksi ispat edilmedikçe mükellef beyanının doğru kabul edilmesi gerektiğine yer verildi.
 1	Raporda	rapor	NOUN	Noun	Case=Loc|Number=Sing|Person=3	37	nmod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	37	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	belli	belli	ADJ	Adj	_	5	amod	_	_
 4	bir	bir	DET	ANum	Definite=Ind|PronType=Art	5	det	_	_
 5	tarih	tarih	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	compound	_	_
@@ -8759,9 +8759,9 @@
 18	bir	bir	DET	ANum	Definite=Ind|PronType=Art	19	det	_	_
 19	vergi	vergi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nmod:poss	_	_
 20	alınması	al	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	36	nmod:poss	_	SpaceAfter=No
-21	,	,	PUNCT	Punc	_	34	punct	_	_
+21	,	,	PUNCT	Punc	_	22	punct	_	_
 22	ancak	ancak	CCONJ	Conj	_	34	cc	_	SpaceAfter=No
-23	,	,	PUNCT	Punc	_	20	punct	_	_
+23	,	,	PUNCT	Punc	_	22	punct	_	_
 24	bu	bu	DET	Det	_	25	det	_	_
 25	amaçla	amaç	NOUN	Noun	Case=Ins|Number=Sing|Person=3	26	obl	_	_
 26	yapılacak	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	27	acl	_	_
@@ -8785,7 +8785,7 @@
 2	da	da	CCONJ	Conj	_	1	advmod:emph	_	_
 3	elbette	elbette	ADV	Adverb	_	6	advmod	_	_
 4	ki	ki	CCONJ	Conj	_	3	mark	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	4	cc	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	üniversite	üniversite	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 7	kampüslerinin	kampüs	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:poss	_	_
 8-9	içindeki	_	_	_	_	_	_	_	_
@@ -8830,7 +8830,7 @@
 6	bir	bir	DET	ANum	Definite=Ind|PronType=Art	7	det	_	_
 7	hava	hava	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 8	veren	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	1	conj	_	_
+9	,	,	PUNCT	Punc	_	13	punct	_	_
 10	tadını	tat	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
 11	dolaylı	dolaylı	ADJ	Adj	_	13	amod	_	_
 12	olarak	olarak	ADP	PCNom	_	11	case	_	_
@@ -8841,7 +8841,7 @@
 17	de	de	CCONJ	Conj	_	16	advmod:emph	_	_
 18	kafayı	kafa	NOUN	Noun	Case=Acc|Number=Sing|Person=3	8	conj	_	_
 19	tutan	tut	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	conj	_	SpaceAfter=No
-20	.	.	PUNCT	Punc	_	18	punct	_	_
+20	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-3734
 # text = Baban kendini astığı zaman, babanı mı, kendini mi suçlu saydın.
@@ -8849,7 +8849,7 @@
 2	kendini	kendi	PRON	Reflex	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	3	obj	_	_
 3	astığı	as	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	nmod	_	_
 4	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	11	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	babanı	baba	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	11	obj	_	_
 7	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	9	punct	_	_
@@ -8875,7 +8875,7 @@
 2	ettim	et	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	1	compound:lvc	_	_
 3	şimdi	şimdi	ADV	Adverb	_	1	advmod	_	_
 4	onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	1	obj	_	SpaceAfter=No
-5	...	...	PUNCT	Punc	_	6	punct	_	_
+5	...	...	PUNCT	Punc	_	1	punct	_	_
 6	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -8910,7 +8910,7 @@
 # sent_id = mst-3764
 # text = Giir, dedi Naci Bey.
 1	Giir	gir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	3	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	Naci	Naci	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 5	Bey	bey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	compound	_	SpaceAfter=No
@@ -8979,7 +8979,7 @@
 27	ve	ve	CCONJ	Conj	_	33	cc	_	_
 28	bütün	bütün	ADJ	Adj	_	29	det	_	_
 29	kadınları	kadın	ADJ	NAdj	Case=Acc|Number=Plur|Person=3	33	obj	_	SpaceAfter=No
-30	,	,	PUNCT	Punc	_	33	punct	_	_
+30	,	,	PUNCT	Punc	_	29	punct	_	_
 31	kendisine	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	32	obl	_	_
 32	düşman	düşman	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	33	amod	_	_
 33	eden	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	26	conj	_	_
@@ -8990,14 +8990,14 @@
 
 # sent_id = mst-3796
 # text = -Başkalarının yazdığı çizgi-roman kahramanlarını okuyor musun.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
 2	Başkalarının	başka	ADJ	NAdj	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	3	nmod:poss	_	_
 3	yazdığı	yaz	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
 4	çizgi	çizgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	SpaceAfter=No
-5	-	-	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
+5	-	-	PUNCT	Punc	_	6	punct	_	SpaceAfter=No
 6	roman	roman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	compound	_	_
 7	kahramanlarını	kahraman	ADJ	NAdj	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
-8	okuyor	oku	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	_
+8	okuyor	oku	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
 9	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	8	aux:q	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	8	punct	_	_
 
@@ -9036,7 +9036,7 @@
 3	Sizi	siz	PRON	Pers	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
 4	işe	iş	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	obj	_	_
 5	alıyorum	al	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	4	compound	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	7	punct	_	_
+6	,	,	PUNCT	Punc	_	4	punct	_	_
 7	demek	de	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	nsubj	_	_
 8	geçer	geç	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 9	aklınızın	akıl	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	8	compound	_	_
@@ -9076,7 +9076,7 @@
 
 # sent_id = mst-3835
 # text = " Azınlık olmadığımız halde gayrimenkul edinmekte sorun yaşıyoruz " diyen Tahincioğlu, azınlık muamelesi gören Süryaniler'in mal edinmesine bu yeni yönetmelikle de netlik getirilmediğini söyledi.
-1	"	"	PUNCT	Punc	_	0	root	_	_
+1	"	"	PUNCT	Punc	_	7	punct	_	_
 2	Azınlık	azınlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 3	olmadığımız	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Plur|Person[psor]=1|Polarity=Neg|Tense=Past|VerbForm=Part	4	nmod	_	_
 4	halde	hal	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	nmod	_	_
@@ -9087,7 +9087,7 @@
 9	"	"	PUNCT	Punc	_	7	punct	_	_
 10	diyen	de	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	_
 11	Tahincioğlu	Tahincioğlu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	25	nsubj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	25	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	azınlık	azınlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
 14	muamelesi	muamele	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	nmod	_	_
 15	gören	gör	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	14	compound	_	_
@@ -9100,13 +9100,13 @@
 22	de	de	CCONJ	Conj	_	21	advmod:emph	_	_
 23	netlik	netlik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	nsubj	_	_
 24	getirilmediğini	getir	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	25	obj	_	_
-25	söyledi	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
+25	söyledi	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	Punc	_	25	punct	_	_
 
 # sent_id = mst-3844
 # text = Evet, dedi çaresizlikle.
 1	Evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	3	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	çaresizlikle	çaresizlik	NOUN	Noun	Case=Ins|Number=Sing|Person=3	3	obl	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
@@ -9119,7 +9119,7 @@
 4	gündem	gündem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	maddesi	madde	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
 6	değişmiyordu	değiş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Past	1	conj	_	SpaceAfter=No
-7	:	:	PUNCT	Punc	_	6	punct	_	_
+7	:	:	PUNCT	Punc	_	8	punct	_	_
 8	Türkiye	Türkiye	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -9164,7 +9164,7 @@
 5	o	o	DET	Det	_	6	det	_	_
 6	dayanılmaz	dayan	VERB	Verb	Aspect=Hab|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl	_	_
 7	bekleyişe	bekleyiş	NOUN	Noun	Case=Dat|Number=Sing|Person=3	14	obl	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	14	punct	_	_
+8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	o	o	DET	Det	_	10	det	_	_
 10	baş	baş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	compound	_	_
 11	etmesi	et	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	compound	_	_
@@ -9189,7 +9189,7 @@
 10	,	,	PUNCT	Punc	_	11	punct	_	_
 11	sakin	sakin	ADJ	Adj	_	4	conj	_	_
 12	insanlar	insan	NOUN	Noun	Case=Nom|Number=Plur|Person=3	19	nsubj	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	19	punct	_	_
+13	,	,	PUNCT	Punc	_	12	punct	_	_
 14	kendilerine	kendi	PRON	Reflex	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Reflex=Yes	15	obl	_	_
 15	yediremediklerinden	ye	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Pot|Number[psor]=Plur|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Cau	19	acl	_	SpaceAfter=No
 16	,	,	PUNCT	Punc	_	15	punct	_	_
@@ -9212,7 +9212,7 @@
 3	hazırladığı	hazırla	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
 4	rapora	rapor	NOUN	Noun	Case=Dat|Number=Sing|Person=3	20	nmod	_	_
 5	göre	göre	ADP	PCDat	_	4	case	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	20	punct	_	_
+6	,	,	PUNCT	Punc	_	4	punct	_	_
 7	uçağın	uçak	NOUN	Noun	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 8	düşüşünü	düşüş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	gören	gör	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
@@ -9246,14 +9246,14 @@
 4	bir	bir	DET	ANum	Definite=Ind|PronType=Art	5	det	_	_
 5	kadın	kadın	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 6	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	obj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	6	punct	_	_
+7	,	,	PUNCT	Punc	_	8	punct	_	_
 8	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	conj	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-3900
 # text = O, çocuğa aşırı düşkünlüğün nevrotik bir sorun olduğunu da bilmiyordu.
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	11	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	çocuğa	çocuk	NOUN	Noun	Case=Dat|Number=Sing|Person=3	11	obl	_	_
 4	aşırı	aşırı	ADJ	Adj	_	5	amod	_	_
 5	düşkünlüğün	düşkünlük	NOUN	Noun	Case=Gen|Number=Sing|Person=3	9	nmod:poss	_	_
@@ -9275,7 +9275,7 @@
 # sent_id = mst-3909
 # text = Daire, hapis cezasını ondokuz Ocak'a kadar onarsa Akgündüz Siirt'te yapılacak seçimde aday olamayacak.
 1	Daire	daire	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	14	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	hapis	hapis	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	cezasını	ceza	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 5	ondokuz	ondokuz	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	14	nummod	_	_
@@ -9314,7 +9314,7 @@
 4	Ankara'ya	Ankara	PROPN	Prop	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 5	bir	bir	DET	ANum	Definite=Ind|PronType=Art	6	det	_	_
 6	gecelik	gecelik	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	7	amod	_	_
-7	gösteri	gösteri	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+7	gösteri	gösteri	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obl	_	_
 8	için	için	ADP	PCNom	_	7	case	_	_
 9	gelmiş	gel	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	9	punct	_	_
@@ -9407,7 +9407,7 @@
 # sent_id = mst-3970
 # text = Selma, Bana denenebilir görünüyor, dedi.
 1	Selma	Selma	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	7	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 4	denenebilir	dene	VERB	Verb	Aspect=Hab|Mood=Pot|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	5	obj	_	_
 5	görünüyor	görün	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	7	obj	_	SpaceAfter=No
@@ -9517,7 +9517,7 @@
 14	mal	mal	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod	_	_
 15	olmuş	ol	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	14	compound:lvc	_	_
 16	örnekleri	örnek	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	29	nsubj	_	SpaceAfter=No
-17	,	,	PUNCT	Punc	_	29	punct	_	_
+17	,	,	PUNCT	Punc	_	16	punct	_	_
 18	bu	bu	DET	Det	_	19	det	_	_
 19	sürecin	süreç	NOUN	Noun	Case=Gen|Number=Sing|Person=3	28	nmod:poss	_	_
 20	ne	ne	ADV	Adverb	_	22	advmod	_	_
@@ -9553,12 +9553,12 @@
 
 # sent_id = mst-4043
 # text = ) Risk ve tehlike onları sevindiriyor, harekete geçiriyor ve avantajlı konuma getiriyor.
-1	)	)	PUNCT	Punc	_	0	root	_	_
+1	)	)	PUNCT	Punc	_	6	punct	_	_
 2	Risk	risk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 3	ve	ve	CCONJ	Conj	_	4	cc	_	_
 4	tehlike	tehlike	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 5	onları	o	PRON	Pers	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
-6	sevindiriyor	sevin	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Cau	1	conj	_	SpaceAfter=No
+6	sevindiriyor	sevin	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	8	punct	_	_
 8	harekete	hareket	NOUN	Noun	Case=Dat|Number=Sing|Person=3	6	conj	_	_
 9	geçiriyor	geçir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	8	compound	_	_
@@ -9602,7 +9602,7 @@
 # sent_id = mst-4067
 # text = Mülkiyeti, mevcut hukuki yapı içinde belediyeye ait olabilirdi.
 1	Mülkiyeti	mülkiyet	NOUN	Noun	Case=Acc|Number=Sing|Person=3	9	obj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	9	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	mevcut	mevcut	ADJ	Adj	_	5	amod	_	_
 4	hukuki	hukuki	ADJ	Adj	_	5	amod	_	_
 5	yapı	yapı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
@@ -9617,7 +9617,7 @@
 1	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 2	gibi	gibi	ADP	PCNom	_	1	case	_	_
 3	yarı	yarı	ADJ	Adj	_	5	amod	_	SpaceAfter=No
-4	-	-	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
+4	-	-	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
 5	dahiler	dahi	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	1	conj	_	_
 6	tek	tek	ADJ	Adj	_	7	amod	_	_
 7	öğrenimle	öğrenim	NOUN	Noun	Case=Ins|Number=Sing|Person=3	8	obl	_	_
@@ -9626,16 +9626,16 @@
 
 # sent_id = mst-4079
 # text = -Ben çizmiyorum, yazıyorum.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
 2	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	çizmiyorum	çiz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+3	çizmiyorum	çiz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-4085
 # text = Aşırı iddialılar.
-1	Aşırı	aşırı	ADJ	Adj	_	5	amod	_	_
+1	Aşırı	aşırı	ADJ	Adj	_	2	amod	_	_
 2-4	iddialılar	_	_	_	_	_	_	_	SpaceAfter=No
 2	iddia	iddia	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	lı	li	ADP	With	_	2	case	_	_
@@ -9668,11 +9668,11 @@
 # sent_id = mst-4103
 # text = Benim için o yönü çok önemliydi.
 1-2	Benim	_	_	_	_	_	_	_	_
-1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
 2	im	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	cop	_	_
 3	için	için	ADP	PCNom	_	1	case	_	_
 4	o	o	DET	Det	_	5	det	_	_
-5	yönü	yön	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
+5	yönü	yön	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 6	çok	çok	ADV	Adverb	_	7	advmod:emph	_	_
 7-9	önemliydi	_	_	_	_	_	_	_	SpaceAfter=No
 7	önem	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -9683,7 +9683,7 @@
 # sent_id = mst-4112
 # text = Babam, avukattı.
 1	Babam	baba	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	3	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3-4	avukattı	_	_	_	_	_	_	_	SpaceAfter=No
 3	avukat	avukat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 4	tı	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
@@ -9736,7 +9736,7 @@
 6	Kıbrıs	Kıbrıs	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 7	Türk	Türk	ADJ	Adj	_	8	amod	_	_
 8	halkının	halk	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	25	punct	_	_
+9	,	,	PUNCT	Punc	_	8	punct	_	_
 10	BM	Bm	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	compound	_	_
 11	Genel	genel	ADJ	Adj	_	25	nsubj	_	_
 12	Sekreteri	sekreter	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	compound	_	_
@@ -9750,7 +9750,7 @@
 20	AB	Ab	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	21	nmod:poss	_	_
 21	üyeliği	üyelik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	conj	_	_
 22	istediği	iste	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	24	acl	_	_
-23	"	"	PUNCT	Punc	_	11	punct	_	_
+23	"	"	PUNCT	Punc	_	22	punct	_	_
 24	görüşü	görüş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	obj	_	_
 25	savunuldu	savun	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	Punc	_	25	punct	_	_
@@ -9874,11 +9874,11 @@
 
 # sent_id = mst-4194
 # text = -Ben bir şey yapmadım.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 2	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	bir	bir	NUM	ANum	NumType=Card	5	obj	_	_
 4	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	compound	_	_
-5	yapmadım	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	1	conj	_	SpaceAfter=No
+5	yapmadım	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-4198
@@ -9896,7 +9896,7 @@
 11	cümbüşü	cümbüş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
 12	göz	göz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	_
 13	kamaştırıyordu	kamaş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
-14	.	.	PUNCT	Punc	_	12	punct	_	_
+14	.	.	PUNCT	Punc	_	13	punct	_	_
 
 # sent_id = mst-4205
 # text = Bunlar çok dikkatimi çekti.
@@ -9925,7 +9925,7 @@
 # text = Ancak Arınç, Akyol'un programında şunları söyledi:.
 1	Ancak	ancak	CCONJ	Conj	_	0	root	_	_
 2	Arınç	Arınç	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	7	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Akyol'un	Akyol	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
 5	programında	program	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 6	şunları	şu	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	7	obj	_	_
@@ -9936,7 +9936,7 @@
 # sent_id = mst-4221
 # text = Bebeler, Tarihimizi yaz diye beni vakanüvis ettiler.
 1	Bebeler	bebe	NOUN	Noun	Case=Nom|Number=Plur|Person=3	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	8	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Tarihimizi	tarih	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	obj	_	_
 4	yaz	yaz	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	8	nmod	_	_
 5	diye	diye	ADP	PCNom	_	4	case	_	_
@@ -9965,16 +9965,16 @@
 # text = Yeter ki, o konutu, gereksinimi olan herkes isterse kendisi, minimum kurallar çerçevesinde ve yukarıda andığım gecekondu yapım sürecine benzer şekilde gerçekleştirebilme hakkına sahip olsun ve çocuğuna, düzenlenecek bir mevzuat çerçevesinde, miras yoluyla devredebilsin...
 1	Yeter	Yeter	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 2	ki	ki	CCONJ	Conj	_	1	mark	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	26	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	o	o	DET	Det	_	5	det	_	_
 5	konutu	konut	NOUN	Noun	Case=Acc|Number=Sing|Person=3	26	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	26	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	gereksinimi	gereksinim	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 8	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	9	acl	_	_
 9	herkes	herkes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	isterse	iste	VERB	Verb	Aspect=Hab|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	24	nmod	_	_
 11	kendisi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	26	nsubj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	26	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	minimum	minimum	ADJ	Adj	_	14	amod	_	_
 14	kurallar	kural	NOUN	Noun	Case=Nom|Number=Plur|Person=3	15	nmod:poss	_	_
 15	çerçevesinde	çerçeve	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obl	_	_
@@ -9992,12 +9992,12 @@
 27	olsun	ol	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	26	compound:lvc	_	_
 28	ve	ve	CCONJ	Conj	_	38	cc	_	_
 29	çocuğuna	çocuk	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	38	obl	_	SpaceAfter=No
-30	,	,	PUNCT	Punc	_	38	punct	_	_
+30	,	,	PUNCT	Punc	_	29	punct	_	_
 31	düzenlenecek	düzenle	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	33	acl	_	_
 32	bir	bir	DET	ANum	Definite=Ind|PronType=Art	33	det	_	_
 33	mevzuat	mevzuat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	34	nmod:poss	_	_
 34	çerçevesinde	çerçeve	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	38	obl	_	SpaceAfter=No
-35	,	,	PUNCT	Punc	_	38	punct	_	_
+35	,	,	PUNCT	Punc	_	34	punct	_	_
 36	miras	miras	NOUN	Noun	Case=Nom|Number=Sing|Person=3	37	nmod:poss	_	_
 37	yoluyla	yol	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	38	obl	_	_
 38	devredebilsin	devret	VERB	Verb	Aspect=Perf|Mood=ImpPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	26	conj	_	SpaceAfter=No
@@ -10008,7 +10008,7 @@
 1	Koç	Koç	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 2	Topluluğu	topluluk	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 3	şirketlerinden	şirket	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:poss	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	21	punct	_	_
+4	,	,	PUNCT	Punc	_	11	punct	_	_
 5	ısıtma	ısıt	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	nmod	_	_
 6	ve	ve	CCONJ	Conj	_	7	cc	_	_
 7	soğutma	soğutma	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	conj	_	_
@@ -10016,7 +10016,7 @@
 9	faaliyet	faaliyet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
 10	gösteren	göster	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	9	compound	_	_
 11	Hablemitoğlu'nun	Hablemitoğlu	PROPN	Prop	Case=Gen|Number=Sing|Person=3	3	appos	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	21	punct	_	_
+12	,	,	PUNCT	Punc	_	3	punct	_	_
 13	grup	grup	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
 14	şirketi	şirket	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod	_	_
 15	Arçelik	Arçelik	PROPN	Prop	Case=Nom|Number=Sing|Person=3	18	obl	_	_
@@ -10051,8 +10051,8 @@
 9	yetmeyeceğini	yet	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Fut|VerbForm=Part	10	obj	_	_
 10	belirten	belir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	11	acl	_	_
 11	Unakıtan	Unakıtan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	18	punct	_	_
-13	"	"	PUNCT	Punc	_	18	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
+13	"	"	PUNCT	Punc	_	14	punct	_	_
 14	Çinliler	Çinli	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	22	nsubj	_	_
 15	sabah	sabah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	obl	_	_
 16	kahvaltıda	kahvaltı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	22	obl	_	_
@@ -10068,11 +10068,11 @@
 # text = Bu dosyada, Ömer Naci Soykan, Ev Üstüne Felsefece Bir Deneme başlıklı yazısında,... dil varlığın evidir diyor ve Türkçemiz'de ev bağlantılı ifadelerin zenginliğine değiniyor; can evi, dünya evi, bir göz ev, evlik, evlilik vb...
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	dosyada	dosya	NOUN	Noun	Case=Loc|Number=Sing|Person=3	22	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	22	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Ömer	Ömer	PROPN	Prop	Case=Nom|Number=Sing|Person=3	22	nsubj	_	_
 5	Naci	Naci	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	flat	_	_
 6	Soykan	Soykan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	flat	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	22	punct	_	_
+7	,	,	PUNCT	Punc	_	4	punct	_	_
 8	Ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nmod	_	_
 9	Üstüne	üst	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	compound	_	_
 10	Felsefece	felsefe	NOUN	Noun	Case=Equ|Number=Sing|Person=3	8	compound	_	_
@@ -10082,8 +10082,8 @@
 13	başlık	başlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod	_	_
 14	lı	li	ADP	With	_	13	case	_	_
 15	yazısında	yazı	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	obl	_	SpaceAfter=No
-16	,	,	PUNCT	Punc	_	22	punct	_	SpaceAfter=No
-17	...	...	PUNCT	Punc	_	22	punct	_	_
+16	,	,	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
+17	...	...	PUNCT	Punc	_	15	punct	_	_
 18	dil	dil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nsubj	_	_
 19	varlığın	varlık	NOUN	Noun	Case=Gen|Number=Sing|Person=3	20	nmod:poss	_	_
 20-21	evidir	_	_	_	_	_	_	_	_
@@ -10097,7 +10097,7 @@
 27	ifadelerin	ifade	NOUN	Noun	Case=Gen|Number=Plur|Person=3	28	nmod:poss	_	_
 28	zenginliğine	zenginlik	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	obl	_	_
 29	değiniyor	değin	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	22	conj	_	SpaceAfter=No
-30	;	;	PUNCT	Punc	_	29	punct	_	_
+30	;	;	PUNCT	Punc	_	32	punct	_	_
 31	can	can	NOUN	Noun	Case=Nom|Number=Sing|Person=3	32	compound	_	_
 32	evi	ev	NOUN	Noun	Case=Acc|Number=Sing|Person=3	22	conj	_	SpaceAfter=No
 33	,	,	PUNCT	Punc	_	35	punct	_	_
@@ -10107,7 +10107,7 @@
 37	bir	bir	NUM	ANum	NumType=Card	38	nummod	_	_
 38	göz	göz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	39	nmod	_	_
 39	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	32	conj	_	SpaceAfter=No
-40	,	,	PUNCT	Punc	_	42	punct	_	_
+40	,	,	PUNCT	Punc	_	41	punct	_	_
 41-42	evlik	_	_	_	_	_	_	_	SpaceAfter=No
 41	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	32	conj	_	_
 42	lik	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	41	case	_	_
@@ -10128,7 +10128,7 @@
 # sent_id = mst-4292
 # text = Ah, kadınların bu kesin sözleri, yapamayacakları şeyleri o kadar kesin bir şekilde söylerler ki; inanırsanız sonra çok şaşırırsınız.
 1	Ah	ah	INTJ	Interj	_	6	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	6	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	kadınların	kadın	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	6	nmod:poss	_	_
 4	bu	bu	DET	Det	_	6	det	_	_
 5	kesin	kesin	ADJ	Adj	_	6	amod	_	_
@@ -10195,7 +10195,7 @@
 6	ydi	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 7	Yura'nın	Yura	PROPN	Prop	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 8	insanlarının	insan	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:poss	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	5	punct	_	_
+9	,	,	PUNCT	Punc	_	8	punct	_	_
 10	Evenlerin	Evenler	PROPN	Prop	Case=Gen|Number=Sing|Person=3	11	nmod:poss	_	_
 11	yurdu	yurt	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -10203,7 +10203,7 @@
 # sent_id = mst-4322
 # text = Ceza, kambur olduğundan yalnızca kafası görülebiliyor masada.
 1	Ceza	ceza	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	4	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	kambur	kambur	ADJ	Adj	_	4	amod	_	_
 4	olduğundan	ol	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
 5	yalnızca	yalnızca	ADV	Adverb	_	7	advmod	_	_
@@ -10228,7 +10228,7 @@
 12	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	13	obj	_	_
 13	ifade	ifade	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obl	_	_
 14	ederek	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	13	compound:lvc	_	SpaceAfter=No
-15	,	,	PUNCT	Punc	_	17	punct	_	_
+15	,	,	PUNCT	Punc	_	13	punct	_	_
 16	şunları	şu	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	17	obj	_	_
 17	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	27	cc	_	SpaceAfter=No
 18	:	:	PUNCT	Punc	_	17	punct	_	_
@@ -10279,7 +10279,7 @@
 1	Sayın	sayın	ADJ	Adj	_	2	amod	_	_
 2	Bila	Bila	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 3	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	11	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	bu	bu	DET	Det	_	6	det	_	_
 6	konuşmayla	konuş	VERB	Verb	Aspect=Perf|Case=Ins|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	nmod	_	_
 7	ilgili	ilgili	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	amod	_	_
@@ -10373,7 +10373,7 @@
 1	onbir	onbir	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	0	root	_	_
 2	O	o	DET	Det	_	1	det	_	_
 3	halde	hal	NOUN	Noun	Case=Loc|Number=Sing|Person=3	2	compound	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	1	punct	_	_
+4	,	,	PUNCT	Punc	_	11	punct	_	_
 5	konut	konut	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	gereksinimini	gereksinim	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 7	karşılamak	karşıla	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	11	nmod	_	_
@@ -10406,7 +10406,7 @@
 # text = Sokuldukça sokuluyor, ben kaçındıkça.
 1	Sokuldukça	sok	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	2	nmod	_	_
 2	sokuluyor	sok	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	2	punct	_	_
+3	,	,	PUNCT	Punc	_	5	punct	_	_
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	kaçındıkça	kaçın	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	2	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -10456,7 +10456,7 @@
 # Change 2.2/dev: mark 'hangi' as DET
 1	Düşünmezsin	düşün	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	_
 2	tabii	tabii	ADJ	Adj	_	1	amod	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	1	punct	_	_
+3	,	,	PUNCT	Punc	_	9	punct	_	_
 4	hangi	hangi	DET	Adj	_	5	det	_	_
 5	baba	baba	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 6	oğul	oğul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	compound	_	_
@@ -10481,7 +10481,7 @@
 # sent_id = mst-4435
 # text = Para, çocuğun güdük kalmış, gelişememiş ve kırgın benliğini tamir etmeye yetmiyor; görev gereği yapılan sevgi ve ilgi gösterileri de...
 1	Para	para	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	13	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	çocuğun	çocuk	NOUN	Noun	Case=Gen|Number=Sing|Person=3	10	nmod:poss	_	_
 4	güdük	güdük	ADJ	Adj	_	5	amod	_	_
 5	kalmış	kal	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
@@ -10512,7 +10512,7 @@
 4	böyle	böyle	ADJ	Adj	_	5	amod	_	_
 5	bir	bir	NUM	ANum	NumType=Card	3	nsubj	_	_
 6	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	compound	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	3	punct	_	_
+7	,	,	PUNCT	Punc	_	8	punct	_	_
 8	inanamıyorum	inan	VERB	Verb	Aspect=Prog|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
@@ -10532,7 +10532,7 @@
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	istemedi	iste	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
 3	uzatılmasını	uza	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=CauPass	2	obj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	3	punct	_	_
+4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 6	yapayım	yap	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	5	compound	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -10552,7 +10552,7 @@
 # Change 2.2/dev: fix ordinal number
 1	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	_
 2	bölümde	bölüm	NOUN	Noun	Case=Loc|Number=Sing|Person=3	24	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	24	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Doğu	Doğu	PROPN	Prop	Case=Nom|Number=Sing|Person=3	24	nsubj	_	_
 5	Perinçek	Perinçek	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	flat	_	_
 6	ve	ve	CCONJ	Conj	_	7	cc	_	_
@@ -10634,7 +10634,7 @@
 7	bin	bin	NUM	ANum	NumType=Card	6	flat	_	_
 8	Even	Even	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
 9	nüfusu	nüfus	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	17	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	üç	üç	NUM	ANum	NumType=Card	12	nummod	_	_
 12	yüzyıl	yüzyıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obl	_	_
 13	sonra	sonra	ADP	PCAbl	_	12	case	_	_
@@ -10719,7 +10719,7 @@
 12	ikazına	ikaz	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 13	rağmen	rağmen	ADP	PCDat	_	12	case	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	12	punct	_	_
-15	"	"	PUNCT	Punc	_	12	punct	_	_
+15	"	"	PUNCT	Punc	_	17	punct	_	_
 16	Öldüğüne	öl	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
 17	inanmıyorum	inan	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	12	conj	_	SpaceAfter=No
 18	.	.	PUNCT	Punc	_	17	punct	_	_
@@ -10779,7 +10779,7 @@
 # text = No'yu seviyorum, üstün zekalı çünkü.
 1	No'yu	no	NOUN	Noun	Case=Acc|Number=Sing|Person=3	2	obj	_	_
 2	seviyorum	sev	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	2	punct	_	_
+3	,	,	PUNCT	Punc	_	5	punct	_	_
 4	üstün	üstün	ADJ	Adj	_	5	amod	_	_
 5-6	zekalı	_	_	_	_	_	_	_	_
 5	zeka	zeka	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	conj	_	_
@@ -10925,9 +10925,9 @@
 
 # sent_id = mst-4627
 # text = Ona göre duygular tehlikelidir.
-1	Ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+1	Ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 2	göre	göre	ADP	PCDat	_	1	case	_	_
-3	duygular	duygu	NOUN	Noun	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+3	duygular	duygu	NOUN	Noun	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
 4-6	tehlikelidir	_	_	_	_	_	_	_	SpaceAfter=No
 4	tehlike	tehlike	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	li	li	ADP	With	_	4	case	_	_
@@ -10943,10 +10943,10 @@
 
 # sent_id = mst-4639
 # text = -Hayır kendim yazıyorum.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
+2	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	kendim	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Reflex=Yes	4	nsubj	_	_
-4	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+4	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-4642
@@ -10956,7 +10956,7 @@
 3	önce	önce	ADV	Adverb	_	11	advmod	_	_
 4	bir	bir	DET	ANum	Definite=Ind|PronType=Art	5	det	_	_
 5	kabadayı	kabadayı	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	11	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	11	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	tabancasını	tabanca	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 8	havaya	hava	NOUN	Noun	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 9	sıka	sık	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	11	nmod	_	_
@@ -10968,7 +10968,7 @@
 # text = Kemal Ayla'ya, Sulandırma, dedi.
 1	Kemal	Kemal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 2	Ayla'ya	Ayla	PROPN	Prop	Case=Dat|Number=Sing|Person=3	6	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	6	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Sulandırma	Sulan	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|Voice=Cau	6	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -10977,9 +10977,9 @@
 # sent_id = mst-4657
 # text = Şu: Ayhan, sanırım ondört yaşındaydı.
 1	Şu	şu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	Punc	_	7	punct	_	_
+2	:	:	PUNCT	Punc	_	3	punct	_	_
 3	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	7	punct	_	_
+4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	sanırım	san	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	1	conj	_	_
 6	ondört	ondört	NUM	ANum	NumType=Card	7	nummod	_	_
 7-8	yaşındaydı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -10991,7 +10991,7 @@
 # text = İnsan zihninin, algısal bilgiden teorik bilgiye giden yoldaki en önemli başarılarından biri, matematiğin kaynağını oluşturan bu nicelik soyutlamasıdır.
 1	İnsan	insan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	zihninin	zihin	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:poss	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	22	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	algısal	algısal	ADJ	Adj	_	5	amod	_	_
 5	bilgiden	bilgi	NOUN	Noun	Case=Abl|Number=Sing|Person=3	8	obl	_	_
 6	teorik	teorik	ADJ	Adj	_	7	amod	_	_
@@ -11006,7 +11006,7 @@
 13	li	li	ADP	With	_	12	case	_	_
 14	başarılarından	başarı	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
 15	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind	22	nsubj	_	SpaceAfter=No
-16	,	,	PUNCT	Punc	_	22	punct	_	_
+16	,	,	PUNCT	Punc	_	15	punct	_	_
 17	matematiğin	matematik	NOUN	Noun	Case=Gen|Number=Sing|Person=3	18	nmod:poss	_	_
 18	kaynağını	kaynak	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obj	_	_
 19	oluşturan	oluş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	22	acl	_	_
@@ -11024,7 +11024,7 @@
 3	bir	bir	DET	ANum	Definite=Ind|PronType=Art	4	det	_	_
 4	başkası	başka	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	amod	_	_
 5	gibi	gibi	ADP	PCNom	_	4	case	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	10	punct	_	_
+6	,	,	PUNCT	Punc	_	4	punct	_	_
 7	pişmanlıklarla	pişmanlık	NOUN	Noun	Case=Ins|Number=Plur|Person=3	10	obl	_	_
 8	ve	ve	CCONJ	Conj	_	9	cc	_	_
 9	sıkıntıyla	sıkıntı	NOUN	Noun	Case=Ins|Number=Sing|Person=3	7	conj	_	_
@@ -11122,7 +11122,7 @@
 # text = O aristokrat, sen demokrat.
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	aristokrat	aristokrat	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	2	punct	_	_
+3	,	,	PUNCT	Punc	_	5	punct	_	_
 4	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 5	demokrat	demokrat	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	2	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -11130,7 +11130,7 @@
 # sent_id = mst-4726
 # text = Hamur, ayçiçeği yağında soba üstünde kızartılıyor.
 1	Hamur	hamur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	7	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	ayçiçeği	ayçiçeği	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 4	yağında	yağ	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 5	soba	soba	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
@@ -11158,7 +11158,7 @@
 # text = Celal'e döndüm: Ne çekiştiriyorsun?
 1	Celal'e	Celal	PROPN	Prop	Case=Dat|Number=Sing|Person=3	2	obl	_	_
 2	döndüm	dön	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	Punc	_	2	punct	_	_
+3	:	:	PUNCT	Punc	_	5	punct	_	_
 4	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 5	çekiştiriyorsun	çekiş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres|Voice=Cau	2	conj	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	5	punct	_	_
@@ -11171,7 +11171,7 @@
 4-5	vardı	_	_	_	_	_	_	_	SpaceAfter=No
 4	var	var	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	dı	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
-6	,	,	PUNCT	Punc	_	4	punct	_	_
+6	,	,	PUNCT	Punc	_	11	punct	_	_
 7	neler	ne	PRON	Ques	Case=Nom|Number=Plur|Person=3	8	obj	_	_
 8	konuştuklarını	konuş	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	obj	_	_
 9	çok	çok	ADV	Adverb	_	11	advmod	_	_
@@ -11202,7 +11202,7 @@
 7	bir	bir	NUM	ANum	NumType=Card	8	nummod	_	_
 8	sigara	sigara	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
 9	alarak	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	13	punct	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	9	conj	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	parmaklarının	parmak	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod:poss	_	_
 12	ucunda	uç	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
 13	tuttu	tut	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -11301,7 +11301,7 @@
 2-3	iyisin	_	_	_	_	_	_	_	SpaceAfter=No
 2	iyi	iyi	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	ccomp	_	_
 3	sin	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	cop	_	_
-4	,	,	PUNCT	Punc	_	5	punct	_	_
+4	,	,	PUNCT	Punc	_	2	punct	_	_
 5	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -11341,7 +11341,7 @@
 6	türlü	türlü	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	amod	_	_
 7	mü	mü	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	_
 8	olurdu	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	8	punct	_	_
+9	,	,	PUNCT	Punc	_	10	punct	_	_
 10-11	şimdiki	_	_	_	_	_	_	_	_
 10	şimdi	şimdi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obl	_	_
 11	ki	ki	ADP	Rel	_	10	case	_	_
@@ -11417,7 +11417,7 @@
 4	tazminatlarda	tazminat	NOUN	Noun	Case=Loc|Number=Plur|Person=3	2	conj	_	_
 5	iyileştirme	iyileş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	6	nmod:poss	_	_
 6	seçeneğinin	seçenek	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod:poss	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	15	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	katsayılar	katsayı	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
 9	düşük	düşük	ADJ	Adj	_	10	amod	_	_
 10	tutularak	tut	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	16	nmod	_	_
@@ -11432,7 +11432,7 @@
 
 # sent_id = mst-4840
 # text = " Kaza yerinde eşi ve kızının öldüğünü gördü mü, bilmiyorum.
-1	"	"	PUNCT	Punc	_	0	root	_	_
+1	"	"	PUNCT	Punc	_	11	punct	_	_
 2	Kaza	kaza	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	yerinde	yer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 4	eşi	eş	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
@@ -11442,7 +11442,7 @@
 8	gördü	gör	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	11	obj	_	_
 9	mü	mü	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux:q	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	8	punct	_	_
-11	bilmiyorum	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+11	bilmiyorum	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	11	punct	_	_
 
 # sent_id = mst-4851
@@ -11457,13 +11457,13 @@
 
 # sent_id = mst-4854
 # text = " Okudum ve üzüldüm " diyor, haberi kastederek.
-1	"	"	PUNCT	Punc	_	0	root	_	_
+1	"	"	PUNCT	Punc	_	2	punct	_	_
 2	Okudum	oku	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	6	obj	_	_
 3	ve	ve	CCONJ	Conj	_	4	cc	_	_
 4	üzüldüm	üz	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|Voice=Pass	2	conj	_	_
-5	"	"	PUNCT	Punc	_	4	punct	_	_
-6	diyor	de	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	6	punct	_	_
+5	"	"	PUNCT	Punc	_	2	punct	_	_
+6	diyor	de	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	Punc	_	9	punct	_	_
 8	haberi	haber	NOUN	Noun	Case=Acc|Number=Sing|Person=3	9	obj	_	_
 9	kastederek	kastet	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	9	punct	_	_
@@ -11485,7 +11485,7 @@
 # text = Tedbirler paketinde, sürekli ve geçici işçilerin memuriyete kaydırılması yöntemiyle ikibinüç yılında yüzdoksanbeş trilyon lira tasarruf sağlanması da hedefleniyor.
 1	Tedbirler	tedbir	NOUN	Noun	Case=Nom|Number=Plur|Person=3	2	nmod:poss	_	_
 2	paketinde	paket	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	19	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	sürekli	sürekli	ADV	Adverb	_	7	advmod	_	_
 5	ve	ve	CCONJ	Conj	_	6	cc	_	_
 6	geçici	geçici	ADJ	Adj	_	4	conj	_	_
@@ -11574,7 +11574,7 @@
 # sent_id = mst-4905
 # text = Domates, ikisine de uyar.
 1	Domates	domates	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	ikisine	iki	NUM	NNum	Case=Dat|Number=Sing|Number[psor]=Sing|NumType=Card|Person=3|Person[psor]=3	5	nummod	_	_
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
 5	uyar	uy	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -11642,12 +11642,12 @@
 
 # sent_id = mst-4935
 # text = -Hadi eve gidelim, dedim.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	6	punct	_	SpaceAfter=No
 2	Hadi	hadi	INTJ	Interj	_	6	discourse	_	_
 3	eve	ev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	gidelim	git	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	6	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	4	punct	_	_
-6	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
+6	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-4939
@@ -11659,7 +11659,7 @@
 5	gözyaşı	gözyaşı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	obl	_	_
 6	döküyorsak	dök	VERB	Verb	Aspect=Prog|Mood=Cnd|Number=Plur|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	5	compound	_	_
 7	eğer	eğer	CCONJ	Conj	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	15	punct	_	_
+8	,	,	PUNCT	Punc	_	5	punct	_	_
 9	onu	o	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	15	obl	_	_
 10	da	da	CCONJ	Conj	_	9	advmod:emph	_	_
 11	aşkımızın	aşk	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	15	nmod:poss	_	_
@@ -11697,7 +11697,7 @@
 1	Sakin	sakin	ADJ	Adj	_	2	obj	_	_
 2	olun	ol	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	8	obj	_	_
 3	biraz	biraz	ADV	Adverb	_	2	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	Punc	_	2	punct	_	_
+4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	sakin	sakin	ADJ	Adj	_	6	obj	_	_
 6	olun	ol	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	2	conj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -11740,12 +11740,12 @@
 15	Tanrı'nın	Tanrı	PROPN	Prop	Case=Gen|Number=Sing|Person=3	16	nmod:poss	_	_
 16	elinden	el	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	conj	_	_
 17	alınmıştır	al	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	6	conj	_	SpaceAfter=No
-18	.	.	PUNCT	Punc	_	16	punct	_	_
+18	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-4977
 # text = Dükkancım, bunları söyledikten sonra ellerimden tutup kaldırdı beni.
 1	Dükkancım	dükkancı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	8	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	bunları	bu	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	4	obj	_	_
 4	söyledikten	söyle	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
 5	sonra	sonra	ADP	PCAbl	_	4	case	_	_
@@ -11765,7 +11765,7 @@
 5	dibinde	dip	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
 6	kuruyemiş	kuruyemiş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 7	kavanozunun	kavanoz	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	SpaceAfter=No
-8	.	.	PUNCT	Punc	_	1	punct	_	_
+8	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-4989
 # text = Ya da hala anlayamıyor musunuz.
@@ -11851,20 +11851,20 @@
 2	bahse	bahis	NOUN	Noun	Case=Dat|Number=Sing|Person=3	9	nmod	_	_
 3	girebilirdim	gir	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=1|Polarity=Pos|Tense=Past	2	compound	_	_
 4	ki	ki	CCONJ	Conj	_	2	mark	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	9	punct	_	_
+5	,	,	PUNCT	Punc	_	2	punct	_	_
 6	Kemal	Kemal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 7	de	de	CCONJ	Conj	_	6	advmod:emph	_	_
 8	bunları	bu	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	9	obj	_	_
 9	düşünüyordu	düşün	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
-10	;	;	PUNCT	Punc	_	9	punct	_	_
+10	;	;	PUNCT	Punc	_	11	punct	_	_
 11	hem	hem	CCONJ	Conj	_	15	nmod	_	_
 12	de	de	CCONJ	Conj	_	11	advmod:emph	_	_
 13	i	i	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod	_	SpaceAfter=No
-14	)	)	PUNCT	Punc	_	9	punct	_	_
+14	)	)	PUNCT	Punc	_	13	punct	_	_
 15	ler	_	NOUN	Noun	Case=Nom|Number=Plur|Person=3	9	obl	_	SpaceAfter=No
-16	,	,	PUNCT	Punc	_	19	punct	_	_
+16	,	,	PUNCT	Punc	_	17	punct	_	_
 17	ii	2	NUM	ANum	NumType=Card	19	nummod	_	SpaceAfter=No
-18	)	)	PUNCT	Punc	_	9	punct	_	_
+18	)	)	PUNCT	Punc	_	17	punct	_	_
 19	lerle	_	NOUN	Noun	Case=Ins|Number=Plur|Person=3	15	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	19	punct	_	_
 
@@ -11873,10 +11873,10 @@
 # Change 2.2/dev: merge -(y)IcI
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	dönemde	dönem	NOUN	Noun	Case=Loc|Number=Sing|Person=3	18	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	18	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	bilimsel	bilimsel	ADJ	Adj	_	5	amod	_	_
 5	bulguların	bulgu	NOUN	Noun	Case=Gen|Number=Plur|Person=3	10	nmod:poss	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	10	punct	_	_
+6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	teknoloji	teknoloji	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	aracılığıyla	aracılık	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 9	üretime	üretim	NOUN	Noun	Case=Dat|Number=Sing|Person=3	10	obl	_	_
@@ -11913,10 +11913,10 @@
 
 # sent_id = mst-5053
 # text = -Hayır, yazıyorum.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
+2	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
-4	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
+4	yazıyorum	yaz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = mst-5056
@@ -12168,7 +12168,7 @@
 # sent_id = mst-5164
 # text = Oysa, bazıları patlıcan kulaklı!
 1	Oysa	oysa	CCONJ	Conj	_	5	nmod	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	5	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	bazıları	bazı	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	5	det	_	_
 4	patlıcan	patlıcan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 5	kulaklı	kulaklı	ADJ	Adj	_	0	root	_	SpaceAfter=No
@@ -12211,7 +12211,7 @@
 # text = Mustafa Sirmen, bu kararın ardından babasına destek için Kocaeli'ne gitti.
 1	Mustafa	Mustafa	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 2	Sirmen	Sirmen	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	11	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	bu	bu	DET	Det	_	5	det	_	_
 5	kararın	karar	NOUN	Noun	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
 6	ardından	art	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
@@ -12314,7 +12314,7 @@
 # text = Linn Johannes, planın uzun vadede Türk toplumunun ortadan kalkmasına neden olacağını belirtirken, Türklerin yaşadığı yüzde 28'lik nüfus alanının Rum alanı haline gelebileceğini söyledi.
 1	Linn	Linn	PROPN	Prop	Case=Nom|Number=Sing|Person=3	26	nsubj	_	_
 2	Johannes	Johannes	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	26	punct	_	_
+3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	planın	plan	NOUN	Noun	Case=Gen|Number=Sing|Person=3	11	nmod	_	_
 5	uzun	uzun	ADJ	Adj	_	6	amod	_	_
 6	vadede	vade	NOUN	Noun	Case=Loc|Number=Sing|Person=3	11	nmod	_	_
@@ -12355,11 +12355,11 @@
 # sent_id = mst-5264
 # text = Burada... yoktum... diye kekeledi.
 1	Burada	bura	PRON	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	SpaceAfter=No
-2	...	...	PUNCT	Punc	_	7	punct	_	_
+2	...	...	PUNCT	Punc	_	1	punct	_	_
 3-4	yoktum	_	_	_	_	_	_	_	SpaceAfter=No
 3	yok	yok	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	7	amod	_	_
 4	tum	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	3	cop	_	_
-5	...	...	PUNCT	Punc	_	7	punct	_	_
+5	...	...	PUNCT	Punc	_	6	punct	_	_
 6	diye	diye	ADP	PCNom	_	3	case	_	_
 7	kekeledi	kekele	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -12421,7 +12421,7 @@
 11	katılan	kat	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	13	acl	_	_
 12	İngiliz	İngiliz	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	13	amod	_	_
 13	konuşmacılar	konuşmacı	NOUN	Noun	Case=Nom|Number=Plur|Person=3	24	nsubj	_	SpaceAfter=No
-14	,	,	PUNCT	Punc	_	24	punct	_	_
+14	,	,	PUNCT	Punc	_	13	punct	_	_
 15	"	"	PUNCT	Punc	_	21	punct	_	_
 16	Reuters'ın	Reuters	PROPN	Prop	Case=Gen|Number=Sing|Person=3	17	nmod:poss	_	_
 17	Planı'nın	plan	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	nmod:poss	_	_
@@ -12504,17 +12504,17 @@
 # text = -Uydurma.
 1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	Uydurma	uy	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	Punc	_	1	conj	_	_
+3	.	.	PUNCT	Punc	_	2	conj	_	_
 
 # sent_id = mst-5341
 # text = -Galiba siz insanları yönlendiren takımındansınız.
-1	-	-	PUNCT	Punc	_	0	root	_	SpaceAfter=No
+1	-	-	PUNCT	Punc	_	6	punct	_	SpaceAfter=No
 2	Galiba	galiba	ADV	Adverb	_	6	advmod	_	_
 3	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
 4	insanları	insan	NOUN	Noun	Case=Acc|Number=Plur|Person=3	5	obj	_	_
 5	yönlendiren	yönlen	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	6	nmod:poss	_	_
 6-7	takımındansınız	_	_	_	_	_	_	_	SpaceAfter=No
-6	takımından	takım	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
+6	takımından	takım	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 7	sınız	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	6	cop	_	_
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -12587,7 +12587,7 @@
 2	son	son	ADJ	Adj	_	3	amod	_	_
 3	yaklaşma	yaklaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	nmod:poss	_	_
 4	sırasında	sıra	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obl	_	SpaceAfter=No
-5	,	,	PUNCT	Punc	_	19	punct	_	_
+5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	alçalma	alçal	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	nmod:poss	_	_
 7	planında	plan	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 8	yayımlanmış	yayımla	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
@@ -12611,11 +12611,11 @@
 # text = Kaydım gitti, deli fişek çağıma.
 1	Kaydım	kay	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	2	nmod	_	_
 2	gitti	git	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	2	punct	_	_
+3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	deli	deli	ADJ	Adj	_	6	amod	_	_
 5	fişek	fişek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	compound	_	_
 6	çağıma	çağ	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	1	obl	_	SpaceAfter=No
-7	.	.	PUNCT	Punc	_	1	punct	_	_
+7	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-5377
 # text = Yürü lan, dedi Katana, Ramiz'i kolundan çekerek, Miskoye korkuyo.
@@ -12624,7 +12624,7 @@
 3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	Katana	katana	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	4	punct	_	_
+6	,	,	PUNCT	Punc	_	9	punct	_	_
 7	Ramiz'i	Ramiz	PROPN	Prop	Case=Acc|Number=Sing|Person=3	9	obj	_	_
 8	kolundan	kol	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 9	çekerek	çek	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	4	nmod	_	SpaceAfter=No
@@ -12641,13 +12641,13 @@
 4	aramaların	ara	VERB	Verb	Aspect=Perf|Case=Gen|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod:poss	_	_
 5	verdiği	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
 6	yorgunluk	yorgunluk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	22	punct	_	_
+7	,	,	PUNCT	Punc	_	6	punct	_	_
 8-9	evdeki	_	_	_	_	_	_	_	_
 8	evde	ev	NOUN	Noun	Case=Loc|Number=Sing|Person=3	10	nmod	_	_
 9	ki	ki	ADP	Rel	_	8	case	_	_
 10	salonun	salon	NOUN	Noun	Case=Gen|Number=Sing|Person=3	11	nmod:poss	_	_
 11	sedirinde	sedir	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	21	punct	_	_
+12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	akşam	akşam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nsubj	_	_
 14	üzeri	üzer	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	compound	_	_
 15	yaklaşırken	yaklaş	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	21	nmod	_	SpaceAfter=No
@@ -12668,12 +12668,12 @@
 2-3	hayoşmuş	_	_	_	_	_	_	_	SpaceAfter=No
 2	hayoş	hayoş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	muş	i	AUX	Zero	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
-4	,	,	PUNCT	Punc	_	12	punct	_	_
+4	,	,	PUNCT	Punc	_	7	punct	_	_
 5	aynı	aynı	ADJ	Adj	_	7	amod	_	_
 6	büyük	büyük	ADJ	Adj	_	7	amod	_	_
 7	amcam	amca	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nmod	_	_
 8	gibi	gibi	ADP	PCNom	_	7	case	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	2	punct	_	_
+9	,	,	PUNCT	Punc	_	12	punct	_	_
 10	hiçbiri	hiçbiri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind	11	det	_	_
 11	adam	adam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obj	_	_
 12	olmazmış	ol	VERB	Verb	Aspect=Hab|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	2	conj	_	_
@@ -12695,7 +12695,7 @@
 8	iskonto	iskonto	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 9	lu	li	ADP	With	_	8	case	_	_
 10	tahvil	tahvil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	obj	_	SpaceAfter=No
-11	,	,	PUNCT	Punc	_	21	punct	_	_
+11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	diğeri	diğer	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	nsubj	_	_
 13	de	de	CCONJ	Conj	_	12	advmod:emph	_	_
 14	üç	üç	NUM	ANum	NumType=Card	15	nummod	_	_
@@ -12742,7 +12742,7 @@
 # text = Geçici bütçede, Türkiye'nin vergi rekortmenleri arasında yer alan Türkiye Petrolleri Anonim Ortaklığı (TPAO) ile Kıyı Emniyeti'nin, gelirlerinin yüzde 10'unun bütçeye aktarılması öngörüldü.
 1	Geçici	geçici	ADJ	Adj	_	2	amod	_	_
 2	bütçede	bütçe	NOUN	Noun	Case=Loc|Number=Sing|Person=3	26	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	26	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Türkiye'nin	Türkiye	PROPN	Prop	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
 5	vergi	vergi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	rekortmenleri	rekortmen	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:poss	_	_
@@ -12753,9 +12753,9 @@
 11	Petrolleri	petrol	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	10	flat	_	_
 12	Anonim	anonim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	flat	_	_
 13	Ortaklığı	ortaklık	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	flat	_	_
-14	(	(	PUNCT	Punc	_	18	punct	_	SpaceAfter=No
+14	(	(	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
 15	TPAO	Tpao	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nmod	_	SpaceAfter=No
-16	)	)	PUNCT	Punc	_	25	punct	_	_
+16	)	)	PUNCT	Punc	_	15	punct	_	_
 17	ile	ile	CCONJ	Conj	_	18	cc	_	_
 18	Kıyı	kıyı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	conj	_	_
 19	Emniyeti'nin	emniyet	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	flat	_	SpaceAfter=No
@@ -12799,7 +12799,7 @@
 2	Uzatma	uza	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	1	flat	_	_
 3	Kıraathanesi	kıraathane	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 4	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
-5	?	?	PUNCT	Punc	_	7	punct	_	_
+5	?	?	PUNCT	Punc	_	1	punct	_	_
 6	diye	diye	ADP	PCNom	_	1	case	_	_
 7	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -12867,17 +12867,17 @@
 3	Sekreteri	sekreter	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
 4	Kemal	Kemal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 5	Okuyan	Okuyan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	flat	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	14	punct	_	_
+6	,	,	PUNCT	Punc	_	4	punct	_	_
 7	partisinin	parti	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
 8	televizyon	televizyon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
 9	stüdyolarına	stüdyo	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	13	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	iç	iç	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	12	amod	_	_
 12	mekanlara	mekan	NOUN	Noun	Case=Dat|Number=Plur|Person=3	13	obl	_	_
 13	hapsedilemeyeceğini	hapset	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Fut|VerbForm=Part|Voice=Pass	14	obj	_	_
 14	belirterek	belir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Cau	0	root	_	SpaceAfter=No
-15	,	,	PUNCT	Punc	_	20	punct	_	_
-16	"	"	PUNCT	Punc	_	15	punct	_	_
+15	,	,	PUNCT	Punc	_	14	punct	_	_
+16	"	"	PUNCT	Punc	_	17	punct	_	_
 17	Bize	biz	PRON	Pers	Case=Dat|Number=Plur|Person=1|PronType=Prs	24	obl	_	_
 18	miting	miting	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 19	hakkı	hak	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	obj	_	_
@@ -12938,7 +12938,7 @@
 # text = O kim? Bir kadın, değil mi? diye sordu İzzettin.
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kim	kim	PRON	Ques	Case=Nom|Number=Sing|Person=3	11	obl	_	SpaceAfter=No
-3	?	?	PUNCT	Punc	_	5	punct	_	_
+3	?	?	PUNCT	Punc	_	2	punct	_	_
 4	Bir	bir	DET	ANum	Definite=Ind|PronType=Art	5	det	_	_
 5	kadın	kadın	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -12997,7 +12997,7 @@
 3	vermek	ver	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
 4	için	için	ADP	PCNom	_	3	case	_	_
 5	değil	değil	VERB	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	Punc	_	5	punct	_	_
+6	,	,	PUNCT	Punc	_	9	punct	_	_
 7	senden	sen	PRON	Pers	Case=Abl|Number=Sing|Person=2|PronType=Prs	9	obl	_	_
 8	para	para	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
 9	almak	al	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
@@ -13040,7 +13040,7 @@
 # sent_id = mst-5548
 # text = Hülya, Otur yerine! diye seslendi.
 1	Hülya	Hülya	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	Punc	_	3	punct	_	_
+2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	Otur	otur	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	7	nmod	_	_
 4	yerine	yer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	3	obl	_	SpaceAfter=No
 5	!	!	PUNCT	Punc	_	3	punct	_	_
@@ -13079,7 +13079,7 @@
 3	su	su	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	var	var	ADJ	Adj	_	8	amod	_	_
 5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
-6	?	?	PUNCT	Punc	_	8	punct	_	_
+6	?	?	PUNCT	Punc	_	4	punct	_	_
 7	diye	diye	ADP	PCNom	_	4	case	_	_
 8	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	8	punct	_	_
@@ -13192,7 +13192,7 @@
 # text = Bu başlığı, Ankara'da hızla krize sürüklenen iktidar arayışıyla ilgili yazı yazma krizine girmişken dün akşamüstü icat ettim.
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	başlığı	başlık	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obj	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	17	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	Ankara'da	Ankara	PROPN	Prop	Case=Loc|Number=Sing|Person=3	13	nmod	_	_
 5	hızla	hız	NOUN	Noun	Case=Ins|Number=Sing|Person=3	7	obl	_	_
 6	krize	kriz	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	obl	_	_
