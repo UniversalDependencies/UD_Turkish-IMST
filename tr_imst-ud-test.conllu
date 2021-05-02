@@ -1653,7 +1653,7 @@
 
 # sent_id = mst-0681
 # text = Dolayısıyla yeni dokümanlara ulaşmak, olayın gerçek yönlerini belgelemek ihtiyacı çok önemliydi.
-1	Dolayısıyla	dolayısıyla	ADV	Adverb	_	12	punct	_	_
+1	Dolayısıyla	dolayısıyla	ADV	Adverb	_	12	advmod	_	_
 2	yeni	yeni	ADJ	Adj	_	3	amod	_	_
 3	dokümanlara	doküman	NOUN	Noun	Case=Dat|Number=Plur|Person=3	4	obl	_	_
 4	ulaşmak	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	1	nsubj	_	SpaceAfter=No
@@ -4211,7 +4211,7 @@
 3	tamir	tamir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 4	ediver	et	VERB	Verb	Aspect=Rapid|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	3	compound:lvc	_	_
 5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	Punc	_	5	obj	_	_
+6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1762
 # text = Ar namus tertemiz...
@@ -4501,7 +4501,7 @@
 # text = Perdeler uymuyor, değiştirelim.
 1	Perdeler	perde	NOUN	Noun	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
 2	uymuyor	uy	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	4	cc	_	_
+3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	değiştirelim	değiş	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|Voice=Cau	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -6391,7 +6391,7 @@
 3	kısmen	kısmen	ADV	Adverb	_	5	advmod	_	_
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
 5	olsa	ol	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	6	nmod	_	_
-6	sınırlandırılması	sınırlan	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=CauPass	18	punct	_	SpaceAfter=No
+6	sınırlandırılması	sınırlan	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=CauPass	18	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	hükümdar	hükümdar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 9	da	da	CCONJ	Conj	_	8	advmod:emph	_	_
@@ -6957,7 +6957,7 @@
 # sent_id = mst-2926
 # text = ".
 1	"	"	PUNCT	Punc	_	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	Punc	_	1	conj	_	_
+2	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-2928
 # text = Ben Merkezcilik Terk Edilmeli.
@@ -7685,7 +7685,7 @@
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 4	Üç	üç	NUM	ANum	NumType=Card	5	nummod	_	_
 5	gece	gece	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	conj	_	SpaceAfter=No
-6	...	...	PUNCT	Punc	_	7	obj	_	_
+6	...	...	PUNCT	Punc	_	7	punct	_	_
 7	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	conj	_	_
 8	Mebrure	Mebrure	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -8625,7 +8625,7 @@
 8	göğsünün	göğüs	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
 9	üstüne	üst	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	amod	_	_
 10	koyar	koy	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	Punc	_	10	conj	_	_
+11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = mst-3660
 # text = Kredi kartlarında yaşanan rekabetin Avrupa çapında ses getirdiğini belirten Demiray, DİBS'lere çeşitli yayınlarında Türk bankalarının atılımlarını vurguladığını kaydetti.
@@ -8822,7 +8822,7 @@
 
 # sent_id = mst-3723
 # text = Bir de böyle biraz kavrulmuş bir hava veren, tadını dolaylı olarak duyuran, ama gene de kafayı tutan.
-1	Bir	bir	NUM	ANum	NumType=Card	13	punct	_	_
+1	Bir	bir	NUM	ANum	NumType=Card	13	nummod	_	_
 2	de	de	CCONJ	Conj	_	1	compound	_	_
 3	böyle	böyle	ADV	Adverb	_	5	advmod	_	_
 4	biraz	biraz	ADV	Adverb	_	5	advmod	_	_
@@ -11201,7 +11201,7 @@
 6	paketinden	paket	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 7	bir	bir	NUM	ANum	NumType=Card	8	nummod	_	_
 8	sigara	sigara	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
-9	alarak	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	13	punct	_	SpaceAfter=No
+9	alarak	al	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	13	acl	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	parmaklarının	parmak	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod:poss	_	_
 12	ucunda	uç	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
@@ -12504,7 +12504,7 @@
 # text = -Uydurma.
 1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	Uydurma	uy	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	Punc	_	2	conj	_	_
+3	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-5341
 # text = -Galiba siz insanları yönlendiren takımındansınız.
