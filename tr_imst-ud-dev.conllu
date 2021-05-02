@@ -724,7 +724,7 @@
 
 # sent_id = mst-0300
 # text = Ama, dedim, ben ne şiir okuyabilirim, ne de şarkı.
-1	Ama	ama	CCONJ	Conj	_	3	obj	_	SpaceAfter=No
+1	Ama	ama	CCONJ	Conj	_	3	cc	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	8	punct	_	_
