@@ -10,7 +10,7 @@
     <dev><sentences>988</sentences><tokens>9777</tokens><words>10046</words><fused>264</fused></dev>
     <test><sentences>983</sentences><tokens>9797</tokens><words>10029</words><fused>225</fused></test>
   </size>
-  <lemmas unique="5871" /><!-- ., ,, bir, de, ol, i, bu, o, ve, ben, ki, et, da, ", yap -->
+  <lemmas unique="5869" /><!-- ., ,, bir, de, ol, i, bu, o, ve, ben, ki, et, da, ", yap -->
   <forms unique="17107" /><!-- ., ,, bir, ve, bu, de, ki, da, ", o, ..., için, ?, gibi, dedi -->
   <fusions unique="989" /><!-- önemli, yoktu, vardı, vardır, yoksa, vadeli, önceki, arasındaki, benim, gibiydi, sessiz, yoktur, içindeki, saatlik, üzerindeki -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">5602</tag><!-- iç, ara, var, kadın, yan, iyi, kız, son, yeni, yok -->
     <tag name="ADP">2041</tag><!-- ki, li, için, gibi, diye, kadar, olarak, sonra, lik, önce -->
     <tag name="ADV">2203</tag><!-- daha, çok, en, hiç, şimdi, nasıl, sonra, artık, bile, böyle -->
-    <tag name="AUX">1106</tag><!-- i, mi, değil, mı, mu -->
+    <tag name="AUX">1106</tag><!-- i, mi, değil -->
     <tag name="CCONJ">2188</tag><!-- ve, de, da, ama, ki, ile, ya, ancak, hem, değil -->
     <tag name="DET">2046</tag><!-- bir, bu, o, her, hiçbir, tüm, birkaç, şu, bazı, birçok -->
     <tag name="INTJ">99</tag><!-- hadi, ya, a, yahu, tabi, e, ah, aman, ha, haydi -->

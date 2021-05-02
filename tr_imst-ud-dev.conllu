@@ -2432,7 +2432,7 @@
 2	Zeki	zeki	ADJ	Adj	_	3	amod	_	_
 3	adamları	adam	NOUN	Noun	Case=Acc|Number=Plur|Person=3	4	obj	_	_
 4	seviyor	sev	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	5	nmod	_	_
-5	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+5	musun	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1007

@@ -8529,7 +8529,7 @@
 # text = Erkekler Parkı mı! dedim.
 1	Erkekler	erkek	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	5	obj	_	_
 2	Parkı	park	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	nmod	_	SpaceAfter=No
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	nmod	_	SpaceAfter=No
 4	!	!	PUNCT	Punc	_	1	punct	_	_
 5	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -8667,7 +8667,7 @@
 13	ad	ad	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obl	_	_
 14	taksak	tak	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	13	compound	_	_
 15	fena	fena	ADJ	Adj	_	17	amod	_	_
-16	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advmod:emph	_	_
+16	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advmod:emph	_	_
 17	olur	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	18	nmod	_	_
 18	a	a	INTJ	Interj	_	5	discourse	_	_
 19-20	yatkındı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13970,7 +13970,7 @@
 7	iş	iş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	conj	_	SpaceAfter=No
 8	;	;	PUNCT	Punc	_	11	punct	_	_
 9	can	can	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
-10	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	advmod:emph	_	_
+10	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	advmod:emph	_	_
 11	dayanır	dayan	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	3	conj	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	11	punct	_	_
 13	diye	diye	ADP	PCNom	_	3	case	_	_
@@ -18114,7 +18114,7 @@
 6	kurtaracağım	kurtar	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	8	punct	_	_
 8	var	var	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	6	obj	_	_
-9	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	nmod	_	_
+9	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	nmod	_	_
 10	öyle	öyle	ADV	Adverb	_	11	advmod	_	_
 11	kalleşlik	kalleşlik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	8	punct	_	_
@@ -18287,7 +18287,7 @@
 # sent_id = mst-2049
 # text = Çok mu güzel.
 1	Çok	çok	ADV	Adverb	_	3	advmod	_	_
-2	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	nmod	_	_
+2	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	nmod	_	_
 3	güzel	güzel	ADJ	Adj	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -19628,7 +19628,7 @@
 3	gidip	git	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	4	nmod	_	_
 4	günah	günah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 5	çıkardın	çıkar	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	4	compound	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	nmod	_	SpaceAfter=No
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	4	punct	_	_
 8	kendini	kendi	PRON	Reflex	Case=Acc|Number=Sing|Number[psor]=Sing|Person=2|Person[psor]=2|Reflex=Yes	12	obj	_	_
 9	bir	bir	NUM	ANum	NumType=Card	11	nummod	_	_
@@ -24056,7 +24056,7 @@
 3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	sosyal	sosyal	ADJ	Adj	_	5	nmod:poss	_	_
 5	hayatımızla	hayat	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	7	obl	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	nmod	_	_
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	nmod	_	_
 7	var	var	ADJ	Adj	_	0	root	_	_
 8	oluruz	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	7	compound:lvc	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -49428,7 +49428,7 @@
 8	şu	şu	DET	Det	_	9	det	_	_
 9	dersler	ders	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
 10	yok	yok	ADV	Adverb	_	17	advmod	_	_
-11	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	nmod	_	SpaceAfter=No
+11	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	o	o	DET	Det	_	14	det	_	_
 14	konuda	konu	NOUN	Noun	Case=Loc|Number=Sing|Person=3	17	nmod	_	_
