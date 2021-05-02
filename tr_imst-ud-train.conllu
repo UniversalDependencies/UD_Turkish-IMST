@@ -2685,7 +2685,7 @@
 # text = İşe yarar mı ki...
 1	İşe	iş	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
 2	yarar	yara	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	1	compound	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 4	ki	ki	CCONJ	Conj	_	1	advmod:emph	_	SpaceAfter=No
 5	...	...	PUNCT	Punc	_	1	punct	_	_
 
@@ -2851,7 +2851,7 @@
 # text = Beni sınava mı çekiyorsunuz?
 1	Beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 2	sınava	sınav	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	çekiyorsunuz	çek	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	2	compound	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	2	punct	_	_
 
@@ -3107,7 +3107,7 @@
 # text = -Çiziyor musun yani.
 1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	Çiziyor	çiz	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-3	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	aux:q	_	_
+3	musun	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	aux:q	_	_
 4	yani	yani	ADV	Conj	_	2	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -3812,7 +3812,7 @@
 1	Ağzının	ağız	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod:poss	_	_
 2	kenarında	kenar	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	amod	_	_
 3	var	var	ADJ	Adj	_	0	root	_	_
-4	mıydı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	aux:q	_	_
+4	mıydı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	aux:q	_	_
 5	bu	bu	DET	Det	_	7	det	_	_
 6	derin	derin	ADJ	Adj	_	7	amod	_	_
 7	çizgi	çizgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	SpaceAfter=No
@@ -4320,7 +4320,7 @@
 # sent_id = mst-0500
 # text = Düşünüyor mu Mebrure'yi.
 1	Düşünüyor	düşün	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-2	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	Mebrure'yi	Mebrure	PROPN	Prop	Case=Acc|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -4330,7 +4330,7 @@
 2	:	:	PUNCT	Punc	_	6	punct	_	_
 3	Böyle	böyle	ADV	Adverb	_	4	advmod	_	_
 4	olur	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	6	obj	_	_
-5	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
+5	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
 6	bilmiyorum	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -4383,7 +4383,7 @@
 # text = Prezervatif yok mu bu markette? diye sordun.
 1	Prezervatif	prezervatif	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	yok	yok	ADJ	Adj	_	8	amod	_	_
-3	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+3	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	bu	bu	DET	Det	_	5	det	_	_
 5	markette	market	NOUN	Noun	Case=Loc|Number=Sing|Person=3	2	obl	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	2	punct	_	_
@@ -8202,7 +8202,7 @@
 # sent_id = mst-0941
 # text = Konuştun mu onunla.
 1	Konuştun	konuş	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	_
-2	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	onunla	o	PRON	Pers	Case=Ins|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -8339,7 +8339,7 @@
 # sent_id = mst-0957
 # text = İnanır mı.
 1	İnanır	inan	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-0958
@@ -8801,7 +8801,7 @@
 3	davetiyeleri	davetiye	NOUN	Noun	Case=Acc|Number=Plur|Person=3	4	obj	_	_
 4	yazıp	yaz	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	nmod	_	_
 5	dağıtsam	dağıt	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	1	conj	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = mst-1004
@@ -8812,10 +8812,10 @@
 4	asma	as	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod:poss	_	_
 5	ihtimalin	ihtimal	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	6	nsubj	_	_
 6	var	var	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
-7	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
+7	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	yok	yok	ADJ	Adj	_	6	conj	_	_
-10	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	SpaceAfter=No
+10	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-1005
@@ -9030,7 +9030,7 @@
 # text = İçki var mı? diye sordu Kerem.
 1	İçki	içki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	var	var	ADJ	Adj	_	6	obj	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	2	punct	_	_
 5	diye	diye	ADP	PCNom	_	2	case	_	_
 6	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -9040,7 +9040,7 @@
 # sent_id = mst-1028
 # text = Aydınlatır mısınız? " diye soruyor.
 1	Aydınlatır	aydınlat	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	6	obj	_	_
-2	mısınız	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mısınız	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	Punc	_	1	punct	_	_
 4	"	"	PUNCT	Punc	_	5	punct	_	_
 5	diye	diye	ADP	PCNom	_	1	case	_	_
@@ -9180,7 +9180,7 @@
 # text = Bitirince söz mü? dedi çocuk, ellerini annesinin göğsüne dayayıp.
 1	Bitirince	bitir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	2	nmod	_	_
 2	söz	söz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obj	_	_
-3	mü	mü	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	mü	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	2	punct	_	_
 5	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 6	çocuk	çocuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
@@ -9206,7 +9206,7 @@
 # text = -Uydurma mı yani.
 1	-	-	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	Uydurma	uy	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	0	root	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	yani	yani	CCONJ	Conj	_	2	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -9435,7 +9435,7 @@
 # sent_id = mst-1065
 # text = Hazır mıymış Kahve? diye sordu.
 1	Hazır	hazır	ADJ	Adj	_	6	obj	_	_
-2	mıymış	mı	AUX	Ques	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	aux:q	_	_
+2	mıymış	mi	AUX	Ques	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	aux:q	_	_
 3	Kahve	kahve	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	1	punct	_	_
 5	diye	diye	ADP	PCNom	_	1	case	_	_
@@ -9489,7 +9489,7 @@
 # sent_id = mst-1072
 # text = O mu seni terk etmiş saydın, sen mi onu.
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	seni	sen	PRON	Pers	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
 4	terk	terk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 5	etmiş	et	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	4	compound:lvc	_	_
@@ -9561,7 +9561,7 @@
 # sent_id = mst-1083
 # text = Biliyor musunuz?
 1	Biliyor	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-2	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	musunuz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-1085
@@ -12307,7 +12307,7 @@
 # text = Işıkları yok mu onun.
 1	Işıkları	ışık	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	nsubj	_	_
 2	yok	yok	ADJ	Adj	_	0	root	_	_
-3	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+3	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	onun	o	PRON	Pers	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -12479,7 +12479,7 @@
 12	aşık	aşık	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	13	obj	_	_
 13	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	16	nsubj	_	_
 14	asistanım	asistan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	13	conj	_	_
-15	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+15	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 16	açtı	aç	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	19	punct	_	_
 18	şimdi	şimdi	ADV	Adverb	_	19	advmod	_	_
@@ -13026,7 +13026,7 @@
 12	Rahip	rahip	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	obj	_	_
 13	bulup	bul	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	14	nmod	_	_
 14	günah	günah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
-15	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux:q	_	_
+15	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux:q	_	_
 16	çıkaralım	çıkar	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	14	compound	_	SpaceAfter=No
 17	?	?	PUNCT	Punc	_	14	punct	_	_
 18	diye	diye	ADP	PCNom	_	14	case	_	SpaceAfter=No
@@ -13051,7 +13051,7 @@
 6	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	ki	ki	ADP	Rel	Case=Nom|Number=Sing|Person=3	6	case	_	_
 8	patlıcan	patlıcan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-9	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux:q	_	SpaceAfter=No
+9	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux:q	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-1477
@@ -13233,7 +13233,7 @@
 3	Ali	Ali	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	3	punct	_	_
 5	Hasta	hasta	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	2	conj	_	_
-6	mısın	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	5	aux:q	_	_
+6	mısın	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	5	aux:q	_	_
 7-8	yoksa	_	_	_	_	_	_	_	SpaceAfter=No
 7	yok	yok	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	amod	_	_
 8	sa	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
@@ -13261,7 +13261,7 @@
 1	Siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 2	nedenini	neden	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 3	anlayabiliyor	anla	VERB	Verb	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-4	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	aux:q	_	SpaceAfter=No
+4	musunuz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	aux:q	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-1505
@@ -13515,13 +13515,13 @@
 # sent_id = mst-1526
 # text = Anlar mıyız.
 1	Anlar	anla	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-2	mıyız	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mıyız	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-1528
 # text = Tutkuyu mu anlattım.
 1	Tutkuyu	tutku	NOUN	Noun	Case=Acc|Number=Sing|Person=3	3	obj	_	_
-2	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	anlattım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -13581,7 +13581,7 @@
 3	katında	kat	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 4	odalar	oda	NOUN	Noun	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
 5	da	da	CCONJ	Conj	_	4	advmod:emph	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
 7	var	var	ADJ	Adj	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -13624,7 +13624,7 @@
 3	Azıcık	azıcık	ADV	Adverb	_	5	advmod	_	_
 4	pencereyi	pencere	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	obj	_	_
 5	açayım	aç	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 
 # sent_id = mst-1542
@@ -14049,7 +14049,7 @@
 # sent_id = mst-1591
 # text = Tamam mı papişler?
 1	Tamam	tamam	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	papişler	papiş	NOUN	Noun	Case=Nom|Number=Plur|Person=3	1	obj	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	1	punct	_	_
 
@@ -14199,7 +14199,7 @@
 4	gidip	git	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	nmod	_	_
 5	kapıyı	kapı	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 6	çalacak	çal	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
-7	mıydım	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	6	aux:q	_	SpaceAfter=No
+7	mıydım	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	6	aux:q	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	emin	emin	ADJ	Adj	_	6	conj	_	_
 10	değildim	değil	VERB	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	9	compound:lvc	_	SpaceAfter=No
@@ -14237,7 +14237,7 @@
 1	Nereye	nere	PRON	Ques	Case=Dat|Number=Sing|Person=3	2	obl	_	_
 2	gittiğimi	git	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	3	obj	_	_
 3	biliyor	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-4	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	aux:q	_	SpaceAfter=No
+4	musunuz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	aux:q	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-1615
@@ -14325,7 +14325,7 @@
 3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	kocaları	koca	ADJ	NAdj	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
 5	yok	yok	ADJ	Adj	_	0	root	_	_
-6	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
+6	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
 7	aralarında	ara	ADJ	NAdj	Case=Loc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	5	amod	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -18496,7 +18496,7 @@
 1	Her	her	DET	Det	_	3	obj	_	_
 2	şeyi	şey	NOUN	Noun	Case=Acc|Number=Sing|Person=3	1	compound	_	_
 3	anlattım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	5	obj	_	_
-4	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
+4	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
 5	dediniz	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -19450,7 +19450,7 @@
 6	,	,	PUNCT	Punc	_	4	punct	_	_
 7	olmaz	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	11	obj	_	_
 8	olur	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	7	compound	_	_
-9	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
+9	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	7	punct	_	_
 11	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	11	punct	_	_
@@ -19507,7 +19507,7 @@
 6	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	de	de	CCONJ	Conj	_	6	advmod:emph	_	_
 8	aşık	aşık	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-9	mıyım	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	aux:q	_	SpaceAfter=No
+9	mıyım	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	aux:q	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = mst-2180
@@ -22658,7 +22658,7 @@
 16	-	-	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	18	punct	_	_
 18	rahatlamaz	rahatla	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	conj	_	_
-19	mıyım	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	18	aux:q	_	SpaceAfter=No
+19	mıyım	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	18	aux:q	_	SpaceAfter=No
 20	?	?	PUNCT	Punc	_	14	punct	_	_
 21	Sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	23	obl	_	_
 22	normal	normal	ADJ	Adj	_	23	amod	_	_
@@ -23138,7 +23138,7 @@
 5	bu	bu	DET	Det	_	6	det	_	_
 6	Ana'yı	Ana	PROPN	Prop	Case=Acc|Number=Sing|Person=3	7	obj	_	_
 7	gördünüz	gör	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past	11	obj	_	_
-8	mü	mü	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
+8	mü	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
 9	hiç	hiç	ADV	Adverb	_	7	advmod	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	7	punct	_	_
 11	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -23337,7 +23337,7 @@
 # text = Ben aptal mıyım?
 1	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	aptal	aptal	ADJ	Adj	_	0	root	_	_
-3	mıyım	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	mıyım	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-2609
@@ -23470,7 +23470,7 @@
 2	ona	o	PRON	Demons	Case=Dat|Number=Sing|Person=3|PronType=Dem	1	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	anlıyor	anla	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	_
-5	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	4	aux:q	_	_
+5	musun	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	4	aux:q	_	_
 6	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	4	punct	_	_
 8	Hızlı	hızlı	ADJ	Adj	_	10	amod	_	_
@@ -23608,7 +23608,7 @@
 # sent_id = mst-2637
 # text = Gördün mü el konulduk bile.
 1	Gördün	gör	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	_
-2	mü	mü	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mü	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	el	el	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 4	konulduk	kon	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past|Voice=Pass	3	compound	_	_
 5	bile	bile	ADV	Adverb	_	3	advmod:emph	_	SpaceAfter=No
@@ -23802,7 +23802,7 @@
 1	Şu	şu	DET	Det	_	2	det	_	_
 2	ağacı	ağaç	NOUN	Noun	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 3	biliyor	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-4	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	aux:q	_	SpaceAfter=No
+4	musunuz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	aux:q	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = mst-2657
@@ -24003,7 +24003,7 @@
 1	Aşk	aşk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	öyküsü	öykü	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 3	yazmayalım	yaz	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
-4	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
+4	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
 5	yani	yani	CCONJ	Conj	_	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -24544,7 +24544,7 @@
 3	bir	bir	DET	ANum	Definite=Ind|PronType=Art	4	det	_	_
 4	köpek	köpek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 5	yok	yok	ADV	Adverb	_	9	advmod	_	_
-6	muydu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux:q	_	SpaceAfter=No
+6	muydu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	_
 8	diye	diye	ADP	PCNom	_	5	case	_	_
 9	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
@@ -24823,7 +24823,7 @@
 5	büyükelçim	büyükelçi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	7	nsubj	_	_
 6	Çince	Çince	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	obl	_	_
 7	konuşabiliyor	konuş	VERB	Verb	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	21	obj	_	_
-8	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
+8	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
 9	?	?	PUNCT	Punc	_	19	punct	_	_
 10	Benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
 11-12	buradaki	_	_	_	_	_	_	_	_
@@ -24918,7 +24918,7 @@
 # text = İçeriye girmiyor musunuz? diye sordum.
 1	İçeriye	içeri	NOUN	Noun	Case=Dat|Number=Sing|Person=3	2	obl	_	_
 2	girmiyor	gir	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	6	nmod	_	_
-3	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	musunuz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	2	punct	_	_
 5	diye	diye	ADP	PCNom	_	2	case	_	_
 6	sordum	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -28546,7 +28546,7 @@
 # sent_id = mst-3197
 # text = Biliyor musun ben bu bourbon viskiyi daha çok seviyorum.
 1	Biliyor	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-2	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	1	aux:q	_	_
+2	musun	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	1	aux:q	_	_
 3	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 4	bu	bu	DET	Det	_	6	det	_	_
 5	bourbon	Bourbon	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
@@ -28606,7 +28606,7 @@
 2	üvey	üvey	ADJ	Adj	_	3	amod	_	_
 3	anneler	anne	NOUN	Noun	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
 4	daha	daha	ADV	Adverb	_	6	advmod	_	_
-5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
+5	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
 6	kötü	kötü	ADJ	Adj	_	7	obj	_	_
 7	oluyor	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	1	conj	_	SpaceAfter=No
 8	?	?	PUNCT	Punc	_	7	punct	_	_
@@ -28631,7 +28631,7 @@
 15	haberde	haber	NOUN	Noun	Case=Loc|Number=Sing|Person=3	17	obl	_	_
 16	hata	hata	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obj	_	_
 17	var	var	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
-18	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux:q	_	SpaceAfter=No
+18	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux:q	_	SpaceAfter=No
 19	?	?	PUNCT	Punc	_	17	punct	_	_
 
 # sent_id = mst-3207
@@ -28881,7 +28881,7 @@
 # sent_id = mst-3234
 # text = Anlattım mı.
 1	Anlattım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
-2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-3235
@@ -29212,7 +29212,7 @@
 4	erkeklerin	erkek	ADJ	NAdj	Case=Gen|Number=Plur|Person=3	5	nmod:poss	_	_
 5	tanrısı	tanrı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
 6	aynı	aynı	ADJ	Adj	_	0	root	_	_
-7	mıdır	mı	AUX	Ques	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
+7	mıdır	mi	AUX	Ques	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = mst-3269
@@ -29279,7 +29279,7 @@
 2-3	zamandır	_	_	_	_	_	_	_	_
 2	zaman	zaman	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 3	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
-4	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+4	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 5	gidersiniz	git	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	0	root	_	_
 6	oraya	ora	PRON	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -29603,7 +29603,7 @@
 # sent_id = mst-3307
 # text = Görmüyorlar mıydı: Girişten mağlup başlıyor, gelişme bölümünün ortasına bile sağ salim varamıyordum; sonucu da felaket oluyordu bu durumda tabii.
 1	Görmüyorlar	gör	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	_
-2	mıydı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	aux:q	_	SpaceAfter=No
+2	mıydı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	aux:q	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	6	punct	_	_
 4	Girişten	giriş	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	obl	_	_
 5	mağlup	mağlup	ADJ	Adj	_	6	amod	_	_
@@ -29653,7 +29653,7 @@
 # sent_id = mst-3312
 # text = Aç mısın?
 1	Aç	aç	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	mısın	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mısın	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-3313
@@ -32683,7 +32683,7 @@
 8	gibi	gibi	ADP	PCNom	_	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	7	punct	_	_
 10	ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
-11	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux:q	_	SpaceAfter=No
+11	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux:q	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	13	punct	_	_
 13	kendime	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Reflex=Yes	10	conj	_	_
 14	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux:q	_	SpaceAfter=No
@@ -32767,7 +32767,7 @@
 8	sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	9	obl	_	_
 9	bağlı	bağlı	ADJ	Adj	_	2	conj	_	_
 10	olarak	olarak	ADP	PCNom	_	9	case	_	_
-11	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	SpaceAfter=No
+11	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-3679
@@ -33367,7 +33367,7 @@
 5	hiç	hiç	ADV	Adverb	_	6	advmod	_	_
 6	kayan	kay	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	7	obj	_	_
 7	olmuyor	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	1	conj	_	_
-8	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
+8	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
 9	?	?	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-3729
@@ -33740,7 +33740,7 @@
 # text = Mersedes buldum mu bırakmam abi.
 1	Mersedes	Mersedes	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	obj	_	_
 2	buldum	bul	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	4	nmod	_	_
-3	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+3	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	bırakmam	bırak	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
 5	abi	abi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -33871,10 +33871,10 @@
 # sent_id = mst-3783
 # text = Sarı mı, beyaz mı? Yazmamışlar.
 1	Sarı	sarı	ADJ	Adj	_	7	obj	_	_
-2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	beyaz	beyaz	ADJ	Adj	_	1	conj	_	_
-5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
+5	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	4	punct	_	_
 7	Yazmamışlar	yaz	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -34184,7 +34184,7 @@
 # text = Bir mektup mu.
 1	Bir	bir	DET	ANum	Definite=Ind|PronType=Art	2	det	_	_
 2	mektup	mektup	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-3	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3818
@@ -34273,7 +34273,7 @@
 # text = İlk kocası mı.
 1	İlk	ilk	ADJ	Adj	_	2	amod	_	_
 2	kocası	koca	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = mst-3830
@@ -34946,7 +34946,7 @@
 # text = Kurtulmak istiyor musun oğlum? diye sordu Şakir.
 1	Kurtulmak	kurtul	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	2	obj	_	_
 2	istiyor	iste	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	7	nmod	_	_
-3	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	aux:q	_	_
+3	musun	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	aux:q	_	_
 4	oğlum	oğul	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nsubj	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	2	punct	_	_
 6	diye	diye	ADP	PCNom	_	2	case	_	_
@@ -38382,7 +38382,7 @@
 18	arkadan	arka	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	19	amod	_	_
 19	vermiş	ver	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	20	obj	_	_
 20	olmalısın	ol	VERB	Verb	Aspect=Perf|Mood=Nec|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	22	obj	_	_
-21	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux:q	_	_
+21	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux:q	_	_
 22	demişti	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pqp	0	root	_	SpaceAfter=No
 23	.	.	PUNCT	Punc	_	22	punct	_	_
 
@@ -39035,7 +39035,7 @@
 3	her	her	DET	Det	_	7	obl	_	_
 4	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
 5	oradan	ora	PRON	Noun	Case=Abl|Number=Sing|Person=3	7	obl	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
 7	geçecek	geç	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	21	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	17	punct	_	_
 9	geçse	geç	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	nmod	_	_
@@ -39151,7 +39151,7 @@
 # text = Acaba hata mı ettim parktan dışarıya çıkmakla?
 1	Acaba	acaba	ADV	Adverb	_	4	advmod	_	_
 2	hata	hata	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obj	_	_
-3	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
+3	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	ettim	et	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
 5	parktan	park	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	nmod	_	_
 6	dışarıya	dışarı	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
@@ -39241,7 +39241,7 @@
 2	uzaktan	uzak	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	3	amod	_	_
 3	uzağa	uzak	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	4	amod	_	_
 4	kuşatmazlar	kuşat	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
-5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
+5	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
 6	birbirlerini	birbiri	PRON	Quant	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	13	punct	_	_
 8	hep	hep	ADV	Adverb	_	13	advmod	_	_
@@ -39654,10 +39654,10 @@
 2	elde	el	NOUN	Noun	Case=Loc|Number=Sing|Person=3	9	nmod:poss	_	_
 3	kalanın	kal	VERB	Verb	Aspect=Perf|Case=Gen|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	2	compound	_	_
 4	doyum	doyum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	_
-5	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
+5	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	doyumsuzluk	doyumsuzluk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	_
-8	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
+8	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
 9	olduğuna	ol	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
 10	karar	karar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nmod	_	_
 11	veremediğin	ver	VERB	Verb	Aspect=Perf|Mood=Pot|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Part	10	compound	_	SpaceAfter=No
@@ -43340,7 +43340,7 @@
 4	gerçekten	gerçekten	ADV	Adverb	_	6	advmod	_	_
 5	ihtiyacımız	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	6	obj	_	_
 6	var	var	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	10	obj	_	_
-7	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
+7	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	SpaceAfter=No
 8	?	?	PUNCT	Punc	_	6	punct	_	_
 9	diye	diye	ADP	PCNom	_	6	case	_	_
 10	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -43413,7 +43413,7 @@
 7	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 8	dediğinin	de	VERB	Verb	Aspect=Perf|Case=Gen|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
 9	farkında	fark	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	conj	_	_
-10	mısın	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	9	aux:q	_	SpaceAfter=No
+10	mısın	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	9	aux:q	_	SpaceAfter=No
 11	?	?	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = mst-4872
@@ -43546,7 +43546,7 @@
 # sent_id = mst-4888
 # text = Yanılıyor muyum yoksa.
 1	Yanılıyor	yanıl	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	_
-2	muyum	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	aux:q	_	_
+2	muyum	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	aux:q	_	_
 3-4	yoksa	_	_	_	_	_	_	_	SpaceAfter=No
 3	yok	yok	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	1	amod	_	_
 4	sa	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
@@ -43618,7 +43618,7 @@
 5	için	için	ADP	PCNom	_	4	case	_	_
 6	problem	problem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	_
 7	yaratır	yarat	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-8	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
+8	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = mst-4898
@@ -43745,7 +43745,7 @@
 12	üzerinde	üzer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
 13	baskı	baskı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	_
 14	yaratır	yarat	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	13	compound	_	_
-15	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux:q	_	SpaceAfter=No
+15	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux:q	_	SpaceAfter=No
 16	?	?	PUNCT	Punc	_	13	punct	_	_
 17	"	"	PUNCT	Punc	_	13	punct	_	_
 18	sorusu	soru	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	nmod:poss	_	_
@@ -43778,7 +43778,7 @@
 # sent_id = mst-4915
 # text = Mektup mu.
 1	Mektup	mektup	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-2	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-4916
@@ -44269,7 +44269,7 @@
 # sent_id = mst-4970
 # text = Kapattınız mı zarfı.
 1	Kapattınız	kapa	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past|Voice=Cau	0	root	_	_
-2	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
+2	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	zarfı	zarf	NOUN	Noun	Case=Acc|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -44533,7 +44533,7 @@
 7	,	,	PUNCT	Punc	_	9	punct	_	_
 8	halimi	hal	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	9	obj	_	_
 9	görmüyor	gör	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	4	conj	_	_
-10	musun	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	9	aux:q	_	SpaceAfter=No
+10	musun	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres	9	aux:q	_	SpaceAfter=No
 11	?	?	PUNCT	Punc	_	9	punct	_	_
 12	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	12	punct	_	_
@@ -47716,7 +47716,7 @@
 3	kimse	kimse	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	bilmeyecek	bil	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut	8	obj	_	_
 5	tamam	tamam	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	4	conj	_	_
-6	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
+6	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	Punc	_	5	punct	_	_
 8	dedi	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	8	punct	_	_
@@ -48001,7 +48001,7 @@
 # text = Olmaz olur mu? Âşıkları, hayranları...
 1	Olmaz	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	2	nmod	_	_
 2	olur	ol	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-3	mu	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
+3	mu	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	2	punct	_	_
 5	Âşıkları	aşık	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -48331,7 +48331,7 @@
 15	iyi	iyi	ADJ	Adj	_	12	conj	_	_
 16	mi	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux:q	_	_
 17	kötü	kötü	ADJ	Adj	_	12	conj	_	_
-18	mü	mü	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux:q	_	SpaceAfter=No
+18	mü	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux:q	_	SpaceAfter=No
 19	.	.	PUNCT	Punc	_	17	punct	_	_
 
 # sent_id = mst-5447
@@ -48347,7 +48347,7 @@
 2	bir	bir	DET	ANum	Definite=Ind|PronType=Art	3	det	_	_
 3	acı	acı	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	var	var	ADJ	Adj	_	0	root	_	_
-5	mı	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
+5	mı	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	SpaceAfter=No
 6	?	?	PUNCT	Punc	_	9	punct	_	_
 7	Ölüm	ölüm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	şekline	şekil	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
@@ -48537,7 +48537,7 @@
 # sent_id = mst-5472
 # text = Kanatmış mıyım ne? Dolma gibi dudakları.
 1	Kanatmış	kana	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Cau	3	nmod	_	_
-2	mıyım	mı	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	aux:q	_	_
+2	mıyım	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	aux:q	_	_
 3	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Punc	_	3	punct	_	_
 5	Dolma	dolma	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -48713,7 +48713,7 @@
 # sent_id = mst-5491
 # text = İnanmıyor musunuz.
 1	İnanmıyor	inan	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	_
-2	musunuz	mu	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
+2	musunuz	mi	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = mst-5492
