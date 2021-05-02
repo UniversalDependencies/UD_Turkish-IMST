@@ -20094,7 +20094,7 @@
 4	yüz	yüz	NUM	ANum	NumType=Card	7	obj	_	_
 5	bin	bin	NUM	ANum	NumType=Card	4	flat	_	_
 6	lira	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	flat	_	_
-7	verdi	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	12	cc	_	SpaceAfter=No
+7	verdi	ver	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	12	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	hem	hem	ADV	Adverb	_	7	advmod	_	_
 10	yine	yine	ADV	Adverb	_	11	advmod	_	_
@@ -21391,7 +21391,7 @@
 # text = Bir müzikal yapalım: Hadi fıstık, ya da fındık aryaları söyledi.
 1	Bir	bir	DET	ANum	Definite=Ind|PronType=Art	2	det	_	_
 2	müzikal	müzikal	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	3	obj	_	_
-3	yapalım	yap	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	12	cc	_	SpaceAfter=No
+3	yapalım	yap	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	12	advcl	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	3	punct	_	_
 5	Hadi	hadi	INTJ	Interj	_	12	discourse	_	_
 6	fıstık	fıstık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obj	_	SpaceAfter=No
@@ -24205,7 +24205,7 @@
 1	Ağabey	ağabey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	taşıyayım	taşı	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	7	cc	_	SpaceAfter=No
+4	taşıyayım	taşı	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	7	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	diye	diye	ADP	PCNom	_	7	case	_	_
 7	atıldı	at	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
@@ -35950,7 +35950,7 @@
 
 # sent_id = mst-4019
 # text = Meraklanıyorum ama anneme hiçbir şey soramıyorum.
-1	Meraklanıyorum	Meraklan	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	6	cc	_	_
+1	Meraklanıyorum	Meraklan	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	6	advcl	_	_
 2	ama	ama	CCONJ	Conj	_	1	conj	_	_
 3	anneme	anne	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	6	obl	_	_
 4	hiçbir	hiçbir	DET	Det	_	6	obj	_	_

@@ -6005,7 +6005,7 @@
 4	yapılan	yap	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	5	acl	_	_
 5	ihale	ihale	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	ile	ile	CCONJ	Conj	_	17	nmod	_	_
-7	gerekse	gerek	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	cc	_	_
+7	gerekse	gerek	VERB	Verb	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	advcl	_	_
 8	dış	dış	ADJ	Adj	_	9	amod	_	_
 9	borçlanmalar	borçlan	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	nmod	_	_
 10	ile	ile	CCONJ	Conj	_	6	conj	_	_
@@ -7115,7 +7115,7 @@
 8	bileşimin	bileşim	NOUN	Noun	Case=Gen|Number=Sing|Person=3	11	nmod:poss	_	_
 9	sinirler	sinir	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	nmod:poss	_	_
 10	yoluyla	yol	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
-11	emilmesi	em	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	14	cc	_	_
+11	emilmesi	em	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	14	advcl	_	_
 12	ve	ve	CCONJ	Conj	_	11	conj	_	_
 13	beyne	beyin	NOUN	Noun	Case=Dat|Number=Sing|Person=3	14	obl	_	_
 14	ulaşması	ulaş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No

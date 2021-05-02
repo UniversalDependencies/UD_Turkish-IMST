@@ -10230,7 +10230,7 @@
 14	ederek	et	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	13	compound:lvc	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	13	punct	_	_
 16	şunları	şu	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	17	obj	_	_
-17	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	27	cc	_	SpaceAfter=No
+17	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	27	advcl	_	SpaceAfter=No
 18	:	:	PUNCT	Punc	_	17	punct	_	_
 19	"	"	PUNCT	Punc	_	17	punct	_	_
 20	ABD	Abd	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	27	nsubj	_	_

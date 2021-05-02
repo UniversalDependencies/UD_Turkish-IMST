@@ -104,7 +104,7 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
     <dep name="acl">1468</dep>
-    <dep name="advcl">18</dep>
+    <dep name="advcl">25</dep>
     <dep name="advmod">1896</dep>
     <dep name="advmod:emph">940</dep>
     <dep name="amod">3473</dep>
@@ -112,7 +112,7 @@
     <dep name="aux">62</dep>
     <dep name="aux:q">211</dep>
     <dep name="case">1988</dep>
-    <dep name="cc">867</dep>
+    <dep name="cc">860</dep>
     <dep name="ccomp">56</dep>
     <dep name="compound">2210</dep>
     <dep name="compound:lvc">511</dep>
