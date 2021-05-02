@@ -2731,7 +2731,7 @@
 2	gece	gece	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 3	yatınca	yat	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	10	nmod	_	_
 4	dualarıma	dua	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1	10	obl	_	_
-5	bir	bir	ADV	Adverb	_	10	advmod	_	_
+5	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	10	det	_	_
 6	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
 7	iyi	iyi	ADJ	Adj	_	8	amod	_	_
 8	öğretmen	öğretmen	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
@@ -3405,9 +3405,9 @@
 1	Niçin	niçin	ADV	Adverb	_	8	advmod	_	SpaceAfter=No
 2	?	?	PUNCT	Punc	_	1	punct	_	_
 3	Niçin	niçin	ADV	Adverb	_	1	advmod	_	_
-4	bir	bir	ADV	Adverb	_	5	advmod	_	_
+4	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	5	det	_	_
 5	giren	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	nsubj	_	_
-6	bir	bir	ADV	Adverb	_	8	advmod	_	_
+6	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	8	det	_	_
 7	daha	daha	ADV	Adverb	_	6	advmod	_	_
 8	çıkamaz	çık	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	12	obj	_	_
 9	oradan	ora	PRON	Noun	Case=Abl|Number=Sing|Person=3	8	obl	_	SpaceAfter=No
@@ -4272,7 +4272,7 @@
 # sent_id = mst-1783
 # text = Kimse bir savaş olmasını istemiyor.
 1	Kimse	kimse	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
-2	bir	bir	NUM	ANum	NumType=Card	3	advmod:emph	_	_
+2	bir	bir	DET	ANum	Definite=Ind|PronType=Art	3	det	_	_
 3	savaş	savaş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	olmasını	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	obj	_	_
 5	istemiyor	iste	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
@@ -5498,7 +5498,7 @@
 
 # sent_id = mst-2281
 # text = Bir de suya girdin.
-1	Bir	bir	ADV	Adverb	_	3	advmod	_	_
+1	Bir	bir	DET	Adverb	Definite=Ind|PronType=Art	3	det	_	_
 2	de	de	CCONJ	Conj	_	1	mark	_	_
 3	suya	su	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	girdin	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -8098,7 +8098,7 @@
 # text = Bu arada bir karış suya oturmuş, söylediğini yapmaya başlamıştı.
 1	Bu	bu	DET	Det	_	6	det	_	_
 2	arada	ara	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	1	compound	_	_
-3	bir	bir	ADV	Adverb	_	4	advmod	_	_
+3	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	4	det	_	_
 4	karış	karış	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	suya	su	NOUN	Noun	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 6	oturmuş	otur	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -8398,7 +8398,7 @@
 # text = Beyaz peynir bir tanedir.
 1	Beyaz	beyaz	ADJ	Adj	_	2	amod	_	_
 2	peynir	peynir	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
-3	bir	bir	ADV	Adverb	_	4	advmod	_	_
+3	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	4	det	_	_
 4-5	tanedir	_	_	_	_	_	_	_	SpaceAfter=No
 4	tane	tane	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
@@ -12029,7 +12029,7 @@
 # sent_id = mst-5099
 # text = Onu bir yakalayınca her şey birden tutuşur, ateş gibi yakar.
 1	Onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-2	bir	bir	ADV	Adverb	_	3	advmod	_	_
+2	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	3	det	_	_
 3	yakalayınca	yakala	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	7	nmod	_	_
 4	her	her	DET	Det	_	7	nsubj	_	_
 5	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	compound	_	_
@@ -12392,7 +12392,7 @@
 
 # sent_id = mst-5280
 # text = Bir de Esin köpeğimizin erkek olacağını duyunca biraz üzülür gibi oldu.
-1	Bir	bir	ADV	Adverb	_	11	advmod	_	_
+1	Bir	bir	DET	Adverb	Definite=Ind|PronType=Art	11	det	_	_
 2	de	de	CCONJ	Conj	_	1	compound	_	_
 3	Esin	Esin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 4	köpeğimizin	köpek	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	6	nmod:poss	_	_

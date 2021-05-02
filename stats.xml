@@ -17,13 +17,13 @@
   <tags unique="14">
     <tag name="ADJ">5602</tag><!-- iç, ara, var, kadın, yan, iyi, kız, son, yeni, yok -->
     <tag name="ADP">2041</tag><!-- ki, li, için, gibi, diye, kadar, olarak, sonra, lik, önce -->
-    <tag name="ADV">2252</tag><!-- daha, çok, en, hiç, şimdi, nasıl, sonra, artık, bile, böyle -->
+    <tag name="ADV">2203</tag><!-- daha, çok, en, hiç, şimdi, nasıl, sonra, artık, bile, böyle -->
     <tag name="AUX">1106</tag><!-- i, mı, mi, değil, mu, mü -->
     <tag name="CCONJ">2188</tag><!-- ve, de, da, ama, ki, ile, ya, ancak, hem, değil -->
-    <tag name="DET">1993</tag><!-- bir, bu, o, her, hiçbir, tüm, birkaç, şu, bazı, birçok -->
+    <tag name="DET">2046</tag><!-- bir, bu, o, her, hiçbir, tüm, birkaç, şu, bazı, birçok -->
     <tag name="INTJ">99</tag><!-- hadi, ya, a, yahu, tabi, e, ah, aman, ha, haydi -->
     <tag name="NOUN">15560</tag><!-- şey, yer, ev, gün, el, zaman, yıl, göz, anne, insan -->
-    <tag name="NUM">1119</tag><!-- bir, iki, yüz, üç, bin, on, beş, dört, altı, kaç -->
+    <tag name="NUM">1115</tag><!-- bir, iki, yüz, üç, bin, on, beş, dört, altı, kaç -->
     <tag name="PRON">2273</tag><!-- ben, o, bu, kendi, ne, sen, biz, siz, ora, bura -->
     <tag name="PROPN">2210</tag><!-- Türkiye, İstanbul, Kerem, Ayhan, Recep, Kemal, Ankara, Mahmut, Ramiz, Irak -->
     <tag name="PUNCT">10398</tag><!-- ., ,, ", ..., ?, :, -, ;, !, ) -->
@@ -48,7 +48,7 @@
     <feat name="Case" value="Ins" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">777</feat><!-- onunla, nedeniyle, hızla, seninle, onlarla, annemle, benimle, eliyle, heyecanla, nedenle -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">2149</feat><!-- içinde, yüzde, arasında, burada, üzerinde, orada, arada, anda, yanında, evde -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">13475</feat><!-- ben, ne, o, şey, bu, zaman, gün, kadın, adam, sen -->
-    <feat name="Definite" value="Ind" upos="DET">978</feat><!-- bir, birer, ,bir, bi, biri -->
+    <feat name="Definite" value="Ind" upos="DET">1031</feat><!-- bir, birer, ,bir, bi, biri -->
     <feat name="Echo" value="Rdp" upos="X">23</feat><!-- pırıl, tıklım, fıkır, gürül, pıtır, takır, Abuk, apar, haşır, pörçük -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">637</feat><!-- olmuş, demiş, gelmiş, etmiş, çıkmış, başlamış, ymiş, gitmiş, kalmış, mış -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">253</feat><!-- sa, olsa, se, değilse, yse, varsa, verirse, ise, kalırsa, olmazsa -->
@@ -71,7 +71,7 @@
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26048</feat><!-- dedi, ben, ne, o, bana, şey, beni, içinde, bu, zaman -->
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">986</feat><!-- hepsi, kendilerine, birbirimize, birbirlerine, aralarında, kendileri, günümüzde, hepimiz, hepsinin, kendilerini -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">7096</feat><!-- içinde, olduğunu, olduğu, kendi, arasında, yerine, başkanı, annem, biri, üzerinde -->
-    <feat name="NumType" value="Card" upos="NUM">1048</feat><!-- bir, iki, bin, yüzde, üç, on, beş, dört, altı, kaç -->
+    <feat name="NumType" value="Card" upos="NUM">1044</feat><!-- bir, iki, bin, yüzde, üç, on, beş, dört, altı, kaç -->
     <feat name="NumType" value="Dist" upos="NUM">8</feat><!-- birer, ikişer, otuzbeşer, yirmisekizer -->
     <feat name="NumType" value="Ord" upos="NUM">63</feat><!-- ikinci, birinci, birincisi, İkinci, üçüncü, ikincisi, İkincisi, beşinci, onyedi., Dokuzuncu -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">2245</feat><!-- ben, bana, beni, dedim, benim, biz, bize, bizim, bilmiyorum, im -->
@@ -84,7 +84,7 @@
     <feat name="Polarity" value="Pos" upos="AUX,VERB">9812</feat><!-- dedi, olan, dedim, olduğunu, oldu, olduğu, söyledi, olur, etti, geldi -->
     <feat name="Polite" value="Form" upos="VERB">35</feat><!-- kapsamaktadır, andırmaktadır, anlatmakta, atmakta, barışmakta, canlanmakta, dayanmaktadır, desteklemektedir, edinmekte, etmekte -->
     <feat name="Polite" value="Infm" upos="VERB">1326</feat><!-- diyor, oluyor, bilmiyorum, geliyor, biliyorum, biliyor, istiyorum, gidiyoruz, yapıyor, ediyor -->
-    <feat name="PronType" value="Art" upos="DET">978</feat><!-- bir, birer, ,bir, bi, biri -->
+    <feat name="PronType" value="Art" upos="DET">1031</feat><!-- bir, birer, ,bir, bi, biri -->
     <feat name="PronType" value="Dem" upos="PRON">359</feat><!-- bu, o, bunu, bunlar, buna, bunun, bunları, onu, onun, şunları -->
     <feat name="PronType" value="Ind" upos="PRON">158</feat><!-- biri, hepsi, birbirimize, birbirlerine, kimi, hiçbiri, birbirine, birisi, hepimiz, hepsinin -->
     <feat name="PronType" value="Prs" upos="PRON">1189</feat><!-- ben, bana, o, beni, benim, onu, onun, ona, sen, sana -->
@@ -104,24 +104,24 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
     <dep name="acl">1468</dep>
-    <dep name="advcl">16</dep>
-    <dep name="advmod">1944</dep>
-    <dep name="advmod:emph">966</dep>
+    <dep name="advcl">18</dep>
+    <dep name="advmod">1896</dep>
+    <dep name="advmod:emph">960</dep>
     <dep name="amod">3473</dep>
     <dep name="appos">51</dep>
     <dep name="aux">62</dep>
     <dep name="aux:q">211</dep>
     <dep name="case">1988</dep>
-    <dep name="cc">865</dep>
+    <dep name="cc">866</dep>
     <dep name="ccomp">56</dep>
     <dep name="compound">2210</dep>
     <dep name="compound:lvc">511</dep>
     <dep name="compound:redup">199</dep>
     <dep name="conj">3547</dep>
-    <dep name="cop">745</dep>
+    <dep name="cop">742</dep>
     <dep name="csubj">20</dep>
     <dep name="dep">1</dep>
-    <dep name="det">1922</dep>
+    <dep name="det">1975</dep>
     <dep name="discourse">154</dep>
     <dep name="fixed">40</dep>
     <dep name="flat">908</dep>
@@ -131,7 +131,7 @@
     <dep name="nsubj">3737</dep>
     <dep name="nummod">632</dep>
     <dep name="obj">4298</dep>
-    <dep name="obl">4440</dep>
+    <dep name="obl">4441</dep>
     <dep name="parataxis">11</dep>
     <dep name="punct">10376</dep>
     <dep name="root">5635</dep>

@@ -897,7 +897,7 @@
 9	gerilimi	gerilim	NOUN	Noun	Case=Acc|Number=Sing|Person=3	10	obj	_	_
 10	hissederken	hisset	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	17	nmod	_	_
 11	sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	17	obl	_	_
-12	bir	bir	ADV	Adverb	_	16	advmod	_	_
+12	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	16	det	_	_
 13	de	de	CCONJ	Conj	_	12	compound	_	_
 14	öteki	öteki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod	_	_
 15	yolun	yol	NOUN	Noun	Case=Gen|Number=Sing|Person=3	16	nmod:poss	_	_
@@ -1639,7 +1639,7 @@
 1	Şu	şu	DET	Det	_	3	det	_	_
 2	üniversite	üniversite	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	işini	iş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
-4	bir	bir	ADV	Adverb	_	6	advmod	_	_
+4	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	6	det	_	_
 5	türlü	türlü	ADJ	Adj	_	4	compound	_	_
 6	oturtamadık	otur	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Plur|Person=1|Polarity=Neg|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
@@ -2161,7 +2161,7 @@
 2	çok	çok	ADV	Adverb	_	3	advmod	_	_
 3	korkmuştum	kork	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pqp	25	obj	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	8	punct	_	_
-5	bir	bir	ADV	Adverb	_	7	advmod	_	_
+5	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	7	det	_	_
 6	daha	daha	ADV	Adverb	_	5	advmod	_	_
 7	görmek	gör	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	obj	_	_
 8	istemez	iste	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	conj	_	_
@@ -2580,7 +2580,7 @@
 10	ama	ama	CCONJ	Conj	_	14	cc	_	_
 11	aynı	aynı	ADJ	Adj	_	12	advmod:emph	_	_
 12	şiddette	şiddet	NOUN	Noun	Case=Loc|Number=Sing|Person=3	14	nmod	_	_
-13	bir	bir	NUM	ANum	NumType=Card	14	advmod:emph	_	_
+13	bir	bir	DET	ANum	Definite=Ind|PronType=Art	14	det	_	_
 14	direnişin	direniş	NOUN	Noun	Case=Gen|Number=Sing|Person=3	9	conj	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	18	punct	_	_
 16	bir	bir	DET	ANum	Definite=Ind|PronType=Art	17	det	_	_
@@ -3520,7 +3520,7 @@
 4	yim	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	cop	_	_
 5	tabii	tabii	ADJ	Adj	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
-7	bir	bir	ADV	Adverb	_	5	advmod	_	_
+7	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	5	det	_	_
 8	de	de	CCONJ	Conj	_	7	compound	_	_
 9	herif	herif	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 10	ölcem	öl	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut	12	obj	_	_
@@ -4369,7 +4369,7 @@
 # text = Öper öpmez bir de ne görsün?
 1	Öper	öp	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	6	nmod	_	_
 2	öpmez	öp	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	1	compound	_	_
-3	bir	bir	ADV	Adverb	_	5	advmod	_	_
+3	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	5	det	_	_
 4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
 5	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 6	görsün	gör	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -4960,7 +4960,7 @@
 # sent_id = mst-2051
 # text = Hele bir de cep defterimize bakalım.
 1	Hele	hele	ADV	Adverb	_	2	advmod	_	_
-2	bir	bir	ADV	Adverb	_	6	advmod	_	_
+2	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	6	det	_	_
 3	de	de	CCONJ	Conj	_	2	advmod:emph	_	_
 4	cep	cep	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	defterimize	defter	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	6	obl	_	_
@@ -5615,7 +5615,7 @@
 1-2	Sıkıntılı	_	_	_	_	_	_	_	_
 1	Sıkıntı	sıkıntı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 2	lı	li	ADP	With	_	1	case	_	_
-3	bir	bir	NUM	ANum	NumType=Card	4	advmod:emph	_	_
+3	bir	bir	DET	ANum	Definite=Ind|PronType=Art	4	det	_	_
 4	şekilde	şekil	NOUN	Noun	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 5	ayrıldık	ayrıl	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -6064,7 +6064,7 @@
 # text = Yürürken kendimi bir garip hissediyorum; ama topuklu ayakkabılarımı çok seviyorum.
 1	Yürürken	yürü	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	nmod	_	_
 2	kendimi	kendi	PRON	Reflex	Case=Acc|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Reflex=Yes	5	obj	_	_
-3	bir	bir	ADV	Adverb	_	4	advmod	_	_
+3	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	4	det	_	_
 4	garip	garip	ADJ	Adj	_	5	amod	_	_
 5	hissediyorum	hisset	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 6	;	;	PUNCT	Punc	_	12	punct	_	_
@@ -6436,7 +6436,7 @@
 
 # sent_id = mst-2680
 # text = Bir de Tibet gelmezse?
-1	Bir	bir	ADV	Adverb	_	2	advmod:emph	_	_
+1	Bir	bir	DET	Adverb	Definite=Ind|PronType=Art	2	det	_	_
 2	de	de	CCONJ	Conj	_	4	nmod	_	_
 3	Tibet	Tibet	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	gelmezse	gel	VERB	Verb	Aspect=Hab|Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
@@ -8545,7 +8545,7 @@
 
 # sent_id = mst-3572
 # text = Bir barışsalar.
-1	Bir	bir	ADV	Adverb	_	2	advmod	_	_
+1	Bir	bir	DET	Adverb	Definite=Ind|PronType=Art	2	det	_	_
 2	barışsalar	barış	VERB	Verb	Aspect=Perf|Mood=Des|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -9106,7 +9106,7 @@
 # text = İçine giren bir daha kolay kolay kurtulamaz, çıkamaz oradan.
 1	İçine	iç	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	amod	_	_
 2	giren	gir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
-3	bir	bir	ADV	Adverb	_	4	advmod	_	_
+3	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	4	det	_	_
 4	daha	daha	ADV	Adverb	_	7	advmod	_	_
 5	kolay	kolay	ADJ	Adj	_	7	amod	_	_
 6	kolay	kolay	ADJ	Adj	_	5	compound:redup	_	_
@@ -11136,8 +11136,8 @@
 27	,	,	PUNCT	Punc	_	28	punct	_	_
 28	bağıra	bağır	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	conj	_	_
 29	çağıra	çağır	VERB	Verb	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	28	compound:redup	_	_
-30	bir	bir	ADV	Adverb	_	32	advmod	_	_
-31	bir	bir	ADV	Adverb	_	30	advmod	_	_
+30	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	32	det	_	_
+31	bir	bir	DET	Adverb	Definite=Ind|PronType=Art	30	det	_	_
 32	anlattım	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	14	conj	_	SpaceAfter=No
 33	.	.	PUNCT	Punc	_	32	punct	_	_
 
