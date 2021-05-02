@@ -18,7 +18,7 @@
     <tag name="ADJ">5602</tag><!-- iç, ara, var, kadın, yan, iyi, kız, son, yeni, yok -->
     <tag name="ADP">2041</tag><!-- ki, li, için, gibi, diye, kadar, olarak, sonra, lik, önce -->
     <tag name="ADV">2252</tag><!-- daha, çok, en, hiç, şimdi, nasıl, sonra, artık, bile, böyle -->
-    <tag name="AUX">1044</tag><!-- i, mı, mi, mu, mü -->
+    <tag name="AUX">1106</tag><!-- i, mı, mi, değil, mu, mü -->
     <tag name="CCONJ">2188</tag><!-- ve, de, da, ama, ki, ile, ya, ancak, hem, değil -->
     <tag name="DET">1993</tag><!-- bir, bu, o, her, hiçbir, tüm, birkaç, şu, bazı, birçok -->
     <tag name="INTJ">99</tag><!-- hadi, ya, a, yahu, tabi, e, ah, aman, ha, haydi -->
@@ -27,7 +27,7 @@
     <tag name="PRON">2273</tag><!-- ben, o, bu, kendi, ne, sen, biz, siz, ora, bura -->
     <tag name="PROPN">2210</tag><!-- Türkiye, İstanbul, Kerem, Ayhan, Recep, Kemal, Ankara, Mahmut, Ramiz, Irak -->
     <tag name="PUNCT">10398</tag><!-- ., ,, ", ..., ?, :, -, ;, !, ) -->
-    <tag name="VERB">11057</tag><!-- ol, de, et, yap, gel, al, ver, git, bil, bak -->
+    <tag name="VERB">10995</tag><!-- ol, de, et, yap, gel, al, ver, git, bil, bak -->
     <tag name="X">23</tag><!-- pırıl, tıklım, fıkır, gürül, pıtır, takır, abuk, apar, haşır, pörçük -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -80,7 +80,7 @@
     <feat name="Person[psor]" value="1" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">1052</feat><!-- annem, oğlum, babam, kendimi, aklıma, anneme, canım, babama, birbirimize, annemle -->
     <feat name="Person[psor]" value="2" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">341</feat><!-- altında, kendini, kendine, lan, amcan, kendinizi, sevdiğiniz, Baban, Babanız, Canın -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">6689</feat><!-- içinde, olduğunu, olduğu, kendi, arasında, yerine, başkanı, biri, üzerinde, üzerine -->
-    <feat name="Polarity" value="Neg" upos="VERB">1245</feat><!-- değil, olmaz, olmadığını, bilmiyorum, değildir, değildi, değilim, olmadığı, olmadı, olmayan -->
+    <feat name="Polarity" value="Neg" upos="AUX,VERB">1245</feat><!-- değil, olmaz, olmadığını, bilmiyorum, değildir, değildi, değilim, olmadığı, olmadı, olmayan -->
     <feat name="Polarity" value="Pos" upos="AUX,VERB">9812</feat><!-- dedi, olan, dedim, olduğunu, oldu, olduğu, söyledi, olur, etti, geldi -->
     <feat name="Polite" value="Form" upos="VERB">35</feat><!-- kapsamaktadır, andırmaktadır, anlatmakta, atmakta, barışmakta, canlanmakta, dayanmaktadır, desteklemektedir, edinmekte, etmekte -->
     <feat name="Polite" value="Infm" upos="VERB">1326</feat><!-- diyor, oluyor, bilmiyorum, geliyor, biliyorum, biliyor, istiyorum, gidiyoruz, yapıyor, ediyor -->
@@ -102,13 +102,14 @@
     <feat name="Voice" value="Pass" upos="VERB">1061</feat><!-- yapılan, yapılacak, edildi, verilen, alınması, ediliyor, edilmiş, hazırlanan, inanılmaz, katıldı -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="32">
+  <deps unique="33">
     <dep name="acl">1468</dep>
     <dep name="advcl">16</dep>
     <dep name="advmod">1944</dep>
     <dep name="advmod:emph">966</dep>
     <dep name="amod">3473</dep>
     <dep name="appos">51</dep>
+    <dep name="aux">62</dep>
     <dep name="aux:q">211</dep>
     <dep name="case">1988</dep>
     <dep name="cc">865</dep>
@@ -117,7 +118,7 @@
     <dep name="compound:lvc">511</dep>
     <dep name="compound:redup">199</dep>
     <dep name="conj">3547</dep>
-    <dep name="cop">807</dep>
+    <dep name="cop">745</dep>
     <dep name="csubj">20</dep>
     <dep name="dep">1</dep>
     <dep name="det">1922</dep>
