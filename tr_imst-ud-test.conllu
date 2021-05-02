@@ -10000,7 +10000,7 @@
 35	,	,	PUNCT	Punc	_	34	punct	_	_
 36	miras	miras	NOUN	Noun	Case=Nom|Number=Sing|Person=3	37	nmod:poss	_	_
 37	yoluyla	yol	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	38	obl	_	_
-38	devredebilsin	devret	VERB	Verb	Aspect=Perf|Mood=ImpPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	26	conj	_	SpaceAfter=No
+38	devredebilsin	devret	VERB	Verb	Aspect=Perf|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	26	conj	_	SpaceAfter=No
 39	...	...	PUNCT	Punc	_	38	punct	_	_
 
 # sent_id = mst-4244
