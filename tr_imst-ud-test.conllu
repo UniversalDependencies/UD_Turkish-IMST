@@ -683,7 +683,7 @@
 1	İyi	iyi	ADJ	Adj	_	7	amod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	4	punct	_	_
 3	ama	ama	CCONJ	Conj	_	4	cc	_	_
-4	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
+4	neden	neden	ADV	Ques	_	1	conj	_	SpaceAfter=No
 5	?	?	PUNCT	Punc	_	4	punct	_	_
 6	diye	diye	ADP	PCNom	_	1	case	_	_
 7	sordu	sor	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -1621,7 +1621,7 @@
 6	eskiden	eski	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	10	amod	_	SpaceAfter=No
 7	)	)	PUNCT	Punc	_	6	punct	_	_
 8	evler	ev	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
-9	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	10	advmod	_	_
+9	neden	neden	ADV	Ques	_	10	advmod	_	_
 10	farklılaşıyordu	farklılaş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
 11	?	?	PUNCT	Punc	_	10	punct	_	_
 

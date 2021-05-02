@@ -40,7 +40,7 @@
     <feat name="Aspect" value="ProgRapid" upos="VERB">1</feat><!-- takılıveriyor -->
     <feat name="Aspect" value="Prosp" upos="VERB">37</feat><!-- olacaktı, öğrenecekti, Feshedeceklermiş, anlatacaktım, anlatacaktın, anlatmayacaktım, bekleyecektim, bitmeyecekmiş, bulabileceklerdi, diyecektik -->
     <feat name="Aspect" value="Rapid" upos="VERB">8</feat><!-- alıverdi, doluverdi, ediver, edivermişti, gidiverdi, oluverip, tıraşlayıvermiştin, yumuşayıveren -->
-    <feat name="Case" value="Abl" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">1066</feat><!-- ondan, tarafından, neden, nereden, yüzünden, oradan, ortadan, yerden, yandan, yüzden -->
+    <feat name="Case" value="Abl" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">1060</feat><!-- ondan, tarafından, nereden, yüzünden, oradan, ortadan, yerden, yandan, yüzden, benden -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">2572</feat><!-- beni, onu, olduğunu, bunu, seni, kendini, olmadığını, şeyi, bunları, onları -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">2762</feat><!-- bana, ona, sana, yerine, ortaya, bize, üzerine, buna, içine, yere -->
     <feat name="Case" value="Equ" upos="ADJ,NOUN,PRON,VERB">38</feat><!-- bence, onca, Babaca, Cumhurbaşkanı'nca, Felsefece, Hepimizce, Mahkemesi'nce, Sakaca, Tatarca, başkalarınca -->
@@ -68,7 +68,7 @@
     <feat name="Mood" value="Pot" upos="VERB">491</feat><!-- olabilir, giremiyorum, alabilen, bilemiyorum, giremiyor, yanlışlanabilir, anlatamadım, edemiyor, girebilir, girebilmek -->
     <feat name="Mood" value="Prs" upos="VERB">2</feat><!-- Baksana, düşünsene -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">4274</feat><!-- biz, siz, bunlar, şeyler, bize, bizim, erkekler, onların, gözleri, onlar -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26054</feat><!-- dedi, ben, ne, o, bana, şey, beni, içinde, bu, zaman -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26048</feat><!-- dedi, ben, ne, o, bana, şey, beni, içinde, bu, zaman -->
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">986</feat><!-- hepsi, kendilerine, birbirimize, birbirlerine, aralarında, kendileri, günümüzde, hepimiz, hepsinin, kendilerini -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">7096</feat><!-- içinde, olduğunu, olduğu, kendi, arasında, yerine, başkanı, annem, biri, üzerinde -->
     <feat name="NumType" value="Card" upos="NUM">1048</feat><!-- bir, iki, bin, yüzde, üç, on, beş, dört, altı, kaç -->
@@ -76,7 +76,7 @@
     <feat name="NumType" value="Ord" upos="NUM">63</feat><!-- ikinci, birinci, birincisi, İkinci, üçüncü, ikincisi, İkincisi, beşinci, onyedi., Dokuzuncu -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">2245</feat><!-- ben, bana, beni, dedim, benim, biz, bize, bizim, bilmiyorum, im -->
     <feat name="Person" value="2" upos="ADJ,AUX,NOUN,PRON,VERB">988</feat><!-- sen, sana, senin, siz, var, seni, size, musun, bakın, bak -->
-    <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">27095</feat><!-- dedi, ne, o, şey, içinde, bu, zaman, gün, dir, onu -->
+    <feat name="Person" value="3" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">27089</feat><!-- dedi, ne, o, şey, içinde, bu, zaman, gün, dir, onu -->
     <feat name="Person[psor]" value="1" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">1052</feat><!-- annem, oğlum, babam, kendimi, aklıma, anneme, canım, babama, birbirimize, annemle -->
     <feat name="Person[psor]" value="2" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">341</feat><!-- altında, kendini, kendine, lan, amcan, kendinizi, sevdiğiniz, Baban, Babanız, Canın -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">6689</feat><!-- içinde, olduğunu, olduğu, kendi, arasında, yerine, başkanı, biri, üzerinde, üzerine -->
@@ -104,13 +104,13 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="32">
     <dep name="acl">1468</dep>
-    <dep name="advcl">10</dep>
+    <dep name="advcl">11</dep>
     <dep name="advmod">1944</dep>
-    <dep name="advmod:emph">971</dep>
+    <dep name="advmod:emph">970</dep>
     <dep name="amod">3367</dep>
     <dep name="appos">51</dep>
     <dep name="aux:q">211</dep>
-    <dep name="case">1989</dep>
+    <dep name="case">1988</dep>
     <dep name="cc">865</dep>
     <dep name="ccomp">56</dep>
     <dep name="compound">2210</dep>
@@ -130,7 +130,7 @@
     <dep name="nsubj">3737</dep>
     <dep name="nummod">632</dep>
     <dep name="obj">4298</dep>
-    <dep name="obl">4435</dep>
+    <dep name="obl">4436</dep>
     <dep name="parataxis">11</dep>
     <dep name="punct">10378</dep>
     <dep name="root">5635</dep>

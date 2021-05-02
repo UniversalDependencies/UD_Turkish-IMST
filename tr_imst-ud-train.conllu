@@ -43244,7 +43244,7 @@
 4	geldi	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 5	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	8	punct	_	_
-7	neden	neden	ADV	Ques	Case=Abl|Number=Sing|Person=3	8	advmod	_	_
+7	neden	neden	ADV	Ques	_	8	advmod	_	_
 8	sokulgan	sokulgan	ADJ	Adj	_	4	conj	_	_
 9	onca	onca	ADV	Adverb	_	8	advmod:emph	_	SpaceAfter=No
 10	?	?	PUNCT	Punc	_	8	punct	_	_
