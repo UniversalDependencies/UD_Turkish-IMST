@@ -125,7 +125,7 @@
 6	görüşmelerimizde	görüşme	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	12	obl	_	_
 7	turizm	turizm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 8	için	için	ADP	PCNom	_	7	case	_	_
-9	ellerinden	el	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	12	case	_	_
+9	ellerinden	el	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	12	obl	_	_
 10	geleni	gel	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Part	9	compound	_	_
 11	yapacaklarını	yap	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	12	obj	_	_
 12	söylediler	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -144,7 +144,7 @@
 # sent_id = mst-0019
 # text = Herkes istediği gibi sevişiyor, her şey serbest.
 1	Herkes	herkes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
-2	istediği	iste	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	advmod:emph	_	_
+2	istediği	iste	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
 3	gibi	gibi	ADP	PCNom	_	2	case	_	_
 4	sevişiyor	seviş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	8	punct	_	_
@@ -347,13 +347,13 @@
 5	Hazine	hazine	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	compound	_	_
 6	tek	tek	ADJ	Adj	_	7	amod	_	_
 7	hesabı	hesap	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
-8	'	'	PUNCT	Punc	_	13	punct	_	_
+8	'	'	PUNCT	Punc	_	9	punct	_	_
 9	olarak	olarak	ADP	PCNom	_	7	case	_	_
 10	uygulanan	uygula	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	13	acl	_	_
 11	daha	daha	ADV	Adverb	_	12	advmod	_	_
 12	sonra	sonra	ADV	Adverb	_	13	advmod	_	_
 13	yumuşatılarak	yumuşa	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=CauPass	20	nmod	_	_
-14	'	'	PUNCT	Punc	_	9	punct	_	_
+14	'	'	PUNCT	Punc	_	13	punct	_	_
 15	Kamu	kamu	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obj	_	_
 16	Doç	Doç	NOUN	Abr	Abbr=Yes|Case=Nom|Number=Sing|Person=3	15	compound	_	_
 17	dönüşen	dönüş	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	18	acl	_	_
