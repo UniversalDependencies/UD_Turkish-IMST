@@ -3011,7 +3011,7 @@
 6	mutlu	mutlu	ADJ	Adj	_	0	root	_	_
 7	ediyor	et	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	6	compound:lvc	_	_
 8	hem	hem	CCONJ	Conj	_	11	cc	_	_
-9	de	de	CCONJ	Conj	_	8	advmod:emph	_	_
+9	de	de	CCONJ	Conj	_	8	fixed	_	_
 10	kendisi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	11	nsubj	_	_
 11	mutlu	mutlu	ADJ	Adj	_	6	conj	_	_
 12	oluyor	ol	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	11	compound:lvc	_	SpaceAfter=No
@@ -3095,7 +3095,7 @@
 2	materyalizm	materyalizm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	ne	ne	CCONJ	Conj	_	6	cc	_	_
-5	de	de	CCONJ	Conj	_	4	advmod:emph	_	_
+5	de	de	CCONJ	Conj	_	4	fixed	_	_
 6	teori	teori	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 7	Bilimsel	bilimsel	ADJ	Adj	_	8	amod	_	_
 8	Devrim'le	Devrim	PROPN	Prop	Case=Ins|Number=Sing|Person=3	9	obl	_	_
@@ -3311,7 +3311,7 @@
 2	süt	süt	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
 3	emsin	em	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	10	obj	_	_
 4	hem	hem	CCONJ	Conj	_	8	cc	_	_
-5	de	de	CCONJ	Conj	_	4	advmod:emph	_	_
+5	de	de	CCONJ	Conj	_	4	fixed	_	_
 6	biraz	biraz	ADV	Adverb	_	7	advmod	_	_
 7	daha	daha	ADV	Adverb	_	8	advmod	_	_
 8	büyüsün	büyü	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	3	conj	_	SpaceAfter=No
@@ -3571,7 +3571,7 @@
 1	Özer	Özer	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	Derbil	Derbil	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	ve	ve	CCONJ	Conj	_	5	cc	_	_
-4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
+4	de	de	CCONJ	Conj	_	3	fixed	_	_
 5	Ayhan	Ayhan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -24529,7 +24529,7 @@
 # text = Masum ve de mazlum sofraların Şah Vezir'i-.
 1	Masum	masum	ADJ	Adj	_	5	amod	_	_
 2	ve	ve	CCONJ	Conj	_	4	cc	_	_
-3	de	de	CCONJ	Conj	_	2	advmod:emph	_	_
+3	de	de	CCONJ	Conj	_	2	fixed	_	_
 4	mazlum	mazlum	ADJ	Adj	_	1	conj	_	_
 5	sofraların	sofra	NOUN	Noun	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
 6	Şah	şah	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -24601,7 +24601,7 @@
 1	Erten'e	Erten	PROPN	Prop	Case=Dat|Number=Sing|Person=3	6	obl	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	5	punct	_	_
 3	ne	ne	CCONJ	Conj	_	5	cc	_	_
-4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
+4	de	de	CCONJ	Conj	_	3	fixed	_	_
 5	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 6	ulaşmış	ulaş	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 7	değil	değil	AUX	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	aux	_	SpaceAfter=No
@@ -28087,7 +28087,7 @@
 3	severdi	sev	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	ne	ne	CCONJ	Conj	_	2	cc	_	_
-6	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
+6	de	de	CCONJ	Conj	_	5	fixed	_	_
 7	Naci	Naci	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	conj	_	_
 8	Beyi	bey	NOUN	Noun	Case=Acc|Number=Sing|Person=3	7	compound	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	7	punct	_	_
@@ -34346,7 +34346,7 @@
 15	olacağından	olacak	ADJ	NAdj	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	amod	_	_
 16	eminim	emin	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	conj	_	_
 17	hem	hem	CCONJ	Conj	_	24	cc	_	_
-18	de	de	CCONJ	Conj	_	17	advmod:emph	_	_
+18	de	de	CCONJ	Conj	_	17	fixed	_	_
 19	birbirimize	birbiri	PRON	Quant	Case=Dat|Number=Plur|Number[psor]=Plur|Person=1|Person[psor]=1|PronType=Ind	20	nmod	_	_
 20	yaklaşımımızı	yaklaşım	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	24	obj	_	SpaceAfter=No
 21	,	,	PUNCT	Punc	_	22	punct	_	_
@@ -34625,7 +34625,7 @@
 12	iyi	iyi	ADJ	Adj	_	18	amod	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	16	punct	_	_
 14	hem	hem	CCONJ	Conj	_	16	cc	_	_
-15	de	de	CCONJ	Conj	_	14	advmod:emph	_	_
+15	de	de	CCONJ	Conj	_	14	fixed	_	_
 16	kötü	kötü	ADJ	Adj	_	12	conj	_	_
 17	bir	bir	DET	ANum	Definite=Ind|PronType=Art	18	det	_	_
 18-19	durumdur	_	_	_	_	_	_	_	SpaceAfter=No
@@ -38033,7 +38033,7 @@
 8	ağırlık	ağırlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 9	lı	li	ADP	With	_	8	case	_	_
 10	ve	ve	CCONJ	Conj	_	12	cc	_	_
-11	de	de	CCONJ	Conj	_	10	advmod:emph	_	_
+11	de	de	CCONJ	Conj	_	10	fixed	_	_
 12-13	sağlıklı	_	_	_	_	_	_	_	SpaceAfter=No
 12	sağlık	sağlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	conj	_	_
 13	lı	li	ADP	With	_	12	case	_	_

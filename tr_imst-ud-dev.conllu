@@ -734,7 +734,7 @@
 8	okuyabilirim	oku	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	1	conj	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	12	punct	_	_
 10	ne	ne	CCONJ	Conj	_	12	cc	_	_
-11	de	de	CCONJ	Conj	_	10	advmod:emph	_	_
+11	de	de	CCONJ	Conj	_	10	fixed	_	_
 12	şarkı	şarkı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	12	punct	_	_
 
@@ -4728,7 +4728,7 @@
 1	Hem	hem	CCONJ	Conj	_	2	cc	_	_
 2	matematiğin	matematik	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 3	hem	hem	CCONJ	Conj	_	6	cc	_	_
-4	de	de	CCONJ	Conj	_	3	advmod:emph	_	_
+4	de	de	CCONJ	Conj	_	3	fixed	_	_
 5	bilim	bilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	dünyasının	dünya	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
 7	kullandığı	kullan	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
@@ -5272,7 +5272,7 @@
 15	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	16	acl	_	_
 16	inancın	inanç	NOUN	Noun	Case=Gen|Number=Sing|Person=3	26	nmod:poss	_	_
 17	hem	hem	CCONJ	Conj	_	25	cc	_	_
-18	de	de	CCONJ	Conj	_	17	advmod:emph	_	_
+18	de	de	CCONJ	Conj	_	17	fixed	_	_
 19	süper	süper	ADJ	Adj	_	23	amod	_	_
 20	duyusal	duyusal	ADJ	Adj	_	23	amod	_	_
 21	ve	ve	CCONJ	Conj	_	22	cc	_	_
@@ -8937,7 +8937,7 @@
 14	hem	hem	CCONJ	Conj	_	15	cc	_	_
 15	güzel	güzel	ADJ	Adj	_	19	amod	_	_
 16	hem	hem	CCONJ	Conj	_	18	cc	_	_
-17	de	de	CCONJ	Conj	_	16	advmod:emph	_	_
+17	de	de	CCONJ	Conj	_	16	fixed	_	_
 18	yararlı	yararlı	ADJ	Adj	_	15	conj	_	_
 19	şeyler	şey	NOUN	Noun	Case=Nom|Number=Plur|Person=3	11	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	19	punct	_	_
@@ -10648,7 +10648,7 @@
 5	olduk	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	11	punct	_	_
 7	hem	hem	CCONJ	Conj	_	11	cc	_	_
-8	de	de	CCONJ	Conj	_	7	advmod:emph	_	_
+8	de	de	CCONJ	Conj	_	7	fixed	_	_
 9	Harbiyelinin	harbiyeli	NOUN	Noun	Case=Gen|Number=Sing|Person=3	10	nmod:poss	_	_
 10	işini	iş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	kolaylaştırdık	kolaylaş	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past|Voice=Cau	5	conj	_	SpaceAfter=No
@@ -12763,7 +12763,7 @@
 3	hem	hem	CCONJ	Conj	_	4	cc	_	_
 4	sağduyumuz	sağduyu	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	2	conj	_	_
 5	hem	hem	CCONJ	Conj	_	7	cc	_	_
-6	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
+6	de	de	CCONJ	Conj	_	5	fixed	_	_
 7	deneyimlerimiz	deneyim	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	2	conj	_	_
 8	son	son	ADJ	Adj	_	9	amod	_	_
 9	bilgi	bilgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
