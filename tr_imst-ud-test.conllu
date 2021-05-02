@@ -8554,7 +8554,7 @@
 # text = Hangisinin yorgun olduğunu belirlemesi ve yolculuğun ağır yükünü çekenlerle arkada boş kızakları çekenler arasında dönüşümü yapması gerekiyordu.
 # Change 2.2/dev: merge -(y)An
 # Change 2.2/dev: mark 'hangi' as DET
-1	Hangisinin	hangi	DET	Ques	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+1	Hangisinin	hangi	PRON	Ques	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 2	yorgun	yorgun	ADJ	Adj	_	3	obj	_	_
 3	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	obj	_	_
 4	belirlemesi	belirle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	17	obj	_	_
