@@ -22083,7 +22083,7 @@
 
 # sent_id = mst-2483
 # text = Ama en kolayı şu saman sarısı saçlarından ve takma kirpiklerinden kurtulmaktı.
-1	Ama	ama	CCONJ	Conj	_	11	cop	_	_
+1	Ama	ama	CCONJ	Conj	_	11	cc	_	_
 2	en	en	ADV	Adverb	_	3	advmod	_	_
 3	kolayı	kolay	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	amod	_	_
 4	şu	şu	DET	Det	_	5	det	_	_
@@ -31609,7 +31609,7 @@
 # sent_id = mst-3553
 # text = Ütopya biliyorsunuz, olmayan yer, düş ülkesi demektir.
 1	Ütopya	ütopya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-2	biliyorsunuz	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	9	cop	_	SpaceAfter=No
+2	biliyorsunuz	bil	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	9	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	olmayan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part	5	acl	_	_
 5	yer	yer	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	obj	_	SpaceAfter=No
@@ -39257,7 +39257,7 @@
 # sent_id = mst-4394
 # text = Hala okuyabilir, anlattığı aşklara katılabilir, maceralarında uzun yolculuklara çıkabilirdik.
 1	Hala	hala	ADV	Adverb	_	2	advmod	_	_
-2	okuyabilir	oku	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	11	cop	_	SpaceAfter=No
+2	okuyabilir	oku	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	11	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	anlattığı	anlat	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
 5	aşklara	aşk	NOUN	Noun	Case=Dat|Number=Plur|Person=3	6	obl	_	_
