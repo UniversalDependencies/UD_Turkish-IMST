@@ -9540,7 +9540,7 @@
 # sent_id = mst-1080
 # text = Hangisini sen kazandın ki? deyip dik dik bakmıştı yüzüme.
 # Change 2.2/dev: mark 'hangi' as DET
-1	Hangisini	hangi	NOUN	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+1	Hangisini	hangi	PRON	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 2	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	kazandın	kazan	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	_
 4	ki	ki	CCONJ	Conj	_	3	advmod:emph	_	SpaceAfter=No
@@ -21631,7 +21631,7 @@
 1	-	-	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 2	En	en	ADV	Adverb	_	3	advmod	_	_
 3	çok	çok	ADV	Adverb	_	5	advmod	_	_
-4	hangisini	hangi	DET	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+4	hangisini	hangi	PRON	Ques	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
 5	seviyorsun	sev	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
