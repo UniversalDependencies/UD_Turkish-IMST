@@ -117,7 +117,7 @@
     <dep name="compound:lvc">511</dep>
     <dep name="compound:redup">199</dep>
     <dep name="conj">3547</dep>
-    <dep name="cop">810</dep>
+    <dep name="cop">807</dep>
     <dep name="csubj">20</dep>
     <dep name="dep">1</dep>
     <dep name="det">1936</dep>
@@ -130,7 +130,7 @@
     <dep name="nsubj">3737</dep>
     <dep name="nummod">632</dep>
     <dep name="obj">4298</dep>
-    <dep name="obl">4437</dep>
+    <dep name="obl">4440</dep>
     <dep name="parataxis">11</dep>
     <dep name="punct">10376</dep>
     <dep name="root">5635</dep>

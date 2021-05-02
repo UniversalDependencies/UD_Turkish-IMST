@@ -48697,7 +48697,7 @@
 5	Memo	Memo	PROPN	Prop	Case=Nom|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	8	punct	_	_
 7	hepiniz	hep	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=2|Person[psor]=2|PronType=Ind	8	nsubj	_	_
-8	havanızı	hava	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	4	cop	_	_
+8	havanızı	hava	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	4	obl	_	_
 9	alırsınız	al	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres	4	conj	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	9	punct	_	_
 

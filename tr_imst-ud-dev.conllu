@@ -617,7 +617,7 @@
 22	kendisine	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	23	nmod	_	_
 23	güven	güven	NOUN	Noun	Case=Nom|Number=Sing|Person=3	25	nmod	_	_
 24	duymaya	duy	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	23	compound	_	_
-25	teşvik	teşvik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	cop	_	_
+25	teşvik	teşvik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obl	_	_
 26-27	edilmesidir	_	_	_	_	_	_	_	SpaceAfter=No
 26	edilmesi	et	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	0	root	_	_
 27	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	25	conj	_	_
