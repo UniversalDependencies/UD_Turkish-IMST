@@ -16257,7 +16257,7 @@
 4	bir	bir	DET	ANum	Definite=Ind|PronType=Art	5	det	_	_
 5	süreci	süreç	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 6	betimlemeye	betimle	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	nmod	_	_
-7	çalışan	çalış	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	advmod:emph	_	_
+7	çalışan	çalış	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	8	advcl	_	_
 8	matematiksel	matematiksel	ADJ	Adj	_	10	amod	_	_
 9	bir	bir	DET	ANum	Definite=Ind|PronType=Art	10	det	_	_
 10	modelde	model	NOUN	Noun	Case=Loc|Number=Sing|Person=3	11	obl	_	_
