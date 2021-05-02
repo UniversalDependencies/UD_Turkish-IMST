@@ -28140,12 +28140,12 @@
 7	üçyüzelli	üçyüzelli	NUM	ANum	NumType=Card	16	obj	_	_
 8	bin	bin	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	7	flat	_	_
 9	doları	dolar	NOUN	Noun	Case=Acc|Number=Sing|Person=3	7	flat	_	_
-10	(	(	PUNCT	Punc	_	11	punct	_	SpaceAfter=No
+10	(	(	PUNCT	Punc	_	12	punct	_	SpaceAfter=No
 11	yaklaşık	yaklaşık	ADJ	Adj	_	12	amod	_	_
 12	beşyüzelli	beşyüzelli	NUM	ANum	NumType=Card	7	appos	_	_
 13	milyar	milyar	NUM	ANum	NumType=Card	12	flat	_	_
 14	lira	lira	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	flat	_	SpaceAfter=No
-15	)	)	PUNCT	Punc	_	11	punct	_	_
+15	)	)	PUNCT	Punc	_	12	punct	_	_
 16	buluyor	bul	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Pres	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	Punc	_	16	punct	_	_
 
