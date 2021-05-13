@@ -1,10 +1,10 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit 7891dd4356d3ace9dcc15aeecf97131c7ed73e17
-Merge: c88113f 1a8c86a
+commit 72f00dcd218f23daa8efef7788f750c2b54f7344
+Merge: b3f3029 aab823d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 57859 of 57859 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.11601803260301.
@@ -15,87 +15,56 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 36722 out of 57859 total words have one or more features.
+Features: 36767 out of 57859 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 10141 bugs.
+Udapi:
+               TOTAL       8054
+Udapi: found 8054 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 57859 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
-[Line 94 Sent mst-0013 Node 2]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
-[Line 104 Sent mst-0015 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 129 Sent mst-0017 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:ellerinden:case --> 10:geleni:compound)
-[Line 147 Sent mst-0019 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 190 Sent mst-0035 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
-[Line 208 Sent mst-0035 Node 28]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [30, 32, 33]
-[Line 213 Sent mst-0035 Node 33]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28]
-[Line 273 Sent mst-0078 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 286 Sent mst-0078 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 4302 Sent mst-1776 Node 26]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (26:döneminde:fixed --> 24:tarihinin:nmod)
+[Line 5402 Sent mst-2221 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:lik:case --> 4:bu:det)
+[Line 5403 Sent mst-2221 Node 7]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (7:lik:case --> 5:bir:det)
+[Line 5955 Sent mst-2490 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 6513 Sent mst-2710 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 6568 Sent mst-2730 Node 3]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (3:şeyin:fixed --> 2:güzel:amod)
+[Line 6851 Sent mst-2851 Node 9]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 6854 Sent mst-2851 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:yüzde:case --> 11:'luk:flat)
+[Line 7190 Sent mst-2996 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
 ...suppressing further errors regarding Syntax
-[Line 1001 Sent mst-0392 Node 5]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 2209 Sent mst-0909 Node 3]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 2361 Sent mst-0969 Node 6]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 2435 Sent mst-1003 Node 5]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 3620 Sent mst-1502 Node 4]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 3642 Sent mst-1511 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 3795 Sent mst-1568 Node 3]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 3803 Sent mst-1572 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 3851 Sent mst-1595 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-...suppressing further errors regarding Morpho
-Morpho errors: 29
-Syntax errors: 425
-*** FAILED *** with 454 errors
+Syntax errors: 19
+*** FAILED *** with 19 errors
 Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
-[Line 9 Sent mst-0005 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 55 Sent mst-0020 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 82 Sent mst-0023 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 209 Sent mst-0057 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 250 Sent mst-0075 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 319 Sent mst-0103 Node 15]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [16]
-[Line 320 Sent mst-0103 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15]
-[Line 441 Sent mst-0167 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 460 Sent mst-0180 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+[Line 1519 Sent mst-0611 Node 9]: [L3 Syntax leaf-cc] 'cc' not expected to have children (9:da:cc --> 8:ya:advmod)
+[Line 3085 Sent mst-1273 Node 7]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
+[Line 3531 Sent mst-1457 Node 4]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (4:ait:case --> 5:olup:compound)
+[Line 3628 Sent mst-1498 Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:de:mark --> 12:bir:det)
+[Line 4639 Sent mst-1942 Node 10]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
+[Line 4640 Sent mst-1942 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:yanı:cc --> 11:sıra:compound)
+[Line 4772 Sent mst-1984 Node 28]: [L3 Syntax rel-upos-cc] 'cc' should not be 'VERB'
+[Line 4845 Sent mst-2012 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADP'
 ...suppressing further errors regarding Syntax
-[Line 2209 Sent mst-0906 Node 6]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 2497 Sent mst-1029 Node 2]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 2579 Sent mst-1058 Node 4]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 2606 Sent mst-1062 Node 13]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 3706 Sent mst-1527 Node 10]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 4955 Sent mst-2055 Node 4]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 5077 Sent mst-2100 Node 2]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 5091 Sent mst-2105 Node 4]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 5918 Sent mst-2475 Node 8]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-...suppressing further errors regarding Morpho
-Morpho errors: 25
-Syntax errors: 388
-*** FAILED *** with 413 errors
+Syntax errors: 17
+*** FAILED *** with 17 errors
 Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
-[Line 26 Sent mst-0031 Node 22]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 28 Sent mst-0031 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject: [1, 15, 23]
-[Line 54 Sent mst-0037 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 122 Sent mst-0044 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 201 Sent mst-0053 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 212 Sent mst-0053 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 290 Sent mst-0063 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 297 Sent mst-0063 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 347 Sent mst-0069 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 2100 Sent mst-0293 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:ki:mark --> 5:i:nmod)
+[Line 2562 Sent mst-0320 Node 20]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
+[Line 2563 Sent mst-0320 Node 20]: [L3 Syntax leaf-cc] 'cc' not expected to have children (20:yok:cc --> 21:sa:cop)
+[Line 3207 Sent mst-0385 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
+[Line 3208 Sent mst-0385 Node 2]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
+[Line 3207 Sent mst-0385 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:oyuncu:cc --> 1:Öyle:cc)
+[Line 3209 Sent mst-0385 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:oyuncu:cc --> 3:öyle:cc)
+[Line 3209 Sent mst-0385 Node 3]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
 ...suppressing further errors regarding Syntax
-[Line 2688 Sent mst-0331 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 2854 Sent mst-0351 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 3110 Sent mst-0375 Node 3]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 3815 Sent mst-0448 Node 4]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 4323 Sent mst-0500 Node 2]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 4333 Sent mst-0501 Node 5]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 4386 Sent mst-0505 Node 3]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 8205 Sent mst-0941 Node 2]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 8342 Sent mst-0957 Node 2]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-...suppressing further errors regarding Morpho
-Morpho errors: 91
-Syntax errors: 1424
-*** FAILED *** with 1515 errors
+Syntax errors: 92
+*** FAILED *** with 92 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
