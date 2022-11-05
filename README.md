@@ -44,6 +44,7 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 * UD 1.3
   * First release in UD.
 
+<pre>
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
@@ -58,3 +59,4 @@ Contributors: Türk, Utku; Özateş, Betül; Marşan, Büşra; Akkurt, Salih Fur
 Contributing: elsewhere
 Contact: memduhg@gmail.com
 ===============================================================================
+</pre>
