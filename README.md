@@ -6,6 +6,8 @@ The UD Turkish Treebank, also called the IMST-UD Treebank, is a semi-automatic c
 
 The UD Turkish Treebank, also called the IMST-UD Treebank, is a semi-automatic conversion of the IMST Treebank (Sulubacak&Eryiğit, 2018; Sulubacak et al., 2016), which is itself a reannotated version of the METU-Sabancı Turkish Treebank (Oflazer et al., 2003). All three of the treebanks share the same raw data, a set of 5 635 sentences collected from daily news reports and novels.
 
+Validation errors in the dataset were corrected by BOUN TABILAB/TULAP team in UD v2.11 release.
+
 # Acknowledgments
 The IMST-UD Treebank is licensed under Creative Commons (BY-NC-SA 4.0). A summary for the terms of the license is given below (see here for more information). Under the terms of the license,
 
@@ -22,6 +24,8 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 
 # Changelog
 
+* 2022-11-05 UD v2.11
+  * Fixed validation errors.
 * UD 2.8
   * The word "bir", if used as a determiner, gets corresponding UPOS and features.
   * Attachment of punctuation fixed using Udapi ud.FixPunct.
@@ -50,7 +54,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
+Contributors: Türk, Utku; Özateş, Betül; Marşan, Büşra; Akkurt, Salih Furkan; Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
 Contributing: elsewhere
 Contact: memduhg@gmail.com
 ===============================================================================
