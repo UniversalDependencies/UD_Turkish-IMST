@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit f154d0a9c9657da1d1ed29a5b75906a178d67c97
-Merge: 9399deb f8fdbac
+commit 4fe204fb759b92451002103a2c9f5c4785d51172
+Merge: d87c293 007c418
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 58096 of 58096 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.12419362934396.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 8738 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 58096 words.
 Genres: found 2 out of 17 known.
-validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
 *** PASSED ***
-validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
 *** PASSED ***
-validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
