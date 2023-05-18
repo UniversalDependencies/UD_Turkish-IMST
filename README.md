@@ -24,6 +24,8 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 
 # Changelog
 
+* 2022-05-18 UD v2.12
+  * Reorganized sentences by docs using the original corpus (MTC).
 * 2022-11-05 UD v2.11
   * Fixed validation errors.
 * UD 2.8
