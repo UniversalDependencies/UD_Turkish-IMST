@@ -6,9 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>5635</sentences><tokens>56422</tokens><words>58096</words><fused>1639</fused></total>
-    <train><sentences>3685</sentences><tokens>36970</tokens><words>38082</words><fused>1087</fused></train>
-    <dev><sentences>975</sentences><tokens>9707</tokens><words>10010</words><fused>300</fused></dev>
-    <test><sentences>975</sentences><tokens>9745</tokens><words>10004</words><fused>252</fused></test>
+    <train><sentences>3685</sentences><tokens>36218</tokens><words>37200</words><fused>954</fused></train>
+    <dev><sentences>975</sentences><tokens>11265</tokens><words>11631</words><fused>360</fused></dev>
+    <test><sentences>975</sentences><tokens>8939</tokens><words>9265</words><fused>325</fused></test>
   </size>
   <lemmas unique="5852" /><!-- ., ,, bir, de, ol, i, bu, o, ve, ben, ki, et, da, ", yap -->
   <forms unique="17069" /><!-- ., ,, bir, ve, bu, de, ki, da, ", o, ..., ?, için, gibi, dedi -->
