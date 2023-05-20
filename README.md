@@ -24,26 +24,24 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 
 # Changelog
 
-* 2022-05-18 UD v2.12
+* 2023-11-15 v2.13
   * Reorganized sentences by docs using the original corpus (MTC).
-* 2022-11-05 UD v2.11
+* 2022-11-15 v2.11
   * Fixed validation errors.
-* UD 2.8
+* 2021-05-15 v2.8
   * The word "bir", if used as a determiner, gets corresponding UPOS and features.
   * Attachment of punctuation fixed using Udapi ud.FixPunct.
   * A number of other validation errors fixed.
   * Undocumented Aspect=DurPerf changed to Aspect=Dur.
-* UD 2.4
+* 2019-05-15 v2.4
   * Moved around a few sentences so that both dev and test have over 10K words again.
-* UD 2.2
+* 2018-07-01 v2.2
   * Repository renamed from UD_Turkish to UD_Turkish-IMST.
-* UD 2.1
-  * No change.
-* UD 2.0
+* 2017-03-01 v2.0
   * Conversion to UD v2 guidelines.
-* UD 1.4
+* 2016-11-15 v1.4
   * Fixed annotation and spelling mistakes in generated forms of multiword tokens.
-* UD 1.3
+* 2016-05-15 v1.3
   * First release in UD.
 
 <pre>
