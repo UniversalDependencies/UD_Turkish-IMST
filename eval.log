@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Turkish-IMST:
-commit 4fe204fb759b92451002103a2c9f5c4785d51172
-Merge: d87c293 007c418
+commit dead23fc1a6ab59d8244ccdeed06abe07af01214
+Merge: d94c70f 1ac9cf3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 58096 of 58096 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.12419362934396.
@@ -20,15 +20,23 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       8738
-Udapi: found 8738 bugs.
+               TOTAL       8730
+Udapi: found 8730 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 58096 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
+[Line 4716 Sent 00045224_1 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 16] 'göbek * * * da'
+[Line 9889 Sent 00220166_36 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'aralarından * da'
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
+[Line 8394 Sent 00038121_25 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Ev * * da'
+[Line 14918 Sent 00084111_21 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'öldürmek * da'
+[Line 26915 Sent 00131266_41 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 15] 'bakkaldan * * da'
+[Line 50224 Sent 21040000_68 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'yasal * da'
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
