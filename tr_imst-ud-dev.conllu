@@ -4716,8 +4716,8 @@
 12	göbek	göbek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	obl	_	_
 13	dansına	dans	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	compound	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	13	punct	_	_
-15	ya	ya	CCONJ	Conj	_	12	compound	_	_
-16	da	da	CCONJ	Conj	_	12	fixed	_	_
+15	ya	ya	CCONJ	Conj	_	17	cc	_	_
+16	da	da	CCONJ	Conj	_	15	fixed	_	_
 17	bir	bir	DET	ANum	_	18	det	_	_
 18	bozlağa	bozlak	NOUN	Noun	Case=Dat|Number=Sing|Person=3	12	conj	_	_
 19	geçer	geç	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -9887,8 +9887,8 @@
 10	,	,	PUNCT	Punc	_	17	punct	_	_
 11	ağaç	ağaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
 12	aralarından	ara	ADJ	NAdj	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	17	amod	_	_
-13	ya	ya	CCONJ	Conj	_	12	compound	_	_
-14	da	da	CCONJ	Conj	_	12	fixed	_	_
+13	ya	ya	CCONJ	Conj	_	15	cc	_	_
+14	da	da	CCONJ	Conj	_	13	fixed	_	_
 15	çalı	çalı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 16	diplerinden	dip	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	conj	_	_
 17	yürümüş	yürü	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
