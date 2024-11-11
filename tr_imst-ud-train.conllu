@@ -8393,8 +8393,8 @@
 # text = Ev, ya da ev yapmak adına, ülkemizdeki gecekondu uygulamalarından öğrenecek epey şeyimiz olduğunu düşünüyorum.
 1	Ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	1	punct	_	_
-3	ya	ya	CCONJ	Conj	_	1	compound	_	_
-4	da	da	CCONJ	Conj	_	1	fixed	_	_
+3	ya	ya	CCONJ	Conj	_	5	cc	_	_
+4	da	da	CCONJ	Conj	_	3	fixed	_	_
 5	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 6	yapmak	yap	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	1	conj	_	_
 7	adına	ad	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	SpaceAfter=No
@@ -14916,8 +14916,8 @@
 # text = Ağabeyinizi öldürmek ya da kanın fışkırışını görmekten çok, bu düşüncenizin başkalarınca bilineceğinden korktunuz.
 1	Ağabeyinizi	ağabey	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	2	obj	_	_
 2	öldürmek	öl	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	13	nmod	_	_
-3	ya	ya	CCONJ	Conj	_	2	compound	_	_
-4	da	da	CCONJ	Conj	_	2	fixed	_	_
+3	ya	ya	CCONJ	Conj	_	5	cc	_	_
+4	da	da	CCONJ	Conj	_	3	fixed	_	_
 5	kanın	kan	NOUN	Noun	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
 6	fışkırışını	fışkırış	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 7	görmekten	gör	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	2	conj	_	_
@@ -26914,8 +26914,8 @@
 11	büyük	büyük	ADJ	Adj	_	12	amod	_	_
 12	bakkaldan	bakkal	NOUN	Noun	Case=Abl|Number=Sing|Person=3	33	obl	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	12	punct	_	_
-14	ya	ya	CCONJ	Conj	_	12	compound	_	_
-15	da	da	CCONJ	Conj	_	12	fixed	_	_
+14	ya	ya	CCONJ	Conj	_	16	cc	_	_
+15	da	da	CCONJ	Conj	_	14	fixed	_	_
 16	Bulvar	bulvar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nmod:poss	_	_
 17-18	üzerindeki	_	_	_	_	_	_	_	_
 17	üzerinde	üzer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	amod	_	_
@@ -50222,8 +50222,8 @@
 6	konjonktürden	konjonktür	NOUN	Noun	Case=Abl|Number=Sing|Person=3	14	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	13	punct	_	_
 8	yasal	yasal	ADJ	Adj	_	13	amod	_	_
-9	ya	ya	CCONJ	Conj	_	8	compound	_	_
-10	da	da	CCONJ	Conj	_	8	fixed	_	_
+9	ya	ya	CCONJ	Conj	_	11	cc	_	_
+10	da	da	CCONJ	Conj	_	9	fixed	_	_
 11	yasa	yasa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	conj	_	_
 12	dışı	dış	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	compound	_	_
 13	imkandan	imkan	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	conj	_	_

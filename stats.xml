@@ -107,11 +107,11 @@
     <dep name="aux">6</dep>
     <dep name="aux:q">218</dep>
     <dep name="case">2226</dep>
-    <dep name="cc">1072</dep>
+    <dep name="cc">1078</dep>
     <dep name="cc:preconj">3</dep>
     <dep name="ccomp">629</dep>
     <dep name="clf">8</dep>
-    <dep name="compound">1949</dep>
+    <dep name="compound">1943</dep>
     <dep name="compound:lvc">523</dep>
     <dep name="compound:redup">219</dep>
     <dep name="conj">2881</dep>
