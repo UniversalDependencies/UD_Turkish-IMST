@@ -59,7 +59,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Türk, Utku; Özateş, Şaziye Betül; Marşan, Büşra; Akkurt, Salih Furkan; Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
+Contributors: Türk, Utku; Özateş, Şaziye Betül; Marşan, Büşra; Akkurt, Furkan; Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis
 Contributing: elsewhere
 Contact: memduhg@gmail.com
 ===============================================================================
