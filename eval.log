@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit a7cb44710e2c4b009fb5fb164fc18926c0160256
-Merge: 51f5967 0dad253
+commit 0fa99e1795de9459689c0fca62aa721190f3ebf4
+Merge: cc03792 af37914
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 58096 of 58096 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.12419362934396.
@@ -20,38 +20,65 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       8699
-Udapi: found 8699 bugs.
+               TOTAL       8680
+Udapi: found 8680 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 58096 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
-[Line 518 Sent 00002213_42 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:bardak:clf --> 1:Bir:det)
-[Line 8697 Sent 00196177_304 Node 5]: [L3 Warning leaf-clf] 'clf' not expected to have children (5:şişe:clf --> 4:bir:nummod)
-[Line 10817 Sent 00220166_86 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:Bir:det)
-[Line 10821 Sent 00220166_86 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:fincan:clf --> 5:bir:det)
+[Line 518 Sent 00002213_42 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:bardak:clf --> 1:Bir:det)
+[Line 3651 Sent 00002213_341 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 4719 Sent 00045224_1 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 6394 Sent 00196177_74 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 8697 Sent 00196177_304 Node 5]: [L3 Syntax leaf-clf] 'clf' not expected to have children (5:şişe:clf --> 4:bir:nummod)
+[Line 9890 Sent 00220166_36 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 10817 Sent 00220166_86 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:Bir:det)
+[Line 10821 Sent 00220166_86 Node 6]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:fincan:clf --> 5:bir:det)
+Syntax errors: 4
 Warnings: 4
-*** PASSED ***
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
-[Line 10615 Sent 00142111_1 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:yudum:clf --> 1:Bir:det)
-Warnings: 1
-*** PASSED ***
+[Line 1632 Sent 00009123_114 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 2678 Sent 00009123_209 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2968 Sent 00009123_235 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 3892 Sent 00047124_18 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 5620 Sent 00048220_14 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ne de' does not have the 'ExtPos' feature
+[Line 10615 Sent 00142111_1 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:yudum:clf --> 1:Bir:det)
+[Line 11027 Sent 00170166_26 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Yine de' does not have the 'ExtPos' feature
+Syntax errors: 1
+Warnings: 6
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
-[Line 4706 Sent 00032161_13 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:külah:clf --> 1:Dört:nummod)
-[Line 10667 Sent 00044121_64 Node 17]: [L3 Warning leaf-clf] 'clf' not expected to have children (17:kez:clf --> 16:bir:nummod)
-[Line 20331 Sent 00105133_17 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:bu:det --> 9:diyorum:nmod)
-[Line 45883 Sent 20580000_49 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:bu:det --> 7:geçmişten:amod)
-[Line 48733 Sent 20710000_105 Node 7]: [L3 Warning leaf-clf] 'clf' not expected to have children (7:adet:clf --> 6:iki:nummod)
-Warnings: 5
-*** PASSED ***
-Validity: 1
+[Line 211 Sent 00006231_11 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 3500 Sent 00016112_31 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 3973 Sent 00016112_51 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 4336 Sent 00016112_65 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 4641 Sent 00032161_7 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 4706 Sent 00032161_13 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:külah:clf --> 1:Dört:nummod)
+[Line 5075 Sent 00032161_43 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 8396 Sent 00038121_25 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 8574 Sent 00038121_34 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 8872 Sent 00038121_51 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 8884 Sent 00038121_52 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 10667 Sent 00044121_64 Node 17]: [L3 Syntax leaf-clf] 'clf' not expected to have children (17:kez:clf --> 16:bir:nummod)
+[Line 20331 Sent 00105133_17 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:bu:det --> 9:diyorum:nmod)
+[Line 45883 Sent 20580000_49 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:bu:det --> 7:geçmişten:amod)
+[Line 48733 Sent 20710000_105 Node 7]: [L3 Syntax leaf-clf] 'clf' not expected to have children (7:adet:clf --> 6:iki:nummod)
+Syntax errors: 5
+Warnings: 40
+*** FAILED *** with 5 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.588048743856272) = 0.150781729193916
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.442831788302799) * (availability=1) * (validity=1) = 0.442831788302799
-STARS = 2
-UD_Turkish-IMST	0.442831788302799	2
+(TOTAL score=0.442329023094151) * (availability=1) * (validity=0.01) = 0.00442329023094151
+STARS = 0
+UD_Turkish-IMST	0.00442329023094151	0
