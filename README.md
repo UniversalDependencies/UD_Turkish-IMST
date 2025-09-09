@@ -53,6 +53,7 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: converted from manual
 UPOS: converted from manual
