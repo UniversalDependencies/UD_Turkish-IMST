@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Turkish-IMST:
-commit 0fa99e1795de9459689c0fca62aa721190f3ebf4
-Merge: cc03792 af37914
+commit b5afd08c0280952d19522e63c4e2d50ee494435d
+Merge: bcd48da bc66ad7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'tr_imst'
+Language code (from CoNLL-U file name) = 'tr'
+Found the following data files: tr_imst-ud-dev.conllu, tr_imst-ud-test.conllu, tr_imst-ud-train.conllu
 Size: counted 58096 of 58096 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.12419362934396.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,66 +23,87 @@ Features: 35585 out of 58096 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       8680
-Udapi: found 8680 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 58096 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
-[Line 518 Sent 00002213_42 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:bardak:clf --> 1:Bir:det)
-[Line 3651 Sent 00002213_341 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
-[Line 4719 Sent 00045224_1 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 6394 Sent 00196177_74 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 8697 Sent 00196177_304 Node 5]: [L3 Syntax leaf-clf] 'clf' not expected to have children (5:şişe:clf --> 4:bir:nummod)
-[Line 9890 Sent 00220166_36 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 10817 Sent 00220166_86 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:Bir:det)
-[Line 10821 Sent 00220166_86 Node 6]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:fincan:clf --> 5:bir:det)
-Syntax errors: 4
-Warnings: 4
-*** FAILED *** with 4 errors
+[Line 26 Sent 00001131_5]: [L3 Warning pron-det-without-prontype] The word 'Kim' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 107 Sent 00002113_4]: [L3 Warning pron-det-without-prontype] The word '?' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 160 Sent 00002213_6]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 179 Sent 00002213_8]: [L3 Warning pron-det-without-prontype] The word 'Nereye' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 292 Sent 00002213_22]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 411 Sent 00002213_32]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 438 Sent 00002213_34]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 505 Sent 00002213_41]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 512 Sent 00002213_41]: [L3 Warning pron-det-without-prontype] The word 'kendini' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 518 Sent 00002213_42]: [L3 Warning pron-det-without-prontype] The word 'Bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 518 Sent 00002213_42]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:bardak:clf --> 1:Bir:det)
+...suppressing further errors regarding Warning
+[Line 5308 Sent 00100161_1]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('kanıtlanmasından', 'yanlışlanabilir') under the predicate 'sözedilmesi'.
+[Line 6295 Sent 00196177_66]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('rakı', 'ne') under the predicate 'bulursam'.
+[Line 6300 Sent 00196177_66]: [L3 Syntax too-many-objects] Multiple direct objects [12, 16] ('bulursam', 'yudum') under the predicate 'kafama'.
+[Line 8697 Sent 00196177_304]: [L3 Syntax leaf-clf] 'clf' not expected to have children (5:şişe:clf --> 4:bir:nummod)
+[Line 10817 Sent 00220166_86]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:Bir:det)
+[Line 10821 Sent 00220166_86]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:fincan:clf --> 5:bir:det)
+[Line 11550 Sent 00220166_127]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('yaşadığı', 'alan') under the predicate 'ziyaret'.
+[Line 12102 Sent 00220166_160]: [L3 Syntax too-many-objects] Multiple direct objects [1, 8] ('Evenleri', 'bağımsız') under the predicate 'kılıyordu'.
+[Line 12901 Sent 21000000_1]: [L3 Syntax too-many-objects] Multiple direct objects [5, 25] ('konutu', 'hakkına') under the predicate 'sahip'.
+Syntax errors: 10
+Warnings: 451
+*** FAILED *** with 10 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
-[Line 1632 Sent 00009123_114 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
-[Line 2678 Sent 00009123_209 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 2968 Sent 00009123_235 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
-[Line 3892 Sent 00047124_18 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
-[Line 5620 Sent 00048220_14 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ne de' does not have the 'ExtPos' feature
-[Line 10615 Sent 00142111_1 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:yudum:clf --> 1:Bir:det)
-[Line 11027 Sent 00170166_26 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Yine de' does not have the 'ExtPos' feature
-Syntax errors: 1
-Warnings: 6
-*** FAILED *** with 1 errors
+[Line 24 Sent 00005221_1]: [L3 Warning pron-det-without-prontype] The word 'Ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 76 Sent 00009123_4]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 83 Sent 00009123_4]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 89 Sent 00009123_4]: [L3 Warning pron-det-without-prontype] The word 'hiçbir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 97 Sent 00009123_5]: [L3 Warning pron-det-without-prontype] The word 'Kim' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 121 Sent 00009123_7]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 166 Sent 00009123_10]: [L3 Warning pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 177 Sent 00009123_11]: [L3 Warning pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 244 Sent 00009123_17]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 347 Sent 00009123_25]: [L3 Warning pron-det-without-prontype] The word 'Kimi' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 782 Sent 00009123_48]: [L3 Syntax too-many-objects] Multiple direct objects [1, 6] ('Tarihi', 'cep') under the predicate 'olmaktan'.
+[Line 3913 Sent 00047124_19]: [L3 Syntax too-many-objects] Multiple direct objects [8, 15] ('olamazdım', 'beni') under the predicate 'korkuttu'.
+[Line 10615 Sent 00142111_1]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:yudum:clf --> 1:Bir:det)
+Syntax errors: 3
+Warnings: 440
+*** FAILED *** with 3 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
-[Line 211 Sent 00006231_11 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
-[Line 3500 Sent 00016112_31 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
-[Line 3973 Sent 00016112_51 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 4336 Sent 00016112_65 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 4641 Sent 00032161_7 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 4706 Sent 00032161_13 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:külah:clf --> 1:Dört:nummod)
-[Line 5075 Sent 00032161_43 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
-[Line 8396 Sent 00038121_25 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 8574 Sent 00038121_34 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
-[Line 8872 Sent 00038121_51 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
-[Line 8884 Sent 00038121_52 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 13 Sent 00006231_1]: [L3 Warning pron-det-without-prontype] The word 'hiçbir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 49 Sent 00006231_2]: [L3 Warning pron-det-without-prontype] The word 'Kendine' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 52 Sent 00006231_2]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 55 Sent 00006231_2]: [L3 Warning pron-det-without-prontype] The word 'neresi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 63 Sent 00006231_3]: [L3 Warning pron-det-without-prontype] The word 'Kendi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 69 Sent 00006231_3]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 113 Sent 00006231_6]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'çıkışları') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 115 Sent 00006231_6]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'çıkışları') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 129 Sent 00006231_7]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'havası') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 161 Sent 00006231_8]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 10667 Sent 00044121_64 Node 17]: [L3 Syntax leaf-clf] 'clf' not expected to have children (17:kez:clf --> 16:bir:nummod)
-[Line 20331 Sent 00105133_17 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:bu:det --> 9:diyorum:nmod)
-[Line 45883 Sent 20580000_49 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:bu:det --> 7:geçmişten:amod)
-[Line 48733 Sent 20710000_105 Node 7]: [L3 Syntax leaf-clf] 'clf' not expected to have children (7:adet:clf --> 6:iki:nummod)
-Syntax errors: 5
-Warnings: 40
-*** FAILED *** with 5 errors
+[Line 831 Sent 00006231_43]: [L3 Syntax too-many-objects] Multiple direct objects [12, 17] ('olmadığını', 'öldüğünü') under the predicate 'düşündüm'.
+[Line 1658 Sent 00006231_102]: [L3 Syntax too-many-objects] Multiple direct objects [1, 18] ('Yolculuk', 'dirilik') under the predicate 'yaratmıştı'.
+[Line 2955 Sent 00016112_7]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('olmadığımızı', 'değiştirebileceğimizi') under the predicate 'öğrendik'.
+[Line 4706 Sent 00032161_13]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:külah:clf --> 1:Dört:nummod)
+[Line 8064 Sent 00038121_6]: [L3 Syntax too-many-objects] Multiple direct objects [17, 21] ('ev', 'ev') under the predicate 'olmamış'.
+[Line 10667 Sent 00044121_64]: [L3 Syntax leaf-clf] 'clf' not expected to have children (17:kez:clf --> 16:bir:nummod)
+[Line 10816 Sent 00044121_71]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('çalışmalar', 'yoktan') under the predicate 'ispatlarken'.
+[Line 13670 Sent 00058111_8]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('cesedinizi', 'kadavra') under the predicate 'kullanacağım'.
+[Line 15546 Sent 00084111_64]: [L3 Syntax too-many-objects] Multiple direct objects [5, 10, 13] ('pantolonunu', 'darbukasını', 'terliklerini') under the predicate 'çıkarmıştı'.
+[Line 18426 Sent 00095233_62]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('kişiyi', 'kölesi') under the predicate 'yapmayı'.
+...suppressing further errors regarding Syntax
+Syntax errors: 22
+Warnings: 1644
+*** FAILED *** with 22 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.588048743856272) = 0.150781729193916
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.442329023094151) * (availability=1) * (validity=0.01) = 0.00442329023094151
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.588048743856272) = 0.217795831057879
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.658823529411765) = 0.073202614379085
+(weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
+(TOTAL score=0.63447525558044) * (availability=1) * (validity=0.01) = 0.0063447525558044
 STARS = 0
-UD_Turkish-IMST	0.00442329023094151	0
+UD_Turkish-IMST	0.0063447525558044	0
