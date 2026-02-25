@@ -6588,7 +6588,7 @@
 4	galiba	galiba	ADV	Adverb	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	2	punct	_	_
 6	bir	bir	DET	ANum	PronType=Ind	7	det	_	_
-7	şeyi	şey	DET	Noun	_	13	det	_	_
+7	şeyi	şey	DET	Noun	PronType=Ind	13	det	_	_
 8	en	en	ADV	Adverb	_	9	advmod	_	_
 9	çok	çok	ADJ	Adj	_	13	amod	_	_
 10	otuz	otuz	NUM	ANum	NumType=Card	12	nummod	_	_
