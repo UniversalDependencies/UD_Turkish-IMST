@@ -515,7 +515,7 @@
 # old_sent_id = mst-5562
 # sent_id = 00002213_42
 # text = Bir bardak su var mı? diye sordu.
-1	Bir	bir	DET	ANum	PronType=Ind	2	det	_	_
+1	Bir	bir	DET	ANum	PronType=Ind	3	det	_	_
 2	bardak	bardak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	su	su	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	var	var	ADJ	Adj	_	8	ccomp	_	_
@@ -8694,7 +8694,7 @@
 1	Neyse	neyse	ADV	Adverb	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	3	punct	_	_
 3	buldum	bul	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
-4	bir	bir	NUM	ANum	NumType=Card	5	nummod	_	_
+4	bir	bir	NUM	ANum	NumType=Card	6	nummod	_	_
 5	şişe	şişe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	clf	_	_
 6	tonik	tonik	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	3	punct	_	_
@@ -10814,11 +10814,11 @@
 # old_sent_id = mst-0828
 # sent_id = 00220166_86
 # text = Bir dilim ekmek ve bir fincan çayı hızla midesine indirdi.
-1	Bir	bir	DET	ANum	PronType=Ind	2	det	_	_
+1	Bir	bir	DET	ANum	PronType=Ind	3	det	_	_
 2	dilim	dilim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	ekmek	ekmek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	obj	_	_
 4	ve	ve	CCONJ	Conj	_	7	cc	_	_
-5	bir	bir	DET	ANum	PronType=Ind	6	det	_	_
+5	bir	bir	DET	ANum	PronType=Ind	7	det	_	_
 6	fincan	fincan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	clf	_	_
 7	çayı	çay	NOUN	Noun	Case=Acc|Number=Sing|Person=3	3	conj	_	_
 8	hızla	hız	ADV	Noun	_	10	advmod	_	_

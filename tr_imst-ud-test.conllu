@@ -10612,7 +10612,7 @@
 # old_sent_id = mst-0119
 # sent_id = 00142111_1
 # text = Bir yudum rakı.
-1	Bir	bir	DET	ANum	PronType=Ind	2	det	_	_
+1	Bir	bir	DET	ANum	PronType=Ind	3	det	_	_
 2	yudum	yudum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	rakı	rakı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
