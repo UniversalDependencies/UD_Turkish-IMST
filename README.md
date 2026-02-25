@@ -28,6 +28,8 @@ This treebank follows a set of morphosyntactic annotation guidelines based on th
 
 # Changelog
 
+* 2026-02-26
+  * Fixed validation errors: PronType features, obl→nmod for nominal heads, leaf-clf/det reattachment, ExtPos for fixed MWEs, too-many-objects (deprel, head, and punctuation projectivity fixes).
 * 2023-11-15 v2.13
   * Reorganized sentences by docs using the original corpus (MTC).
 * 2022-11-15 v2.11
