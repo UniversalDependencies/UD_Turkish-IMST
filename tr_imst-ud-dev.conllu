@@ -3648,7 +3648,7 @@
 5	yatakta	yatak	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	advcl	_	_
 6	yken	i	AUX	Zero	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Conv	5	cop	_	_
 7	söyledi	söyle	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
-8	hem	hem	CCONJ	Conj	_	7	advmod:emph	_	_
+8	hem	hem	CCONJ	Conj	ExtPos=CCONJ	7	advmod:emph	_	_
 9	de	de	CCONJ	Conj	_	8	fixed	_	SpaceAfter=No
 10	...	...	PUNCT	Punc	_	7	punct	_	_
 
@@ -4716,7 +4716,7 @@
 12	göbek	göbek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	obl	_	_
 13	dansına	dans	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	compound	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	13	punct	_	_
-15	ya	ya	CCONJ	Conj	_	17	cc	_	_
+15	ya	ya	CCONJ	Conj	ExtPos=CCONJ	17	cc	_	_
 16	da	da	CCONJ	Conj	_	15	fixed	_	_
 17	bir	bir	DET	ANum	PronType=Ind	18	det	_	_
 18	bozlağa	bozlak	NOUN	Noun	Case=Dat|Number=Sing|Person=3	12	conj	_	_
@@ -5300,7 +5300,7 @@
 3	,	,	PUNCT	Punc	_	12	punct	_	_
 4	bilimsel	bilimsel	ADJ	Adj	_	5	amod	_	_
 5	kuramların	kuram	NOUN	Noun	Case=Gen|Number=Plur|Person=3	6	nmod:poss	_	_
-6	kanıtlanmasından	kanıtla	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	10	obj	_	_
+6	kanıtlanmasından	kanıtla	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	10	obl	_	_
 7	çok	çok	ADP	PCAbl	_	8	amod	_	_
 8-9	yanlışlanabilirliğinden	_	_	_	_	_	_	_	_
 8	yanlışlanabilir	yanlışlan	VERB	Verb	Aspect=Hab|Mood=Pot|Polarity=Pos|Tense=Pres|VerbForm=Part	10	obj	_	_
@@ -6391,7 +6391,7 @@
 # text = Dalgınlığıma geldi ya da üşendim, sapmadım ara yola...
 1	Dalgınlığıma	dalgınlık	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	obl	_	_
 2	geldi	gel	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
-3	ya	ya	CCONJ	Conj	_	5	cc	_	_
+3	ya	ya	CCONJ	Conj	ExtPos=CCONJ	5	cc	_	_
 4	da	da	CCONJ	Conj	_	3	fixed	_	_
 5	üşendim	üşen	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -9887,7 +9887,7 @@
 10	,	,	PUNCT	Punc	_	17	punct	_	_
 11	ağaç	ağaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
 12	aralarından	ara	ADJ	NAdj	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	17	amod	_	_
-13	ya	ya	CCONJ	Conj	_	15	cc	_	_
+13	ya	ya	CCONJ	Conj	ExtPos=CCONJ	15	cc	_	_
 14	da	da	CCONJ	Conj	_	13	fixed	_	_
 15	çalı	çalı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
 16	diplerinden	dip	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	conj	_	_
@@ -11541,7 +11541,7 @@
 5	torunlarının	torun	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	3	conj	_	_
 6	yaşadığı	yaşa	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	14	obj	_	_
 7	bu	bu	DET	Det	PronType=Dem	8	det	_	_
-8	alan	alan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	obj	_	_
+8	alan	alan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 9	kasabaya	kasaba	NOUN	Noun	Case=Dat|Number=Sing|Person=3	10	nmod:poss	_	_
 10	yakınlığından	yakınlık	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod	_	_
 11	dolayı	dolayı	ADP	PCAbl	_	10	case	_	_
@@ -12098,7 +12098,7 @@
 5	insanına	insan	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 6	göre	göre	ADP	PCDat	_	5	case	_	_
 7	daha	daha	ADV	Adverb	_	8	advmod	_	_
-8	bağımsız	bağımsız	ADJ	Adj	_	9	obj	_	_
+8	bağımsız	bağımsız	ADJ	Adj	_	9	xcomp	_	_
 9	kılıyordu	kıl	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	_
 10	bu	bu	DET	Det	PronType=Dem	11	det	_	_
 11	durum	durum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
@@ -12897,7 +12897,7 @@
 22	benzer	benze	VERB	Verb	Aspect=Hab|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	23	acl	_	_
 23	şekilde	şekil	NOUN	Noun	Case=Loc|Number=Sing|Person=3	15	conj	_	_
 24	gerçekleştirebilme	gerçekleş	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Pot|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Cau	25	nmod:poss	_	_
-25	hakkına	hak	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	obj	_	_
+25	hakkına	hak	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	nmod	_	_
 26	sahip	sahip	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 27	olsun	ol	VERB	Verb	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	26	compound:lvc	_	_
 28	ve	ve	CCONJ	Conj	_	38	cc	_	_

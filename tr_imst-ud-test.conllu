@@ -777,8 +777,8 @@
 3	içinden	iç	ADJ	NAdj	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	amod	_	_
 4	dersler	ders	NOUN	Noun	Case=Nom|Number=Plur|Person=3	6	acl	_	_
 5	çıkarılacak	çıkar	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	4	compound	_	_
-6	cep	cep	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
-7	kılavuzu	kılavuz	NOUN	Noun	Case=Acc|Number=Sing|Person=3	6	compound	_	_
+6	cep	cep	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	compound	_	_
+7	kılavuzu	kılavuz	NOUN	Noun	Case=Acc|Number=Sing|Person=3	8	xcomp	_	_
 8	olmaktan	ol	VERB	Verb	Aspect=Perf|Case=Abl|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	nmod	_	_
 9	kültür	kültür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
 10	boyutuna	boyut	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	iobj	_	_
@@ -1629,7 +1629,7 @@
 # old_sent_id = mst-0167
 # sent_id = 00009123_114
 # text = Ya da bir dağ evi; kır kahvesi...
-1	Ya	ya	CCONJ	Conj	_	5	cc	_	_
+1	Ya	ya	CCONJ	Conj	ExtPos=CCONJ	5	cc	_	_
 2	da	da	CCONJ	Conj	_	1	fixed	_	_
 3	bir	bir	DET	ANum	PronType=Ind	5	det	_	_
 4	dağ	dağ	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
@@ -2675,7 +2675,7 @@
 # sent_id = 00009123_209
 # text = Karşıtları ya da muhalifleri iktidar şansını elde etmişlerse sütü çalkalıyor, limanı dalgalandırıyorlar.
 1	Karşıtları	karşıt	ADJ	NAdj	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
-2	ya	ya	CCONJ	Conj	_	4	cc	_	_
+2	ya	ya	CCONJ	Conj	ExtPos=CCONJ	4	cc	_	_
 3	da	da	CCONJ	Conj	_	2	fixed	_	_
 4	muhalifleri	muhalif	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
 5	iktidar	iktidar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
@@ -2965,7 +2965,7 @@
 # old_sent_id = mst-4989
 # sent_id = 00009123_235
 # text = Ya da hala anlayamıyor musunuz.
-1	Ya	ya	CCONJ	Conj	_	4	cc	_	_
+1	Ya	ya	CCONJ	Conj	ExtPos=CCONJ	4	cc	_	_
 2	da	da	CCONJ	Conj	_	1	fixed	_	_
 3	hala	hala	ADV	Adverb	_	4	advmod	_	_
 4	anlayamıyor	anla	VERB	Verb	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Polite=Infm|Tense=Pres	0	root	_	_
@@ -3889,7 +3889,7 @@
 1	Bunu	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
 2	ne	ne	CCONJ	Conj	_	3	cc	_	_
 3	anlar	anla	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-4	ne	ne	CCONJ	Conj	_	6	cc	_	_
+4	ne	ne	CCONJ	Conj	ExtPos=CCONJ	6	cc	_	_
 5	de	de	CCONJ	Conj	_	4	fixed	_	_
 6	inanırdı	inan	VERB	Verb	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	3	conj	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	_
@@ -5617,7 +5617,7 @@
 # old_sent_id = mst-1557
 # sent_id = 00048220_14
 # text = Ne de olsa eski kuşaktan.
-1	Ne	ne	CCONJ	Conj	_	3	cc	_	_
+1	Ne	ne	CCONJ	Conj	ExtPos=CCONJ	3	cc	_	_
 2	de	de	CCONJ	Conj	_	1	fixed	_	_
 3	olsa	ol	VERB	Verb	Aspect=Perf|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	5	advcl	_	_
 4	eski	eski	ADJ	Adj	_	5	amod	_	_
@@ -8057,7 +8057,7 @@
 # old_sent_id = mst-3361
 # sent_id = 00099161_168
 # text = Evet, dedim Casino Venüs'teydim.
-1	Evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
+1	Evet	evet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	3	punct	_	_
 3	dedim	de	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
 4	Casino	casino	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	ccomp	_	_
@@ -11024,7 +11024,7 @@
 # old_sent_id = mst-0408
 # sent_id = 00170166_26
 # text = Yine de iyi çocuklarmış, seni eve kadar getirmiş.
-1	Yine	yine	ADV	Adverb	_	4	cc	_	_
+1	Yine	yine	ADV	Adverb	ExtPos=ADV	4	cc	_	_
 2	de	de	CCONJ	Conj	_	1	fixed	_	_
 3	iyi	iyi	ADJ	Adj	_	4	amod	_	_
 4-5	çocuklarmış	_	_	_	_	_	_	_	SpaceAfter=No
