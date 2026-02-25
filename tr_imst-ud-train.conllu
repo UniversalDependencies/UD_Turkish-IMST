@@ -20328,7 +20328,7 @@
 6	etti	et	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	5	compound:lvc	_	SpaceAfter=No
 7	:	:	PUNCT	Punc	_	20	punct	_	_
 8	Ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-9	diyorum	de	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	12	nmod	_	_
+9	diyorum	de	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Polite=Infm|Tense=Pres	13	nmod	_	_
 10	ki	ki	CCONJ	Conj	_	9	mark	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	9	punct	_	_
 12	bu	bu	DET	Det	PronType=Dem	13	det	_	_
@@ -26634,7 +26634,7 @@
 9	bir	bir	NUM	ANum	NumType=Card	10	nummod	_	_
 10	isim	isim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obl	_	_
 11	olarak	olarak	ADP	PCNom	_	10	case	_	_
-12	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3|PronType=Int	14	nmod	_	_
+12	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3|PronType=Int	15	nmod	_	_
 13	kadar	kadar	ADP	PCDat	_	12	case	_	_
 14	çok	çok	DET	Det	PronType=Ind	15	det	_	_
 15	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	obj	_	_
@@ -45880,7 +45880,7 @@
 4	söylediklerim	söyle	VERB	Verb	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	10	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	zaten	zaten	ADV	Adverb	_	10	advmod	_	_
-7	geçmişten	geçmiş	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	8	amod	_	_
+7	geçmişten	geçmiş	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	10	amod	_	_
 8	bu	bu	DET	Det	PronType=Dem	10	det	_	_
 9	yana	yan	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	8	compound	_	_
 10	DHA	Dha	PROPN	Prop	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
