@@ -2,34 +2,50 @@
 
 The UD Turkish Treebank, also called the IMST-UD Treebank, is a semi-automatic conversion of the IMST Treebank (Sulubacak&Eryiğit, 2018; Sulubacak et al., 2016).
 
-
 # Introduction
 
 The UD Turkish Treebank, also called the IMST-UD Treebank, is a semi-automatic conversion of the IMST Treebank (Sulubacak & Eryiğit, 2018; Sulubacak et al., 2016), which is itself a reannotated version of the METU-Sabancı Turkish Treebank (Oflazer et al., 2003). All three treebanks share the same raw data, a set of 5635 sentences collected from daily news reports and novels.
 
-Validation errors in the dataset were corrected by BOUN TABILAB/TULAP team in UD v2.11 release.
+Validation errors were corrected by the BOUN TABILAB/TULAP team for the UD v2.11 release.
 
 The sentences were reorganized by Furkan Akkurt for v2.13 based on the original [METU Turkish Corpus (MTC)](https://ii.metu.edu.tr/metu-corpora-research-group) so that sentences from the same document once again form a contiguous segment in the original order. Document ids were added and documents are no longer split between train, dev and test (that is, the data split had to be exceptionally changed between releases). Moreover, the new data split is compatible with the data split of the ITCC dataset in [CorefUD 1.1](https://ufal.mff.cuni.cz/corefud), which is partially based on the same documents from MTC. The scripts used to do the reorganization are kept [here](https://github.com/furkanakkurt1335/imst-mtc-reorganization).
 
-
 # Acknowledgments
 
-The IMST-UD Treebank is licensed under Creative Commons (BY-NC-SA 4.0). A summary for the terms of the license is given below (see here for more information). Under the terms of the license,
+This treebank follows a set of morphosyntactic annotation guidelines based on those established by Çağrı Çöltekin, and later revised and restructured by Memduh Gökırmak, Francis Tyers, and Umut Sulubacak. The conversion from the IMST Treebank (available from http://tools.nlp.itu.edu.tr/Datasets) was done by Umut Sulubacak. The contributors would also like to thank Birsel Karakoç, Hüner Kaşıkara, and Tuğba Pamay for their discussions and insights.
 
-If you would use this treebank in any form of publication, please  cite the following papers:
+The IMST-UD Treebank is licensed under Creative Commons (CC BY-NC-SA 4.0).
 
--Umut Sulubacak, Gülşen Eryiğit. Implementing Universal Dependency, Morphology and Multiword Expression Annotation Standards for Turkish Language Processing. Turkish Journal of Electrical Engineering & Computer Sciences, DOI: 10.3906/elk-1706-81):1–23. May 2018.
+## References
 
--Umut Sulubacak, Memduh Gökırmak, Francis Tyers, Çağrı Çöltekin, Joakim Nivre, and Gülşen Eryiğit. Universal Dependencies for Turkish. In Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics. Osaka, Japan, December 2016.
+If you use this treebank in any form of publication, please cite the following papers:
 
-This treebank follows a set of morphosyntactic annotation guidelines based on those established by Çağrı Çöltekin, and later revised and restructured by Memduh Gökırmak, Francis Tyers, and Umut Sulubacak. The conversion from the IMST Treebank (available from  http://tools.nlp.itu.edu.tr/Datasets) was done by Umut Sulubacak. The contributors would also like to thank Birsel Karakoç, Hüner Kaşıkara, and Tuğba Pamay for their discussions and insights.
+```
+@article{SulubacakEryigit2018,
+  title={Implementing Universal Dependency, Morphology and Multiword Expression Annotation Standards for Turkish Language Processing},
+  author={Sulubacak, Umut and Eryi{\u{g}}it, G{\"u}l{\c{s}}en},
+  journal={Turkish Journal of Electrical Engineering \& Computer Sciences},
+  doi={10.3906/elk-1706-81},
+  pages={1--23},
+  year={2018}
+}
+```
 
-
+```
+@inproceedings{SulubacakEtAl2016,
+  title={Universal Dependencies for Turkish},
+  author={Sulubacak, Umut and G{\"o}k{\i}rmak, Memduh and Tyers, Francis and {\c{C}}{\"o}ltekin, {\c{C}}a{\u{g}}r{\i} and Nivre, Joakim and Eryi{\u{g}}it, G{\"u}l{\c{s}}en},
+  booktitle={Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics},
+  address={Osaka, Japan},
+  month = dec,
+  year={2016}
+}
+```
 
 # Changelog
 
 * 2026-02-26
-  * Fixed validation errors: PronType features, obl→nmod for nominal heads, leaf-clf/det reattachment, ExtPos for fixed MWEs, too-many-objects (deprel, head, and punctuation projectivity fixes).
+  * Fixed validation errors: PronType features, obl→nmod for nominal heads, clf/det reattachment, ExtPos for fixed MWEs, deprel and projectivity fixes.
 * 2023-11-15 v2.13
   * Reorganized sentences by docs using the original corpus (MTC).
 * 2022-11-15 v2.11
