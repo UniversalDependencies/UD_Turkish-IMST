@@ -3904,13 +3904,13 @@
 5	sevdiğim	sev	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
 6	için	için	ADP	PCNom	_	5	case	_	_
 7	seninle	sen	PRON	Pers	Case=Ins|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
-8	olamazdım	ol	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past	14	obj	_	SpaceAfter=No
-9	,	,	PUNCT	Punc	_	8	punct	_	_
+8	olamazdım	ol	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past	17	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	Punc	_	14	punct	_	_
 10	sana	sen	PRON	Pers	Case=Dat|Number=Sing|Person=2|PronType=Prs	11	obl	_	_
 11	duyduğum	duy	VERB	Verb	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
 12	sevgi	sevgi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 13	çok	çok	ADV	Adverb	_	14	advmod	_	_
-14	korkuttu	korkut	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	17	ccomp	_	_
+14	korkuttu	korkut	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	8	conj	_	_
 15	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No
 16	,	,	PUNCT	Punc	_	15	punct	_	_
 17	diyemezdim	de	VERB	Verb	Aspect=Hab|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No

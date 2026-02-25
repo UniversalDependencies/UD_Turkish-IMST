@@ -8060,11 +8060,11 @@
 14	insanın	insan	NOUN	Noun	Case=Gen|Number=Sing|Person=3	15	nmod:poss	_	_
 15	barınağı	barınak	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	nsubj	_	_
 16	hemen	hemen	ADV	Adverb	_	18	advmod	_	_
-17	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	obj	_	_
+17	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	xcomp	_	_
 18	olmamış	ol	VERB	Verb	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	Punc	_	18	punct	_	_
 20	çünkü	çünkü	CCONJ	Conj	_	27	cc	_	_
-21	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	obj	_	_
+21	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	nmod:poss	_	_
 22	başlangıcı	başlangıç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	nsubj	_	_
 23	barınak	barınak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	obj	_	_
 24	olan	ol	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	26	acl	_	_
@@ -44837,7 +44837,7 @@
 # old_sent_id = mst-1163
 # sent_id = 20270000_65
 # text = Gazetecileri, yüksek meslek standartları tutturmaya, metinlerinde insani bir anlayış düzeyi kurmaya çağırıyorum.
-1	Gazetecileri	gazeteci	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	6	obj	_	SpaceAfter=No
+1	Gazetecileri	gazeteci	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	14	obj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	6	punct	_	_
 3	yüksek	yüksek	ADJ	Adj	_	5	amod	_	_
 4	meslek	meslek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
