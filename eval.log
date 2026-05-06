@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Turkish-IMST:
-commit b5afd08c0280952d19522e63c4e2d50ee494435d
-Merge: bcd48da bc66ad7
+commit d03788c467e0c60f6aaf83303e46e63c1949cf80
+Merge: fdd0ae4 64da444
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tr_imst'
@@ -19,84 +19,18 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 35585 out of 58096 total words have one or more features.
+Features: 37647 out of 58096 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-dev.conllu
-[Line 26 Sent 00001131_5]: [L3 Warning pron-det-without-prontype] The word 'Kim' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 107 Sent 00002113_4]: [L3 Warning pron-det-without-prontype] The word '?' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 160 Sent 00002213_6]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 179 Sent 00002213_8]: [L3 Warning pron-det-without-prontype] The word 'Nereye' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 292 Sent 00002213_22]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 411 Sent 00002213_32]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 438 Sent 00002213_34]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 505 Sent 00002213_41]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 512 Sent 00002213_41]: [L3 Warning pron-det-without-prontype] The word 'kendini' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 518 Sent 00002213_42]: [L3 Warning pron-det-without-prontype] The word 'Bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 518 Sent 00002213_42]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:bardak:clf --> 1:Bir:det)
-...suppressing further errors regarding Warning
-[Line 5308 Sent 00100161_1]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('kanıtlanmasından', 'yanlışlanabilir') under the predicate 'sözedilmesi'.
-[Line 6295 Sent 00196177_66]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('rakı', 'ne') under the predicate 'bulursam'.
-[Line 6300 Sent 00196177_66]: [L3 Syntax too-many-objects] Multiple direct objects [12, 16] ('bulursam', 'yudum') under the predicate 'kafama'.
-[Line 8697 Sent 00196177_304]: [L3 Syntax leaf-clf] 'clf' not expected to have children (5:şişe:clf --> 4:bir:nummod)
-[Line 10817 Sent 00220166_86]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:Bir:det)
-[Line 10821 Sent 00220166_86]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:fincan:clf --> 5:bir:det)
-[Line 11550 Sent 00220166_127]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('yaşadığı', 'alan') under the predicate 'ziyaret'.
-[Line 12102 Sent 00220166_160]: [L3 Syntax too-many-objects] Multiple direct objects [1, 8] ('Evenleri', 'bağımsız') under the predicate 'kılıyordu'.
-[Line 12901 Sent 21000000_1]: [L3 Syntax too-many-objects] Multiple direct objects [5, 25] ('konutu', 'hakkına') under the predicate 'sahip'.
-Syntax errors: 10
-Warnings: 451
-*** FAILED *** with 10 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-test.conllu
-[Line 24 Sent 00005221_1]: [L3 Warning pron-det-without-prontype] The word 'Ne' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 76 Sent 00009123_4]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 83 Sent 00009123_4]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 89 Sent 00009123_4]: [L3 Warning pron-det-without-prontype] The word 'hiçbir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 97 Sent 00009123_5]: [L3 Warning pron-det-without-prontype] The word 'Kim' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 121 Sent 00009123_7]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 166 Sent 00009123_10]: [L3 Warning pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 177 Sent 00009123_11]: [L3 Warning pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 244 Sent 00009123_17]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 347 Sent 00009123_25]: [L3 Warning pron-det-without-prontype] The word 'Kimi' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 782 Sent 00009123_48]: [L3 Syntax too-many-objects] Multiple direct objects [1, 6] ('Tarihi', 'cep') under the predicate 'olmaktan'.
-[Line 3913 Sent 00047124_19]: [L3 Syntax too-many-objects] Multiple direct objects [8, 15] ('olamazdım', 'beni') under the predicate 'korkuttu'.
-[Line 10615 Sent 00142111_1]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:yudum:clf --> 1:Bir:det)
-Syntax errors: 3
-Warnings: 440
-*** FAILED *** with 3 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-IMST/tr_imst-ud-train.conllu
-[Line 13 Sent 00006231_1]: [L3 Warning pron-det-without-prontype] The word 'hiçbir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 49 Sent 00006231_2]: [L3 Warning pron-det-without-prontype] The word 'Kendine' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 52 Sent 00006231_2]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 55 Sent 00006231_2]: [L3 Warning pron-det-without-prontype] The word 'neresi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 63 Sent 00006231_3]: [L3 Warning pron-det-without-prontype] The word 'Kendi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 69 Sent 00006231_3]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 113 Sent 00006231_6]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'çıkışları') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 115 Sent 00006231_6]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'çıkışları') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 129 Sent 00006231_7]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'havası') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 161 Sent 00006231_8]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 831 Sent 00006231_43]: [L3 Syntax too-many-objects] Multiple direct objects [12, 17] ('olmadığını', 'öldüğünü') under the predicate 'düşündüm'.
-[Line 1658 Sent 00006231_102]: [L3 Syntax too-many-objects] Multiple direct objects [1, 18] ('Yolculuk', 'dirilik') under the predicate 'yaratmıştı'.
-[Line 2955 Sent 00016112_7]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('olmadığımızı', 'değiştirebileceğimizi') under the predicate 'öğrendik'.
-[Line 4706 Sent 00032161_13]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:külah:clf --> 1:Dört:nummod)
-[Line 8064 Sent 00038121_6]: [L3 Syntax too-many-objects] Multiple direct objects [17, 21] ('ev', 'ev') under the predicate 'olmamış'.
-[Line 10667 Sent 00044121_64]: [L3 Syntax leaf-clf] 'clf' not expected to have children (17:kez:clf --> 16:bir:nummod)
-[Line 10816 Sent 00044121_71]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('çalışmalar', 'yoktan') under the predicate 'ispatlarken'.
-[Line 13670 Sent 00058111_8]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('cesedinizi', 'kadavra') under the predicate 'kullanacağım'.
-[Line 15546 Sent 00084111_64]: [L3 Syntax too-many-objects] Multiple direct objects [5, 10, 13] ('pantolonunu', 'darbukasını', 'terliklerini') under the predicate 'çıkarmıştı'.
-[Line 18426 Sent 00095233_62]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('kişiyi', 'kölesi') under the predicate 'yapmayı'.
-...suppressing further errors regarding Syntax
-Syntax errors: 22
-Warnings: 1644
-*** FAILED *** with 22 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
@@ -104,6 +38,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.658823529411765) = 0.073202614379085
 (weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
-(TOTAL score=0.63447525558044) * (availability=1) * (validity=0.01) = 0.0063447525558044
-STARS = 0
-UD_Turkish-IMST	0.0063447525558044	0
+(TOTAL score=0.63447525558044) * (availability=1) * (validity=1) = 0.63447525558044
+STARS = 3
+UD_Turkish-IMST	0.63447525558044	3
