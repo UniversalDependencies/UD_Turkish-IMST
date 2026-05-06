@@ -31,7 +31,7 @@
     <tag name="X">17</tag><!-- fıkır, pırıl, pıtır, takır, tıklım, abuk, apar, haşır, pörçük, sabuk -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="63">
+  <feats unique="67">
     <feat name="Abbr" value="Yes" upos="NOUN">133</feat><!-- CHP, AB, ABD, ABD'nin, AB'ye, DYP, IMF, KKTC'de, MCB, THY -->
     <feat name="Aspect" value="Dur" upos="VERB">3</feat><!-- uyuyakaldığı, uyuyakaldığını, uyuyakalmıştı -->
     <feat name="Aspect" value="Hab" upos="VERB">1176</feat><!-- olur, olmaz, olabilir, eder, ister, gerekir, gelir, sanırım, yeter, ? -->
@@ -49,6 +49,8 @@
     <feat name="Case" value="Nom" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">13336</feat><!-- ben, o, ne, şey, bu, zaman, gün, kadın, adam, sen -->
     <feat name="Echo" value="Rdp" upos="X">17</feat><!-- fıkır, pırıl, pıtır, takır, tıklım, Abuk, apar, haşır, pörçük, sabuk -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">637</feat><!-- olmuş, demiş, gelmiş, etmiş, çıkmış, başlamış, gitmiş, kalmış, mış, almış -->
+    <feat name="ExtPos" value="ADV" upos="ADV">1</feat><!-- Yine -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">49</feat><!-- ya, hem, ve, ne -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">144</feat><!-- sa, se, değilse, yse, verirse, ise, kalırsa, olmazsa, olursa, bakarsanız -->
     <feat name="Mood" value="CndPot" upos="VERB">5</feat><!-- Gelemeyecekse, becerebilirse, bulamazsam, keşfedemezseniz, yaratabiliyorsanız -->
     <feat name="Mood" value="Des" upos="AUX,VERB">125</feat><!-- olsa, varsa, konuşsaydınız, olsaydım, anlatsam, baksam, bağlansa, bıraksa, desek, dönsem -->
@@ -81,9 +83,11 @@
     <feat name="Polarity" value="Pos" upos="AUX,VERB">9809</feat><!-- dedi, olan, dedim, olduğunu, oldu, olduğu, söyledi, gelen, olur, etti -->
     <feat name="Polite" value="Form" upos="VERB">35</feat><!-- kapsamaktadır, andırmaktadır, anlatmakta, atmakta, barışmakta, canlanmakta, dayanmaktadır, desteklemektedir, edinmekte, etmekte -->
     <feat name="Polite" value="Infm" upos="VERB">1326</feat><!-- diyor, oluyor, bilmiyorum, geliyor, biliyorum, biliyor, istiyorum, gidiyoruz, yapıyor, ediyor -->
-    <feat name="PronType" value="Dem" upos="PRON">359</feat><!-- bu, o, bunu, bunlar, buna, bunun, bunları, onu, onun, şunları -->
-    <feat name="PronType" value="Ind" upos="PRON">158</feat><!-- biri, hepsi, birbirimize, birbirlerine, kimi, hiçbiri, birbirine, birisi, hepimiz, hepsinin -->
-    <feat name="PronType" value="Prs" upos="PRON">1189</feat><!-- ben, bana, o, beni, benim, onu, onun, ona, sen, sana -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1232</feat><!-- bu, o, her, bunu, tüm, şu, bunlar, buna, bunun, bunları -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">1255</feat><!-- bir, birkaç, bazı, biri, kimi, birçok, hepsi, birbirimize, birbirlerine, başka -->
+    <feat name="PronType" value="Int" upos="DET,PRON">264</feat><!-- ne, ?, neden, kim, nereden, nereye, neler, nerede, neye, kime -->
+    <feat name="PronType" value="Neg" upos="DET">42</feat><!-- hiçbir, hiç -->
+    <feat name="PronType" value="Prs" upos="PRON">1367</feat><!-- ben, bana, o, beni, benim, onu, onun, ona, sen, sana -->
     <feat name="Reflex" value="Yes" upos="PRON">178</feat><!-- kendi, kendini, kendisine, kendimi, kendine, kendisini, kendilerine, kendisi, kendileri, kendilerini -->
     <feat name="Tense" value="Fut" upos="VERB">592</feat><!-- olacak, yapılacak, gelecek, verecek, yapacak, olmayacak, sürecek, yapacağız, alacak, olacaktır -->
     <feat name="Tense" value="Past" upos="AUX,VERB">4646</feat><!-- dedi, dedim, olduğunu, oldu, olduğu, ydi, dı, söyledi, ydı, etti -->
@@ -99,7 +103,7 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
     <dep name="acl">1536</dep>
-    <dep name="advcl">1160</dep>
+    <dep name="advcl">1162</dep>
     <dep name="advmod">2279</dep>
     <dep name="advmod:emph">930</dep>
     <dep name="amod">3429</dep>
@@ -109,34 +113,34 @@
     <dep name="case">2226</dep>
     <dep name="cc">1078</dep>
     <dep name="cc:preconj">3</dep>
-    <dep name="ccomp">629</dep>
+    <dep name="ccomp">628</dep>
     <dep name="clf">8</dep>
     <dep name="compound">1943</dep>
     <dep name="compound:lvc">523</dep>
     <dep name="compound:redup">219</dep>
-    <dep name="conj">2881</dep>
+    <dep name="conj">2888</dep>
     <dep name="cop">849</dep>
     <dep name="csubj">80</dep>
     <dep name="dep">1</dep>
     <dep name="det">1922</dep>
-    <dep name="discourse">271</dep>
+    <dep name="discourse">272</dep>
     <dep name="dislocated">20</dep>
     <dep name="fixed">50</dep>
     <dep name="flat">899</dep>
     <dep name="iobj">355</dep>
     <dep name="mark">82</dep>
-    <dep name="nmod">1939</dep>
-    <dep name="nmod:poss">3604</dep>
-    <dep name="nsubj">4395</dep>
+    <dep name="nmod">2120</dep>
+    <dep name="nmod:poss">3605</dep>
+    <dep name="nsubj">4398</dep>
     <dep name="nsubj:outer">9</dep>
     <dep name="nummod">597</dep>
-    <dep name="obj">3747</dep>
-    <dep name="obl">3894</dep>
+    <dep name="obj">3719</dep>
+    <dep name="obl">3721</dep>
     <dep name="orphan">5</dep>
     <dep name="parataxis">127</dep>
     <dep name="punct">10409</dep>
     <dep name="root">5635</dep>
     <dep name="vocative">22</dep>
-    <dep name="xcomp">39</dep>
+    <dep name="xcomp">46</dep>
   </deps>
 </treebank>
