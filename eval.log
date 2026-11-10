@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Turkish-IMST:
-commit d03788c467e0c60f6aaf83303e46e63c1949cf80
-Merge: fdd0ae4 64da444
+commit 0c939115d8277ecfb39e1bbc3f066b1852ab5ddc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 13:50:27 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tr_imst'
 Language code (from CoNLL-U file name) = 'tr'
